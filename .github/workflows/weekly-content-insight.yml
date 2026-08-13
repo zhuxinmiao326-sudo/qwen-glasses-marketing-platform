@@ -1,0 +1,33 @@
+name: Weekly Content Insight
+
+on:
+  schedule:
+    # 每周一北京时间 09:00（UTC+8）对应 UTC 01:00
+    - cron: '0 1 * * 1'
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+jobs:
+  generate:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+
+      - name: Set up Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: '3.11'
+
+      - name: Generate weekly insight
+        run: python scripts/generate_content_insight.py
+
+      - name: Commit and push if changed
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "github-actions[bot]@users.noreply.github.com"
+          git add -A
+          git diff --cached --quiet || git commit -m "chore: update weekly content insight $(date -u +%Y-%m-%d)"
+          git push

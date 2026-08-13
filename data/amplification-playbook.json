@@ -1,0 +1,207 @@
+{
+  "topic": "AI眼镜里的中国烟火气",
+  "event_type": "社会议题型",
+  "risk_level": "P1",
+  "lifecycle": "引爆期",
+  "core_message": "用AI眼镜第一视角，看见普通人生活里那些被忽略的温暖与便利",
+  "target_audience": {
+    "core": "生活分享家、城市漫步者",
+    "diffusion": "年轻白领、学生",
+    "media": "社会媒体、城市号"
+  },
+  "timeline": {
+    "T-3": ["垂类预告：科技/生活方式博主发布悬念海报", "话题预埋：#AI眼镜烟火气# 在社交平台建立话题页"],
+    "T-1": ["KOC预热：城市KOC发布「我眼中的城市一角」预热图文", "官方号发布倒计时海报"],
+    "T0": ["09:00 社会媒体引爆：城市号/社会媒体发布事件报道", "14:00 垂类解读：科技/生活方式KOL发布概念片解读", "20:00 KOC扩散：城市KOC矩阵发布真实体验内容"],
+    "T+1": ["垂类深度：科技博主发布多模态AI与城市记录结合解读", "KOC体验：第二批城市KOC发布不同城市烟火气内容"],
+    "T+2": ["社会媒体回顾：事件数据报道与UGC精选", "行业影响分析：生活方式媒体分析AI眼镜的社会价值"],
+    "T+3": ["长尾UGC：鼓励用户继续投稿", "搜索SEO承接：优化相关关键词与话题词"],
+    "T+7": ["数据回收与舆情复盘", "精选UGC二次传播"]
+  },
+  "media_mix": {
+    "social_media": {
+      "ratio": 0.2,
+      "count": 3,
+      "accounts": [
+        {
+          "account_id": "SM-001",
+          "account_name": "城市生活观察",
+          "platform": "微博",
+          "followers": "100万+",
+          "role": "主传播",
+          "match_score": 92,
+          "angle": "科技如何照进普通人生活",
+          "publish_time": "T0 09:30",
+          "content_format": "长图文+短视频",
+          "contact": "编辑A / wechat_id_a",
+          "price": "3-5W",
+          "risk_level": "P0"
+        },
+        {
+          "account_id": "SM-002",
+          "account_name": "人间烟火录",
+          "platform": "微信公众号",
+          "followers": "50万-100万",
+          "role": "扩散",
+          "match_score": 85,
+          "angle": "普通人视角下的城市温度",
+          "publish_time": "T0 10:00",
+          "content_format": "长图文",
+          "contact": "主编B / wechat_id_b",
+          "price": "2-3W",
+          "risk_level": "P0"
+        }
+      ]
+    },
+    "industry_vertical": {
+      "ratio": 0.6,
+      "count": 9,
+      "accounts": [
+        {
+          "account_id": "IND-001",
+          "account_name": "科技博主小王",
+          "platform": "B站",
+          "followers": "50万-100万",
+          "role": "主传播",
+          "match_score": 90,
+          "angle": "AI眼镜的多模态能力如何记录真实生活",
+          "publish_time": "T0 14:00",
+          "content_format": "深度视频",
+          "contact": "本人 / wechat_id_c",
+          "price": "5-8W",
+          "risk_level": "P0"
+        },
+        {
+          "account_id": "IND-002",
+          "account_name": "生活方式研究室",
+          "platform": "小红书",
+          "followers": "30万-50万",
+          "role": "解读",
+          "match_score": 87,
+          "angle": "城市漫步的新装备：不掏手机也能记录",
+          "publish_time": "T0 18:00",
+          "content_format": "图文笔记+短视频",
+          "contact": "商务D / wechat_id_d",
+          "price": "2-4W",
+          "risk_level": "P0"
+        },
+        {
+          "account_id": "IND-003",
+          "account_name": "数码研究所",
+          "platform": "抖音",
+          "followers": "100万+",
+          "role": "解读",
+          "match_score": 84,
+          "angle": "POV实测：用眼镜逛一天城市",
+          "publish_time": "T+1 12:00",
+          "content_format": "短视频",
+          "contact": "商务E / wechat_id_e",
+          "price": "6-10W",
+          "risk_level": "P1"
+        }
+      ]
+    },
+    "koc": {
+      "ratio": 0.2,
+      "count": 3,
+      "accounts": [
+        {
+          "account_id": "KOC-001",
+          "account_name": "周末城市漫游",
+          "platform": "小红书",
+          "followers": "1万-5万",
+          "role": "扩散",
+          "match_score": 82,
+          "angle": "老城区的烟火气，我用眼镜记录下来",
+          "publish_time": "T0 20:00",
+          "content_format": "图文笔记",
+          "contact": "本人 / wechat_id_f",
+          "price": "1-2K",
+          "risk_level": "P0"
+        },
+        {
+          "account_id": "KOC-002",
+          "account_name": "早餐中国记录员",
+          "platform": "抖音",
+          "followers": "5万-10万",
+          "role": "扩散",
+          "match_score": 80,
+          "angle": "早餐摊老板的一天，第一视角",
+          "publish_time": "T+1 08:00",
+          "content_format": "短视频",
+          "contact": "本人 / wechat_id_g",
+          "price": "2-3K",
+          "risk_level": "P0"
+        }
+      ]
+    }
+  },
+  "content_briefs": [
+    {
+      "account_id": "SM-001",
+      "account_name": "城市生活观察",
+      "role": "主传播",
+      "publish_time": "T0 09:30",
+      "angle": "科技如何照进普通人生活",
+      "key_messages": ["AI眼镜不是未来科技，而是记录当下的工具", "第一视角让普通人也能成为城市故事的讲述者"],
+      "content_format": "长图文+短视频",
+      "risks": ["避免过度煽情", "不使用未授权人物肖像"],
+      "contact": "编辑A"
+    },
+    {
+      "account_id": "IND-001",
+      "account_name": "科技博主小王",
+      "role": "主传播",
+      "publish_time": "T0 14:00",
+      "angle": "AI眼镜的多模态能力如何记录真实生活",
+      "key_messages": ["千问多模态能力落地到眼镜端", "语音解读让画面更有故事感", "轻量化佩戴适合长时间记录"],
+      "content_format": "深度视频",
+      "risks": ["技术表述准确", "避免夸大"],
+      "contact": "本人"
+    },
+    {
+      "account_id": "KOC-001",
+      "account_name": "周末城市漫游",
+      "role": "扩散",
+      "publish_time": "T0 20:00",
+      "angle": "老城区的烟火气，我用眼镜记录下来",
+      "key_messages": ["不掏手机也能拍", "看到即记录", "老城市的真实温度"],
+      "content_format": "图文笔记",
+      "risks": ["场景真实", "避免摆拍感过重"],
+      "contact": "本人"
+    }
+  ],
+  "budget_estimate": 180000,
+  "budget_breakdown": {
+    "social_media": 45000,
+    "industry_vertical": 108000,
+    "koc": 9000,
+    "production": 12000,
+    "traffic": 6000
+  },
+  "crisis_plan": {
+    "risk_scenarios": [
+      {
+        "scenario": "被质疑摆拍/不真实",
+        "level": "黄",
+        "response": "发布幕后花絮，强调真实用户投稿",
+        "spokesperson": "品牌公关负责人"
+      },
+      {
+        "scenario": "涉及特殊群体或负面地域标签",
+        "level": "橙",
+        "response": "立即下架相关内容，发布声明说明初衷",
+        "spokesperson": "市场部负责人"
+      }
+    ],
+    "monitoring_keywords": ["AI眼镜烟火气", "千问眼镜", "AI眼镜摆拍", "AI眼镜隐私"],
+    "escalation_path": "值班编辑→品牌经理→市场部负责人→公关部"
+  },
+  "success_metrics": {
+    "exposure_target": 50000000,
+    "interaction_target": 800000,
+    "ugc_target": 500,
+    "brand_mention_increment": 30000,
+    "positive_sentiment_target": 0.75
+  }
+}

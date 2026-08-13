@@ -32,14 +32,14 @@
       color: var(--text);
       min-height: 100vh;
     }
-    .container { max-width: 1200px; margin: 0 auto; padding: 24px; }
+    .container { max-width: 1320px; margin: 0 auto; padding: 24px; }
     header {
       display: flex; align-items: center; justify-content: space-between;
-      margin-bottom: 24px;
+      margin-bottom: 24px; flex-wrap: wrap; gap: 14px;
     }
     .brand { display: flex; align-items: center; gap: 14px; }
     .logo {
-      width: 42px; height: 42px; border-radius: 12px;
+      width: 44px; height: 44px; border-radius: 12px;
       background: linear-gradient(135deg, var(--primary), var(--accent));
       display: grid; place-items: center; color: #fff; font-weight: 700; font-size: 18px;
       box-shadow: var(--shadow);
@@ -62,7 +62,7 @@
     }
     nav.tabs button {
       border: none; background: rgba(255,255,255,0.5);
-      padding: 10px 18px; border-radius: 999px; cursor: pointer;
+      padding: 10px 20px; border-radius: 999px; cursor: pointer;
       font-size: 14px; font-weight: 500; color: var(--muted);
       backdrop-filter: blur(6px); transition: all .2s;
     }
@@ -84,6 +84,7 @@
     }
     .card:hover { box-shadow: var(--shadow-hover); }
     .card h2 { margin: 0 0 18px; font-size: 17px; font-weight: 700; }
+    .card h3 { margin: 0 0 12px; font-size: 15px; font-weight: 600; }
     .grid { display: grid; gap: 18px; }
     .grid-4 { grid-template-columns: repeat(auto-fit, minmax(220px, 1fr)); }
     .grid-3 { grid-template-columns: repeat(auto-fit, minmax(280px, 1fr)); }
@@ -91,7 +92,7 @@
 
     .metric { text-align: center; }
     .metric .value {
-      font-size: 32px; font-weight: 700;
+      font-size: 28px; font-weight: 700;
       background: linear-gradient(135deg, var(--primary), var(--accent));
       -webkit-background-clip: text; -webkit-text-fill-color: transparent;
     }
@@ -114,7 +115,19 @@
     .chip.purple { background: rgba(139,92,246,0.1); color: var(--accent); }
     .chip.green { background: rgba(16,185,129,0.1); color: var(--success); }
     .chip.orange { background: rgba(245,158,11,0.1); color: var(--warning); }
+    .chip.red { background: rgba(239,68,68,0.1); color: var(--danger); }
     .chip.gray { background: rgba(100,116,139,0.1); color: var(--muted); }
+    .chip.dark { background: rgba(30,41,59,0.08); color: var(--text); }
+
+    .bar-chart { display: flex; flex-direction: column; gap: 10px; }
+    .bar-row { display: flex; align-items: center; gap: 12px; font-size: 13px; }
+    .bar-label { width: 90px; color: var(--muted); text-align: right; flex-shrink: 0; }
+    .bar-track { flex: 1; height: 10px; background: rgba(0,0,0,0.04); border-radius: 5px; overflow: hidden; }
+    .bar-fill { height: 100%; border-radius: 5px; background: linear-gradient(90deg, var(--primary), var(--accent)); }
+    .bar-value { width: 40px; color: var(--text); font-weight: 600; text-align: right; }
+
+    .empty { text-align: center; padding: 60px 20px; color: var(--muted); }
+    .empty strong { display: block; margin-bottom: 8px; color: var(--text); }
 
     .topic-list { display: flex; flex-direction: column; gap: 12px; }
     .topic-item {
@@ -128,12 +141,12 @@
     .rank {
       width: 32px; height: 32px; border-radius: 10px;
       display: grid; place-items: center; font-weight: 700; font-size: 13px;
-      background: linear-gradient(135deg, #eff6ff, #f3e8ff); color: var(--primary);
+      background: linear-gradient(135deg, #eff6ff, #f3e8ff); color: var(--primary); flex-shrink: 0;
     }
     .rank.top { background: linear-gradient(135deg, #fbbf24, #f59e0b); color: #fff; }
     .topic-main { flex: 1; min-width: 0; }
     .topic-title { font-weight: 600; font-size: 15px; white-space: nowrap; overflow: hidden; text-overflow: ellipsis; }
-    .topic-meta { font-size: 12px; color: var(--muted); margin-top: 4px; display: flex; gap: 12px; flex-wrap: wrap; }
+    .topic-meta { font-size: 12px; color: var(--muted); margin-top: 4px; display: flex; gap: 12px; flex-wrap: wrap; align-items: center; }
     .topic-detail {
       display: none; margin-top: 14px; padding-top: 14px;
       border-top: 1px dashed rgba(0,0,0,0.08);
@@ -145,15 +158,10 @@
     .detail-row ul { padding-left: 18px; }
     .detail-row li { margin-bottom: 4px; }
 
-    .bar-chart { display: flex; flex-direction: column; gap: 10px; }
-    .bar-row { display: flex; align-items: center; gap: 12px; font-size: 13px; }
-    .bar-label { width: 80px; color: var(--muted); text-align: right; }
-    .bar-track { flex: 1; height: 10px; background: rgba(0,0,0,0.04); border-radius: 5px; overflow: hidden; }
-    .bar-fill { height: 100%; border-radius: 5px; background: linear-gradient(90deg, var(--primary), var(--accent)); }
-    .bar-value { width: 32px; color: var(--text); font-weight: 600; }
-
-    .empty { text-align: center; padding: 60px 20px; color: var(--muted); }
-    .empty strong { display: block; margin-bottom: 8px; color: var(--text); }
+    .score-grid { display: grid; grid-template-columns: repeat(5, 1fr); gap: 8px; margin-top: 10px; }
+    .score-cell { text-align: center; padding: 8px; border-radius: 10px; background: rgba(255,255,255,0.5); }
+    .score-cell .num { font-size: 16px; font-weight: 700; }
+    .score-cell .label { font-size: 11px; color: var(--muted); }
 
     .event-matrix { display: grid; grid-template-columns: repeat(3, 1fr); gap: 14px; }
     .matrix-cell { text-align: center; padding: 18px; border-radius: 14px; background: rgba(255,255,255,0.5); }
@@ -161,16 +169,67 @@
     .matrix-cell p { margin: 0; font-size: 13px; color: var(--muted); line-height: 1.5; }
     .ratio { font-size: 28px; font-weight: 700; margin-bottom: 6px; }
 
+    .account-section { margin-bottom: 22px; }
+    .account-section h3 { display: flex; align-items: center; gap: 10px; }
+    .account-card {
+      background: rgba(255,255,255,0.55); border-radius: 12px; padding: 14px;
+      border: 2px solid transparent; cursor: pointer; transition: all .2s;
+      display: flex; gap: 12px; align-items: flex-start; margin-bottom: 10px;
+    }
+    .account-card:hover { background: rgba(255,255,255,0.85); }
+    .account-card.selected { border-color: var(--primary); background: rgba(255,255,255,0.95); }
+    .account-card input { margin-top: 3px; }
+    .account-info { flex: 1; }
+    .account-name { font-weight: 600; font-size: 14px; }
+    .account-meta { font-size: 12px; color: var(--muted); margin-top: 2px; }
+    .account-angle { font-size: 13px; margin-top: 6px; line-height: 1.5; }
+
+    .ratio-pie { display: flex; height: 24px; border-radius: 12px; overflow: hidden; margin: 14px 0; }
+    .ratio-segment { height: 100%; }
+
+    .timeline { position: relative; padding-left: 20px; }
+    .timeline::before {
+      content: ''; position: absolute; left: 6px; top: 4px; bottom: 4px;
+      width: 2px; background: rgba(0,0,0,0.08);
+    }
+    .timeline-item { position: relative; margin-bottom: 14px; }
+    .timeline-item::before {
+      content: ''; position: absolute; left: -18px; top: 4px;
+      width: 10px; height: 10px; border-radius: 50%; background: var(--primary);
+    }
+    .timeline-item h4 { margin: 0 0 4px; font-size: 14px; }
+    .timeline-item p { margin: 0; font-size: 13px; color: var(--muted); }
+
     .checklist { list-style: none; padding: 0; margin: 0; }
     .checklist li { display: flex; gap: 10px; padding: 10px 0; border-bottom: 1px solid rgba(0,0,0,0.04); font-size: 14px; }
     .checklist li:last-child { border-bottom: none; }
     .checklist input { margin-top: 2px; }
 
+    .btn {
+      border: none; background: linear-gradient(135deg, var(--primary), var(--accent));
+      color: #fff; padding: 10px 18px; border-radius: 12px; cursor: pointer;
+      font-size: 14px; font-weight: 500; box-shadow: var(--shadow); transition: transform .1s;
+    }
+    .btn:hover { transform: translateY(-1px); }
+    .btn.secondary { background: rgba(255,255,255,0.7); color: var(--text); }
+
+    .insight-table { width: 100%; border-collapse: collapse; font-size: 13px; }
+    .insight-table th, .insight-table td { padding: 10px 8px; text-align: left; border-bottom: 1px solid rgba(0,0,0,0.06); }
+    .insight-table th { color: var(--muted); font-weight: 500; }
+
+    .tabs-sub { display: flex; gap: 8px; flex-wrap: wrap; margin-bottom: 16px; }
+    .tabs-sub button {
+      border: none; background: rgba(255,255,255,0.5); padding: 8px 14px;
+      border-radius: 999px; cursor: pointer; font-size: 13px; color: var(--muted);
+    }
+    .tabs-sub button.active { background: var(--primary); color: #fff; }
+
     footer { text-align: center; padding: 40px 20px; color: var(--muted); font-size: 12px; }
 
-    @media (max-width: 640px) {
-      .event-matrix { grid-template-columns: 1fr; }
+    @media (max-width: 768px) {
+      .event-matrix, .score-grid { grid-template-columns: 1fr; }
       header { flex-direction: column; align-items: flex-start; gap: 12px; }
+      .bar-label { width: 70px; }
     }
   </style>
 </head>
@@ -198,98 +257,149 @@
     </nav>
 
     <main>
+      <!-- 洞察看板 -->
       <section id="dashboard" class="module active">
         <div class="grid grid-4">
           <div class="card metric">
-            <div class="value" id="dashDate">--</div>
-            <div class="label">最新数据日期</div>
+            <div class="value" id="dashInsightPeriod">--</div>
+            <div class="label">洞察周期</div>
           </div>
           <div class="card metric">
-            <div class="value" id="dashCount">--</div>
-            <div class="label">今日选题数</div>
+            <div class="value" id="dashTopicDate">--</div>
+            <div class="label">热点日期</div>
           </div>
           <div class="card metric">
-            <div class="value" id="dashTopCat">--</div>
-            <div class="label">最热分类</div>
+            <div class="value" id="dashTopFormat">--</div>
+            <div class="label">最高效内容形态</div>
           </div>
           <div class="card metric">
-            <div class="value" id="dashTopSource">--</div>
-            <div class="label">主要来源</div>
+            <div class="value" id="dashTopScene">--</div>
+            <div class="label">最佳卖点 × 场景</div>
           </div>
         </div>
+
         <div class="grid grid-2">
           <div class="card">
-            <h2>分类分布</h2>
-            <div class="bar-chart" id="categoryChart"></div>
+            <h2>达人 ROI 分层</h2>
+            <div class="bar-chart" id="creatorRoiChart"></div>
           </div>
           <div class="card">
-            <h2>Top 5 热点</h2>
-            <div class="topic-list" id="topTopics"></div>
+            <h2>内容形态效率</h2>
+            <div class="bar-chart" id="formatRoiChart"></div>
           </div>
+        </div>
+
+        <div class="grid grid-2">
+          <div class="card">
+            <h2>卖点 × 场景 ROI 矩阵</h2>
+            <table class="insight-table" id="sceneMatrixTable">
+              <thead><tr><th>卖点</th><th>场景</th><th>人群</th><th>ROI</th><th>评级</th></tr></thead>
+              <tbody></tbody>
+            </table>
+          </div>
+          <div class="card">
+            <h2>爆款 DNA</h2>
+            <div id="dnaList"></div>
+          </div>
+        </div>
+
+        <div class="grid grid-2">
+          <div class="card">
+            <h2>禁忌清单</h2>
+            <div id="dontList"></div>
+          </div>
+          <div class="card">
+            <h2>人群内容偏好</h2>
+            <div id="crowdPreference"></div>
+          </div>
+        </div>
+
+        <div class="card">
+          <h2>今日热点 Top 5</h2>
+          <div class="topic-list" id="topTopics"></div>
         </div>
       </section>
 
+      <!-- 选题广场 -->
       <section id="topics" class="module">
         <div class="card">
+          <div class="tabs-sub" id="trackTabs">
+            <button data-track="all" class="active">全部</button>
+            <button data-track="ride">A 轨 · 蹭热点</button>
+            <button data-track="create">B 轨 · 打造热点</button>
+          </div>
           <div class="toolbar">
-            <select id="dateSelect"><option value="">选择日期</option></select>
             <select id="catSelect"><option value="">全部分类</option></select>
+            <select id="prioritySelect">
+              <option value="">全部优先级</option>
+              <option value="S">S 级</option>
+              <option value="A">A 级</option>
+              <option value="B">B 级</option>
+              <option value="C">C 级</option>
+            </select>
             <input type="text" id="searchInput" placeholder="搜索标题关键词…" />
             <button class="chip" id="refreshBtn" style="cursor:pointer;">刷新数据</button>
           </div>
           <div class="topic-list" id="topicList"></div>
           <div class="empty" id="topicEmpty" style="display:none;">
             <strong>没有匹配的选题</strong>
-            请尝试切换日期、分类或搜索关键词。
+            请尝试切换轨道、分类、优先级或搜索关键词。
           </div>
         </div>
       </section>
 
+      <!-- 事件放大 -->
       <section id="events" class="module">
         <div class="card">
-          <h2>事件放大组合（2 : 6 : 2）</h2>
+          <h2>当前选题 Brief</h2>
+          <div id="eventBrief">
+            <div class="empty">加载中…</div>
+          </div>
+        </div>
+
+        <div class="card">
+          <h2>2 : 6 : 2 媒体组合</h2>
           <div class="event-matrix">
             <div class="matrix-cell">
               <div class="ratio" style="color:var(--primary)">20%</div>
               <h4>事件解读</h4>
-              <p>官方/权威账号抢先发声，定义事件与品牌关联，建立认知锚点。</p>
+              <p>官方/权威账号抢先发声，定义事件与品牌关联。</p>
             </div>
             <div class="matrix-cell">
               <div class="ratio" style="color:var(--accent)">60%</div>
               <h4>达人放大</h4>
-              <p>中腰部达人用 AI 眼镜 POV、挑战、测评等多形态内容二次扩散。</p>
+              <p>中腰部达人用 POV、挑战、测评等多形态内容扩散。</p>
             </div>
             <div class="matrix-cell">
               <div class="ratio" style="color:var(--success)">20%</div>
               <h4>UGC/互动</h4>
-              <p>发起轻互动话题，引导用户用眼镜参与并产出真实内容。</p>
+              <p>发起轻互动话题，引导用户用眼镜产出真实内容。</p>
             </div>
           </div>
         </div>
+
         <div class="grid grid-2">
           <div class="card">
-            <h2>本周发布节奏</h2>
-            <ul class="checklist">
-              <li><input type="checkbox" /> 周一：洞察看板 + 上周数据复盘</li>
-              <li><input type="checkbox" /> 周二：热点解读内容（官方号）</li>
-              <li><input type="checkbox" /> 周三：达人 POV/测评第一批</li>
-              <li><input type="checkbox" /> 周四：选题广场更新 + 二次筛选</li>
-              <li><input type="checkbox" /> 周五：UGC 挑战上线</li>
-              <li><input type="checkbox" /> 周末：数据追踪与下周规划</li>
-            </ul>
+            <h2>账号选择</h2>
+            <div id="accountSelection"></div>
+            <div style="margin-top:16px; padding-top:16px; border-top:1px dashed rgba(0,0,0,0.08);">
+              <strong style="font-size:13px;color:var(--muted);display:block;margin-bottom:8px;">已选配比</strong>
+              <div class="ratio-pie" id="ratioPie"></div>
+              <div id="ratioText" style="font-size:13px;color:var(--muted);"></div>
+            </div>
+            <div style="margin-top:16px;">
+              <button class="btn" id="exportPlanBtn">导出方案</button>
+              <button class="btn secondary" id="resetAccountsBtn" style="margin-left:8px;">重置选择</button>
+            </div>
           </div>
           <div class="card">
-            <h2>账号矩阵</h2>
-            <div class="bar-chart" id="accountMatrix">
-              <div class="bar-row"><span class="bar-label">官方</span><div class="bar-track"><div class="bar-fill" style="width:10%"></div></div><span class="bar-value">2</span></div>
-              <div class="bar-row"><span class="bar-label">头部</span><div class="bar-track"><div class="bar-fill" style="width:20%"></div></div><span class="bar-value">4</span></div>
-              <div class="bar-row"><span class="bar-label">中腰部</span><div class="bar-track"><div class="bar-fill" style="width:50%"></div></div><span class="bar-value">10</span></div>
-              <div class="bar-row"><span class="bar-label">素人/KOC</span><div class="bar-track"><div class="bar-fill" style="width:20%"></div></div><span class="bar-value">4</span></div>
-            </div>
+            <h2>发布节奏</h2>
+            <div class="timeline" id="eventTimeline"></div>
           </div>
         </div>
       </section>
 
+      <!-- 配置中心 -->
       <section id="config" class="module">
         <div class="grid grid-2">
           <div class="card">
@@ -299,16 +409,21 @@
               <li><input type="checkbox" checked disabled /> 微博热搜</li>
               <li><input type="checkbox" checked disabled /> 百度热搜</li>
               <li><input type="checkbox" disabled /> 知乎热榜（待接入）</li>
+              <li><input type="checkbox" disabled /> B 站热门（待接入）</li>
+              <li><input type="checkbox" disabled /> 小红书热搜（待接入）</li>
             </ul>
           </div>
           <div class="card">
             <h2>定时任务</h2>
-            <p class="detail-row"><strong>执行时间</strong>北京时间每天 09:00（UTC 01:00）</p>
-            <p class="detail-row"><strong>执行内容</strong>采集热点 → 生成选题 → 提交 GitHub → Pages 自动刷新</p>
-            <p class="detail-row"><strong>上次更新</strong><span id="lastUpdated">--</span></p>
-            <p class="detail-row" style="margin-top:14px;">
-              <a id="workflowLink" href="#" target="_blank" class="chip" style="text-decoration:none;">查看 GitHub Actions</a>
-            </p>
+            <div class="detail-row"><strong>每日热点采集</strong><p>北京时间每天 09:00（UTC 01:00）</p></div>
+            <div class="detail-row"><strong>每周内容洞察</strong><p>每周一北京时间 09:00（UTC 01:00）</p></div>
+            <div class="detail-row"><strong>执行内容</strong><p>采集热点 → 生成洞察 → 提交 GitHub → Pages 自动刷新</p></div>
+            <div class="detail-row"><strong>热点上次更新</strong><span id="topicLastUpdated">--</span></div>
+            <div class="detail-row"><strong>洞察上次更新</strong><span id="insightLastUpdated">--</span></div>
+            <div class="detail-row" style="margin-top:14px;">
+              <a id="workflowLinkDaily" href="#" target="_blank" class="chip" style="text-decoration:none;">每日工作流</a>
+              <a id="workflowLinkWeekly" href="#" target="_blank" class="chip" style="text-decoration:none;margin-left:8px;">每周工作流</a>
+            </div>
           </div>
         </div>
       </section>
@@ -321,11 +436,15 @@
 
   <script>
     const state = {
-      current: {},
-      history: { dates: [] },
-      selectedDate: '',
+      experience: null,
+      topics: null,
+      playbook: null,
+      selectedTrack: 'all',
       filterCat: '',
-      search: ''
+      filterPriority: '',
+      search: '',
+      selectedAccounts: new Set(),
+      expandedTopic: null
     };
 
     const els = {
@@ -333,20 +452,35 @@
       statusText: document.getElementById('statusText'),
       tabs: document.getElementById('tabs'),
       modules: document.querySelectorAll('.module'),
-      dashDate: document.getElementById('dashDate'),
-      dashCount: document.getElementById('dashCount'),
-      dashTopCat: document.getElementById('dashTopCat'),
-      dashTopSource: document.getElementById('dashTopSource'),
-      categoryChart: document.getElementById('categoryChart'),
+      trackTabs: document.getElementById('trackTabs'),
+      dashInsightPeriod: document.getElementById('dashInsightPeriod'),
+      dashTopicDate: document.getElementById('dashTopicDate'),
+      dashTopFormat: document.getElementById('dashTopFormat'),
+      dashTopScene: document.getElementById('dashTopScene'),
+      creatorRoiChart: document.getElementById('creatorRoiChart'),
+      formatRoiChart: document.getElementById('formatRoiChart'),
+      sceneMatrixTable: document.getElementById('sceneMatrixTable'),
+      dnaList: document.getElementById('dnaList'),
+      dontList: document.getElementById('dontList'),
+      crowdPreference: document.getElementById('crowdPreference'),
       topTopics: document.getElementById('topTopics'),
-      dateSelect: document.getElementById('dateSelect'),
       catSelect: document.getElementById('catSelect'),
+      prioritySelect: document.getElementById('prioritySelect'),
       searchInput: document.getElementById('searchInput'),
       topicList: document.getElementById('topicList'),
       topicEmpty: document.getElementById('topicEmpty'),
       refreshBtn: document.getElementById('refreshBtn'),
-      lastUpdated: document.getElementById('lastUpdated'),
-      workflowLink: document.getElementById('workflowLink')
+      eventBrief: document.getElementById('eventBrief'),
+      accountSelection: document.getElementById('accountSelection'),
+      ratioPie: document.getElementById('ratioPie'),
+      ratioText: document.getElementById('ratioText'),
+      eventTimeline: document.getElementById('eventTimeline'),
+      exportPlanBtn: document.getElementById('exportPlanBtn'),
+      resetAccountsBtn: document.getElementById('resetAccountsBtn'),
+      topicLastUpdated: document.getElementById('topicLastUpdated'),
+      insightLastUpdated: document.getElementById('insightLastUpdated'),
+      workflowLinkDaily: document.getElementById('workflowLinkDaily'),
+      workflowLinkWeekly: document.getElementById('workflowLinkWeekly')
     };
 
     function setStatus(type, text) {
@@ -354,23 +488,23 @@
       els.statusText.textContent = text;
     }
 
-    async function loadData(date) {
+    async function loadAll() {
       setStatus('loading', '数据加载中…');
       try {
-        const url = date ? `archive/${date}.json` : 'data/hot-topics.json';
-        const [topicRes, historyRes] = await Promise.all([
-          fetch(url + '?t=' + Date.now()),
-          fetch('data/history.json?t=' + Date.now()).catch(() => null)
+        const [expRes, topicRes, playbookRes] = await Promise.all([
+          fetch('data/experience-library.json?t=' + Date.now()),
+          fetch('data/topic-recommendations.json?t=' + Date.now()),
+          fetch('data/amplification-playbook.json?t=' + Date.now())
         ]);
-        if (!topicRes.ok) throw new Error('数据请求失败');
-        state.current = await topicRes.json();
-        if (historyRes && historyRes.ok) state.history = await historyRes.json();
+        if (!expRes.ok || !topicRes.ok || !playbookRes.ok) throw new Error('数据请求失败');
+        state.experience = await expRes.json();
+        state.topics = await topicRes.json();
+        state.playbook = await playbookRes.json();
         renderAll();
-        setStatus('success', `已更新 ${state.current.date}`);
+        setStatus('success', `已更新 ${state.topics.date}`);
       } catch (e) {
         setStatus('error', '数据加载失败');
         console.error(e);
-        renderEmpty();
       }
     }
 
@@ -378,69 +512,135 @@
       renderDashboard();
       renderTopicFilters();
       renderTopics();
+      renderEventAmplifier();
       renderConfig();
     }
 
-    function renderEmpty() {
-      els.dashDate.textContent = '--';
-      els.dashCount.textContent = '--';
-      els.dashTopCat.textContent = '--';
-      els.dashTopSource.textContent = '--';
-      els.categoryChart.innerHTML = '<div class="empty">暂无数据</div>';
-      els.topTopics.innerHTML = '';
-      els.topicList.innerHTML = '';
-      els.topicEmpty.style.display = 'block';
-    }
-
+    // ========== 洞察看板 ==========
     function renderDashboard() {
-      const data = state.current;
-      if (!data.topics) return;
-      els.dashDate.textContent = data.date;
-      els.dashCount.textContent = data.topics.length;
+      const exp = state.experience || {};
+      els.dashInsightPeriod.textContent = exp.period || '--';
+      els.dashTopicDate.textContent = (state.topics || {}).date || '--';
 
-      const catCounts = {};
-      const sourceCounts = {};
-      data.topics.forEach(t => {
-        catCounts[t.category] = (catCounts[t.category] || 0) + 1;
-        sourceCounts[t.source] = (sourceCounts[t.source] || 0) + 1;
-      });
-      const topCat = Object.entries(catCounts).sort((a, b) => b[1] - a[1])[0];
-      const topSource = Object.entries(sourceCounts).sort((a, b) => b[1] - a[1])[0];
-      els.dashTopCat.textContent = topCat ? topCat[0] : '--';
-      els.dashTopSource.textContent = topSource ? topSource[0] : '--';
+      const formats = (exp.content_format_roi || []).sort((a, b) => b.avg_roi - a.avg_roi);
+      els.dashTopFormat.textContent = formats.length ? formats[0].format : '--';
 
-      const max = Math.max(...Object.values(catCounts));
-      els.categoryChart.innerHTML = Object.entries(catCounts)
-        .sort((a, b) => b[1] - a[1])
-        .map(([cat, count]) => `
-          <div class="bar-row">
-            <span class="bar-label">${cat}</span>
-            <div class="bar-track"><div class="bar-fill" style="width:${Math.round(count / max * 100)}%"></div></div>
-            <span class="bar-value">${count}</span>
-          </div>
-        `).join('');
+      const scenes = (exp.selling_point_scene_matrix || []).sort((a, b) => (b.avg_roi || 0) - (a.avg_roi || 0));
+      els.dashTopScene.textContent = scenes.length ? `${scenes[0].selling_point} × ${scenes[0].scene}` : '--';
 
-      els.topTopics.innerHTML = data.topics.slice(0, 5).map((t, i) => topicHtml(t, i + 1, true)).join('');
+      renderCreatorRoi(exp.creator_roi_tiers || []);
+      renderFormatRoi(formats);
+      renderSceneMatrix(scenes);
+      renderDna(exp.爆款_dna || []);
+      renderDontList(exp.dont_list || []);
+      renderCrowdPreference(exp.crowd_content_preference || []);
+      renderTopTopics();
     }
 
-    function renderTopicFilters() {
-      const dates = state.history.dates || [];
-      const current = els.dateSelect.value || state.current.date;
-      els.dateSelect.innerHTML = `<option value="">最新（${state.current.date}）</option>` +
-        dates.map(d => `<option value="${d}" ${d === current ? 'selected' : ''}>${d}</option>`).join('');
+    function renderCreatorRoi(tiers) {
+      if (!tiers.length) { els.creatorRoiChart.innerHTML = '<div class="empty">暂无数据</div>'; return; }
+      const max = Math.max(...tiers.map(t => t.avg_roi));
+      els.creatorRoiChart.innerHTML = tiers.map(t => `
+        <div class="bar-row">
+          <span class="bar-label" title="${t.creator_profile}">${t.tier}</span>
+          <div class="bar-track"><div class="bar-fill" style="width:${Math.min(100, Math.round(t.avg_roi / max * 100))}%"></div></div>
+          <span class="bar-value">${t.avg_roi.toFixed(1)}</span>
+        </div>
+        <div style="font-size:11px;color:var(--muted);margin:-4px 0 6px 102px;">${t.creator_profile} · ${t.cooperation_suggestion}</div>
+      `).join('');
+    }
 
-      const cats = [...new Set(state.current.topics.map(t => t.category))].sort();
-      const currentCat = els.catSelect.value;
+    function renderFormatRoi(formats) {
+      if (!formats.length) { els.formatRoiChart.innerHTML = '<div class="empty">暂无数据</div>'; return; }
+      const max = Math.max(...formats.map(f => f.avg_roi));
+      els.formatRoiChart.innerHTML = formats.map(f => `
+        <div class="bar-row">
+          <span class="bar-label">${f.platform}</span>
+          <div class="bar-track"><div class="bar-fill" style="width:${Math.round(f.avg_roi / max * 100)}%"></div></div>
+          <span class="bar-value">${f.avg_roi.toFixed(1)}</span>
+        </div>
+        <div style="font-size:11px;color:var(--muted);margin:-4px 0 6px 102px;">${f.format} · ${f.efficiency_rating}</div>
+      `).join('');
+    }
+
+    function renderSceneMatrix(scenes) {
+      const tbody = els.sceneMatrixTable.querySelector('tbody');
+      if (!scenes.length) { tbody.innerHTML = '<tr><td colspan="5" style="text-align:center;color:var(--muted)">暂无数据</td></tr>'; return; }
+      tbody.innerHTML = scenes.map(s => `
+        <tr>
+          <td>${s.selling_point}</td>
+          <td>${s.scene}</td>
+          <td>${s.audience}</td>
+          <td>${(s.avg_roi || 0).toFixed(1)}</td>
+          <td><span class="chip ${ratingClass(s.efficiency_rating)}">${s.efficiency_rating}</span></td>
+        </tr>
+      `).join('');
+    }
+
+    function renderDna(dnas) {
+      if (!dnas.length) { els.dnaList.innerHTML = '<div class="empty">暂无数据</div>'; return; }
+      els.dnaList.innerHTML = dnas.map(d => `
+        <div class="detail-row">
+          <strong>${d.pattern_name} <span class="chip ${ratingClass('A')}">ROI ${(d.avg_roi || 0).toFixed(1)}</span></strong>
+          <p>${d.structure.join(' → ')}</p>
+          <p style="font-size:12px;color:var(--muted);margin-top:4px;">适用：${(d.applicable_platforms || []).join('/')} · ${(d.applicable_scenes || []).join('/')}</p>
+        </div>
+      `).join('');
+    }
+
+    function renderDontList(donts) {
+      if (!donts.length) { els.dontList.innerHTML = '<div class="empty">暂无数据</div>'; return; }
+      els.dontList.innerHTML = donts.map(d => `
+        <div class="detail-row">
+          <strong>${d.item || d.trigger || '禁忌项'} <span class="chip ${riskClass(d.risk_level)}">${d.risk_level}</span></strong>
+          <p>${d.reason}</p>
+          ${d.suggested_action ? `<p style="font-size:12px;color:var(--muted);margin-top:4px;">建议：${d.suggested_action}</p>` : ''}
+        </div>
+      `).join('');
+    }
+
+    function renderCrowdPreference(crowds) {
+      if (!crowds.length) { els.crowdPreference.innerHTML = '<div class="empty">暂无数据</div>'; return; }
+      els.crowdPreference.innerHTML = crowds.map(c => `
+        <div class="detail-row">
+          <strong>${c.crowd_name || c.crowd} <span class="chip gray">${c.crowd_layer || c.layer}</span></strong>
+          <p>偏好形态：${(c.preferred_content_types || c.preferred_formats || []).join('、')}</p>
+          <p style="font-size:12px;color:var(--muted);margin-top:4px;">钩子：${(c.preferred_hooks || []).join('、')} · 平台：${(c.preferred_platforms || []).join('/')}</p>
+        </div>
+      `).join('');
+    }
+
+    function renderTopTopics() {
+      const topics = (state.topics || {}).a_ride_hot_topics || [];
+      if (!topics.length) { els.topTopics.innerHTML = ''; return; }
+      els.topTopics.innerHTML = topics.slice(0, 5).map((t, i) => topicHtml(t, i + 1, true)).join('');
+    }
+
+    // ========== 选题广场 ==========
+    function renderTopicFilters() {
+      const topics = state.topics || {};
+      const all = [...(topics.a_ride_hot_topics || []), ...(topics.b_create_hot_topics || [])];
+      const cats = [...new Set(all.map(t => t.category).filter(Boolean))].sort();
+      const current = els.catSelect.value;
       els.catSelect.innerHTML = '<option value="">全部分类</option>' +
-        cats.map(c => `<option value="${c}" ${c === currentCat ? 'selected' : ''}>${c}</option>`).join('');
+        cats.map(c => `<option value="${c}" ${c === current ? 'selected' : ''}>${c}</option>`).join('');
     }
 
     function renderTopics() {
-      let list = state.current.topics || [];
+      const topics = state.topics || {};
+      let list = [];
+      if (state.selectedTrack === 'all') list = [...(topics.a_ride_hot_topics || []), ...(topics.b_create_hot_topics || [])];
+      else if (state.selectedTrack === 'ride') list = [...(topics.a_ride_hot_topics || [])];
+      else list = [...(topics.b_create_hot_topics || [])];
+
+      // 提取 category（A 轨没有 category 字段，从 priority_reason 中解析或标为未分类）
+      list.forEach(t => { if (!t.category) t.category = extractCategory(t); });
+
       if (state.filterCat) list = list.filter(t => t.category === state.filterCat);
+      if (state.filterPriority) list = list.filter(t => t.priority === state.filterPriority);
       if (state.search) {
         const s = state.search.toLowerCase();
-        list = list.filter(t => t.title.toLowerCase().includes(s));
+        list = list.filter(t => (t.topic_name || t.title || '').toLowerCase().includes(s));
       }
 
       if (list.length === 0) {
@@ -449,7 +649,7 @@
         return;
       }
       els.topicEmpty.style.display = 'none';
-      els.topicList.innerHTML = list.map((t, i) => topicHtml(t, i + 1)).join('');
+      els.topicList.innerHTML = list.map((t, i) => topicCardHtml(t, i + 1)).join('');
 
       document.querySelectorAll('.topic-item').forEach(el => {
         el.addEventListener('click', () => {
@@ -460,24 +660,239 @@
       });
     }
 
+    function extractCategory(t) {
+      const reason = t.priority_reason || '';
+      const m = reason.match(/【(.+?)】/);
+      return m ? m[1] : '其他';
+    }
+
+    function topicCardHtml(t, rank) {
+      const isRide = t.ride_score !== undefined;
+      const title = t.topic_name || t.title || '';
+      const cat = t.category || extractCategory(t);
+      const catClass = categoryClass(cat);
+      const rankClass = rank <= 3 ? 'rank top' : 'rank';
+      const score = isRide ? t.ride_score : (t.create_score || '');
+      const scoreLabel = isRide ? '蹭热分' : '打造分';
+      const priorityClass = ratingClass(t.priority);
+
+      let detail = '';
+      if (isRide) {
+        detail = `
+          <div class="topic-detail">
+            <div class="score-grid">
+              <div class="score-cell"><div class="num">${t.heat_score}</div><div class="label">热度</div></div>
+              <div class="score-cell"><div class="num">${t.relevance_score}</div><div class="label">相关</div></div>
+              <div class="score-cell"><div class="num">${t.safety_score}</div><div class="label">安全</div></div>
+              <div class="score-cell"><div class="num">${t.timeliness_score}</div><div class="label">时效</div></div>
+              <div class="score-cell"><div class="num">${t.creativity_score}</div><div class="label">创作</div></div>
+            </div>
+            <div class="detail-row"><strong>情绪与冲突</strong><p>${t.core_emotion}</p></div>
+            <div class="detail-row"><strong>产品承接点</strong><p>${t.product_hook}</p></div>
+            <div class="detail-row"><strong>切入角度</strong><ul>${(t.entry_angles || []).map(a => `<li>${a}</li>`).join('')}</ul></div>
+            <div class="detail-row"><strong>目标人群</strong><p>核心：${t.target_audience.core} · 扩散：${t.target_audience.diffusion} · 围观：${t.target_audience.bystander}</p></div>
+            <div class="detail-row"><strong>触发场景</strong><p>${t.trigger_scene}</p></div>
+            <div class="detail-row"><strong>内容形态 / 达人类型</strong><p>${t.content_format}<br/>${t.recommended_creator_type}</p></div>
+            <div class="detail-row"><strong>发布窗口 / 制作周期 / 预算</strong><p>${t.publish_window} · ${t.production_cycle} · ${t.budget_level} · CPM ¥${t.estimated_cpm} / CPE ¥${t.estimated_cpe}</p></div>
+            <div class="detail-row"><strong>参考文案钩子</strong><ul>${(t.reference_hooks || []).map(h => `<li>${h}</li>`).join('')}</ul></div>
+            <div class="detail-row"><strong>风险提示</strong><ul>${(t.risks || []).map(r => `<li>${r}</li>`).join('')}</ul></div>
+            ${t.similar_historical_case ? `<div class="detail-row"><strong>历史相似案例</strong><p>${t.similar_historical_case.case} · ROI ${t.similar_historical_case.roi} · ${t.similar_historical_case.note}</p></div>` : ''}
+          </div>
+        `;
+      } else {
+        detail = `
+          <div class="topic-detail">
+            <div class="detail-row"><strong>情绪洞察</strong><p>${t.emotion_insight}</p></div>
+            <div class="detail-row"><strong>核心概念</strong><p>${t.core_concept}</p></div>
+            <div class="detail-row"><strong>传播机制</strong><p>${t.spread_mechanism}</p></div>
+            <div class="detail-row"><strong>产品承接点</strong><p>${t.product_hook}</p></div>
+            <div class="detail-row"><strong>目标人群</strong><p>核心：${t.target_audience.core} · 扩散：${t.target_audience.diffusion} · 媒体：${t.target_audience.media}</p></div>
+            <div class="detail-row"><strong>触发场景</strong><p>${t.trigger_scene}</p></div>
+            <div class="detail-row"><strong>内容形态矩阵</strong><p>主：${t.content_format_matrix.main}<br/>衍：${(t.content_format_matrix.derivatives || []).join('、')}</p></div>
+            <div class="detail-row"><strong>KOL/KOC 矩阵</strong><p>头部：${t.kol_koc_matrix.head}<br/>垂类：${t.kol_koc_matrix.vertical}<br/>KOC：${t.kol_koc_matrix.koc}</p></div>
+            <div class="detail-row"><strong>发布节奏</strong><p>预热：${t.publish_rhythm.warmup}<br/>引爆：${t.publish_rhythm.ignite}<br/>扩散：${t.publish_rhythm.spread}<br/>长尾：${t.publish_rhythm.longtail}</p></div>
+            <div class="detail-row"><strong>预算 / CPM / CPE</strong><p>${t.budget_level} · ${JSON.stringify(t.budget_allocation).replace(/"/g, '')} · CPM ¥${t.estimated_cpm} / CPE ¥${t.estimated_cpe}</p></div>
+            <div class="detail-row"><strong>监测指标</strong><p>${(t.monitoring_metrics || []).join('、')}</p></div>
+            <div class="detail-row"><strong>风险提示</strong><ul>${(t.risks || []).map(r => `<li>${r}</li>`).join('')}</ul></div>
+          </div>
+        `;
+      }
+
+      return `
+        <div class="topic-item">
+          <div class="topic-header">
+            <div class="${rankClass}">${rank}</div>
+            <div class="topic-main">
+              <div class="topic-title">${escapeHtml(title)}</div>
+              <div class="topic-meta">
+                <span class="chip ${catClass}">${cat}</span>
+                <span class="chip ${priorityClass}">${t.priority}</span>
+                <span>${isRide ? 'A 轨 · 蹭热点' : 'B 轨 · 打造热点'}</span>
+                <span>${scoreLabel} ${typeof score === 'number' ? score.toFixed(1) : score}</span>
+                <span>来源：${t.platform || '策划'}</span>
+              </div>
+            </div>
+          </div>
+          ${detail}
+        </div>
+      `;
+    }
+
+    // ========== 事件放大 ==========
+    function renderEventAmplifier() {
+      const pb = state.playbook;
+      if (!pb) { els.eventBrief.innerHTML = '<div class="empty">暂无事件方案</div>'; return; }
+
+      els.eventBrief.innerHTML = `
+        <div class="detail-row">
+          <strong>${pb.topic} <span class="chip ${riskClass(pb.risk_level)}">${pb.risk_level}</span></strong>
+          <p>${pb.core_message}</p>
+        </div>
+        <div class="detail-row"><strong>事件类型 / 生命周期</strong><p>${pb.event_type} · ${pb.lifecycle}</p></div>
+        <div class="detail-row"><strong>目标人群</strong><p>核心：${pb.target_audience.core} · 扩散：${pb.target_audience.diffusion} · 媒体：${pb.target_audience.media}</p></div>
+        <div class="detail-row"><strong>预算估算</strong><p>¥${pb.budget_estimate.toLocaleString()} · ${JSON.stringify(pb.budget_breakdown).replace(/"/g, '').replace(/,/g, ' · ')}</p></div>
+      `;
+
+      renderAccountSelection(pb.media_mix);
+      renderRatio();
+      renderTimeline(pb.timeline);
+    }
+
+    function renderAccountSelection(mix) {
+      const sections = [
+        { key: 'social_media', label: '社会媒体（20%）', color: 'var(--primary)' },
+        { key: 'industry_vertical', label: '行业垂类（60%）', color: 'var(--accent)' },
+        { key: 'koc', label: 'KOC / UGC（20%）', color: 'var(--success)' }
+      ];
+
+      els.accountSelection.innerHTML = sections.map(sec => {
+        const group = mix[sec.key] || {};
+        const accounts = group.accounts || [];
+        return `
+          <div class="account-section">
+            <h3><span style="display:inline-block;width:10px;height:10px;border-radius:50%;background:${sec.color}"></span>${sec.label}</h3>
+            ${accounts.map(acc => `
+              <div class="account-card ${state.selectedAccounts.has(acc.account_id) ? 'selected' : ''}" data-id="${acc.account_id}">
+                <input type="checkbox" ${state.selectedAccounts.has(acc.account_id) ? 'checked' : ''} />
+                <div class="account-info">
+                  <div class="account-name">${acc.account_name} <span class="chip gray">${acc.platform}</span> <span class="chip ${riskClass(acc.risk_level)}">${acc.risk_level}</span></div>
+                  <div class="account-meta">粉丝 ${acc.followers} · 角色 ${acc.role} · 匹配分 ${acc.match_score} · 报价 ${acc.price} · ${acc.publish_time}</div>
+                  <div class="account-angle">角度：${acc.angle}</div>
+                </div>
+              </div>
+            `).join('')}
+          </div>
+        `;
+      }).join('');
+
+      document.querySelectorAll('.account-card').forEach(card => {
+        card.addEventListener('click', (e) => {
+          if (e.target.tagName === 'INPUT') e.stopPropagation();
+          const id = card.dataset.id;
+          if (state.selectedAccounts.has(id)) state.selectedAccounts.delete(id);
+          else state.selectedAccounts.add(id);
+          renderAccountSelection(mix);
+          renderRatio();
+        });
+      });
+    }
+
+    function renderRatio() {
+      const mix = state.playbook.media_mix;
+      const counts = { social_media: 0, industry_vertical: 0, koc: 0 };
+      let total = 0;
+      Object.keys(mix).forEach(key => {
+        mix[key].accounts.forEach(acc => {
+          if (state.selectedAccounts.has(acc.account_id)) {
+            counts[key]++;
+            total++;
+          }
+        });
+      });
+
+      const colors = { social_media: 'var(--primary)', industry_vertical: 'var(--accent)', koc: 'var(--success)' };
+      const labels = { social_media: '社会媒体', industry_vertical: '行业垂类', koc: 'KOC/UGC' };
+
+      if (total === 0) {
+        els.ratioPie.innerHTML = `<div style="width:100%;background:rgba(0,0,0,0.04);"></div>`;
+        els.ratioText.textContent = '尚未选择账号，请从下方勾选';
+        return;
+      }
+
+      els.ratioPie.innerHTML = Object.keys(counts).map(k =>
+        `<div class="ratio-segment" style="width:${(counts[k] / total * 100).toFixed(1)}%;background:${colors[k]}"></div>`
+      ).join('');
+
+      els.ratioText.innerHTML = Object.keys(counts).map(k =>
+        `${labels[k]} ${counts[k]} 个 (${(counts[k] / total * 100).toFixed(0)}%)`
+      ).join(' · ');
+    }
+
+    function renderTimeline(timeline) {
+      els.eventTimeline.innerHTML = Object.entries(timeline).map(([phase, items]) => `
+        <div class="timeline-item">
+          <h4>${phase}</h4>
+          ${items.map(i => `<p>• ${i}</p>`).join('')}
+        </div>
+      `).join('');
+    }
+
+    function exportPlan() {
+      const pb = state.playbook;
+      const selected = [];
+      Object.values(pb.media_mix).forEach(group => {
+        group.accounts.forEach(acc => {
+          if (state.selectedAccounts.has(acc.account_id)) selected.push(acc);
+        });
+      });
+      const briefs = (pb.content_briefs || []).filter(b => state.selectedAccounts.has(b.account_id));
+
+      const md = `# ${pb.topic} · 事件放大方案
+
+## 事件诊断
+- 事件类型：${pb.event_type}
+- 风险等级：${pb.risk_level}
+- 生命周期：${pb.lifecycle}
+- 核心信息：${pb.core_message}
+
+## 已选账号（${selected.length} 个）
+| 类型 | 账号 | 平台 | 角色 | 匹配分 | 发布时间 | 报价 |
+|---|---|---|---|---|---|---|
+${selected.map(a => `| ${a.account_id.startsWith('SM') ? '社会媒体' : a.account_id.startsWith('IND') ? '行业垂类' : 'KOC'} | ${a.account_name} | ${a.platform} | ${a.role} | ${a.match_score} | ${a.publish_time} | ${a.price} |`).join('\n')}
+
+## 内容角度
+${briefs.map(b => `- **${b.account_name}**：${b.angle}\n  - 关键信息：${(b.key_messages || []).join('；')}\n  - 风险：${(b.risks || []).join('、')}`).join('\n')}
+
+## 预算估算
+- 总预算：¥${pb.budget_estimate.toLocaleString()}
+- 明细：${JSON.stringify(pb.budget_breakdown).replace(/"/g, '').replace(/,/g, ' · ')}
+
+## 监测指标
+${JSON.stringify(pb.success_metrics).replace(/"/g, '').replace(/,/g, '\n- ').replace(/\{/g, '').replace(/\}/g, '')}
+`;
+
+      navigator.clipboard.writeText(md).then(() => alert('方案已复制到剪贴板'));
+    }
+
+    // ========== 配置中心 ==========
+    function renderConfig() {
+      els.topicLastUpdated.textContent = state.topics ? new Date(state.topics.updatedAt).toLocaleString('zh-CN') : '--';
+      els.insightLastUpdated.textContent = state.experience ? new Date(state.experience.updatedAt).toLocaleString('zh-CN') : '--';
+      const repo = window.location.hostname.includes('github.io') ? window.location.pathname.split('/')[1] : 'qwen-glasses-marketing-platform';
+      const owner = window.location.hostname.includes('github.io') ? window.location.hostname.split('.')[0] : 'zhuxinmiao326-sudo';
+      els.workflowLinkDaily.href = `https://github.com/${owner}/${repo}/actions/workflows/daily-hot-topics.yml`;
+      els.workflowLinkWeekly.href = `https://github.com/${owner}/${repo}/actions/workflows/weekly-content-insight.yml`;
+    }
+
+    // ========== 通用工具 ==========
     function topicHtml(t, rank, compact) {
-      const catClass = {
-        '科技/AI': 'purple', '职场/办公': 'green', '生活/社会': '',
-        '娱乐/影视': 'orange', '旅游/户外': 'green', '健康/运动': 'green',
-        '财经/商业': '', '其他': 'gray'
-      }[t.category] || 'gray';
+      const catClass = categoryClass(t.category);
       const rankClass = rank <= 3 ? 'rank top' : 'rank';
       const heatText = t.heat > 10000 ? (t.heat / 10000).toFixed(1) + '万' : t.heat;
       const detail = compact ? '' : `
         <div class="topic-detail">
-          <div class="detail-row">
-            <strong>AI 眼镜结合点</strong>
-            <p>${t.glassesAngle}</p>
-          </div>
-          <div class="detail-row">
-            <strong>内容选题建议</strong>
-            <ul>${t.contentIdeas.map(i => `<li>${i}</li>`).join('')}</ul>
-          </div>
+          <div class="detail-row"><strong>AI 眼镜结合点</strong><p>${t.glassesAngle}</p></div>
+          <div class="detail-row"><strong>内容选题建议</strong><ul>${(t.contentIdeas || []).map(i => `<li>${i}</li>`).join('')}</ul></div>
           ${t.desc ? `<div class="detail-row"><strong>来源摘要</strong><p>${t.desc}</p></div>` : ''}
         </div>
       `;
@@ -499,17 +914,27 @@
       `;
     }
 
-    function renderConfig() {
-      els.lastUpdated.textContent = state.current.updatedAt ? new Date(state.current.updatedAt).toLocaleString('zh-CN') : '--';
-      const repo = window.location.hostname.includes('github.io') ? window.location.pathname.split('/')[1] : 'qwen-glasses-marketing-platform';
-      const owner = window.location.hostname.includes('github.io') ? window.location.hostname.split('.')[0] : 'zhuxinmiao326-sudo';
-      els.workflowLink.href = `https://github.com/${owner}/${repo}/actions/workflows/daily-hot-topics.yml`;
+    function categoryClass(cat) {
+      return {
+        '科技/AI': 'purple', '职场/办公': 'green', '生活/社会': '',
+        '娱乐/影视': 'orange', '旅游/户外': 'green', '健康/运动': 'green',
+        '财经/商业': 'dark', '其他': 'gray'
+      }[cat] || 'gray';
+    }
+
+    function ratingClass(r) {
+      return { 'S': 'green', 'A': 'purple', 'B': 'orange', 'C': 'gray' }[r] || 'gray';
+    }
+
+    function riskClass(r) {
+      return { 'P0': 'green', 'P1': 'orange', 'P2': 'red', 'P3': 'red' }[r] || 'gray';
     }
 
     function escapeHtml(str) {
-      return str.replace(/[&<>"']/g, m => ({'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;',"'":'&#39;'}[m]));
+      return String(str).replace(/[&<>"']/g, m => ({'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;',"'":'&#39;'}[m]));
     }
 
+    // ========== 事件绑定 ==========
     els.tabs.addEventListener('click', e => {
       if (e.target.tagName !== 'BUTTON') return;
       const mod = e.target.dataset.module;
@@ -518,24 +943,22 @@
       els.modules.forEach(m => m.classList.toggle('active', m.id === mod));
     });
 
-    els.dateSelect.addEventListener('change', e => {
-      state.selectedDate = e.target.value;
-      loadData(state.selectedDate);
-    });
-
-    els.catSelect.addEventListener('change', e => {
-      state.filterCat = e.target.value;
+    els.trackTabs.addEventListener('click', e => {
+      if (e.target.tagName !== 'BUTTON') return;
+      state.selectedTrack = e.target.dataset.track;
+      els.trackTabs.querySelectorAll('button').forEach(b => b.classList.remove('active'));
+      e.target.classList.add('active');
       renderTopics();
     });
 
-    els.searchInput.addEventListener('input', e => {
-      state.search = e.target.value.trim();
-      renderTopics();
-    });
+    els.catSelect.addEventListener('change', e => { state.filterCat = e.target.value; renderTopics(); });
+    els.prioritySelect.addEventListener('change', e => { state.filterPriority = e.target.value; renderTopics(); });
+    els.searchInput.addEventListener('input', e => { state.search = e.target.value.trim(); renderTopics(); });
+    els.refreshBtn.addEventListener('click', loadAll);
+    els.exportPlanBtn.addEventListener('click', exportPlan);
+    els.resetAccountsBtn.addEventListener('click', () => { state.selectedAccounts.clear(); renderEventAmplifier(); });
 
-    els.refreshBtn.addEventListener('click', () => loadData(state.selectedDate));
-
-    loadData();
+    loadAll();
   </script>
 </body>
 </html>

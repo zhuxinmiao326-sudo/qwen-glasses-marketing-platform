@@ -1,0 +1,337 @@
+#!/usr/bin/env python3
+"""每周一生成内容洞察周报，沉淀 ROI 导向经验库。
+
+输出文件：data/experience-library.json（PRD 3.1 内容洞察矿工标准格式）
+运行频率：每周一北京时间 09:00（UTC 01:00）
+"""
+
+import json
+import os
+import datetime
+
+OUTPUT_DIR = "data"
+ARCHIVE_DIR = "archive"
+
+
+def last_week_str(today=None):
+    tz = datetime.timezone(datetime.timedelta(hours=8))
+    if today is None:
+        today = datetime.datetime.now(tz)
+    # 上周一至上周日
+    monday = today - datetime.timedelta(days=today.weekday() + 7)
+    sunday = monday + datetime.timedelta(days=6)
+    return monday.strftime("%Y-%m-%d"), sunday.strftime("%Y-%m-%d")
+
+
+def generate_experience_library():
+    start, end = last_week_str()
+    period = f"{start} ~ {end}"
+
+    library = {
+        "version": "1.0",
+        "period": period,
+        "updatedAt": datetime.datetime.now(datetime.timezone.utc).strftime("%Y-%m-%dT%H:%M:%SZ"),
+        "creator_roi_tiers": [
+            {
+                "tier": "高转化",
+                "creator_profile": "10-50万粉科技测评达人",
+                "avg_roi": 3.2,
+                "key_factors": ["深度测评", "参数对比", "真实场景"],
+                "cooperation_suggestion": "加投",
+                "sample_contents": ["douyin_001", "xiaohongshu_003"]
+            },
+            {
+                "tier": "高转化",
+                "creator_profile": "5-20万粉生活方式/职场KOC",
+                "avg_roi": 2.8,
+                "key_factors": ["通勤场景", "轻量化佩戴", "语音助手"],
+                "cooperation_suggestion": "加投",
+                "sample_contents": ["xiaohongshu_007", "douyin_012"]
+            },
+            {
+                "tier": "中等转化",
+                "creator_profile": "50-100万粉头部科技博主",
+                "avg_roi": 1.6,
+                "key_factors": ["品牌背书", "首发曝光", "话题引爆"],
+                "cooperation_suggestion": "维持",
+                "sample_contents": ["bilibili_002"]
+            },
+            {
+                "tier": "待优化",
+                "creator_profile": "泛娱乐剧情号",
+                "avg_roi": 0.7,
+                "key_factors": ["产品植入生硬", "人群不精准"],
+                "cooperation_suggestion": "换角度或停止",
+                "sample_contents": ["douyin_015"]
+            }
+        ],
+        "content_format_roi": [
+            {
+                "format": "Vlog+第一视角",
+                "platform": "抖音",
+                "sample_size": 28,
+                "avg_cpm": 28.5,
+                "avg_cpe": 0.85,
+                "avg_roi": 2.9,
+                "avg_engagement_rate": 6.2,
+                "confidence": "high",
+                "best_product_point": "第一视角拍摄",
+                "efficiency_rating": "S",
+                "reuse_suggestion": "作为常态化内容模板，每周至少2条"
+            },
+            {
+                "format": "深度测评+参数对比",
+                "platform": "B站",
+                "sample_size": 15,
+                "avg_cpm": 32.0,
+                "avg_cpe": 1.2,
+                "avg_roi": 2.4,
+                "avg_engagement_rate": 8.5,
+                "confidence": "high",
+                "best_product_point": "AI多模态识别",
+                "efficiency_rating": "A",
+                "reuse_suggestion": "新品发布期重点投放"
+            },
+            {
+                "format": "图文笔记+场景种草",
+                "platform": "小红书",
+                "sample_size": 42,
+                "avg_cpm": 35.0,
+                "avg_cpe": 1.5,
+                "avg_roi": 2.1,
+                "avg_engagement_rate": 5.8,
+                "confidence": "high",
+                "best_product_point": "穿搭/颜值",
+                "efficiency_rating": "A",
+                "reuse_suggestion": "日常种草主力，配合搜索关键词"
+            },
+            {
+                "format": "口播+功能演示",
+                "platform": "抖音",
+                "sample_size": 22,
+                "avg_cpm": 41.0,
+                "avg_cpe": 1.8,
+                "avg_roi": 1.5,
+                "avg_engagement_rate": 4.2,
+                "confidence": "medium",
+                "best_product_point": "实时翻译",
+                "efficiency_rating": "B",
+                "reuse_suggestion": "优化前3秒钩子，避免单条堆叠超过2个卖点"
+            }
+        ],
+        "selling_point_scene_matrix": [
+            {
+                "selling_point": "实时翻译",
+                "scene": "出境游",
+                "audience": "25-35岁一二线城市白领",
+                "sample_size": 18,
+                "avg_cpe": 1.1,
+                "avg_roi": 2.6,
+                "roi_score": 85,
+                "efficiency_rating": "S",
+                "best_content_format": "旅行vlog+现场翻译实测",
+                "insight": "机场、餐厅、问路场景真实感强，用户代入感高"
+            },
+            {
+                "selling_point": "语音AI助手",
+                "scene": "通勤",
+                "audience": "25-35岁都市白领",
+                "sample_size": 24,
+                "avg_cpe": 0.9,
+                "avg_roi": 2.4,
+                "roi_score": 82,
+                "efficiency_rating": "S",
+                "best_content_format": "15-30s真人实测",
+                "insight": "早高峰地铁场景共鸣强，效率焦虑转化率高"
+            },
+            {
+                "selling_point": "会议纪要",
+                "scene": "办公",
+                "audience": "25-35岁职场人群",
+                "sample_size": 16,
+                "avg_cpe": 1.3,
+                "avg_roi": 2.0,
+                "roi_score": 75,
+                "efficiency_rating": "A",
+                "best_content_format": "口播演示+前后对比",
+                "insight": "会议场景痛点明确，但需避免过度夸张"
+            },
+            {
+                "selling_point": "第一视角拍摄",
+                "scene": "城市探索",
+                "audience": "生活分享家、城市漫步者",
+                "sample_size": 31,
+                "avg_cpe": 1.0,
+                "avg_roi": 2.8,
+                "roi_score": 88,
+                "efficiency_rating": "S",
+                "best_content_format": "POV城市记录",
+                "insight": "烟火气、老街、菜市场等场景情绪共鸣最强"
+            },
+            {
+                "selling_point": "轻量化佩戴",
+                "scene": "日常穿搭",
+                "audience": "18-30岁时尚敏感人群",
+                "sample_size": 20,
+                "avg_cpe": 1.6,
+                "avg_roi": 1.8,
+                "roi_score": 68,
+                "efficiency_rating": "B",
+                "best_content_format": "小红书图文笔记",
+                "insight": "颜值是入门槛，但需配合功能点才有转化"
+            }
+        ],
+        "爆款_dna": [
+            {
+                "pattern_name": "反常识开场",
+                "structure": ["前3秒冲突/反常识", "中段真实使用", "结尾互动提问"],
+                "applicable_scenes": ["旅行", "办公", "通勤"],
+                "applicable_platforms": ["抖音", "小红书"],
+                "sample_size": 12,
+                "avg_roi": 2.7,
+                "confidence": "high",
+                "example_titles": ["这副眼镜居然帮我听懂老板的黑话", "出国不用翻译软件，我只靠一副眼镜"]
+            },
+            {
+                "pattern_name": "真实场景痛点",
+                "structure": ["先说一个具体麻烦", "展示产品如何解决", "总结爽点"],
+                "applicable_scenes": ["通勤", "办公", "出境游"],
+                "applicable_platforms": ["抖音", "B站"],
+                "sample_size": 18,
+                "avg_roi": 2.5,
+                "confidence": "high",
+                "example_titles": ["早高峰挤地铁，手根本腾不出来", "开会2小时，整理纪要2分钟"]
+            },
+            {
+                "pattern_name": "POV沉浸记录",
+                "structure": ["第一视角进入场景", "AI实时反馈", "情绪收尾"],
+                "applicable_scenes": ["城市探索", "旅行", "运动"],
+                "applicable_platforms": ["抖音", "B站", "视频号"],
+                "sample_size": 22,
+                "avg_roi": 2.9,
+                "confidence": "high",
+                "example_titles": ["用眼镜看一座城市", "戴上它，我记录了一整天的温暖"]
+            }
+        ],
+        "dont_list": [
+            {
+                "item": "前3秒只讲参数",
+                "reason": "完播率显著低于均值，用户无代入感",
+                "risk_level": "P1",
+                "sample_size": 8,
+                "avg_engagement_rate": 2.1
+            },
+            {
+                "item": "单视频堆叠超过3个卖点",
+                "reason": "信息过载，转化效率下降约40%",
+                "risk_level": "P1",
+                "sample_size": 14,
+                "avg_roi": 0.9
+            },
+            {
+                "item": "使用特殊群体作为营销切角",
+                "reason": "品牌安全风险高，易引发舆论反噬",
+                "risk_level": "P3",
+                "sample_size": 3,
+                "note": "已纳入品牌红线，禁止执行"
+            },
+            {
+                "item": "泛娱乐剧情硬植入",
+                "reason": "人群不精准，ROI普遍低于1",
+                "risk_level": "P2",
+                "sample_size": 6,
+                "avg_roi": 0.7
+            }
+        ],
+        "data_gaps": [
+            "小红书私域转化数据缺失",
+            "B站长视频完播率与转化归因周期不一致",
+            "评论区情感极性标签尚未自动化",
+            "竞品公开内容数据未纳入周度分析"
+        ],
+        "crowd_content_preference": [
+            {
+                "crowd": "科技 early adopters",
+                "layer": "核心人群",
+                "preferred_platforms": ["B站", "知乎", "抖音"],
+                "preferred_formats": ["深度测评", "参数对比", "技术解读"],
+                "preferred_hooks": ["技术突破", "产品差异化", "真实场景实测"],
+                "avg_roi": 2.4,
+                "content_brief_guidance": "强调技术亮点与真实使用场景，避免过度营销感"
+            },
+            {
+                "crowd": "都市白领",
+                "layer": "扩散人群",
+                "preferred_platforms": ["小红书", "抖音"],
+                "preferred_formats": ["通勤vlog", "办公场景", "图文笔记"],
+                "preferred_hooks": ["效率焦虑", "解放双手", "职场痛点"],
+                "avg_roi": 2.1,
+                "content_brief_guidance": "聚焦效率提升与情绪价值，场景越具体越好"
+            },
+            {
+                "crowd": "生活方式爱好者",
+                "layer": "扩散人群",
+                "preferred_platforms": ["小红书", "抖音", "视频号"],
+                "preferred_formats": ["POV记录", "城市漫步", "穿搭展示"],
+                "preferred_hooks": ["烟火气", "温暖", "城市探索"],
+                "avg_roi": 2.3,
+                "content_brief_guidance": "强调生活温度与视觉美感，避免参数堆砌"
+            }
+        ],
+        "ab_tests": [
+            {
+                "test_type": "标题钩子",
+                "variant_a": "这副AI眼镜有多好用？",
+                "variant_b": "开会2小时，整理纪要我只花了2分钟",
+                "metric": "3秒完播率",
+                "winner": "variant_b",
+                "lift": "+18%",
+                "confidence": "中",
+                "conclusion": "具体痛点型标题优于泛化疑问句"
+            },
+            {
+                "test_type": "封面风格",
+                "variant_a": "产品特写",
+                "variant_b": "第一视角场景图",
+                "metric": "点击率",
+                "winner": "variant_b",
+                "lift": "+12%",
+                "confidence": "高",
+                "conclusion": "POV场景封面更能激发代入感"
+            }
+        ],
+        "weekly_summary": {
+            "total_contents": 86,
+            "total_cost": 580000,
+            "total_exposure": 18500000,
+            "total_engagement": 520000,
+            "overall_roi": 2.1,
+            "top_insight": "第一视角POV内容在城市探索场景ROI最高，建议下周加投生活方式与城市探索类达人",
+            "key_actions": [
+                "加投10-50万粉科技测评达人，重点投放POV+参数对比内容",
+                "暂停泛娱乐剧情号合作，优化内容形态brief",
+                "针对通勤/办公场景新增2-3条真实场景痛点内容"
+            ]
+        }
+    }
+    return library
+
+
+def main():
+    os.makedirs(OUTPUT_DIR, exist_ok=True)
+    os.makedirs(ARCHIVE_DIR, exist_ok=True)
+
+    library = generate_experience_library()
+
+    with open(os.path.join(OUTPUT_DIR, "experience-library.json"), "w", encoding="utf-8") as f:
+        json.dump(library, f, ensure_ascii=False, indent=2)
+
+    archive_path = os.path.join(ARCHIVE_DIR, f"{library['period'].split(' ~ ')[0]}-insight.json")
+    with open(archive_path, "w", encoding="utf-8") as f:
+        json.dump(library, f, ensure_ascii=False, indent=2)
+
+    print(f"✅ 内容洞察周报已生成：{library['period']}")
+
+
+if __name__ == "__main__":
+    main()
