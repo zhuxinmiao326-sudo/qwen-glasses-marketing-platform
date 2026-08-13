@@ -7,6 +7,9 @@
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
   <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&family=Noto+Sans+SC:wght@400;500;700&display=swap" rel="stylesheet">
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/plotly.js/2.27.0/plotly.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/xlsx/0.18.5/xlsx.full.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/PapaParse/5.4.1/papaparse.min.js"></script>
   <style>
     :root {
       --bg: linear-gradient(135deg, #e0f2fe 0%, #f3e8ff 50%, #fff7ed 100%);
@@ -213,6 +216,24 @@
     .btn:hover { transform: translateY(-1px); }
     .btn.secondary { background: rgba(255,255,255,0.7); color: var(--text); }
 
+    .upload-drop {
+      border: 2px dashed rgba(59,130,246,0.35);
+      border-radius: var(--radius);
+      padding: 32px;
+      text-align: center;
+      background: rgba(255,255,255,0.5);
+      cursor: pointer; transition: all .2s;
+    }
+    .upload-drop:hover, .upload-drop.dragover {
+      background: rgba(255,255,255,0.85);
+      border-color: var(--primary);
+    }
+    .upload-drop input { display: none; }
+    #analysisResult { display: none; }
+    .chart-box { min-height: 320px; }
+    .tag2 { background: rgba(139,92,246,0.1); color: var(--accent); }
+    .tag3 { background: rgba(16,185,129,0.1); color: var(--success); }
+
     .insight-table { width: 100%; border-collapse: collapse; font-size: 13px; }
     .insight-table th, .insight-table td { padding: 10px 8px; text-align: left; border-bottom: 1px solid rgba(0,0,0,0.06); }
     .insight-table th { color: var(--muted); font-weight: 500; }
@@ -259,64 +280,135 @@
     <main>
       <!-- 洞察看板 -->
       <section id="dashboard" class="module active">
-        <div class="grid grid-4">
-          <div class="card metric">
-            <div class="value" id="dashInsightPeriod">--</div>
-            <div class="label">洞察周期</div>
+        <div class="card" style="margin-bottom:22px;">
+          <h2>上传悦普数据表，自动生成洞察</h2>
+          <div class="upload-drop" id="uploadDrop">
+            <input type="file" id="dataUpload" accept=".xlsx,.xls,.csv" />
+            <div style="font-size:15px;color:var(--muted);">拖拽 Excel / CSV 到此处，或点击选择文件</div>
+            <div style="font-size:12px;color:var(--muted);margin-top:8px;">支持 .xlsx / .xls / .csv，解析完全在浏览器本地完成</div>
           </div>
-          <div class="card metric">
-            <div class="value" id="dashTopicDate">--</div>
-            <div class="label">热点日期</div>
+          <div id="uploadStatus" style="margin-top:12px;font-size:13px;color:var(--muted);"></div>
+        </div>
+
+        <div id="analysisResult">
+          <div class="grid grid-4">
+            <div class="card metric"><div class="value" id="anaTotalCount">--</div><div class="label">有效内容数</div></div>
+            <div class="card metric"><div class="value" id="anaTotalCost">--</div><div class="label">总投入</div></div>
+            <div class="card metric"><div class="value" id="anaTotalGmv">--</div><div class="label">总 GMV</div></div>
+            <div class="card metric"><div class="value" id="anaOverallRoi">--</div><div class="label">综合 ROI</div></div>
           </div>
-          <div class="card metric">
-            <div class="value" id="dashTopFormat">--</div>
-            <div class="label">最高效内容形态</div>
+          <div class="grid grid-4" style="margin-top:18px;">
+            <div class="card metric"><div class="value" id="anaDyCount">--</div><div class="label">抖音条数</div></div>
+            <div class="card metric"><div class="value" id="anaDyRoi">--</div><div class="label">抖音 ROI</div></div>
+            <div class="card metric"><div class="value" id="anaXhsCount">--</div><div class="label">小红书条数</div></div>
+            <div class="card metric"><div class="value" id="anaXhsRoi">--</div><div class="label">小红书 ROI</div></div>
           </div>
-          <div class="card metric">
-            <div class="value" id="dashTopScene">--</div>
-            <div class="label">最佳卖点 × 场景</div>
+          <div class="card" style="margin-top:18px;">
+            <div style="display:flex;justify-content:space-between;align-items:center;flex-wrap:wrap;gap:10px;">
+              <h2 style="margin:0;">分析周期</h2>
+              <span id="anaTimeRange" style="font-size:13px;color:var(--muted);"></span>
+            </div>
+          </div>
+
+          <div class="grid grid-2">
+            <div class="card"><h2>平台五维雷达</h2><div id="radarChart" class="chart-box"></div></div>
+            <div class="card"><h2>平台 ROI / GMV 对比</h2><div id="platformBarChart" class="chart-box"></div></div>
+          </div>
+
+          <div class="grid grid-2">
+            <div class="card"><h2>内容价值矩阵（2D）</h2><div id="matrix2dChart" class="chart-box"></div></div>
+            <div class="card"><h2>互动率 × ROI 气泡图</h2><div id="bubble2dChart" class="chart-box"></div></div>
+          </div>
+
+          <div class="card"><h2>3D 价值气泡</h2><div id="bubble3dChart" class="chart-box"></div></div>
+
+          <div class="grid grid-3">
+            <div class="card"><h2>内容类型 ROI</h2><div id="typeRoiChart" class="chart-box"></div></div>
+            <div class="card"><h2>抖音类型 ROI</h2><div id="dyTypeChart" class="chart-box"></div></div>
+            <div class="card"><h2>小红书类型 ROI</h2><div id="xhsTypeChart" class="chart-box"></div></div>
+          </div>
+
+          <div class="grid grid-2">
+            <div class="card"><h2>人群 ROI</h2><div id="audRoiChart" class="chart-box"></div></div>
+            <div class="card"><h2>项目 ROI</h2><div id="projectRoiChart" class="chart-box"></div></div>
+          </div>
+
+          <div class="grid grid-2">
+            <div class="card"><h2>TOP 15 高 ROI 内容</h2><div id="topRoiList"></div></div>
+            <div class="card"><h2>TOP 15 高矩阵分内容</h2><div id="topMatrixList"></div></div>
+          </div>
+
+          <div class="card">
+            <h2>矩阵统计</h2>
+            <div id="matrixStats" style="font-size:14px;line-height:1.8;"></div>
+          </div>
+
+          <div class="grid grid-2">
+            <div class="card"><h2>综合结论</h2><ul id="overallConclusion" class="checklist"></ul></div>
+            <div class="card"><h2>经验沉淀</h2><ul id="lessonsList" class="checklist"></ul></div>
           </div>
         </div>
 
-        <div class="grid grid-2">
-          <div class="card">
-            <h2>达人 ROI 分层</h2>
-            <div class="bar-chart" id="creatorRoiChart"></div>
+        <div id="dashStatic">
+          <div class="grid grid-4">
+            <div class="card metric">
+              <div class="value" id="dashInsightPeriod">--</div>
+              <div class="label">洞察周期</div>
+            </div>
+            <div class="card metric">
+              <div class="value" id="dashTopicDate">--</div>
+              <div class="label">热点日期</div>
+            </div>
+            <div class="card metric">
+              <div class="value" id="dashTopFormat">--</div>
+              <div class="label">最高效内容形态</div>
+            </div>
+            <div class="card metric">
+              <div class="value" id="dashTopScene">--</div>
+              <div class="label">最佳卖点 × 场景</div>
+            </div>
           </div>
-          <div class="card">
-            <h2>内容形态效率</h2>
-            <div class="bar-chart" id="formatRoiChart"></div>
-          </div>
-        </div>
 
-        <div class="grid grid-2">
-          <div class="card">
-            <h2>卖点 × 场景 ROI 矩阵</h2>
-            <table class="insight-table" id="sceneMatrixTable">
-              <thead><tr><th>卖点</th><th>场景</th><th>人群</th><th>ROI</th><th>评级</th></tr></thead>
-              <tbody></tbody>
-            </table>
+          <div class="grid grid-2">
+            <div class="card">
+              <h2>达人 ROI 分层</h2>
+              <div class="bar-chart" id="creatorRoiChart"></div>
+            </div>
+            <div class="card">
+              <h2>内容形态效率</h2>
+              <div class="bar-chart" id="formatRoiChart"></div>
+            </div>
           </div>
-          <div class="card">
-            <h2>爆款 DNA</h2>
-            <div id="dnaList"></div>
-          </div>
-        </div>
 
-        <div class="grid grid-2">
-          <div class="card">
-            <h2>禁忌清单</h2>
-            <div id="dontList"></div>
+          <div class="grid grid-2">
+            <div class="card">
+              <h2>卖点 × 场景 ROI 矩阵</h2>
+              <table class="insight-table" id="sceneMatrixTable">
+                <thead><tr><th>卖点</th><th>场景</th><th>人群</th><th>ROI</th><th>评级</th></tr></thead>
+                <tbody></tbody>
+              </table>
+            </div>
+            <div class="card">
+              <h2>爆款 DNA</h2>
+              <div id="dnaList"></div>
+            </div>
           </div>
-          <div class="card">
-            <h2>人群内容偏好</h2>
-            <div id="crowdPreference"></div>
-          </div>
-        </div>
 
-        <div class="card">
-          <h2>今日热点 Top 5</h2>
-          <div class="topic-list" id="topTopics"></div>
+          <div class="grid grid-2">
+            <div class="card">
+              <h2>禁忌清单</h2>
+              <div id="dontList"></div>
+            </div>
+            <div class="card">
+              <h2>人群内容偏好</h2>
+              <div id="crowdPreference"></div>
+            </div>
+          </div>
+
+          <div class="card">
+            <h2>今日热点 Top 5</h2>
+            <div class="topic-list" id="topTopics"></div>
+          </div>
         </div>
       </section>
 
@@ -960,5 +1052,6 @@ ${JSON.stringify(pb.success_metrics).replace(/"/g, '').replace(/,/g, '\n- ').rep
 
     loadAll();
   </script>
+  <script src="scripts/dashboard-analyzer.js"></script>
 </body>
 </html>
