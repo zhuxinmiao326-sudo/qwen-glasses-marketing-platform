@@ -1,0 +1,541 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>千问 AI 眼镜内容营销平台</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&family=Noto+Sans+SC:wght@400;500;700&display=swap" rel="stylesheet">
+  <style>
+    :root {
+      --bg: linear-gradient(135deg, #e0f2fe 0%, #f3e8ff 50%, #fff7ed 100%);
+      --card: rgba(255, 255, 255, 0.72);
+      --card-border: rgba(255, 255, 255, 0.8);
+      --text: #1e293b;
+      --muted: #64748b;
+      --primary: #3b82f6;
+      --accent: #8b5cf6;
+      --success: #10b981;
+      --danger: #ef4444;
+      --warning: #f59e0b;
+      --shadow: 0 8px 32px rgba(31, 38, 135, 0.08);
+      --shadow-hover: 0 12px 40px rgba(31, 38, 135, 0.14);
+      --radius: 18px;
+    }
+    * { box-sizing: border-box; }
+    body {
+      margin: 0;
+      font-family: "Inter", "Noto Sans SC", system-ui, -apple-system, sans-serif;
+      background: var(--bg);
+      background-attachment: fixed;
+      color: var(--text);
+      min-height: 100vh;
+    }
+    .container { max-width: 1200px; margin: 0 auto; padding: 24px; }
+    header {
+      display: flex; align-items: center; justify-content: space-between;
+      margin-bottom: 24px;
+    }
+    .brand { display: flex; align-items: center; gap: 14px; }
+    .logo {
+      width: 42px; height: 42px; border-radius: 12px;
+      background: linear-gradient(135deg, var(--primary), var(--accent));
+      display: grid; place-items: center; color: #fff; font-weight: 700; font-size: 18px;
+      box-shadow: var(--shadow);
+    }
+    .brand h1 { margin: 0; font-size: 22px; letter-spacing: -0.5px; }
+    .brand p { margin: 4px 0 0; font-size: 13px; color: var(--muted); }
+    .status {
+      display: flex; align-items: center; gap: 8px;
+      padding: 8px 14px; border-radius: 999px;
+      background: rgba(255,255,255,0.6); backdrop-filter: blur(8px);
+      font-size: 13px; color: var(--muted);
+    }
+    .status-dot { width: 8px; height: 8px; border-radius: 50%; background: var(--success); }
+    .status-dot.loading { background: var(--warning); animation: pulse 1.2s infinite; }
+    .status-dot.error { background: var(--danger); }
+    @keyframes pulse { 0%,100%{opacity:1} 50%{opacity:.4} }
+
+    nav.tabs {
+      display: flex; gap: 10px; flex-wrap: wrap; margin-bottom: 24px;
+    }
+    nav.tabs button {
+      border: none; background: rgba(255,255,255,0.5);
+      padding: 10px 18px; border-radius: 999px; cursor: pointer;
+      font-size: 14px; font-weight: 500; color: var(--muted);
+      backdrop-filter: blur(6px); transition: all .2s;
+    }
+    nav.tabs button:hover { background: rgba(255,255,255,0.85); }
+    nav.tabs button.active {
+      background: linear-gradient(135deg, var(--primary), var(--accent));
+      color: #fff; box-shadow: var(--shadow);
+    }
+
+    .module { display: none; }
+    .module.active { display: block; animation: fadeIn .3s ease; }
+    @keyframes fadeIn { from { opacity: 0; transform: translateY(6px); } to { opacity: 1; transform: translateY(0); } }
+
+    .card {
+      background: var(--card); border: 1px solid var(--card-border);
+      border-radius: var(--radius); padding: 22px;
+      backdrop-filter: blur(16px); box-shadow: var(--shadow);
+      margin-bottom: 18px; transition: transform .2s, box-shadow .2s;
+    }
+    .card:hover { box-shadow: var(--shadow-hover); }
+    .card h2 { margin: 0 0 18px; font-size: 17px; font-weight: 700; }
+    .grid { display: grid; gap: 18px; }
+    .grid-4 { grid-template-columns: repeat(auto-fit, minmax(220px, 1fr)); }
+    .grid-3 { grid-template-columns: repeat(auto-fit, minmax(280px, 1fr)); }
+    .grid-2 { grid-template-columns: repeat(auto-fit, minmax(340px, 1fr)); }
+
+    .metric { text-align: center; }
+    .metric .value {
+      font-size: 32px; font-weight: 700;
+      background: linear-gradient(135deg, var(--primary), var(--accent));
+      -webkit-background-clip: text; -webkit-text-fill-color: transparent;
+    }
+    .metric .label { font-size: 13px; color: var(--muted); margin-top: 6px; }
+
+    .toolbar {
+      display: flex; gap: 12px; flex-wrap: wrap; align-items: center; margin-bottom: 18px;
+    }
+    .toolbar input, .toolbar select {
+      border: 1px solid rgba(0,0,0,0.08); background: rgba(255,255,255,0.7);
+      padding: 10px 14px; border-radius: 12px; font-size: 14px; outline: none;
+      min-width: 160px; backdrop-filter: blur(6px);
+    }
+    .toolbar input:focus, .toolbar select:focus { border-color: var(--primary); }
+    .chip {
+      display: inline-flex; align-items: center; gap: 6px;
+      padding: 5px 10px; border-radius: 999px; font-size: 12px; font-weight: 500;
+      background: rgba(59,130,246,0.1); color: var(--primary);
+    }
+    .chip.purple { background: rgba(139,92,246,0.1); color: var(--accent); }
+    .chip.green { background: rgba(16,185,129,0.1); color: var(--success); }
+    .chip.orange { background: rgba(245,158,11,0.1); color: var(--warning); }
+    .chip.gray { background: rgba(100,116,139,0.1); color: var(--muted); }
+
+    .topic-list { display: flex; flex-direction: column; gap: 12px; }
+    .topic-item {
+      background: rgba(255,255,255,0.6); border-radius: 14px; padding: 16px;
+      border: 1px solid rgba(255,255,255,0.7); cursor: pointer;
+      transition: background .2s, transform .1s;
+    }
+    .topic-item:hover { background: rgba(255,255,255,0.9); }
+    .topic-item.expanded { background: rgba(255,255,255,0.95); }
+    .topic-header { display: flex; align-items: center; gap: 12px; }
+    .rank {
+      width: 32px; height: 32px; border-radius: 10px;
+      display: grid; place-items: center; font-weight: 700; font-size: 13px;
+      background: linear-gradient(135deg, #eff6ff, #f3e8ff); color: var(--primary);
+    }
+    .rank.top { background: linear-gradient(135deg, #fbbf24, #f59e0b); color: #fff; }
+    .topic-main { flex: 1; min-width: 0; }
+    .topic-title { font-weight: 600; font-size: 15px; white-space: nowrap; overflow: hidden; text-overflow: ellipsis; }
+    .topic-meta { font-size: 12px; color: var(--muted); margin-top: 4px; display: flex; gap: 12px; flex-wrap: wrap; }
+    .topic-detail {
+      display: none; margin-top: 14px; padding-top: 14px;
+      border-top: 1px dashed rgba(0,0,0,0.08);
+    }
+    .topic-item.expanded .topic-detail { display: block; }
+    .detail-row { margin-bottom: 10px; }
+    .detail-row strong { font-size: 13px; color: var(--muted); display: block; margin-bottom: 4px; }
+    .detail-row p, .detail-row ul { margin: 0; font-size: 14px; line-height: 1.6; }
+    .detail-row ul { padding-left: 18px; }
+    .detail-row li { margin-bottom: 4px; }
+
+    .bar-chart { display: flex; flex-direction: column; gap: 10px; }
+    .bar-row { display: flex; align-items: center; gap: 12px; font-size: 13px; }
+    .bar-label { width: 80px; color: var(--muted); text-align: right; }
+    .bar-track { flex: 1; height: 10px; background: rgba(0,0,0,0.04); border-radius: 5px; overflow: hidden; }
+    .bar-fill { height: 100%; border-radius: 5px; background: linear-gradient(90deg, var(--primary), var(--accent)); }
+    .bar-value { width: 32px; color: var(--text); font-weight: 600; }
+
+    .empty { text-align: center; padding: 60px 20px; color: var(--muted); }
+    .empty strong { display: block; margin-bottom: 8px; color: var(--text); }
+
+    .event-matrix { display: grid; grid-template-columns: repeat(3, 1fr); gap: 14px; }
+    .matrix-cell { text-align: center; padding: 18px; border-radius: 14px; background: rgba(255,255,255,0.5); }
+    .matrix-cell h4 { margin: 0 0 8px; font-size: 15px; }
+    .matrix-cell p { margin: 0; font-size: 13px; color: var(--muted); line-height: 1.5; }
+    .ratio { font-size: 28px; font-weight: 700; margin-bottom: 6px; }
+
+    .checklist { list-style: none; padding: 0; margin: 0; }
+    .checklist li { display: flex; gap: 10px; padding: 10px 0; border-bottom: 1px solid rgba(0,0,0,0.04); font-size: 14px; }
+    .checklist li:last-child { border-bottom: none; }
+    .checklist input { margin-top: 2px; }
+
+    footer { text-align: center; padding: 40px 20px; color: var(--muted); font-size: 12px; }
+
+    @media (max-width: 640px) {
+      .event-matrix { grid-template-columns: 1fr; }
+      header { flex-direction: column; align-items: flex-start; gap: 12px; }
+    }
+  </style>
+</head>
+<body>
+  <div class="container">
+    <header>
+      <div class="brand">
+        <div class="logo">Q</div>
+        <div>
+          <h1>千问 AI 眼镜内容营销平台</h1>
+          <p>洞察 · 选题 · 事件放大 · 配置</p>
+        </div>
+      </div>
+      <div class="status" id="statusBadge">
+        <span class="status-dot loading" id="statusDot"></span>
+        <span id="statusText">数据加载中…</span>
+      </div>
+    </header>
+
+    <nav class="tabs" id="tabs">
+      <button data-module="dashboard" class="active">洞察看板</button>
+      <button data-module="topics">选题广场</button>
+      <button data-module="events">事件放大</button>
+      <button data-module="config">配置中心</button>
+    </nav>
+
+    <main>
+      <section id="dashboard" class="module active">
+        <div class="grid grid-4">
+          <div class="card metric">
+            <div class="value" id="dashDate">--</div>
+            <div class="label">最新数据日期</div>
+          </div>
+          <div class="card metric">
+            <div class="value" id="dashCount">--</div>
+            <div class="label">今日选题数</div>
+          </div>
+          <div class="card metric">
+            <div class="value" id="dashTopCat">--</div>
+            <div class="label">最热分类</div>
+          </div>
+          <div class="card metric">
+            <div class="value" id="dashTopSource">--</div>
+            <div class="label">主要来源</div>
+          </div>
+        </div>
+        <div class="grid grid-2">
+          <div class="card">
+            <h2>分类分布</h2>
+            <div class="bar-chart" id="categoryChart"></div>
+          </div>
+          <div class="card">
+            <h2>Top 5 热点</h2>
+            <div class="topic-list" id="topTopics"></div>
+          </div>
+        </div>
+      </section>
+
+      <section id="topics" class="module">
+        <div class="card">
+          <div class="toolbar">
+            <select id="dateSelect"><option value="">选择日期</option></select>
+            <select id="catSelect"><option value="">全部分类</option></select>
+            <input type="text" id="searchInput" placeholder="搜索标题关键词…" />
+            <button class="chip" id="refreshBtn" style="cursor:pointer;">刷新数据</button>
+          </div>
+          <div class="topic-list" id="topicList"></div>
+          <div class="empty" id="topicEmpty" style="display:none;">
+            <strong>没有匹配的选题</strong>
+            请尝试切换日期、分类或搜索关键词。
+          </div>
+        </div>
+      </section>
+
+      <section id="events" class="module">
+        <div class="card">
+          <h2>事件放大组合（2 : 6 : 2）</h2>
+          <div class="event-matrix">
+            <div class="matrix-cell">
+              <div class="ratio" style="color:var(--primary)">20%</div>
+              <h4>事件解读</h4>
+              <p>官方/权威账号抢先发声，定义事件与品牌关联，建立认知锚点。</p>
+            </div>
+            <div class="matrix-cell">
+              <div class="ratio" style="color:var(--accent)">60%</div>
+              <h4>达人放大</h4>
+              <p>中腰部达人用 AI 眼镜 POV、挑战、测评等多形态内容二次扩散。</p>
+            </div>
+            <div class="matrix-cell">
+              <div class="ratio" style="color:var(--success)">20%</div>
+              <h4>UGC/互动</h4>
+              <p>发起轻互动话题，引导用户用眼镜参与并产出真实内容。</p>
+            </div>
+          </div>
+        </div>
+        <div class="grid grid-2">
+          <div class="card">
+            <h2>本周发布节奏</h2>
+            <ul class="checklist">
+              <li><input type="checkbox" /> 周一：洞察看板 + 上周数据复盘</li>
+              <li><input type="checkbox" /> 周二：热点解读内容（官方号）</li>
+              <li><input type="checkbox" /> 周三：达人 POV/测评第一批</li>
+              <li><input type="checkbox" /> 周四：选题广场更新 + 二次筛选</li>
+              <li><input type="checkbox" /> 周五：UGC 挑战上线</li>
+              <li><input type="checkbox" /> 周末：数据追踪与下周规划</li>
+            </ul>
+          </div>
+          <div class="card">
+            <h2>账号矩阵</h2>
+            <div class="bar-chart" id="accountMatrix">
+              <div class="bar-row"><span class="bar-label">官方</span><div class="bar-track"><div class="bar-fill" style="width:10%"></div></div><span class="bar-value">2</span></div>
+              <div class="bar-row"><span class="bar-label">头部</span><div class="bar-track"><div class="bar-fill" style="width:20%"></div></div><span class="bar-value">4</span></div>
+              <div class="bar-row"><span class="bar-label">中腰部</span><div class="bar-track"><div class="bar-fill" style="width:50%"></div></div><span class="bar-value">10</span></div>
+              <div class="bar-row"><span class="bar-label">素人/KOC</span><div class="bar-track"><div class="bar-fill" style="width:20%"></div></div><span class="bar-value">4</span></div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section id="config" class="module">
+        <div class="grid grid-2">
+          <div class="card">
+            <h2>数据源</h2>
+            <ul class="checklist">
+              <li><input type="checkbox" checked disabled /> 头条热榜</li>
+              <li><input type="checkbox" checked disabled /> 微博热搜</li>
+              <li><input type="checkbox" checked disabled /> 百度热搜</li>
+              <li><input type="checkbox" disabled /> 知乎热榜（待接入）</li>
+            </ul>
+          </div>
+          <div class="card">
+            <h2>定时任务</h2>
+            <p class="detail-row"><strong>执行时间</strong>北京时间每天 09:00（UTC 01:00）</p>
+            <p class="detail-row"><strong>执行内容</strong>采集热点 → 生成选题 → 提交 GitHub → Pages 自动刷新</p>
+            <p class="detail-row"><strong>上次更新</strong><span id="lastUpdated">--</span></p>
+            <p class="detail-row" style="margin-top:14px;">
+              <a id="workflowLink" href="#" target="_blank" class="chip" style="text-decoration:none;">查看 GitHub Actions</a>
+            </p>
+          </div>
+        </div>
+      </section>
+    </main>
+
+    <footer>
+      千问 AI 眼镜内容营销平台 · 基于 GitHub Pages + GitHub Actions · 每日自动更新
+    </footer>
+  </div>
+
+  <script>
+    const state = {
+      current: {},
+      history: { dates: [] },
+      selectedDate: '',
+      filterCat: '',
+      search: ''
+    };
+
+    const els = {
+      statusDot: document.getElementById('statusDot'),
+      statusText: document.getElementById('statusText'),
+      tabs: document.getElementById('tabs'),
+      modules: document.querySelectorAll('.module'),
+      dashDate: document.getElementById('dashDate'),
+      dashCount: document.getElementById('dashCount'),
+      dashTopCat: document.getElementById('dashTopCat'),
+      dashTopSource: document.getElementById('dashTopSource'),
+      categoryChart: document.getElementById('categoryChart'),
+      topTopics: document.getElementById('topTopics'),
+      dateSelect: document.getElementById('dateSelect'),
+      catSelect: document.getElementById('catSelect'),
+      searchInput: document.getElementById('searchInput'),
+      topicList: document.getElementById('topicList'),
+      topicEmpty: document.getElementById('topicEmpty'),
+      refreshBtn: document.getElementById('refreshBtn'),
+      lastUpdated: document.getElementById('lastUpdated'),
+      workflowLink: document.getElementById('workflowLink')
+    };
+
+    function setStatus(type, text) {
+      els.statusDot.className = 'status-dot ' + type;
+      els.statusText.textContent = text;
+    }
+
+    async function loadData(date) {
+      setStatus('loading', '数据加载中…');
+      try {
+        const url = date ? `archive/${date}.json` : 'data/hot-topics.json';
+        const [topicRes, historyRes] = await Promise.all([
+          fetch(url + '?t=' + Date.now()),
+          fetch('data/history.json?t=' + Date.now()).catch(() => null)
+        ]);
+        if (!topicRes.ok) throw new Error('数据请求失败');
+        state.current = await topicRes.json();
+        if (historyRes && historyRes.ok) state.history = await historyRes.json();
+        renderAll();
+        setStatus('success', `已更新 ${state.current.date}`);
+      } catch (e) {
+        setStatus('error', '数据加载失败');
+        console.error(e);
+        renderEmpty();
+      }
+    }
+
+    function renderAll() {
+      renderDashboard();
+      renderTopicFilters();
+      renderTopics();
+      renderConfig();
+    }
+
+    function renderEmpty() {
+      els.dashDate.textContent = '--';
+      els.dashCount.textContent = '--';
+      els.dashTopCat.textContent = '--';
+      els.dashTopSource.textContent = '--';
+      els.categoryChart.innerHTML = '<div class="empty">暂无数据</div>';
+      els.topTopics.innerHTML = '';
+      els.topicList.innerHTML = '';
+      els.topicEmpty.style.display = 'block';
+    }
+
+    function renderDashboard() {
+      const data = state.current;
+      if (!data.topics) return;
+      els.dashDate.textContent = data.date;
+      els.dashCount.textContent = data.topics.length;
+
+      const catCounts = {};
+      const sourceCounts = {};
+      data.topics.forEach(t => {
+        catCounts[t.category] = (catCounts[t.category] || 0) + 1;
+        sourceCounts[t.source] = (sourceCounts[t.source] || 0) + 1;
+      });
+      const topCat = Object.entries(catCounts).sort((a, b) => b[1] - a[1])[0];
+      const topSource = Object.entries(sourceCounts).sort((a, b) => b[1] - a[1])[0];
+      els.dashTopCat.textContent = topCat ? topCat[0] : '--';
+      els.dashTopSource.textContent = topSource ? topSource[0] : '--';
+
+      const max = Math.max(...Object.values(catCounts));
+      els.categoryChart.innerHTML = Object.entries(catCounts)
+        .sort((a, b) => b[1] - a[1])
+        .map(([cat, count]) => `
+          <div class="bar-row">
+            <span class="bar-label">${cat}</span>
+            <div class="bar-track"><div class="bar-fill" style="width:${Math.round(count / max * 100)}%"></div></div>
+            <span class="bar-value">${count}</span>
+          </div>
+        `).join('');
+
+      els.topTopics.innerHTML = data.topics.slice(0, 5).map((t, i) => topicHtml(t, i + 1, true)).join('');
+    }
+
+    function renderTopicFilters() {
+      const dates = state.history.dates || [];
+      const current = els.dateSelect.value || state.current.date;
+      els.dateSelect.innerHTML = `<option value="">最新（${state.current.date}）</option>` +
+        dates.map(d => `<option value="${d}" ${d === current ? 'selected' : ''}>${d}</option>`).join('');
+
+      const cats = [...new Set(state.current.topics.map(t => t.category))].sort();
+      const currentCat = els.catSelect.value;
+      els.catSelect.innerHTML = '<option value="">全部分类</option>' +
+        cats.map(c => `<option value="${c}" ${c === currentCat ? 'selected' : ''}>${c}</option>`).join('');
+    }
+
+    function renderTopics() {
+      let list = state.current.topics || [];
+      if (state.filterCat) list = list.filter(t => t.category === state.filterCat);
+      if (state.search) {
+        const s = state.search.toLowerCase();
+        list = list.filter(t => t.title.toLowerCase().includes(s));
+      }
+
+      if (list.length === 0) {
+        els.topicList.innerHTML = '';
+        els.topicEmpty.style.display = 'block';
+        return;
+      }
+      els.topicEmpty.style.display = 'none';
+      els.topicList.innerHTML = list.map((t, i) => topicHtml(t, i + 1)).join('');
+
+      document.querySelectorAll('.topic-item').forEach(el => {
+        el.addEventListener('click', () => {
+          const was = el.classList.contains('expanded');
+          document.querySelectorAll('.topic-item').forEach(x => x.classList.remove('expanded'));
+          if (!was) el.classList.add('expanded');
+        });
+      });
+    }
+
+    function topicHtml(t, rank, compact) {
+      const catClass = {
+        '科技/AI': 'purple', '职场/办公': 'green', '生活/社会': '',
+        '娱乐/影视': 'orange', '旅游/户外': 'green', '健康/运动': 'green',
+        '财经/商业': '', '其他': 'gray'
+      }[t.category] || 'gray';
+      const rankClass = rank <= 3 ? 'rank top' : 'rank';
+      const heatText = t.heat > 10000 ? (t.heat / 10000).toFixed(1) + '万' : t.heat;
+      const detail = compact ? '' : `
+        <div class="topic-detail">
+          <div class="detail-row">
+            <strong>AI 眼镜结合点</strong>
+            <p>${t.glassesAngle}</p>
+          </div>
+          <div class="detail-row">
+            <strong>内容选题建议</strong>
+            <ul>${t.contentIdeas.map(i => `<li>${i}</li>`).join('')}</ul>
+          </div>
+          ${t.desc ? `<div class="detail-row"><strong>来源摘要</strong><p>${t.desc}</p></div>` : ''}
+        </div>
+      `;
+      return `
+        <div class="topic-item ${compact ? '' : 'interactive'}">
+          <div class="topic-header">
+            <div class="${rankClass}">${rank}</div>
+            <div class="topic-main">
+              <div class="topic-title">${escapeHtml(t.title)}</div>
+              <div class="topic-meta">
+                <span class="chip ${catClass}">${t.category}</span>
+                <span>热度 ${heatText}</span>
+                <span>来源：${t.source}</span>
+              </div>
+            </div>
+          </div>
+          ${detail}
+        </div>
+      `;
+    }
+
+    function renderConfig() {
+      els.lastUpdated.textContent = state.current.updatedAt ? new Date(state.current.updatedAt).toLocaleString('zh-CN') : '--';
+      const repo = window.location.hostname.includes('github.io') ? window.location.pathname.split('/')[1] : 'qwen-glasses-marketing-platform';
+      const owner = window.location.hostname.includes('github.io') ? window.location.hostname.split('.')[0] : 'zhuxinmiao326-sudo';
+      els.workflowLink.href = `https://github.com/${owner}/${repo}/actions/workflows/daily-hot-topics.yml`;
+    }
+
+    function escapeHtml(str) {
+      return str.replace(/[&<>"']/g, m => ({'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;',"'":'&#39;'}[m]));
+    }
+
+    els.tabs.addEventListener('click', e => {
+      if (e.target.tagName !== 'BUTTON') return;
+      const mod = e.target.dataset.module;
+      els.tabs.querySelectorAll('button').forEach(b => b.classList.remove('active'));
+      e.target.classList.add('active');
+      els.modules.forEach(m => m.classList.toggle('active', m.id === mod));
+    });
+
+    els.dateSelect.addEventListener('change', e => {
+      state.selectedDate = e.target.value;
+      loadData(state.selectedDate);
+    });
+
+    els.catSelect.addEventListener('change', e => {
+      state.filterCat = e.target.value;
+      renderTopics();
+    });
+
+    els.searchInput.addEventListener('input', e => {
+      state.search = e.target.value.trim();
+      renderTopics();
+    });
+
+    els.refreshBtn.addEventListener('click', () => loadData(state.selectedDate));
+
+    loadData();
+  </script>
+</body>
+</html>
