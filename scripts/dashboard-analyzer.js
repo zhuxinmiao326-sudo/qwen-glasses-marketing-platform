@@ -50,6 +50,8 @@
     return arr.length % 2 ? arr[m] : (arr[m - 1] + arr[m]) / 2;
   }
 
+  const ROI_BREAKEVEN = 1; // 用户将 ROI 视为 ROAS，盈亏平衡点为 1.0
+
   function setProgress(pct, msg) {
     const wrap = document.getElementById('uploadProgress');
     const bar = document.getElementById('uploadProgressBar');
@@ -262,7 +264,7 @@
         blogger: String(r[d.blogger] || ''),
         cost,
         gmv,
-        roi: (gmv - cost) / cost,
+        roi: cost > 0 ? gmv / cost : 0,
         roas: cost > 0 ? gmv / cost : 0,
         views,
         interact,
@@ -304,7 +306,7 @@
 
     const totalCost = sum(all, 'cost');
     const totalGmv = sum(all, 'gmv');
-    const overallRoi = totalCost > 0 ? (totalGmv - totalCost) / totalCost : 0;
+    const overallRoi = totalCost > 0 ? totalGmv / totalCost : 0;
 
     function platformMetrics(list) {
       const cost = sum(list, 'cost');
@@ -314,7 +316,7 @@
         cost,
         gmv,
         gmvWan: gmv / 10000,
-        roi: cost > 0 ? (gmv - cost) / cost : 0,
+        roi: cost > 0 ? gmv / cost : 0,
         roas: cost > 0 ? gmv / cost : 0,
         avgEngagement: avg(list, 'engagementRate'),
         avgFinishRate: avg(list, 'finishRate'),
@@ -369,7 +371,7 @@
         count: items.length,
         cost: sum(items, 'cost'),
         gmv: sum(items, 'gmv'),
-        roi: sum(items, 'cost') > 0 ? (sum(items, 'gmv') - sum(items, 'cost')) / sum(items, 'cost') : 0,
+        roi: sum(items, 'cost') > 0 ? sum(items, 'gmv') / sum(items, 'cost') : 0,
         avgEng: avg(items, 'engagementRate'),
         avgFinish: avg(items, 'finishRate'),
         avgViews: avg(items, 'views')
@@ -418,12 +420,13 @@
       const m = matrixScore(r, r.platform);
       const threshold = r.platform === '抖音' ? dyEngMedian : xhsEngMedian;
       const highAttr = r.engagementRate >= threshold;
+      const highRoi = r.roi >= ROI_BREAKEVEN;
       let quadrant, desc;
-      if (highAttr && r.roi >= 0) { quadrant = '明星内容'; desc = '高吸引力 · 高ROI'; star++; }
-      else if (highAttr && r.roi < 0) { quadrant = '潜力内容'; desc = '高吸引力 · 低ROI'; potential++; }
-      else if (!highAttr && r.roi >= 0) { quadrant = '收割型内容'; desc = '低吸引力 · 高ROI'; cash++; }
-      else { quadrant = '低效内容'; desc = '低吸引力 · 低ROI'; ineff++; }
-      if (r.roi >= 0 && m.attraction < 40) outlier++;
+      if (highAttr && highRoi) { quadrant = '明星内容'; desc = '高吸引力 · 高ROI（ROAS≥1）'; star++; }
+      else if (highAttr && !highRoi) { quadrant = '潜力内容'; desc = '高吸引力 · 低ROI（ROAS<1）'; potential++; }
+      else if (!highAttr && highRoi) { quadrant = '收割型内容'; desc = '低吸引力 · 高ROI（ROAS≥1）'; cash++; }
+      else { quadrant = '低效内容'; desc = '低吸引力 · 低ROI（ROAS<1）'; ineff++; }
+      if (highRoi && m.attraction < 40) outlier++;
 
       if (r.platform === '抖音') quadrantDy[quadrant] = (quadrantDy[quadrant] || 0) + 1;
       else quadrantXhs[quadrant] = (quadrantXhs[quadrant] || 0) + 1;
@@ -488,7 +491,7 @@
     const topXhsRoi = topCards(xhs, 'roi', 15);
     const topEng = topCards(all, 'engagementRate', 15);
     const topMatrix = topCards(all, 'matrix', 15);
-    const roiAttractionOutliers = all.filter(r => r.roi >= 0 && matrixScore(r, r.platform).attraction < 40)
+    const roiAttractionOutliers = all.filter(r => r.roi >= ROI_BREAKEVEN && matrixScore(r, r.platform).attraction < 40)
       .sort((a, b) => b.roi - a.roi).slice(0, 15).map(r => topCards([r], 'roi', 1)[0]);
 
     // 结论
@@ -531,7 +534,7 @@
       `3. 内容类型：优先复制「${bestType.name}」，同时关注其量效平衡。`,
       `4. 项目维度：打透「${bestProject.name}」，不同月份同一项目已合并统计。`,
       `5. 人群场景：打透「${bestAud.name}」与「${bestScene.name}」场景。`,
-      `6. 下一步动作：① 对 Top 案例做达人二次合作 / 切片二创；② 对 ROI<0 但互动率高的内容优化组件 / 评论区承接；③ 对 A3 成本低的内容类型追加抖音投流；④ 对小红书 CTR 高的类型加大投流与搜索承接。`
+      `6. 下一步动作：① 对 Top 案例做达人二次合作 / 切片二创；② 对 ROI<1（ROAS<1）但互动率高的内容优化组件 / 评论区承接；③ 对 A3 成本低的内容类型追加抖音投流；④ 对小红书 CTR 高的类型加大投流与搜索承接。`
     ];
 
     const lessons = [
@@ -653,7 +656,7 @@
     const el = document.getElementById(domId);
     if (!el) return;
     if (!data || !data.length) { el.innerHTML = '<p style="color:var(--muted)">暂无数据</p>'; return; }
-    const colors = data.map(d => d[yKey] >= 0 ? '#16a34a' : '#dc2626');
+    const colors = data.map(d => d[yKey] >= ROI_BREAKEVEN ? '#16a34a' : '#dc2626');
     safePlotly(domId, [{
       x: data.map(d => d[xKey]), y: data.map(d => d[yKey]), type: 'bar',
       marker: { color: colors },
@@ -702,7 +705,7 @@
     safePlotly('matrix2dChart', traces, {
       shapes: [
         { type: 'line', x0: 50, x1: 50, y0: yMin * 1.05, y1: yMax * 1.05, line: { dash: 'dash', color: '#64748b' } },
-        { type: 'line', x0: xMin * 0.95, x1: xMax * 1.05, y0: 0, y1: 0, line: { dash: 'dash', color: '#64748b' } }
+        { type: 'line', x0: xMin * 0.95, x1: xMax * 1.05, y0: ROI_BREAKEVEN, y1: ROI_BREAKEVEN, line: { dash: 'dash', color: '#64748b' } }
       ],
       xaxis: { title: '内容吸引力评分', range: [xMin - 2, xMax + 2] },
       yaxis: { title: 'ROI' },
