@@ -234,6 +234,29 @@
     .tag2 { background: rgba(139,92,246,0.1); color: var(--accent); }
     .tag3 { background: rgba(16,185,129,0.1); color: var(--success); }
 
+    .progress-wrap {
+      display: none;
+      margin-top: 14px;
+    }
+    .progress-wrap.active { display: block; }
+    .progress-text {
+      display: flex; justify-content: space-between;
+      font-size: 13px; color: var(--muted); margin-bottom: 6px;
+    }
+    .progress-track {
+      height: 8px;
+      background: rgba(203, 213, 225, 0.5);
+      border-radius: 4px;
+      overflow: hidden;
+    }
+    .progress-bar {
+      height: 100%;
+      width: 0%;
+      background: linear-gradient(90deg, var(--primary), var(--accent));
+      border-radius: 4px;
+      transition: width .25s ease;
+    }
+
     .insight-table { width: 100%; border-collapse: collapse; font-size: 13px; }
     .insight-table th, .insight-table td { padding: 10px 8px; text-align: left; border-bottom: 1px solid rgba(0,0,0,0.06); }
     .insight-table th { color: var(--muted); font-weight: 500; }
@@ -288,6 +311,15 @@
             <div style="font-size:12px;color:var(--muted);margin-top:8px;">支持 .xlsx / .xls / .csv，解析完全在浏览器本地完成</div>
           </div>
           <div id="uploadStatus" style="margin-top:12px;font-size:13px;color:var(--muted);"></div>
+          <div id="uploadProgress" class="progress-wrap">
+            <div class="progress-text">
+              <span id="uploadProgressMsg">正在解析…</span>
+              <span id="uploadProgressPct">0%</span>
+            </div>
+            <div class="progress-track">
+              <div id="uploadProgressBar" class="progress-bar"></div>
+            </div>
+          </div>
         </div>
 
         <div id="analysisResult">
@@ -302,6 +334,7 @@
             <div class="card metric"><div class="value" id="anaDyRoi">--</div><div class="label">抖音 ROI</div></div>
             <div class="card metric"><div class="value" id="anaXhsCount">--</div><div class="label">小红书条数</div></div>
             <div class="card metric"><div class="value" id="anaXhsRoi">--</div><div class="label">小红书 ROI</div></div>
+            <div class="card metric"><div class="value" id="anaA3Cost">--</div><div class="label">抖音 A3 获客成本</div></div>
           </div>
           <div class="card" style="margin-top:18px;">
             <div style="display:flex;justify-content:space-between;align-items:center;flex-wrap:wrap;gap:10px;">
@@ -1052,6 +1085,6 @@ ${JSON.stringify(pb.success_metrics).replace(/"/g, '').replace(/,/g, '\n- ').rep
 
     loadAll();
   </script>
-  <script src="scripts/dashboard-analyzer.js"></script>
+  <script src="scripts/dashboard-analyzer.js?v=3"></script>
 </body>
 </html>

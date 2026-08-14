@@ -50,6 +50,45 @@
     return arr.length % 2 ? arr[m] : (arr[m - 1] + arr[m]) / 2;
   }
 
+  function setProgress(pct, msg) {
+    const wrap = document.getElementById('uploadProgress');
+    const bar = document.getElementById('uploadProgressBar');
+    const pctEl = document.getElementById('uploadProgressPct');
+    const msgEl = document.getElementById('uploadProgressMsg');
+    if (wrap) wrap.classList.add('active');
+    if (bar) bar.style.width = Math.max(0, Math.min(100, pct)) + '%';
+    if (pctEl) pctEl.textContent = Math.round(pct) + '%';
+    if (msgEl && msg) msgEl.textContent = msg;
+  }
+  function hideProgress() {
+    const wrap = document.getElementById('uploadProgress');
+    if (wrap) wrap.classList.remove('active');
+  }
+  function setStatus(text, isError) {
+    const el = document.getElementById('uploadStatus');
+    if (!el) return;
+    el.textContent = text;
+    el.style.color = isError ? 'var(--danger)' : 'var(--muted)';
+  }
+  function safePlotly(domId, data, layout, config) {
+    const el = document.getElementById(domId);
+    if (!el) return;
+    try {
+      Plotly.newPlot(domId, data, layout || {}, config || { responsive: true });
+    } catch (err) {
+      console.error('Plotly 渲染失败', domId, err);
+      el.innerHTML = '<p style="color:var(--muted)">图表渲染失败，请刷新重试</p>';
+    }
+  }
+  function hasWebGL() {
+    try {
+      const c = document.createElement('canvas');
+      return !!(window.WebGLRenderingContext && (c.getContext('webgl') || c.getContext('experimental-webgl')));
+    } catch (e) {
+      return false;
+    }
+  }
+
   // ============================================================
   // 1. 分类函数
   // ============================================================
@@ -524,7 +563,7 @@
   // ============================================================
   // 5. 渲染
   // ============================================================
-  function renderAnalysis(result) {
+  function renderAnalysis(result, onDone) {
     const container = document.getElementById('analysisResult');
     if (!container) return;
     container.style.display = 'block';
@@ -546,61 +585,68 @@
     document.getElementById('anaXhsRoi').textContent = ov.xhsRoi.toFixed(2);
     document.getElementById('anaA3Cost').textContent = '¥' + ov.a3CostOverall.toFixed(2);
 
-    // 雷达图
-    const dims = ['传播力', '互动力', '转化力', 'ROI力', '综合价值'];
-    Plotly.newPlot('radarChart', result.radarData.map(p => ({
-      type: 'scatterpolar',
-      r: [...p.data, p.data[0]],
-      theta: [...dims, dims[0]],
-      fill: 'toself',
-      name: p.name
-    })), {
-      polar: { radialaxis: { visible: true, range: [0, 100] } },
-      showlegend: true,
-      margin: { t: 30, b: 30 }
-    }, { responsive: true });
+    setTimeout(() => {
+      // 雷达图 + 平台对比
+      setProgress(80, '正在渲染平台雷达与对比…');
+      const dims = ['传播力', '互动力', '转化力', 'ROI力', '综合价值'];
+      safePlotly('radarChart', result.radarData.map(p => ({
+        type: 'scatterpolar',
+        r: [...p.data, p.data[0]],
+        theta: [...dims, dims[0]],
+        fill: 'toself',
+        name: p.name
+      })), {
+        polar: { radialaxis: { visible: true, range: [0, 100] } },
+        showlegend: true,
+        margin: { t: 30, b: 30 }
+      }, { responsive: true });
 
-    // 平台 ROI/GMV 双轴
-    Plotly.newPlot('platformBarChart', [
-      { x: ['抖音', '小红书'], y: [ps['抖音'].roi, ps['小红书'].roi], type: 'bar', name: 'ROI', marker: { color: ['#3b82f6', '#f43f5e'] }, yaxis: 'y1' },
-      { x: ['抖音', '小红书'], y: [ps['抖音'].gmvWan, ps['小红书'].gmvWan], type: 'scatter', mode: 'lines+markers', name: 'GMV(万)', marker: { color: '#10b981' }, yaxis: 'y2' }
-    ], {
-      yaxis: { title: 'ROI', side: 'left' },
-      yaxis2: { title: 'GMV(万)', overlaying: 'y', side: 'right' },
-      margin: { t: 20, b: 40 }
-    }, { responsive: true });
+      safePlotly('platformBarChart', [
+        { x: ['抖音', '小红书'], y: [ps['抖音'].roi, ps['小红书'].roi], type: 'bar', name: 'ROI', marker: { color: ['#3b82f6', '#f43f5e'] }, yaxis: 'y1' },
+        { x: ['抖音', '小红书'], y: [ps['抖音'].gmvWan, ps['小红书'].gmvWan], type: 'scatter', mode: 'lines+markers', name: 'GMV(万)', marker: { color: '#10b981' }, yaxis: 'y2' }
+      ], {
+        yaxis: { title: 'ROI', side: 'left' },
+        yaxis2: { title: 'GMV(万)', overlaying: 'y', side: 'right' },
+        margin: { t: 20, b: 40 }
+      }, { responsive: true });
 
-    // 2D 矩阵
-    renderMatrix2d(result);
+      setTimeout(() => {
+        // 2D 矩阵 / 3D 气泡
+        setProgress(85, '正在渲染价值矩阵与气泡模型…');
+        renderMatrix2d(result);
+        render3d(result);
 
-    // 3D 气泡
-    render3d(result);
+        setTimeout(() => {
+          // 类型 / 人群 / 项目 ROI
+          setProgress(90, '正在渲染分层图表…');
+          renderBar('typeRoiChart', result.typeAll.slice(0, 12), 'name', 'roi', '#3b82f6', '内容类型 ROI');
+          renderBar('dyTypeChart', result.typeDy.slice(0, 10), 'name', 'roi', '#3b82f6', '抖音类型 ROI');
+          renderBar('xhsTypeChart', result.typeXhs.slice(0, 10), 'name', 'roi', '#f43f5e', '小红书类型 ROI');
+          renderBar('audRoiChart', result.audAll.slice(0, 12), 'name', 'roi', '#8b5cf6', '人群 ROI');
+          renderBar('projectRoiChart', result.projectAll.slice(0, 12), 'name', 'roi', '#10b981', '项目 ROI');
 
-    // 类型 ROI
-    renderBar('typeRoiChart', result.typeAll.slice(0, 12), 'name', 'roi', '#3b82f6', '内容类型 ROI');
-    renderBar('dyTypeChart', result.typeDy.slice(0, 10), 'name', 'roi', '#3b82f6', '抖音类型 ROI');
-    renderBar('xhsTypeChart', result.typeXhs.slice(0, 10), 'name', 'roi', '#f43f5e', '小红书类型 ROI');
+          setTimeout(() => {
+            // TOP 榜单
+            setProgress(94, '正在生成 TOP 榜单…');
+            renderTopCards('topRoiList', result.topRoi);
+            renderTopCards('topMatrixList', result.topMatrix);
 
-    // 人群 ROI
-    renderBar('audRoiChart', result.audAll.slice(0, 12), 'name', 'roi', '#8b5cf6', '人群 ROI');
+            // 结论
+            document.getElementById('overallConclusion').innerHTML = result.overallConclusion.map(c => `<li>${c}</li>`).join('');
+            document.getElementById('lessonsList').innerHTML = result.lessons.map(l => `<li>${l}</li>`).join('');
 
-    // 项目 ROI
-    renderBar('projectRoiChart', result.projectAll.slice(0, 12), 'name', 'roi', '#10b981', '项目 ROI');
+            // 矩阵统计
+            document.getElementById('matrixStats').innerHTML = `
+              明星内容 <strong>${ov.starCount}</strong> · 潜力内容 <strong>${ov.potentialCount}</strong> ·
+              收割型 <strong>${ov.cashCount}</strong> · 低效 <strong>${ov.ineffCount}</strong> ·
+              异常点 <strong>${ov.outlierCount}</strong>
+            `;
 
-    // TOP 榜单
-    renderTopCards('topRoiList', result.topRoi);
-    renderTopCards('topMatrixList', result.topMatrix);
-
-    // 结论
-    document.getElementById('overallConclusion').innerHTML = result.overallConclusion.map(c => `<li>${c}</li>`).join('');
-    document.getElementById('lessonsList').innerHTML = result.lessons.map(l => `<li>${l}</li>`).join('');
-
-    // 矩阵统计
-    document.getElementById('matrixStats').innerHTML = `
-      明星内容 <strong>${ov.starCount}</strong> · 潜力内容 <strong>${ov.potentialCount}</strong> ·
-      收割型 <strong>${ov.cashCount}</strong> · 低效 <strong>${ov.ineffCount}</strong> ·
-      异常点 <strong>${ov.outlierCount}</strong>
-    `;
+            if (typeof onDone === 'function') onDone();
+          }, 30);
+        }, 30);
+      }, 30);
+    }, 30);
   }
 
   function renderBar(domId, data, xKey, yKey, color, title) {
@@ -608,7 +654,7 @@
     if (!el) return;
     if (!data || !data.length) { el.innerHTML = '<p style="color:var(--muted)">暂无数据</p>'; return; }
     const colors = data.map(d => d[yKey] >= 0 ? '#16a34a' : '#dc2626');
-    Plotly.newPlot(domId, [{
+    safePlotly(domId, [{
       x: data.map(d => d[xKey]), y: data.map(d => d[yKey]), type: 'bar',
       marker: { color: colors },
       text: data.map(d => d[yKey].toFixed(2)), textposition: 'outside'
@@ -653,7 +699,7 @@
     const ys = result.plot2d.map(d => d.y);
     const xMin = Math.min(...xs), xMax = Math.max(...xs);
     const yMin = Math.min(...ys), yMax = Math.max(...ys);
-    Plotly.newPlot('matrix2dChart', traces, {
+    safePlotly('matrix2dChart', traces, {
       shapes: [
         { type: 'line', x0: 50, x1: 50, y0: yMin * 1.05, y1: yMax * 1.05, line: { dash: 'dash', color: '#64748b' } },
         { type: 'line', x0: xMin * 0.95, x1: xMax * 1.05, y0: 0, y1: 0, line: { dash: 'dash', color: '#64748b' } }
@@ -677,12 +723,17 @@
       marker: { size: result.plot3d.filter(d => d.color === t).map(d => d.size), opacity: 0.75, color: palette[i % palette.length] },
       hovertemplate: '互动率 %{x:.2f}%<br>ROI %{y:.2f}<extra>%{text}</extra>'
     }));
-    Plotly.newPlot('bubble2dChart', traces2d, {
+    safePlotly('bubble2dChart', traces2d, {
       xaxis: { title: '互动率 (%)' }, yaxis: { title: 'ROI' },
       margin: { t: 20, b: 60, l: 60 }, legend: { orientation: 'h', y: -0.25 }
     }, { responsive: true });
 
-    // 3D
+    // 3D（WebGL 不可用时降级为 2D）
+    const dom3d = document.getElementById('bubble3dChart');
+    if (!hasWebGL()) {
+      if (dom3d) dom3d.innerHTML = '<p style="color:var(--muted);padding:20px;">当前环境不支持 3D 渲染，已用上方 2D 气泡图替代。</p>';
+      return;
+    }
     const traces3d = types.map((t, i) => ({
       type: 'scatter3d', mode: 'markers', name: t,
       x: result.plot3d.filter(d => d.color === t).map(d => d.x),
@@ -692,7 +743,7 @@
       marker: { size: result.plot3d.filter(d => d.color === t).map(d => d.size), opacity: 0.8, color: palette[i % palette.length] },
       hovertemplate: '互动率 %{x:.2f}%<br>ROI %{y:.2f}<br>ROI %{z:.2f}<extra>%{text}</extra>'
     }));
-    Plotly.newPlot('bubble3dChart', traces3d, {
+    safePlotly('bubble3dChart', traces3d, {
       scene: { xaxis: { title: '互动率 (%)' }, yaxis: { title: 'ROI' }, zaxis: { title: 'ROI' } },
       margin: { t: 20, b: 20 }, legend: { orientation: 'h', y: -0.1 }
     }, { responsive: true });
@@ -702,8 +753,8 @@
   // 6. 文件上传处理
   // ============================================================
   function onFile(file) {
-    const statusEl = document.getElementById('uploadStatus');
-    if (statusEl) statusEl.textContent = '正在解析…';
+    setStatus('');
+    setProgress(5, '正在读取文件…');
     const ext = (file.name.split('.').pop() || '').toLowerCase();
 
     if (ext === 'csv') {
@@ -711,21 +762,44 @@
         header: true,
         skipEmptyLines: true,
         complete: results => {
+          setProgress(35, '正在识别平台与字段…');
           const rows = results.data;
           const platform = detectPlatformFromRows(rows);
           const parsed = parseSheet(rows, platform, null, null);
           runAnalyze(parsed);
         },
-        error: err => { if (statusEl) statusEl.textContent = 'CSV 解析失败：' + err.message; }
+        error: err => {
+          setProgress(100, '解析失败');
+          setStatus('CSV 解析失败：' + err.message, true);
+          hideProgress();
+        }
       });
-    } else {
-      const reader = new FileReader();
-      reader.onload = e => {
+      return;
+    }
+
+    const reader = new FileReader();
+    reader.onerror = () => {
+      setProgress(100, '读取失败');
+      setStatus('文件读取失败，请重试。', true);
+      hideProgress();
+    };
+    reader.onload = e => {
+      try {
+        setProgress(15, '正在读取 Excel…');
         const data = new Uint8Array(e.target.result);
         const workbook = XLSX.read(data, { type: 'array' });
         const sheetInfos = detectSheets(workbook);
+        if (!sheetInfos.length) {
+          setProgress(100, '未找到可用工作表');
+          setStatus('未识别到「抖音」或「小红书」工作表，请检查表名。', true);
+          hideProgress();
+          return;
+        }
         let allRows = [];
-        for (const info of sheetInfos) {
+        for (let i = 0; i < sheetInfos.length; i++) {
+          const info = sheetInfos[i];
+          const pct = 25 + Math.round((i / sheetInfos.length) * 35);
+          setProgress(pct, `正在解析 ${info.name}…`);
           const ws = workbook.Sheets[info.name];
           const rows = XLSX.utils.sheet_to_json(ws, { defval: '' });
           let projectCol = info.projectCol;
@@ -737,9 +811,13 @@
           allRows = allRows.concat(parsed);
         }
         runAnalyze(allRows);
-      };
-      reader.readAsArrayBuffer(file);
-    }
+      } catch (err) {
+        setProgress(100, '解析失败');
+        setStatus('Excel 解析失败：' + err.message, true);
+        hideProgress();
+      }
+    };
+    reader.readAsArrayBuffer(file);
   }
 
   function detectPlatformFromRows(rows) {
@@ -752,17 +830,31 @@
   }
 
   function runAnalyze(rows) {
-    const statusEl = document.getElementById('uploadStatus');
     if (!rows.length) {
-      if (statusEl) statusEl.textContent = '未解析到有效数据，请检查文件格式。';
+      setProgress(100, '无有效数据');
+      setStatus('未解析到有效数据，请检查文件格式、列名或「平台」字段。', true);
+      hideProgress();
       return;
     }
-    const dates = rows.map(r => r.date).filter(d => d && !isNaN(d.getTime())).sort((a, b) => a - b);
-    const dateRange = dates.length ? [dates[0], dates[dates.length - 1]] : [new Date('2026-05-04'), new Date('2026-08-04')];
-    const result = analyze(rows, dateRange);
-    window.__lastAnalysis = result;
-    renderAnalysis(result);
-    if (statusEl) statusEl.textContent = `分析完成：${rows.length} 条有效内容`;
+    setProgress(65, `已读取 ${rows.length} 条原始记录，正在计算指标…`);
+    setTimeout(() => {
+      try {
+        const dates = rows.map(r => r.date).filter(d => d && !isNaN(d.getTime())).sort((a, b) => a - b);
+        const dateRange = dates.length ? [dates[0], dates[dates.length - 1]] : [new Date('2026-05-04'), new Date('2026-08-04')];
+        const result = analyze(rows, dateRange);
+        window.__lastAnalysis = result;
+        setProgress(75, '正在生成图表…');
+        renderAnalysis(result, () => {
+          setProgress(100, '分析完成');
+          setStatus(`分析完成：${rows.length} 条有效内容`);
+          setTimeout(hideProgress, 800);
+        });
+      } catch (err) {
+        console.error('分析计算失败', err);
+        setProgress(100, '分析失败');
+        setStatus('分析过程中出错：' + err.message, true);
+      }
+    }, 30);
   }
 
   // ============================================================
