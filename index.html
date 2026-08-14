@@ -270,10 +270,115 @@
 
     footer { text-align: center; padding: 40px 20px; color: var(--muted); font-size: 12px; }
 
+    /* 事件放大媒体库 */
+    .media-lib-header {
+      display: flex; justify-content: space-between; align-items: center;
+      flex-wrap: wrap; gap: 12px; margin-bottom: 18px;
+    }
+    .media-lib-actions { display: flex; gap: 10px; flex-wrap: wrap; }
+    .media-lib-actions .btn { padding: 8px 14px; font-size: 13px; }
+    .media-lib-actions input[type="file"] { display: none; }
+
+    .media-columns {
+      display: grid; grid-template-columns: repeat(3, 1fr); gap: 18px; align-items: start;
+    }
+    .media-col {
+      background: var(--card); border: 1px solid var(--card-border);
+      border-radius: var(--radius); padding: 18px;
+      backdrop-filter: blur(16px); box-shadow: var(--shadow);
+    }
+    .media-col-header {
+      display: flex; align-items: center; justify-content: space-between;
+      margin-bottom: 14px; padding-bottom: 12px;
+      border-bottom: 1px solid rgba(0,0,0,0.06);
+    }
+    .media-col-title {
+      display: flex; align-items: center; gap: 10px; font-size: 15px; font-weight: 700;
+    }
+    .media-col-dot { width: 10px; height: 10px; border-radius: 50%; }
+    .media-col-count {
+      font-size: 12px; color: var(--muted); background: rgba(255,255,255,0.6);
+      padding: 3px 10px; border-radius: 999px;
+    }
+
+    .media-input-group {
+      display: flex; flex-direction: column; gap: 10px; margin-bottom: 14px;
+    }
+    .media-input-group input {
+      border: 1px solid rgba(0,0,0,0.08); background: rgba(255,255,255,0.7);
+      padding: 10px 12px; border-radius: 12px; font-size: 14px; outline: none;
+      backdrop-filter: blur(6px);
+    }
+    .media-input-group input:focus { border-color: var(--primary); background: rgba(255,255,255,0.9); }
+    .media-tag-input-wrap {
+      display: flex; flex-wrap: wrap; gap: 6px;
+      min-height: 38px; padding: 6px 8px;
+      border: 1px solid rgba(0,0,0,0.08); border-radius: 12px;
+      background: rgba(255,255,255,0.7);
+      align-items: center;
+    }
+    .media-tag-input-wrap:focus-within { border-color: var(--primary); background: rgba(255,255,255,0.9); }
+    .media-tag-input-wrap input {
+      flex: 1; min-width: 80px; border: none; background: transparent; padding: 4px 6px;
+    }
+    .media-tag-chip {
+      display: inline-flex; align-items: center; gap: 4px;
+      padding: 3px 8px; border-radius: 999px; font-size: 12px; font-weight: 500;
+      background: rgba(59,130,246,0.1); color: var(--primary);
+    }
+    .media-tag-chip .remove { cursor: pointer; opacity: .7; }
+    .media-tag-chip .remove:hover { opacity: 1; }
+
+    .media-suggestions {
+      display: flex; flex-wrap: wrap; gap: 6px; margin-bottom: 12px;
+    }
+    .media-suggestions span {
+      font-size: 12px; color: var(--muted); cursor: pointer;
+      padding: 4px 10px; border-radius: 999px;
+      background: rgba(255,255,255,0.55); border: 1px solid rgba(0,0,0,0.05);
+      transition: all .15s;
+    }
+    .media-suggestions span:hover { background: rgba(59,130,246,0.1); color: var(--primary); }
+
+    .media-add-btn {
+      width: 100%; border: none;
+      background: linear-gradient(135deg, var(--primary), var(--accent));
+      color: #fff; padding: 10px; border-radius: 12px; cursor: pointer;
+      font-size: 14px; font-weight: 500; transition: transform .1s;
+    }
+    .media-add-btn:hover { transform: translateY(-1px); }
+    .media-add-btn:disabled { opacity: .6; cursor: not-allowed; transform: none; }
+
+    .media-list { display: flex; flex-direction: column; gap: 10px; }
+    .media-account {
+      background: rgba(255,255,255,0.6); border-radius: 14px; padding: 12px;
+      border: 1px solid rgba(255,255,255,0.7);
+      display: flex; flex-direction: column; gap: 8px;
+      transition: all .15s;
+    }
+    .media-account:hover { background: rgba(255,255,255,0.9); }
+    .media-account-main {
+      display: flex; align-items: center; justify-content: space-between; gap: 8px;
+    }
+    .media-account-name { font-weight: 600; font-size: 14px; word-break: break-all; }
+    .media-account-delete {
+      border: none; background: transparent; color: var(--muted); cursor: pointer;
+      font-size: 18px; line-height: 1; padding: 2px 6px; border-radius: 8px;
+    }
+    .media-account-delete:hover { background: rgba(239,68,68,0.1); color: var(--danger); }
+    .media-account-tags { display: flex; flex-wrap: wrap; gap: 6px; }
+    .media-account-tags .chip { cursor: pointer; user-select: none; }
+    .media-account-tags .chip:hover { opacity: .8; }
+    .media-empty {
+      text-align: center; padding: 28px 12px; color: var(--muted); font-size: 13px;
+    }
+    .media-empty strong { display: block; margin-bottom: 6px; color: var(--text); }
+
     @media (max-width: 768px) {
       .event-matrix, .score-grid { grid-template-columns: 1fr; }
       header { flex-direction: column; align-items: flex-start; gap: 12px; }
       .bar-label { width: 70px; }
+      .media-columns { grid-template-columns: 1fr; }
     }
   </style>
 </head>
@@ -473,17 +578,102 @@
         </div>
       </section>
 
-      <!-- 事件放大 -->
+      <!-- 事件放大媒体库 -->
       <section id="events" class="module">
         <div class="card">
-          <h2>当前选题 Brief</h2>
-          <div id="eventBrief">
-            <div class="empty">加载中…</div>
+          <div class="media-lib-header">
+            <div>
+              <h2 style="margin:0 0 6px;">事件放大媒体库</h2>
+              <p style="margin:0;font-size:13px;color:var(--muted);">输入账号名并打标签，自动归类到三列矩阵；支持导出/导入本地 JSON 持久化。</p>
+            </div>
+            <div class="media-lib-actions">
+              <button class="btn secondary" id="importMediaBtn">导入 JSON</button>
+              <input type="file" id="importMediaInput" accept=".json" />
+              <button class="btn" id="exportMediaBtn">导出 JSON</button>
+              <button class="btn secondary" id="resetMediaBtn">重置</button>
+            </div>
+          </div>
+
+          <div class="media-columns">
+            <!-- 社会媒体 / 官方媒体 -->
+            <div class="media-col" data-col="social">
+              <div class="media-col-header">
+                <div class="media-col-title">
+                  <span class="media-col-dot" style="background:var(--primary)"></span>
+                  社会媒体 / 官方媒体
+                </div>
+                <span class="media-col-count" id="count-social">0 个</span>
+              </div>
+              <div class="media-input-group">
+                <input type="text" class="media-name-input" placeholder="输入账号名，如 @新华社" />
+                <div class="media-tag-input-wrap">
+                  <input type="text" class="media-tag-input" placeholder="回车添加标签，如 官方媒体" />
+                </div>
+              </div>
+              <div class="media-suggestions">
+                <span data-tag="官方媒体">官方媒体</span>
+                <span data-tag="社会媒体">社会媒体</span>
+                <span data-tag="央媒">央媒</span>
+                <span data-tag="地方媒体">地方媒体</span>
+              </div>
+              <button class="media-add-btn" data-col="social">添加账号</button>
+              <div class="media-list" id="list-social"></div>
+            </div>
+
+            <!-- 行业垂类媒体 / 地方媒体 -->
+            <div class="media-col" data-col="vertical">
+              <div class="media-col-header">
+                <div class="media-col-title">
+                  <span class="media-col-dot" style="background:var(--accent)"></span>
+                  行业垂类媒体 / 地方媒体
+                </div>
+                <span class="media-col-count" id="count-vertical">0 个</span>
+              </div>
+              <div class="media-input-group">
+                <input type="text" class="media-name-input" placeholder="输入账号名，如 @36氪" />
+                <div class="media-tag-input-wrap">
+                  <input type="text" class="media-tag-input" placeholder="回车添加标签，如 科技账号" />
+                </div>
+              </div>
+              <div class="media-suggestions">
+                <span data-tag="科技账号">科技账号</span>
+                <span data-tag="3C账号">3C账号</span>
+                <span data-tag="地方媒体">地方媒体</span>
+                <span data-tag="财经媒体">财经媒体</span>
+              </div>
+              <button class="media-add-btn" data-col="vertical">添加账号</button>
+              <div class="media-list" id="list-vertical"></div>
+            </div>
+
+            <!-- KOC 扩散 -->
+            <div class="media-col" data-col="koc">
+              <div class="media-col-header">
+                <div class="media-col-title">
+                  <span class="media-col-dot" style="background:var(--success)"></span>
+                  KOC 扩散
+                </div>
+                <span class="media-col-count" id="count-koc">0 个</span>
+              </div>
+              <div class="media-input-group">
+                <input type="text" class="media-name-input" placeholder="输入账号名，如 @科技小V" />
+                <div class="media-tag-input-wrap">
+                  <input type="text" class="media-tag-input" placeholder="回车添加标签，如 KOC" />
+                </div>
+              </div>
+              <div class="media-suggestions">
+                <span data-tag="KOC">KOC</span>
+                <span data-tag="科技博主">科技博主</span>
+                <span data-tag="生活方式">生活方式</span>
+                <span data-tag="学生党">学生党</span>
+              </div>
+              <button class="media-add-btn" data-col="koc">添加账号</button>
+              <div class="media-list" id="list-koc"></div>
+            </div>
           </div>
         </div>
 
         <div class="card">
-          <h2>2 : 6 : 2 媒体组合</h2>
+          <h2>2 : 6 : 2 媒体组合参考</h2>
           <div class="event-matrix">
             <div class="matrix-cell">
               <div class="ratio" style="color:var(--primary)">20%</div>
@@ -500,26 +690,6 @@
               <h4>UGC/互动</h4>
               <p>发起轻互动话题，引导用户用眼镜产出真实内容。</p>
             </div>
-          </div>
-        </div>
-
-        <div class="grid grid-2">
-          <div class="card">
-            <h2>账号选择</h2>
-            <div id="accountSelection"></div>
-            <div style="margin-top:16px; padding-top:16px; border-top:1px dashed rgba(0,0,0,0.08);">
-              <strong style="font-size:13px;color:var(--muted);display:block;margin-bottom:8px;">已选配比</strong>
-              <div class="ratio-pie" id="ratioPie"></div>
-              <div id="ratioText" style="font-size:13px;color:var(--muted);"></div>
-            </div>
-            <div style="margin-top:16px;">
-              <button class="btn" id="exportPlanBtn">导出方案</button>
-              <button class="btn secondary" id="resetAccountsBtn" style="margin-left:8px;">重置选择</button>
-            </div>
-          </div>
-          <div class="card">
-            <h2>发布节奏</h2>
-            <div class="timeline" id="eventTimeline"></div>
           </div>
         </div>
       </section>
@@ -569,7 +739,24 @@
       filterPriority: '',
       search: '',
       selectedAccounts: new Set(),
-      expandedTopic: null
+      expandedTopic: null,
+      mediaLib: {
+        social: [
+          { id: 'm1', name: '@新华社', tags: ['官方媒体', '央媒'] },
+          { id: 'm2', name: '@人民日报', tags: ['官方媒体', '央媒'] },
+          { id: 'm3', name: '@浙江日报', tags: ['地方媒体', '社会媒体'] }
+        ],
+        vertical: [
+          { id: 'm4', name: '@36氪', tags: ['科技账号', '财经媒体'] },
+          { id: 'm5', name: '@爱范儿', tags: ['3C账号', '科技账号'] },
+          { id: 'm6', name: '@差评', tags: ['3C账号', '科技账号'] }
+        ],
+        koc: [
+          { id: 'm7', name: '@科技小V', tags: ['KOC', '科技博主'] },
+          { id: 'm8', name: '@生活分享家', tags: ['KOC', '生活方式'] }
+        ]
+      },
+      mediaTagDrafts: { social: [], vertical: [], koc: [] }
     };
 
     const els = {
@@ -595,13 +782,10 @@
       topicList: document.getElementById('topicList'),
       topicEmpty: document.getElementById('topicEmpty'),
       refreshBtn: document.getElementById('refreshBtn'),
-      eventBrief: document.getElementById('eventBrief'),
-      accountSelection: document.getElementById('accountSelection'),
-      ratioPie: document.getElementById('ratioPie'),
-      ratioText: document.getElementById('ratioText'),
-      eventTimeline: document.getElementById('eventTimeline'),
-      exportPlanBtn: document.getElementById('exportPlanBtn'),
-      resetAccountsBtn: document.getElementById('resetAccountsBtn'),
+      exportMediaBtn: document.getElementById('exportMediaBtn'),
+      importMediaBtn: document.getElementById('importMediaBtn'),
+      importMediaInput: document.getElementById('importMediaInput'),
+      resetMediaBtn: document.getElementById('resetMediaBtn'),
       topicLastUpdated: document.getElementById('topicLastUpdated'),
       insightLastUpdated: document.getElementById('insightLastUpdated'),
       workflowLinkDaily: document.getElementById('workflowLinkDaily'),
@@ -863,140 +1047,185 @@
       `;
     }
 
-    // ========== 事件放大 ==========
+    // ========== 事件放大媒体库 ==========
     function renderEventAmplifier() {
-      const pb = state.playbook;
-      if (!pb) { els.eventBrief.innerHTML = '<div class="empty">暂无事件方案</div>'; return; }
-
-      els.eventBrief.innerHTML = `
-        <div class="detail-row">
-          <strong>${pb.topic} <span class="chip ${riskClass(pb.risk_level)}">${pb.risk_level}</span></strong>
-          <p>${pb.core_message}</p>
-        </div>
-        <div class="detail-row"><strong>事件类型 / 生命周期</strong><p>${pb.event_type} · ${pb.lifecycle}</p></div>
-        <div class="detail-row"><strong>目标人群</strong><p>核心：${pb.target_audience.core} · 扩散：${pb.target_audience.diffusion} · 媒体：${pb.target_audience.media}</p></div>
-        <div class="detail-row"><strong>预算估算</strong><p>¥${pb.budget_estimate.toLocaleString()} · ${JSON.stringify(pb.budget_breakdown).replace(/"/g, '').replace(/,/g, ' · ')}</p></div>
-      `;
-
-      renderAccountSelection(pb.media_mix);
-      renderRatio();
-      renderTimeline(pb.timeline);
+      renderMediaLibrary();
     }
 
-    function renderAccountSelection(mix) {
-      const sections = [
-        { key: 'social_media', label: '社会媒体（20%）', color: 'var(--primary)' },
-        { key: 'industry_vertical', label: '行业垂类（60%）', color: 'var(--accent)' },
-        { key: 'koc', label: 'KOC / UGC（20%）', color: 'var(--success)' }
-      ];
+    function renderMediaLibrary() {
+      const cols = ['social', 'vertical', 'koc'];
+      cols.forEach(col => {
+        const listEl = document.getElementById(`list-${col}`);
+        const countEl = document.getElementById(`count-${col}`);
+        if (!listEl || !countEl) return;
 
-      els.accountSelection.innerHTML = sections.map(sec => {
-        const group = mix[sec.key] || {};
-        const accounts = group.accounts || [];
-        return `
-          <div class="account-section">
-            <h3><span style="display:inline-block;width:10px;height:10px;border-radius:50%;background:${sec.color}"></span>${sec.label}</h3>
-            ${accounts.map(acc => `
-              <div class="account-card ${state.selectedAccounts.has(acc.account_id) ? 'selected' : ''}" data-id="${acc.account_id}">
-                <input type="checkbox" ${state.selectedAccounts.has(acc.account_id) ? 'checked' : ''} />
-                <div class="account-info">
-                  <div class="account-name">${acc.account_name} <span class="chip gray">${acc.platform}</span> <span class="chip ${riskClass(acc.risk_level)}">${acc.risk_level}</span></div>
-                  <div class="account-meta">粉丝 ${acc.followers} · 角色 ${acc.role} · 匹配分 ${acc.match_score} · 报价 ${acc.price} · ${acc.publish_time}</div>
-                  <div class="account-angle">角度：${acc.angle}</div>
-                </div>
+        const accounts = state.mediaLib[col] || [];
+        countEl.textContent = `${accounts.length} 个`;
+
+        if (accounts.length === 0) {
+          listEl.innerHTML = '<div class="media-empty"><strong>暂无账号</strong>在上方输入框添加账号与标签</div>';
+        } else {
+          listEl.innerHTML = accounts.map(acc => `
+            <div class="media-account" data-id="${acc.id}" data-col="${col}">
+              <div class="media-account-main">
+                <span class="media-account-name">${escapeHtml(acc.name)}</span>
+                <button class="media-account-delete" title="删除">×</button>
               </div>
-            `).join('')}
-          </div>
-        `;
-      }).join('');
+              <div class="media-account-tags">
+                ${acc.tags.map(tag => `<span class="chip" data-tag="${escapeHtml(tag)}">${escapeHtml(tag)}</span>`).join('')}
+              </div>
+            </div>
+          `).join('');
+        }
 
-      document.querySelectorAll('.account-card').forEach(card => {
-        card.addEventListener('click', (e) => {
-          if (e.target.tagName === 'INPUT') e.stopPropagation();
-          const id = card.dataset.id;
-          if (state.selectedAccounts.has(id)) state.selectedAccounts.delete(id);
-          else state.selectedAccounts.add(id);
-          renderAccountSelection(mix);
-          renderRatio();
+        // 渲染草稿标签
+        const colEl = document.querySelector(`.media-col[data-col="${col}"]`);
+        const tagWrap = colEl.querySelector('.media-tag-input-wrap');
+        const existingChips = tagWrap.querySelectorAll('.media-tag-chip');
+        existingChips.forEach(c => c.remove());
+        const tagInput = colEl.querySelector('.media-tag-input');
+        state.mediaTagDrafts[col].forEach(tag => {
+          const chip = document.createElement('span');
+          chip.className = 'media-tag-chip';
+          chip.innerHTML = `${escapeHtml(tag)} <span class="remove" data-tag="${escapeHtml(tag)}">×</span>`;
+          tagWrap.insertBefore(chip, tagInput);
         });
+      });
+
+      bindMediaLibraryEvents();
+    }
+
+    function bindMediaLibraryEvents() {
+      document.querySelectorAll('.media-add-btn').forEach(btn => {
+        btn.onclick = () => addMediaAccount(btn.dataset.col);
+      });
+
+      document.querySelectorAll('.media-name-input').forEach(input => {
+        input.onkeydown = (e) => { if (e.key === 'Enter') addMediaAccount(input.closest('.media-col').dataset.col); };
+      });
+
+      document.querySelectorAll('.media-tag-input').forEach(input => {
+        input.onkeydown = (e) => {
+          const col = input.closest('.media-col').dataset.col;
+          if (e.key === 'Enter' && input.value.trim()) {
+            e.preventDefault();
+            addTagDraft(col, input.value.trim());
+            input.value = '';
+          } else if (e.key === 'Backspace' && input.value === '' && state.mediaTagDrafts[col].length) {
+            state.mediaTagDrafts[col].pop();
+            renderMediaLibrary();
+          }
+        };
+      });
+
+      document.querySelectorAll('.media-suggestions span').forEach(span => {
+        span.onclick = () => {
+          const col = span.closest('.media-col').dataset.col;
+          addTagDraft(col, span.dataset.tag);
+        };
+      });
+
+      document.querySelectorAll('.media-tag-chip .remove').forEach(btn => {
+        btn.onclick = () => {
+          const col = btn.closest('.media-col').dataset.col;
+          removeTagDraft(col, btn.dataset.tag);
+        };
+      });
+
+      document.querySelectorAll('.media-account-delete').forEach(btn => {
+        btn.onclick = () => {
+          const card = btn.closest('.media-account');
+          deleteMediaAccount(card.dataset.col, card.dataset.id);
+        };
       });
     }
 
-    function renderRatio() {
-      const mix = state.playbook.media_mix;
-      const counts = { social_media: 0, industry_vertical: 0, koc: 0 };
-      let total = 0;
-      Object.keys(mix).forEach(key => {
-        mix[key].accounts.forEach(acc => {
-          if (state.selectedAccounts.has(acc.account_id)) {
-            counts[key]++;
-            total++;
-          }
-        });
-      });
+    function addMediaAccount(col) {
+      const colEl = document.querySelector(`.media-col[data-col="${col}"]`);
+      const nameInput = colEl.querySelector('.media-name-input');
+      const name = nameInput.value.trim();
+      if (!name) return;
 
-      const colors = { social_media: 'var(--primary)', industry_vertical: 'var(--accent)', koc: 'var(--success)' };
-      const labels = { social_media: '社会媒体', industry_vertical: '行业垂类', koc: 'KOC/UGC' };
-
-      if (total === 0) {
-        els.ratioPie.innerHTML = `<div style="width:100%;background:rgba(0,0,0,0.04);"></div>`;
-        els.ratioText.textContent = '尚未选择账号，请从下方勾选';
-        return;
+      const tags = [...state.mediaTagDrafts[col]];
+      if (tags.length === 0) {
+        // 未打标签时给一个默认标签
+        const defaults = { social: '社会媒体', vertical: '行业垂类', koc: 'KOC' };
+        tags.push(defaults[col]);
       }
 
-      els.ratioPie.innerHTML = Object.keys(counts).map(k =>
-        `<div class="ratio-segment" style="width:${(counts[k] / total * 100).toFixed(1)}%;background:${colors[k]}"></div>`
-      ).join('');
-
-      els.ratioText.innerHTML = Object.keys(counts).map(k =>
-        `${labels[k]} ${counts[k]} 个 (${(counts[k] / total * 100).toFixed(0)}%)`
-      ).join(' · ');
-    }
-
-    function renderTimeline(timeline) {
-      els.eventTimeline.innerHTML = Object.entries(timeline).map(([phase, items]) => `
-        <div class="timeline-item">
-          <h4>${phase}</h4>
-          ${items.map(i => `<p>• ${i}</p>`).join('')}
-        </div>
-      `).join('');
-    }
-
-    function exportPlan() {
-      const pb = state.playbook;
-      const selected = [];
-      Object.values(pb.media_mix).forEach(group => {
-        group.accounts.forEach(acc => {
-          if (state.selectedAccounts.has(acc.account_id)) selected.push(acc);
-        });
+      state.mediaLib[col].push({
+        id: 'm' + Date.now() + Math.random().toString(36).slice(2, 7),
+        name,
+        tags
       });
-      const briefs = (pb.content_briefs || []).filter(b => state.selectedAccounts.has(b.account_id));
 
-      const md = `# ${pb.topic} · 事件放大方案
+      nameInput.value = '';
+      state.mediaTagDrafts[col] = [];
+      renderMediaLibrary();
+    }
 
-## 事件诊断
-- 事件类型：${pb.event_type}
-- 风险等级：${pb.risk_level}
-- 生命周期：${pb.lifecycle}
-- 核心信息：${pb.core_message}
+    function deleteMediaAccount(col, id) {
+      state.mediaLib[col] = state.mediaLib[col].filter(a => a.id !== id);
+      renderMediaLibrary();
+    }
 
-## 已选账号（${selected.length} 个）
-| 类型 | 账号 | 平台 | 角色 | 匹配分 | 发布时间 | 报价 |
-|---|---|---|---|---|---|---|
-${selected.map(a => `| ${a.account_id.startsWith('SM') ? '社会媒体' : a.account_id.startsWith('IND') ? '行业垂类' : 'KOC'} | ${a.account_name} | ${a.platform} | ${a.role} | ${a.match_score} | ${a.publish_time} | ${a.price} |`).join('\n')}
+    function addTagDraft(col, tag) {
+      tag = tag.trim();
+      if (!tag) return;
+      if (!state.mediaTagDrafts[col].includes(tag)) state.mediaTagDrafts[col].push(tag);
+      renderMediaLibrary();
+      const colEl = document.querySelector(`.media-col[data-col="${col}"]`);
+      if (colEl) colEl.querySelector('.media-tag-input').focus();
+    }
 
-## 内容角度
-${briefs.map(b => `- **${b.account_name}**：${b.angle}\n  - 关键信息：${(b.key_messages || []).join('；')}\n  - 风险：${(b.risks || []).join('、')}`).join('\n')}
+    function removeTagDraft(col, tag) {
+      state.mediaTagDrafts[col] = state.mediaTagDrafts[col].filter(t => t !== tag);
+      renderMediaLibrary();
+    }
 
-## 预算估算
-- 总预算：¥${pb.budget_estimate.toLocaleString()}
-- 明细：${JSON.stringify(pb.budget_breakdown).replace(/"/g, '').replace(/,/g, ' · ')}
+    function exportMediaLibrary() {
+      const data = {
+        version: 1,
+        exportedAt: new Date().toISOString(),
+        mediaLib: state.mediaLib
+      };
+      const blob = new Blob([JSON.stringify(data, null, 2)], { type: 'application/json' });
+      const url = URL.createObjectURL(blob);
+      const a = document.createElement('a');
+      a.href = url;
+      a.download = `事件放大媒体库_${new Date().toISOString().slice(0, 10)}.json`;
+      document.body.appendChild(a);
+      a.click();
+      setTimeout(() => { document.body.removeChild(a); URL.revokeObjectURL(url); }, 100);
+    }
 
-## 监测指标
-${JSON.stringify(pb.success_metrics).replace(/"/g, '').replace(/,/g, '\n- ').replace(/\{/g, '').replace(/\}/g, '')}
-`;
+    function importMediaLibrary(file) {
+      if (!file) return;
+      const reader = new FileReader();
+      reader.onload = (e) => {
+        try {
+          const data = JSON.parse(e.target.result);
+          if (data && data.mediaLib && typeof data.mediaLib === 'object') {
+            ['social', 'vertical', 'koc'].forEach(col => {
+              if (Array.isArray(data.mediaLib[col])) state.mediaLib[col] = data.mediaLib[col];
+            });
+            renderMediaLibrary();
+            alert('媒体库导入成功');
+          } else {
+            alert('文件格式不正确');
+          }
+        } catch (err) {
+          alert('JSON 解析失败：' + err.message);
+        }
+      };
+      reader.readAsText(file);
+    }
 
-      navigator.clipboard.writeText(md).then(() => alert('方案已复制到剪贴板'));
+    function resetMediaLibrary() {
+      if (!confirm('确定清空所有媒体账号吗？')) return;
+      state.mediaLib = { social: [], vertical: [], koc: [] };
+      state.mediaTagDrafts = { social: [], vertical: [], koc: [] };
+      renderMediaLibrary();
     }
 
     // ========== 配置中心 ==========
@@ -1080,8 +1309,10 @@ ${JSON.stringify(pb.success_metrics).replace(/"/g, '').replace(/,/g, '\n- ').rep
     els.prioritySelect.addEventListener('change', e => { state.filterPriority = e.target.value; renderTopics(); });
     els.searchInput.addEventListener('input', e => { state.search = e.target.value.trim(); renderTopics(); });
     els.refreshBtn.addEventListener('click', loadAll);
-    els.exportPlanBtn.addEventListener('click', exportPlan);
-    els.resetAccountsBtn.addEventListener('click', () => { state.selectedAccounts.clear(); renderEventAmplifier(); });
+    els.exportMediaBtn && els.exportMediaBtn.addEventListener('click', exportMediaLibrary);
+    els.importMediaBtn && els.importMediaBtn.addEventListener('click', () => els.importMediaInput.click());
+    els.importMediaInput && els.importMediaInput.addEventListener('change', e => { importMediaLibrary(e.target.files[0]); e.target.value = ''; });
+    els.resetMediaBtn && els.resetMediaBtn.addEventListener('click', resetMediaLibrary);
 
     loadAll();
   </script>
