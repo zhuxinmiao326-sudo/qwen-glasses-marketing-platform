@@ -1,6 +1,6 @@
 {
-  "date": "2026-10-12",
-  "updatedAt": "2026-10-12T07:03:58Z",
+  "date": "2026-10-13",
+  "updatedAt": "2026-10-13T07:28:26Z",
   "sources": [
     {
       "name": "头条热榜",
@@ -17,43 +17,43 @@
   ],
   "a_ride_hot_topics": [
     {
-      "topic_name": "央视曝投资1.2亿项目仅建5个棚",
+      "topic_name": "79岁老干妈陶华碧用AI一年赚了54亿",
       "platform": "头条热榜",
-      "heat_score": 93.3,
-      "relevance_score": 15,
+      "heat_score": 98.1,
+      "relevance_score": 37,
       "safety_score": 95,
-      "timeliness_score": 94.1,
-      "creativity_score": 55,
-      "ride_score": 76.2,
-      "create_score": 56.7,
+      "timeliness_score": 94.7,
+      "creativity_score": 65,
+      "ride_score": 82.9,
+      "create_score": 67.7,
       "priority": "A",
-      "priority_reason": "【财经/商业】品牌相关度较好，适合借势跟进（综合分76.2）",
-      "explode_time": "2026-10-12 07:03",
+      "priority_reason": "【科技/AI】品牌相关度较好，适合借势跟进（综合分82.9）",
+      "explode_time": "2026-10-13 11:28",
       "lifecycle": "峰值期",
       "remaining_window": "预计持续1-3天",
-      "core_emotion": "对经济/商业动态的关注与焦虑",
+      "core_emotion": "对新技术的好奇与讨论热情",
       "product_hook": "AI眼镜多模态能力",
       "entry_angles": [
-        "热点POV：用第一视角走进「央视曝投资1.2亿项目仅建5个棚」的真实场景",
-        "轻互动：邀请用户用眼镜完成与「央视曝投资1.2亿项目仅建5个棚」相关的小任务"
+        "热点POV：用第一视角走进「79岁老干妈陶华碧用AI一年赚了54亿」的真实场景",
+        "轻互动：邀请用户用眼镜完成与「79岁老干妈陶华碧用AI一年赚了54亿」相关的小任务"
       ],
       "target_audience": {
-        "core": "财经/商业人群",
-        "diffusion": "职场白领",
-        "bystander": "关注经济的大众"
+        "core": "科技 early adopters",
+        "diffusion": "AI/互联网从业者",
+        "bystander": "关注科技趋势的大众"
       },
       "trigger_scene": "刷到该热点或身处相关场景时，想快速了解/记录/互动",
-      "content_format": "主：口播解读；衍：图文早报+数据可视化",
-      "recommended_creator_type": "财经垂类KOL 1位 + 职场KOC 2位",
-      "publish_window": "T+0 08:00-10:00",
-      "production_cycle": "半天",
+      "content_format": "主：知乎长图文/B站深度解读；衍：抖音切片",
+      "recommended_creator_type": "科技垂类KOL 2位 + 知乎答主 1位",
+      "publish_window": "T+1 10:00-12:00",
+      "production_cycle": "一天",
       "budget_level": "中",
-      "estimated_cpm": 36,
-      "estimated_cpe": 1.6,
+      "estimated_cpm": 28,
+      "estimated_cpe": 1.5,
       "risks": [
         "避免过度夸张产品能力",
         "内容发布前需品牌/合规审核",
-        "避免投资建议或夸大经济影响"
+        "技术表述需准确，避免攻击竞品"
       ],
       "reference_hooks": [
         "这个热点，我用眼镜跟了",
@@ -61,32 +61,32 @@
         "眼镜里的世界原来可以这样"
       ],
       "similar_historical_case": {
-        "case": "晨间财经早报",
-        "roi": 2.5,
-        "note": "财经内容适合早间时段发布"
+        "case": "千问发布会解读",
+        "roi": 3.8,
+        "note": "技术向内容适合B站/知乎长图文"
       },
       "rank": 1
     },
     {
-      "topic_name": "“中国天眼”发现真实宇宙三体世界",
+      "topic_name": "3人死刑！缅北魏家犯罪集团案宣判",
       "platform": "头条热榜",
       "heat_score": 100.0,
       "relevance_score": 8,
       "safety_score": 95,
-      "timeliness_score": 89.8,
+      "timeliness_score": 94.8,
       "creativity_score": 50,
-      "ride_score": 76.1,
-      "create_score": 53.8,
+      "ride_score": 77.1,
+      "create_score": 54.0,
       "priority": "A",
-      "priority_reason": "【其他】品牌相关度较好，适合借势跟进（综合分76.1）",
-      "explode_time": "2026-10-12 12:03",
+      "priority_reason": "【其他】品牌相关度较好，适合借势跟进（综合分77.1）",
+      "explode_time": "2026-10-13 12:28",
       "lifecycle": "峰值期",
       "remaining_window": "预计持续1-3天",
       "core_emotion": "用户对该话题的讨论兴趣",
       "product_hook": "AI眼镜多模态能力",
       "entry_angles": [
-        "热点POV：用第一视角走进「“中国天眼”发现真实宇宙三体世界」的真实场景",
-        "轻互动：邀请用户用眼镜完成与「“中国天眼”发现真实宇宙三体世界」相关的小任务"
+        "热点POV：用第一视角走进「3人死刑！缅北魏家犯罪集团案宣判」的真实场景",
+        "轻互动：邀请用户用眼镜完成与「3人死刑！缅北魏家犯罪集团案宣判」相关的小任务"
       ],
       "target_audience": {
         "core": "科技爱好者",
@@ -114,25 +114,25 @@
       "rank": 2
     },
     {
-      "topic_name": "郑钦文3年商业收入追平李娜整个生涯",
+      "topic_name": "你我的长征",
       "platform": "头条热榜",
-      "heat_score": 98.7,
+      "heat_score": 96.3,
       "relevance_score": 8,
       "safety_score": 95,
-      "timeliness_score": 89.7,
+      "timeliness_score": 94.5,
       "creativity_score": 50,
-      "ride_score": 75.6,
-      "create_score": 53.6,
+      "ride_score": 75.7,
+      "create_score": 53.5,
       "priority": "A",
-      "priority_reason": "【其他】品牌相关度较好，适合借势跟进（综合分75.6）",
-      "explode_time": "2026-10-12 11:03",
+      "priority_reason": "【其他】品牌相关度较好，适合借势跟进（综合分75.7）",
+      "explode_time": "2026-10-13 10:28",
       "lifecycle": "峰值期",
       "remaining_window": "预计持续1-3天",
       "core_emotion": "用户对该话题的讨论兴趣",
       "product_hook": "AI眼镜多模态能力",
       "entry_angles": [
-        "热点POV：用第一视角走进「郑钦文3年商业收入追平李娜整个生涯」的真实场景",
-        "轻互动：邀请用户用眼镜完成与「郑钦文3年商业收入追平李娜整个生涯」相关的小任务"
+        "热点POV：用第一视角走进「你我的长征」的真实场景",
+        "轻互动：邀请用户用眼镜完成与「你我的长征」相关的小任务"
       ],
       "target_audience": {
         "core": "科技爱好者",
@@ -160,25 +160,25 @@
       "rank": 3
     },
     {
-      "topic_name": "电车散发恶臭送修拆开底板掉出死狗",
+      "topic_name": "缅北四大家族覆灭时间线",
       "platform": "头条热榜",
-      "heat_score": 96.0,
+      "heat_score": 94.4,
       "relevance_score": 8,
       "safety_score": 95,
       "timeliness_score": 94.4,
       "creativity_score": 50,
-      "ride_score": 75.6,
-      "create_score": 53.4,
+      "ride_score": 75.0,
+      "create_score": 53.2,
       "priority": "A",
-      "priority_reason": "【其他】品牌相关度较好，适合借势跟进（综合分75.6）",
-      "explode_time": "2026-10-12 09:03",
+      "priority_reason": "【其他】品牌相关度较好，适合借势跟进（综合分75.0）",
+      "explode_time": "2026-10-13 09:28",
       "lifecycle": "峰值期",
       "remaining_window": "预计持续1-3天",
       "core_emotion": "用户对该话题的讨论兴趣",
       "product_hook": "AI眼镜多模态能力",
       "entry_angles": [
-        "热点POV：用第一视角走进「电车散发恶臭送修拆开底板掉出死狗」的真实场景",
-        "轻互动：邀请用户用眼镜完成与「电车散发恶臭送修拆开底板掉出死狗」相关的小任务"
+        "热点POV：用第一视角走进「缅北四大家族覆灭时间线」的真实场景",
+        "轻互动：邀请用户用眼镜完成与「缅北四大家族覆灭时间线」相关的小任务"
       ],
       "target_audience": {
         "core": "科技爱好者",
@@ -206,25 +206,25 @@
       "rank": 4
     },
     {
-      "topic_name": "文物里的长征故事",
+      "topic_name": "央视曝光大棚闲置后当地连夜开会",
       "platform": "头条热榜",
-      "heat_score": 97.3,
+      "heat_score": 92.5,
       "relevance_score": 8,
       "safety_score": 95,
-      "timeliness_score": 89.5,
+      "timeliness_score": 94.2,
       "creativity_score": 50,
-      "ride_score": 75.1,
-      "create_score": 53.4,
+      "ride_score": 74.3,
+      "create_score": 52.9,
       "priority": "A",
-      "priority_reason": "【其他】品牌相关度较好，适合借势跟进（综合分75.1）",
-      "explode_time": "2026-10-12 10:03",
+      "priority_reason": "【其他】品牌相关度较好，适合借势跟进（综合分74.3）",
+      "explode_time": "2026-10-13 08:28",
       "lifecycle": "峰值期",
       "remaining_window": "预计持续1-3天",
       "core_emotion": "用户对该话题的讨论兴趣",
       "product_hook": "AI眼镜多模态能力",
       "entry_angles": [
-        "热点POV：用第一视角走进「文物里的长征故事」的真实场景",
-        "轻互动：邀请用户用眼镜完成与「文物里的长征故事」相关的小任务"
+        "热点POV：用第一视角走进「央视曝光大棚闲置后当地连夜开会」的真实场景",
+        "轻互动：邀请用户用眼镜完成与「央视曝光大棚闲置后当地连夜开会」相关的小任务"
       ],
       "target_audience": {
         "core": "科技爱好者",
@@ -252,25 +252,25 @@
       "rank": 5
     },
     {
-      "topic_name": "记者暗访有偿陪伴服务",
+      "topic_name": "华熙生物原首席科学家郭学平病逝",
       "platform": "头条热榜",
-      "heat_score": 94.6,
+      "heat_score": 90.6,
       "relevance_score": 8,
       "safety_score": 95,
-      "timeliness_score": 94.2,
+      "timeliness_score": 94.1,
       "creativity_score": 50,
-      "ride_score": 75.0,
-      "create_score": 53.2,
+      "ride_score": 73.6,
+      "create_score": 52.6,
       "priority": "A",
-      "priority_reason": "【其他】品牌相关度较好，适合借势跟进（综合分75.0）",
-      "explode_time": "2026-10-12 08:03",
+      "priority_reason": "【其他】品牌相关度较好，适合借势跟进（综合分73.6）",
+      "explode_time": "2026-10-13 07:28",
       "lifecycle": "峰值期",
       "remaining_window": "预计持续1-3天",
       "core_emotion": "用户对该话题的讨论兴趣",
       "product_hook": "AI眼镜多模态能力",
       "entry_angles": [
-        "热点POV：用第一视角走进「记者暗访有偿陪伴服务」的真实场景",
-        "轻互动：邀请用户用眼镜完成与「记者暗访有偿陪伴服务」相关的小任务"
+        "热点POV：用第一视角走进「华熙生物原首席科学家郭学平病逝」的真实场景",
+        "轻互动：邀请用户用眼镜完成与「华熙生物原首席科学家郭学平病逝」相关的小任务"
       ],
       "target_audience": {
         "core": "科技爱好者",
@@ -298,43 +298,43 @@
       "rank": 6
     },
     {
-      "topic_name": "霸王茶姬店员劝退消费者",
-      "platform": "头条热榜",
-      "heat_score": 87.9,
-      "relevance_score": 15,
+      "topic_name": "孩子越来越笨 AI正在惩罚下一代",
+      "platform": "百度热搜",
+      "heat_score": 74.1,
+      "relevance_score": 37,
       "safety_score": 95,
-      "timeliness_score": 93.5,
-      "creativity_score": 55,
-      "ride_score": 74.2,
-      "create_score": 55.9,
+      "timeliness_score": 87.8,
+      "creativity_score": 65,
+      "ride_score": 73.1,
+      "create_score": 63.7,
       "priority": "A",
-      "priority_reason": "【财经/商业】品牌相关度较好，适合借势跟进（综合分74.2）",
-      "explode_time": "2026-10-12 03:03",
-      "lifecycle": "上升期",
+      "priority_reason": "【科技/AI】品牌相关度较好，适合借势跟进（综合分73.1）",
+      "explode_time": "2026-10-12 22:28",
+      "lifecycle": "延续期",
       "remaining_window": "预计持续1-3天",
-      "core_emotion": "对经济/商业动态的关注与焦虑",
+      "core_emotion": "对新技术的好奇与讨论热情",
       "product_hook": "AI眼镜多模态能力",
       "entry_angles": [
-        "热点POV：用第一视角走进「霸王茶姬店员劝退消费者」的真实场景",
-        "轻互动：邀请用户用眼镜完成与「霸王茶姬店员劝退消费者」相关的小任务"
+        "热点POV：用第一视角走进「孩子越来越笨 AI正在惩罚下一代」的真实场景",
+        "轻互动：邀请用户用眼镜完成与「孩子越来越笨 AI正在惩罚下一代」相关的小任务"
       ],
       "target_audience": {
-        "core": "财经/商业人群",
-        "diffusion": "职场白领",
-        "bystander": "关注经济的大众"
+        "core": "科技 early adopters",
+        "diffusion": "AI/互联网从业者",
+        "bystander": "关注科技趋势的大众"
       },
       "trigger_scene": "刷到该热点或身处相关场景时，想快速了解/记录/互动",
-      "content_format": "主：口播解读；衍：图文早报+数据可视化",
-      "recommended_creator_type": "财经垂类KOL 1位 + 职场KOC 2位",
-      "publish_window": "T+0 08:00-10:00",
-      "production_cycle": "半天",
+      "content_format": "主：知乎长图文/B站深度解读；衍：抖音切片",
+      "recommended_creator_type": "科技垂类KOL 2位 + 知乎答主 1位",
+      "publish_window": "T+1 10:00-12:00",
+      "production_cycle": "一天",
       "budget_level": "中",
-      "estimated_cpm": 36,
-      "estimated_cpe": 1.6,
+      "estimated_cpm": 28,
+      "estimated_cpe": 1.5,
       "risks": [
         "避免过度夸张产品能力",
         "内容发布前需品牌/合规审核",
-        "避免投资建议或夸大经济影响"
+        "技术表述需准确，避免攻击竞品"
       ],
       "reference_hooks": [
         "这个热点，我用眼镜跟了",
@@ -342,32 +342,32 @@
         "眼镜里的世界原来可以这样"
       ],
       "similar_historical_case": {
-        "case": "晨间财经早报",
-        "roi": 2.5,
-        "note": "财经内容适合早间时段发布"
+        "case": "千问发布会解读",
+        "roi": 3.8,
+        "note": "技术向内容适合B站/知乎长图文"
       },
       "rank": 7
     },
     {
-      "topic_name": "郑钦文因伤退出武网",
+      "topic_name": "俄外长称泽连斯基不配有喘息之机",
       "platform": "头条热榜",
-      "heat_score": 91.9,
+      "heat_score": 86.9,
       "relevance_score": 8,
       "safety_score": 95,
-      "timeliness_score": 94.0,
+      "timeliness_score": 93.8,
       "creativity_score": 50,
-      "ride_score": 74.1,
-      "create_score": 52.8,
+      "ride_score": 72.3,
+      "create_score": 52.0,
       "priority": "A",
-      "priority_reason": "【其他】品牌相关度较好，适合借势跟进（综合分74.1）",
-      "explode_time": "2026-10-12 06:03",
-      "lifecycle": "峰值期",
+      "priority_reason": "【其他】品牌相关度较好，适合借势跟进（综合分72.3）",
+      "explode_time": "2026-10-13 05:28",
+      "lifecycle": "上升期",
       "remaining_window": "预计持续1-3天",
       "core_emotion": "用户对该话题的讨论兴趣",
       "product_hook": "AI眼镜多模态能力",
       "entry_angles": [
-        "热点POV：用第一视角走进「郑钦文因伤退出武网」的真实场景",
-        "轻互动：邀请用户用眼镜完成与「郑钦文因伤退出武网」相关的小任务"
+        "热点POV：用第一视角走进「俄外长称泽连斯基不配有喘息之机」的真实场景",
+        "轻互动：邀请用户用眼镜完成与「俄外长称泽连斯基不配有喘息之机」相关的小任务"
       ],
       "target_audience": {
         "core": "科技爱好者",
@@ -395,25 +395,25 @@
       "rank": 8
     },
     {
-      "topic_name": "控糖的“最小有效时间”找到了",
+      "topic_name": "24岁女吃播猝死 或因缺钾",
       "platform": "头条热榜",
-      "heat_score": 90.6,
+      "heat_score": 85.0,
       "relevance_score": 8,
       "safety_score": 95,
-      "timeliness_score": 93.8,
+      "timeliness_score": 93.7,
       "creativity_score": 50,
-      "ride_score": 73.6,
-      "create_score": 52.6,
+      "ride_score": 71.6,
+      "create_score": 51.7,
       "priority": "A",
-      "priority_reason": "【其他】品牌相关度较好，适合借势跟进（综合分73.6）",
-      "explode_time": "2026-10-12 05:03",
-      "lifecycle": "峰值期",
+      "priority_reason": "【其他】品牌相关度较好，适合借势跟进（综合分71.6）",
+      "explode_time": "2026-10-13 04:28",
+      "lifecycle": "上升期",
       "remaining_window": "预计持续1-3天",
       "core_emotion": "用户对该话题的讨论兴趣",
       "product_hook": "AI眼镜多模态能力",
       "entry_angles": [
-        "热点POV：用第一视角走进「控糖的“最小有效时间”找到了」的真实场景",
-        "轻互动：邀请用户用眼镜完成与「控糖的“最小有效时间”找到了」相关的小任务"
+        "热点POV：用第一视角走进「24岁女吃播猝死 或因缺钾」的真实场景",
+        "轻互动：邀请用户用眼镜完成与「24岁女吃播猝死 或因缺钾」相关的小任务"
       ],
       "target_audience": {
         "core": "科技爱好者",
@@ -441,25 +441,25 @@
       "rank": 9
     },
     {
-      "topic_name": "媒体人谈央视曝光农业大棚被撂荒",
+      "topic_name": "缅北魏家犯罪集团覆灭始末",
       "platform": "头条热榜",
-      "heat_score": 89.2,
+      "heat_score": 83.1,
       "relevance_score": 8,
       "safety_score": 95,
-      "timeliness_score": 93.7,
+      "timeliness_score": 93.5,
       "creativity_score": 50,
-      "ride_score": 73.1,
-      "create_score": 52.4,
+      "ride_score": 70.9,
+      "create_score": 51.4,
       "priority": "A",
-      "priority_reason": "【其他】品牌相关度较好，适合借势跟进（综合分73.1）",
-      "explode_time": "2026-10-12 04:03",
+      "priority_reason": "【其他】品牌相关度较好，适合借势跟进（综合分70.9）",
+      "explode_time": "2026-10-13 03:28",
       "lifecycle": "上升期",
       "remaining_window": "预计持续1-3天",
       "core_emotion": "用户对该话题的讨论兴趣",
       "product_hook": "AI眼镜多模态能力",
       "entry_angles": [
-        "热点POV：用第一视角走进「媒体人谈央视曝光农业大棚被撂荒」的真实场景",
-        "轻互动：邀请用户用眼镜完成与「媒体人谈央视曝光农业大棚被撂荒」相关的小任务"
+        "热点POV：用第一视角走进「缅北魏家犯罪集团覆灭始末」的真实场景",
+        "轻互动：邀请用户用眼镜完成与「缅北魏家犯罪集团覆灭始末」相关的小任务"
       ],
       "target_audience": {
         "core": "科技爱好者",
@@ -551,7 +551,7 @@
         "避开特殊群体",
         "城市选择需有代表性"
       ],
-      "id": "2026-10-12-B001",
+      "id": "2026-10-13-B001",
       "heat_score": 68,
       "relevance_score": 82,
       "safety_score": 87,
@@ -622,7 +622,7 @@
         "避免影射具体公司文化",
         "不要强化职场对立情绪"
       ],
-      "id": "2026-10-12-B002",
+      "id": "2026-10-13-B002",
       "heat_score": 71,
       "relevance_score": 84,
       "safety_score": 86,
@@ -695,7 +695,7 @@
         "注意用户隐私与内容审核",
         "避免过度浪漫化陌生人社交风险"
       ],
-      "id": "2026-10-12-B003",
+      "id": "2026-10-13-B003",
       "heat_score": 74,
       "relevance_score": 86,
       "safety_score": 85,
