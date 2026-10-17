@@ -1,6 +1,6 @@
 {
-  "date": "2026-10-16",
-  "updatedAt": "2026-10-16T05:35:23Z",
+  "date": "2026-10-17",
+  "updatedAt": "2026-10-17T05:23:37Z",
   "sources": [
     {
       "name": "头条热榜",
@@ -17,25 +17,25 @@
   ],
   "a_ride_hot_topics": [
     {
-      "topic_name": "飞行汽车距离普通人生活还有多远",
+      "topic_name": "妈妈将大一儿子生活费从4000降至2000",
       "platform": "头条热榜",
-      "heat_score": 93.5,
+      "heat_score": 88.3,
       "relevance_score": 18,
       "safety_score": 98,
-      "timeliness_score": 94.4,
+      "timeliness_score": 93.8,
       "creativity_score": 90,
-      "ride_score": 79.3,
-      "create_score": 67.1,
+      "ride_score": 77.4,
+      "create_score": 66.3,
       "priority": "A",
-      "priority_reason": "【生活/社会】品牌相关度较好，适合借势跟进（综合分79.3）",
-      "explode_time": "2026-10-16 07:35",
-      "lifecycle": "峰值期",
+      "priority_reason": "【生活/社会】品牌相关度较好，适合借势跟进（综合分77.4）",
+      "explode_time": "2026-10-17 03:23",
+      "lifecycle": "上升期",
       "remaining_window": "预计持续1-3天",
       "core_emotion": "对生活温度与社会话题的共鸣",
       "product_hook": "AI眼镜多模态能力",
       "entry_angles": [
-        "热点POV：用第一视角走进「飞行汽车距离普通人生活还有多远」的真实场景",
-        "轻互动：邀请用户用眼镜完成与「飞行汽车距离普通人生活还有多远」相关的小任务"
+        "热点POV：用第一视角走进「妈妈将大一儿子生活费从4000降至2000」的真实场景",
+        "轻互动：邀请用户用眼镜完成与「妈妈将大一儿子生活费从4000降至2000」相关的小任务"
       ],
       "target_audience": {
         "core": "生活方式爱好者",
@@ -68,7 +68,7 @@
       "rank": 1
     },
     {
-      "topic_name": "美国肯德基将改用可口可乐",
+      "topic_name": "92%在岗班主任不愿继续干了",
       "platform": "头条热榜",
       "heat_score": 100.0,
       "relevance_score": 8,
@@ -79,14 +79,14 @@
       "create_score": 54.0,
       "priority": "A",
       "priority_reason": "【其他】品牌相关度较好，适合借势跟进（综合分77.1）",
-      "explode_time": "2026-10-16 10:35",
+      "explode_time": "2026-10-17 10:23",
       "lifecycle": "峰值期",
       "remaining_window": "预计持续1-3天",
       "core_emotion": "用户对该话题的讨论兴趣",
       "product_hook": "AI眼镜多模态能力",
       "entry_angles": [
-        "热点POV：用第一视角走进「美国肯德基将改用可口可乐」的真实场景",
-        "轻互动：邀请用户用眼镜完成与「美国肯德基将改用可口可乐」相关的小任务"
+        "热点POV：用第一视角走进「92%在岗班主任不愿继续干了」的真实场景",
+        "轻互动：邀请用户用眼镜完成与「92%在岗班主任不愿继续干了」相关的小任务"
       ],
       "target_audience": {
         "core": "科技爱好者",
@@ -114,76 +114,71 @@
       "rank": 2
     },
     {
-      "topic_name": "周鸿祎谈老干妈用AI一年赚54亿",
+      "topic_name": "大陆交换生因一张照片遭民进党驱逐",
       "platform": "头条热榜",
-      "heat_score": 80.6,
-      "relevance_score": 37,
+      "heat_score": 98.3,
+      "relevance_score": 8,
       "safety_score": 95,
-      "timeliness_score": 93.2,
-      "creativity_score": 65,
-      "ride_score": 76.5,
-      "create_score": 65.0,
+      "timeliness_score": 94.7,
+      "creativity_score": 50,
+      "ride_score": 76.4,
+      "create_score": 53.8,
       "priority": "A",
-      "priority_reason": "【科技/AI】品牌相关度较好，适合借势跟进（综合分76.5）",
-      "explode_time": "2026-10-15 23:35",
-      "lifecycle": "上升期",
+      "priority_reason": "【其他】品牌相关度较好，适合借势跟进（综合分76.4）",
+      "explode_time": "2026-10-17 09:23",
+      "lifecycle": "峰值期",
       "remaining_window": "预计持续1-3天",
-      "core_emotion": "对新技术的好奇与讨论热情",
+      "core_emotion": "用户对该话题的讨论兴趣",
       "product_hook": "AI眼镜多模态能力",
       "entry_angles": [
-        "热点POV：用第一视角走进「周鸿祎谈老干妈用AI一年赚54亿」的真实场景",
-        "轻互动：邀请用户用眼镜完成与「周鸿祎谈老干妈用AI一年赚54亿」相关的小任务"
+        "热点POV：用第一视角走进「大陆交换生因一张照片遭民进党驱逐」的真实场景",
+        "轻互动：邀请用户用眼镜完成与「大陆交换生因一张照片遭民进党驱逐」相关的小任务"
       ],
       "target_audience": {
-        "core": "科技 early adopters",
-        "diffusion": "AI/互联网从业者",
-        "bystander": "关注科技趋势的大众"
+        "core": "科技爱好者",
+        "diffusion": "都市白领",
+        "bystander": "大众"
       },
       "trigger_scene": "刷到该热点或身处相关场景时，想快速了解/记录/互动",
-      "content_format": "主：知乎长图文/B站深度解读；衍：抖音切片",
-      "recommended_creator_type": "科技垂类KOL 2位 + 知乎答主 1位",
-      "publish_window": "T+1 10:00-12:00",
-      "production_cycle": "一天",
-      "budget_level": "中",
-      "estimated_cpm": 28,
-      "estimated_cpe": 1.5,
+      "content_format": "主：15-30s短视频；衍：图文笔记",
+      "recommended_creator_type": "生活方式KOC 2-3位",
+      "publish_window": "T+0 12:00-14:00",
+      "production_cycle": "半天",
+      "budget_level": "低",
+      "estimated_cpm": 40,
+      "estimated_cpe": 1.8,
       "risks": [
         "避免过度夸张产品能力",
-        "内容发布前需品牌/合规审核",
-        "技术表述需准确，避免攻击竞品"
+        "内容发布前需品牌/合规审核"
       ],
       "reference_hooks": [
         "这个热点，我用眼镜跟了",
         "换个视角看这件事",
         "眼镜里的世界原来可以这样"
       ],
-      "similar_historical_case": {
-        "case": "千问发布会解读",
-        "roi": 3.8,
-        "note": "技术向内容适合B站/知乎长图文"
-      },
+      "similar_historical_case": null,
       "rank": 3
     },
     {
-      "topic_name": "美媒：中国造出了美国人喜欢的车",
+      "topic_name": "第九届进博会多项数据创历年新高",
       "platform": "头条热榜",
-      "heat_score": 97.8,
+      "heat_score": 96.7,
       "relevance_score": 8,
       "safety_score": 95,
-      "timeliness_score": 94.7,
+      "timeliness_score": 94.5,
       "creativity_score": 50,
-      "ride_score": 76.3,
-      "create_score": 53.7,
+      "ride_score": 75.8,
+      "create_score": 53.5,
       "priority": "A",
-      "priority_reason": "【其他】品牌相关度较好，适合借势跟进（综合分76.3）",
-      "explode_time": "2026-10-16 09:35",
+      "priority_reason": "【其他】品牌相关度较好，适合借势跟进（综合分75.8）",
+      "explode_time": "2026-10-17 08:23",
       "lifecycle": "峰值期",
       "remaining_window": "预计持续1-3天",
       "core_emotion": "用户对该话题的讨论兴趣",
       "product_hook": "AI眼镜多模态能力",
       "entry_angles": [
-        "热点POV：用第一视角走进「美媒：中国造出了美国人喜欢的车」的真实场景",
-        "轻互动：邀请用户用眼镜完成与「美媒：中国造出了美国人喜欢的车」相关的小任务"
+        "热点POV：用第一视角走进「第九届进博会多项数据创历年新高」的真实场景",
+        "轻互动：邀请用户用眼镜完成与「第九届进博会多项数据创历年新高」相关的小任务"
       ],
       "target_audience": {
         "core": "科技爱好者",
@@ -211,25 +206,25 @@
       "rank": 4
     },
     {
-      "topic_name": "9件文物里的长征记忆",
+      "topic_name": "特朗普宣布暂缓实施新一轮对俄制裁",
       "platform": "头条热榜",
-      "heat_score": 95.7,
+      "heat_score": 95.0,
       "relevance_score": 8,
       "safety_score": 95,
-      "timeliness_score": 94.5,
+      "timeliness_score": 94.4,
       "creativity_score": 50,
-      "ride_score": 75.5,
-      "create_score": 53.4,
+      "ride_score": 75.2,
+      "create_score": 53.3,
       "priority": "A",
-      "priority_reason": "【其他】品牌相关度较好，适合借势跟进（综合分75.5）",
-      "explode_time": "2026-10-16 08:35",
+      "priority_reason": "【其他】品牌相关度较好，适合借势跟进（综合分75.2）",
+      "explode_time": "2026-10-17 07:23",
       "lifecycle": "峰值期",
       "remaining_window": "预计持续1-3天",
       "core_emotion": "用户对该话题的讨论兴趣",
       "product_hook": "AI眼镜多模态能力",
       "entry_angles": [
-        "热点POV：用第一视角走进「9件文物里的长征记忆」的真实场景",
-        "轻互动：邀请用户用眼镜完成与「9件文物里的长征记忆」相关的小任务"
+        "热点POV：用第一视角走进「特朗普宣布暂缓实施新一轮对俄制裁」的真实场景",
+        "轻互动：邀请用户用眼镜完成与「特朗普宣布暂缓实施新一轮对俄制裁」相关的小任务"
       ],
       "target_audience": {
         "core": "科技爱好者",
@@ -257,25 +252,25 @@
       "rank": 5
     },
     {
-      "topic_name": "马斯克为何称中国对石油依赖快速下降",
+      "topic_name": "上海一货车与5车碰撞致1死2伤",
       "platform": "头条热榜",
-      "heat_score": 91.4,
+      "heat_score": 93.3,
       "relevance_score": 8,
       "safety_score": 95,
       "timeliness_score": 94.2,
       "creativity_score": 50,
-      "ride_score": 73.9,
-      "create_score": 52.7,
+      "ride_score": 74.6,
+      "create_score": 53.0,
       "priority": "A",
-      "priority_reason": "【其他】品牌相关度较好，适合借势跟进（综合分73.9）",
-      "explode_time": "2026-10-16 06:35",
+      "priority_reason": "【其他】品牌相关度较好，适合借势跟进（综合分74.6）",
+      "explode_time": "2026-10-17 06:23",
       "lifecycle": "峰值期",
       "remaining_window": "预计持续1-3天",
       "core_emotion": "用户对该话题的讨论兴趣",
       "product_hook": "AI眼镜多模态能力",
       "entry_angles": [
-        "热点POV：用第一视角走进「马斯克为何称中国对石油依赖快速下降」的真实场景",
-        "轻互动：邀请用户用眼镜完成与「马斯克为何称中国对石油依赖快速下降」相关的小任务"
+        "热点POV：用第一视角走进「上海一货车与5车碰撞致1死2伤」的真实场景",
+        "轻互动：邀请用户用眼镜完成与「上海一货车与5车碰撞致1死2伤」相关的小任务"
       ],
       "target_audience": {
         "core": "科技爱好者",
@@ -303,42 +298,89 @@
       "rank": 6
     },
     {
-      "topic_name": "两医护赴泰旅游遭谋杀摘器官系谣言",
-      "platform": "百度热搜",
-      "heat_score": 76.6,
-      "relevance_score": 25,
-      "safety_score": 98,
-      "timeliness_score": 86.7,
-      "creativity_score": 95,
-      "ride_score": 73.5,
-      "create_score": 67.9,
+      "topic_name": "特斯拉全新Roadster为何能上天",
+      "platform": "头条热榜",
+      "heat_score": 91.7,
+      "relevance_score": 8,
+      "safety_score": 95,
+      "timeliness_score": 94.1,
+      "creativity_score": 50,
+      "ride_score": 74.0,
+      "create_score": 52.8,
       "priority": "A",
-      "priority_reason": "【旅游/户外】品牌相关度较好，适合借势跟进（综合分73.5）",
-      "explode_time": "2026-10-15 13:35",
-      "lifecycle": "上升期",
+      "priority_reason": "【其他】品牌相关度较好，适合借势跟进（综合分74.0）",
+      "explode_time": "2026-10-17 05:23",
+      "lifecycle": "峰值期",
       "remaining_window": "预计持续1-3天",
-      "core_emotion": "出游热情与「不会外语/怕迷路」的焦虑",
+      "core_emotion": "用户对该话题的讨论兴趣",
       "product_hook": "AI眼镜多模态能力",
       "entry_angles": [
-        "热点POV：用第一视角走进「两医护赴泰旅游遭谋杀摘器官系谣言」的真实场景",
-        "轻互动：邀请用户用眼镜完成与「两医护赴泰旅游遭谋杀摘器官系谣言」相关的小任务"
+        "热点POV：用第一视角走进「特斯拉全新Roadster为何能上天」的真实场景",
+        "轻互动：邀请用户用眼镜完成与「特斯拉全新Roadster为何能上天」相关的小任务"
       ],
       "target_audience": {
-        "core": "25-35岁一二线城市旅行爱好者",
-        "diffusion": "学生/亲子出游人群",
-        "bystander": "计划出游的大众"
+        "core": "科技爱好者",
+        "diffusion": "都市白领",
+        "bystander": "大众"
       },
       "trigger_scene": "刷到该热点或身处相关场景时，想快速了解/记录/互动",
-      "content_format": "主：30s旅行vlog；衍：小红书图文攻略+景点打卡合集",
-      "recommended_creator_type": "旅行垂类KOL 1位 + 旅行KOC 2-3位",
-      "publish_window": "T+0 18:00-20:00",
-      "production_cycle": "一天",
-      "budget_level": "中",
-      "estimated_cpm": 38,
-      "estimated_cpe": 1.4,
+      "content_format": "主：15-30s短视频；衍：图文笔记",
+      "recommended_creator_type": "生活方式KOC 2-3位",
+      "publish_window": "T+0 12:00-14:00",
+      "production_cycle": "半天",
+      "budget_level": "低",
+      "estimated_cpm": 40,
+      "estimated_cpe": 1.8,
       "risks": [
         "避免过度夸张产品能力",
         "内容发布前需品牌/合规审核"
+      ],
+      "reference_hooks": [
+        "这个热点，我用眼镜跟了",
+        "换个视角看这件事",
+        "眼镜里的世界原来可以这样"
+      ],
+      "similar_historical_case": null,
+      "rank": 7
+    },
+    {
+      "topic_name": "新疆喀什要投资5000万新建景区？假",
+      "platform": "头条热榜",
+      "heat_score": 83.3,
+      "relevance_score": 15,
+      "safety_score": 95,
+      "timeliness_score": 93.3,
+      "creativity_score": 55,
+      "ride_score": 72.6,
+      "create_score": 55.2,
+      "priority": "A",
+      "priority_reason": "【财经/商业】品牌相关度较好，适合借势跟进（综合分72.6）",
+      "explode_time": "2026-10-17 00:23",
+      "lifecycle": "上升期",
+      "remaining_window": "预计持续1-3天",
+      "core_emotion": "对经济/商业动态的关注与焦虑",
+      "product_hook": "AI眼镜多模态能力",
+      "entry_angles": [
+        "热点POV：用第一视角走进「新疆喀什要投资5000万新建景区？假」的真实场景",
+        "轻互动：邀请用户用眼镜完成与「新疆喀什要投资5000万新建景区？假」相关的小任务"
+      ],
+      "target_audience": {
+        "core": "财经/商业人群",
+        "diffusion": "职场白领",
+        "bystander": "关注经济的大众"
+      },
+      "trigger_scene": "刷到该热点或身处相关场景时，想快速了解/记录/互动",
+      "content_format": "主：口播解读；衍：图文早报+数据可视化",
+      "recommended_creator_type": "财经垂类KOL 1位 + 职场KOC 2位",
+      "publish_window": "T+0 08:00-10:00",
+      "production_cycle": "半天",
+      "budget_level": "中",
+      "estimated_cpm": 36,
+      "estimated_cpe": 1.6,
+      "risks": [
+        "避免过度夸张产品能力",
+        "内容发布前需品牌/合规审核",
+        "避免投资建议或夸大经济影响"
       ],
       "reference_hooks": [
         "这个热点，我用眼镜跟了",
@@ -346,124 +388,83 @@
         "眼镜里的世界原来可以这样"
       ],
       "similar_historical_case": {
-        "case": "POV实测海外出行",
-        "roi": 4.5,
-        "note": "翻译功能相关选题互动率高"
+        "case": "晨间财经早报",
+        "roi": 2.5,
+        "note": "财经内容适合早间时段发布"
       },
-      "rank": 7
-    },
-    {
-      "topic_name": "王毅对以方说巴问题是本世纪最大不公",
-      "platform": "头条热榜",
-      "heat_score": 89.2,
-      "relevance_score": 8,
-      "safety_score": 95,
-      "timeliness_score": 94.1,
-      "creativity_score": 50,
-      "ride_score": 73.1,
-      "create_score": 52.4,
-      "priority": "A",
-      "priority_reason": "【其他】品牌相关度较好，适合借势跟进（综合分73.1）",
-      "explode_time": "2026-10-16 05:35",
-      "lifecycle": "上升期",
-      "remaining_window": "预计持续1-3天",
-      "core_emotion": "用户对该话题的讨论兴趣",
-      "product_hook": "AI眼镜多模态能力",
-      "entry_angles": [
-        "热点POV：用第一视角走进「王毅对以方说巴问题是本世纪最大不公」的真实场景",
-        "轻互动：邀请用户用眼镜完成与「王毅对以方说巴问题是本世纪最大不公」相关的小任务"
-      ],
-      "target_audience": {
-        "core": "科技爱好者",
-        "diffusion": "都市白领",
-        "bystander": "大众"
-      },
-      "trigger_scene": "刷到该热点或身处相关场景时，想快速了解/记录/互动",
-      "content_format": "主：15-30s短视频；衍：图文笔记",
-      "recommended_creator_type": "生活方式KOC 2-3位",
-      "publish_window": "T+0 12:00-14:00",
-      "production_cycle": "半天",
-      "budget_level": "低",
-      "estimated_cpm": 40,
-      "estimated_cpe": 1.8,
-      "risks": [
-        "避免过度夸张产品能力",
-        "内容发布前需品牌/合规审核"
-      ],
-      "reference_hooks": [
-        "这个热点，我用眼镜跟了",
-        "换个视角看这件事",
-        "眼镜里的世界原来可以这样"
-      ],
-      "similar_historical_case": null,
       "rank": 8
     },
     {
-      "topic_name": "乌称摧毁俄6架苏-34M战机意味什么",
+      "topic_name": "徐艺洋：孩子是自己生的 已经2岁多",
       "platform": "头条热榜",
-      "heat_score": 87.0,
-      "relevance_score": 8,
-      "safety_score": 95,
-      "timeliness_score": 94.0,
-      "creativity_score": 50,
-      "ride_score": 72.3,
-      "create_score": 52.0,
+      "heat_score": 75.0,
+      "relevance_score": 18,
+      "safety_score": 98,
+      "timeliness_score": 92.6,
+      "creativity_score": 90,
+      "ride_score": 72.5,
+      "create_score": 64.3,
       "priority": "A",
-      "priority_reason": "【其他】品牌相关度较好，适合借势跟进（综合分72.3）",
-      "explode_time": "2026-10-16 04:35",
+      "priority_reason": "【生活/社会】品牌相关度较好，适合借势跟进（综合分72.5）",
+      "explode_time": "2026-10-16 19:23",
       "lifecycle": "上升期",
       "remaining_window": "预计持续1-3天",
-      "core_emotion": "用户对该话题的讨论兴趣",
+      "core_emotion": "对生活温度与社会话题的共鸣",
       "product_hook": "AI眼镜多模态能力",
       "entry_angles": [
-        "热点POV：用第一视角走进「乌称摧毁俄6架苏-34M战机意味什么」的真实场景",
-        "轻互动：邀请用户用眼镜完成与「乌称摧毁俄6架苏-34M战机意味什么」相关的小任务"
+        "热点POV：用第一视角走进「徐艺洋：孩子是自己生的 已经2岁多」的真实场景",
+        "轻互动：邀请用户用眼镜完成与「徐艺洋：孩子是自己生的 已经2岁多」相关的小任务"
       ],
       "target_audience": {
-        "core": "科技爱好者",
-        "diffusion": "都市白领",
-        "bystander": "大众"
+        "core": "生活方式爱好者",
+        "diffusion": "年轻白领/学生",
+        "bystander": "关注社会话题的大众"
       },
       "trigger_scene": "刷到该热点或身处相关场景时，想快速了解/记录/互动",
-      "content_format": "主：15-30s短视频；衍：图文笔记",
-      "recommended_creator_type": "生活方式KOC 2-3位",
-      "publish_window": "T+0 12:00-14:00",
-      "production_cycle": "半天",
-      "budget_level": "低",
-      "estimated_cpm": 40,
-      "estimated_cpe": 1.8,
+      "content_format": "主：30s生活vlog；衍：小红书图文+UGC征集",
+      "recommended_creator_type": "生活方式KOL 1位 + 城市KOC 3-5位",
+      "publish_window": "T+0 18:00-20:00",
+      "production_cycle": "一天",
+      "budget_level": "中",
+      "estimated_cpm": 35,
+      "estimated_cpe": 1.3,
       "risks": [
         "避免过度夸张产品能力",
-        "内容发布前需品牌/合规审核"
+        "内容发布前需品牌/合规审核",
+        "避免涉及特殊群体或医疗/健康功效承诺"
       ],
       "reference_hooks": [
         "这个热点，我用眼镜跟了",
         "换个视角看这件事",
         "眼镜里的世界原来可以这样"
       ],
-      "similar_historical_case": null,
+      "similar_historical_case": {
+        "case": "城市烟火气记录",
+        "roi": 4.0,
+        "note": "生活方式内容小红书互动率高"
+      },
       "rank": 9
     },
     {
-      "topic_name": "黄海南部连续47天禁入藏了什么深意",
+      "topic_name": "能飞的Roadster对特斯拉有何意义",
       "platform": "头条热榜",
-      "heat_score": 84.9,
+      "heat_score": 86.7,
       "relevance_score": 8,
       "safety_score": 95,
-      "timeliness_score": 93.8,
+      "timeliness_score": 93.7,
       "creativity_score": 50,
-      "ride_score": 71.6,
-      "create_score": 51.7,
+      "ride_score": 72.2,
+      "create_score": 52.0,
       "priority": "A",
-      "priority_reason": "【其他】品牌相关度较好，适合借势跟进（综合分71.6）",
-      "explode_time": "2026-10-16 03:35",
+      "priority_reason": "【其他】品牌相关度较好，适合借势跟进（综合分72.2）",
+      "explode_time": "2026-10-17 02:23",
       "lifecycle": "上升期",
       "remaining_window": "预计持续1-3天",
       "core_emotion": "用户对该话题的讨论兴趣",
       "product_hook": "AI眼镜多模态能力",
       "entry_angles": [
-        "热点POV：用第一视角走进「黄海南部连续47天禁入藏了什么深意」的真实场景",
-        "轻互动：邀请用户用眼镜完成与「黄海南部连续47天禁入藏了什么深意」相关的小任务"
+        "热点POV：用第一视角走进「能飞的Roadster对特斯拉有何意义」的真实场景",
+        "轻互动：邀请用户用眼镜完成与「能飞的Roadster对特斯拉有何意义」相关的小任务"
       ],
       "target_audience": {
         "core": "科技爱好者",
@@ -555,7 +556,7 @@
         "避开特殊群体",
         "城市选择需有代表性"
       ],
-      "id": "2026-10-16-B001",
+      "id": "2026-10-17-B001",
       "heat_score": 68,
       "relevance_score": 82,
       "safety_score": 87,
@@ -626,7 +627,7 @@
         "避免影射具体公司文化",
         "不要强化职场对立情绪"
       ],
-      "id": "2026-10-16-B002",
+      "id": "2026-10-17-B002",
       "heat_score": 71,
       "relevance_score": 84,
       "safety_score": 86,
@@ -699,7 +700,7 @@
         "注意用户隐私与内容审核",
         "避免过度浪漫化陌生人社交风险"
       ],
-      "id": "2026-10-16-B003",
+      "id": "2026-10-17-B003",
       "heat_score": 74,
       "relevance_score": 86,
       "safety_score": 85,
