@@ -1,6 +1,6 @@
 {
-  "date": "2026-10-18",
-  "updatedAt": "2026-10-18T05:31:42Z",
+  "date": "2026-10-19",
+  "updatedAt": "2026-10-19T05:52:32Z",
   "sources": [
     {
       "name": "头条热榜",
@@ -17,25 +17,77 @@
   ],
   "a_ride_hot_topics": [
     {
-      "topic_name": "法国一市长遭以定居者殴打",
+      "topic_name": "眼镜的暴利被谁赚走了",
       "platform": "头条热榜",
       "heat_score": 100.0,
-      "relevance_score": 8,
+      "relevance_score": 45,
       "safety_score": 95,
       "timeliness_score": 94.8,
+      "creativity_score": 70,
+      "ride_score": 85.5,
+      "create_score": 72.0,
+      "priority": "S",
+      "priority_reason": "【科技/AI】热度高、品牌相关度强、安全可控，可快速产出POV内容（综合分85.5）",
+      "explode_time": "2026-10-19 10:52",
+      "lifecycle": "峰值期",
+      "remaining_window": "预计持续1-3天",
+      "core_emotion": "对新技术的好奇与讨论热情",
+      "product_hook": "轻量化佩戴",
+      "entry_angles": [
+        "生活方式：像普通眼镜一样记录「眼镜的暴利被谁赚走了」",
+        "热点POV：用第一视角走进「眼镜的暴利被谁赚走了」的真实场景",
+        "轻互动：邀请用户用眼镜完成与「眼镜的暴利被谁赚走了」相关的小任务"
+      ],
+      "target_audience": {
+        "core": "科技 early adopters",
+        "diffusion": "AI/互联网从业者",
+        "bystander": "关注科技趋势的大众"
+      },
+      "trigger_scene": "刷到该热点或身处相关场景时，想快速了解/记录/互动",
+      "content_format": "主：知乎长图文/B站深度解读；衍：抖音切片",
+      "recommended_creator_type": "科技垂类KOL 2位 + 知乎答主 1位",
+      "publish_window": "T+1 10:00-12:00",
+      "production_cycle": "一天",
+      "budget_level": "中",
+      "estimated_cpm": 28,
+      "estimated_cpe": 1.5,
+      "risks": [
+        "避免过度夸张产品能力",
+        "内容发布前需品牌/合规审核",
+        "技术表述需准确，避免攻击竞品"
+      ],
+      "reference_hooks": [
+        "它看起来就像一副普通眼镜",
+        "戴出门，没人发现这是AI眼镜",
+        "好看和好用，终于在一起了"
+      ],
+      "similar_historical_case": {
+        "case": "千问发布会解读",
+        "roi": 3.8,
+        "note": "技术向内容适合B站/知乎长图文"
+      },
+      "rank": 1
+    },
+    {
+      "topic_name": "汇源集团：不再生产“汇源”果汁",
+      "platform": "头条热榜",
+      "heat_score": 98.2,
+      "relevance_score": 8,
+      "safety_score": 95,
+      "timeliness_score": 94.7,
       "creativity_score": 50,
-      "ride_score": 77.1,
-      "create_score": 54.0,
+      "ride_score": 76.4,
+      "create_score": 53.8,
       "priority": "A",
-      "priority_reason": "【其他】品牌相关度较好，适合借势跟进（综合分77.1）",
-      "explode_time": "2026-10-18 10:31",
+      "priority_reason": "【其他】品牌相关度较好，适合借势跟进（综合分76.4）",
+      "explode_time": "2026-10-19 09:52",
       "lifecycle": "峰值期",
       "remaining_window": "预计持续1-3天",
       "core_emotion": "用户对该话题的讨论兴趣",
       "product_hook": "AI眼镜多模态能力",
       "entry_angles": [
-        "热点POV：用第一视角走进「法国一市长遭以定居者殴打」的真实场景",
-        "轻互动：邀请用户用眼镜完成与「法国一市长遭以定居者殴打」相关的小任务"
+        "热点POV：用第一视角走进「汇源集团：不再生产“汇源”果汁」的真实场景",
+        "轻互动：邀请用户用眼镜完成与「汇源集团：不再生产“汇源”果汁」相关的小任务"
       ],
       "target_audience": {
         "core": "科技爱好者",
@@ -60,42 +112,42 @@
         "眼镜里的世界原来可以这样"
       ],
       "similar_historical_case": null,
-      "rank": 1
+      "rank": 2
     },
     {
-      "topic_name": "大麦回应“肖战演唱会首排门票25万”",
+      "topic_name": "第五届亚残运开幕",
       "platform": "头条热榜",
-      "heat_score": 85.0,
-      "relevance_score": 18,
-      "safety_score": 98,
-      "timeliness_score": 93.3,
-      "creativity_score": 88,
-      "ride_score": 76.0,
-      "create_score": 65.3,
+      "heat_score": 96.4,
+      "relevance_score": 8,
+      "safety_score": 95,
+      "timeliness_score": 94.5,
+      "creativity_score": 50,
+      "ride_score": 75.7,
+      "create_score": 53.5,
       "priority": "A",
-      "priority_reason": "【娱乐/影视】品牌相关度较好，适合借势跟进（综合分76.0）",
-      "explode_time": "2026-10-18 00:31",
-      "lifecycle": "上升期",
+      "priority_reason": "【其他】品牌相关度较好，适合借势跟进（综合分75.7）",
+      "explode_time": "2026-10-19 08:52",
+      "lifecycle": "峰值期",
       "remaining_window": "预计持续1-3天",
-      "core_emotion": "娱乐消遣与社交分享欲望",
+      "core_emotion": "用户对该话题的讨论兴趣",
       "product_hook": "AI眼镜多模态能力",
       "entry_angles": [
-        "热点POV：用第一视角走进「大麦回应“肖战演唱会首排门票25万”」的真实场景",
-        "轻互动：邀请用户用眼镜完成与「大麦回应“肖战演唱会首排门票25万”」相关的小任务"
+        "热点POV：用第一视角走进「第五届亚残运开幕」的真实场景",
+        "轻互动：邀请用户用眼镜完成与「第五届亚残运开幕」相关的小任务"
       ],
       "target_audience": {
-        "core": "娱乐内容消费者",
-        "diffusion": "年轻用户",
-        "bystander": "泛娱乐人群"
+        "core": "科技爱好者",
+        "diffusion": "都市白领",
+        "bystander": "大众"
       },
       "trigger_scene": "刷到该热点或身处相关场景时，想快速了解/记录/互动",
-      "content_format": "主：Reaction短视频；衍：二创切片+图文",
-      "recommended_creator_type": "娱乐垂类KOL 1位 + KOC 2-3位",
-      "publish_window": "T+0 20:00-22:00",
+      "content_format": "主：15-30s短视频；衍：图文笔记",
+      "recommended_creator_type": "生活方式KOC 2-3位",
+      "publish_window": "T+0 12:00-14:00",
       "production_cycle": "半天",
       "budget_level": "低",
-      "estimated_cpm": 30,
-      "estimated_cpe": 0.9,
+      "estimated_cpm": 40,
+      "estimated_cpe": 1.8,
       "risks": [
         "避免过度夸张产品能力",
         "内容发布前需品牌/合规审核"
@@ -105,84 +157,29 @@
         "换个视角看这件事",
         "眼镜里的世界原来可以这样"
       ],
-      "similar_historical_case": {
-        "case": "影院实时字幕体验",
-        "roi": 3.2,
-        "note": "娱乐向内容适合短平快Reaction"
-      },
-      "rank": 2
-    },
-    {
-      "topic_name": "明星网红们扎堆出国读书",
-      "platform": "百度热搜",
-      "heat_score": 82.6,
-      "relevance_score": 26,
-      "safety_score": 98,
-      "timeliness_score": 87.6,
-      "creativity_score": 93,
-      "ride_score": 75.9,
-      "create_score": 68.7,
-      "priority": "A",
-      "priority_reason": "【娱乐/影视】品牌相关度较好，适合借势跟进（综合分75.9）",
-      "explode_time": "2026-10-17 19:31",
-      "lifecycle": "上升期",
-      "remaining_window": "预计持续1-3天",
-      "core_emotion": "娱乐消遣与社交分享欲望",
-      "product_hook": "实时翻译",
-      "entry_angles": [
-        "翻译场景：用眼镜看懂「明星网红们扎堆出国读书」里的外语/外地方言",
-        "热点POV：用第一视角走进「明星网红们扎堆出国读书」的真实场景",
-        "轻互动：邀请用户用眼镜完成与「明星网红们扎堆出国读书」相关的小任务"
-      ],
-      "target_audience": {
-        "core": "娱乐内容消费者",
-        "diffusion": "年轻用户",
-        "bystander": "泛娱乐人群"
-      },
-      "trigger_scene": "刷到该热点或身处相关场景时，想快速了解/记录/互动",
-      "content_format": "主：Reaction短视频；衍：二创切片+图文",
-      "recommended_creator_type": "娱乐垂类KOL 1位 + KOC 2-3位",
-      "publish_window": "T+0 20:00-22:00",
-      "production_cycle": "半天",
-      "budget_level": "低",
-      "estimated_cpm": 30,
-      "estimated_cpe": 0.9,
-      "risks": [
-        "避免过度夸张产品能力",
-        "内容发布前需品牌/合规审核"
-      ],
-      "reference_hooks": [
-        "听不懂？眼镜直接帮我翻译了",
-        "出国旅行，我只带了一副眼镜",
-        "语言不再是障碍"
-      ],
-      "similar_historical_case": {
-        "case": "影院实时字幕体验",
-        "roi": 3.2,
-        "note": "娱乐向内容适合短平快Reaction"
-      },
+      "similar_historical_case": null,
       "rank": 3
     },
     {
-      "topic_name": "本周我国硬核成果密集上新",
+      "topic_name": "女局长遭“仙人跳”被敲诈19万",
       "platform": "头条热榜",
-      "heat_score": 95.0,
+      "heat_score": 94.6,
       "relevance_score": 8,
       "safety_score": 95,
-      "timeliness_score": 94.5,
+      "timeliness_score": 94.4,
       "creativity_score": 50,
-      "ride_score": 75.2,
-      "create_score": 53.3,
+      "ride_score": 75.1,
+      "create_score": 53.2,
       "priority": "A",
-      "priority_reason": "【其他】品牌相关度较好，适合借势跟进（综合分75.2）",
-      "explode_time": "2026-10-18 08:31",
+      "priority_reason": "【其他】品牌相关度较好，适合借势跟进（综合分75.1）",
+      "explode_time": "2026-10-19 07:52",
       "lifecycle": "峰值期",
       "remaining_window": "预计持续1-3天",
       "core_emotion": "用户对该话题的讨论兴趣",
       "product_hook": "AI眼镜多模态能力",
       "entry_angles": [
-        "热点POV：用第一视角走进「本周我国硬核成果密集上新」的真实场景",
-        "轻互动：邀请用户用眼镜完成与「本周我国硬核成果密集上新」相关的小任务"
+        "热点POV：用第一视角走进「女局长遭“仙人跳”被敲诈19万」的真实场景",
+        "轻互动：邀请用户用眼镜完成与「女局长遭“仙人跳”被敲诈19万」相关的小任务"
       ],
       "target_audience": {
         "core": "科技爱好者",
@@ -210,25 +207,25 @@
       "rank": 4
     },
     {
-      "topic_name": "张雪机车水上行驶如履平地",
+      "topic_name": "钧正平就中国留学生身披旭日旗发声",
       "platform": "头条热榜",
-      "heat_score": 92.5,
+      "heat_score": 92.8,
       "relevance_score": 8,
       "safety_score": 95,
-      "timeliness_score": 94.4,
+      "timeliness_score": 94.2,
       "creativity_score": 50,
       "ride_score": 74.4,
       "create_score": 52.9,
       "priority": "A",
       "priority_reason": "【其他】品牌相关度较好，适合借势跟进（综合分74.4）",
-      "explode_time": "2026-10-18 07:31",
+      "explode_time": "2026-10-19 06:52",
       "lifecycle": "峰值期",
       "remaining_window": "预计持续1-3天",
       "core_emotion": "用户对该话题的讨论兴趣",
       "product_hook": "AI眼镜多模态能力",
       "entry_angles": [
-        "热点POV：用第一视角走进「张雪机车水上行驶如履平地」的真实场景",
-        "轻互动：邀请用户用眼镜完成与「张雪机车水上行驶如履平地」相关的小任务"
+        "热点POV：用第一视角走进「钧正平就中国留学生身披旭日旗发声」的真实场景",
+        "轻互动：邀请用户用眼镜完成与「钧正平就中国留学生身披旭日旗发声」相关的小任务"
       ],
       "target_audience": {
         "core": "科技爱好者",
@@ -256,25 +253,25 @@
       "rank": 5
     },
     {
-      "topic_name": "武明瑶荣获2026西马冠军",
+      "topic_name": "网友高铁上偶遇114岁长寿老人",
       "platform": "头条热榜",
-      "heat_score": 90.0,
+      "heat_score": 91.0,
       "relevance_score": 8,
       "safety_score": 95,
-      "timeliness_score": 94.2,
+      "timeliness_score": 94.1,
       "creativity_score": 50,
-      "ride_score": 73.4,
-      "create_score": 52.5,
+      "ride_score": 73.8,
+      "create_score": 52.7,
       "priority": "A",
-      "priority_reason": "【其他】品牌相关度较好，适合借势跟进（综合分73.4）",
-      "explode_time": "2026-10-18 06:31",
+      "priority_reason": "【其他】品牌相关度较好，适合借势跟进（综合分73.8）",
+      "explode_time": "2026-10-19 05:52",
       "lifecycle": "峰值期",
       "remaining_window": "预计持续1-3天",
       "core_emotion": "用户对该话题的讨论兴趣",
       "product_hook": "AI眼镜多模态能力",
       "entry_angles": [
-        "热点POV：用第一视角走进「武明瑶荣获2026西马冠军」的真实场景",
-        "轻互动：邀请用户用眼镜完成与「武明瑶荣获2026西马冠军」相关的小任务"
+        "热点POV：用第一视角走进「网友高铁上偶遇114岁长寿老人」的真实场景",
+        "轻互动：邀请用户用眼镜完成与「网友高铁上偶遇114岁长寿老人」相关的小任务"
       ],
       "target_audience": {
         "core": "科技爱好者",
@@ -302,26 +299,25 @@
       "rank": 6
     },
     {
-      "topic_name": "中国人靠数羊入眠竟是翻译事故",
-      "platform": "百度热搜",
-      "heat_score": 87.0,
-      "relevance_score": 16,
+      "topic_name": "没退休就意外离世交的社保怎么办",
+      "platform": "头条热榜",
+      "heat_score": 89.2,
+      "relevance_score": 8,
       "safety_score": 95,
-      "timeliness_score": 88.8,
-      "creativity_score": 55,
-      "ride_score": 73.2,
-      "create_score": 55.8,
+      "timeliness_score": 94.0,
+      "creativity_score": 50,
+      "ride_score": 73.1,
+      "create_score": 52.4,
       "priority": "A",
-      "priority_reason": "【其他】品牌相关度较好，适合借势跟进（综合分73.2）",
-      "explode_time": "2026-10-18 03:31",
+      "priority_reason": "【其他】品牌相关度较好，适合借势跟进（综合分73.1）",
+      "explode_time": "2026-10-19 04:52",
       "lifecycle": "上升期",
       "remaining_window": "预计持续1-3天",
       "core_emotion": "用户对该话题的讨论兴趣",
-      "product_hook": "实时翻译",
+      "product_hook": "AI眼镜多模态能力",
       "entry_angles": [
-        "翻译场景：用眼镜看懂「中国人靠数羊入眠竟是翻译事故」里的外语/外地方言",
-        "热点POV：用第一视角走进「中国人靠数羊入眠竟是翻译事故」的真实场景",
-        "轻互动：邀请用户用眼镜完成与「中国人靠数羊入眠竟是翻译事故」相关的小任务"
+        "热点POV：用第一视角走进「没退休就意外离世交的社保怎么办」的真实场景",
+        "轻互动：邀请用户用眼镜完成与「没退休就意外离世交的社保怎么办」相关的小任务"
       ],
       "target_audience": {
         "core": "科技爱好者",
@@ -341,33 +337,33 @@
         "内容发布前需品牌/合规审核"
       ],
       "reference_hooks": [
-        "听不懂？眼镜直接帮我翻译了",
-        "出国旅行，我只带了一副眼镜",
-        "语言不再是障碍"
+        "这个热点，我用眼镜跟了",
+        "换个视角看这件事",
+        "眼镜里的世界原来可以这样"
       ],
       "similar_historical_case": null,
       "rank": 7
     },
     {
-      "topic_name": "法国多地奢侈品店被砸",
+      "topic_name": "高市早苗3天内2次拜鬼",
       "platform": "头条热榜",
-      "heat_score": 87.5,
+      "heat_score": 87.4,
       "relevance_score": 8,
       "safety_score": 95,
-      "timeliness_score": 94.1,
+      "timeliness_score": 93.8,
       "creativity_score": 50,
       "ride_score": 72.5,
       "create_score": 52.1,
       "priority": "A",
       "priority_reason": "【其他】品牌相关度较好，适合借势跟进（综合分72.5）",
-      "explode_time": "2026-10-18 05:31",
+      "explode_time": "2026-10-19 03:52",
       "lifecycle": "上升期",
       "remaining_window": "预计持续1-3天",
       "core_emotion": "用户对该话题的讨论兴趣",
       "product_hook": "AI眼镜多模态能力",
       "entry_angles": [
-        "热点POV：用第一视角走进「法国多地奢侈品店被砸」的真实场景",
-        "轻互动：邀请用户用眼镜完成与「法国多地奢侈品店被砸」相关的小任务"
+        "热点POV：用第一视角走进「高市早苗3天内2次拜鬼」的真实场景",
+        "轻互动：邀请用户用眼镜完成与「高市早苗3天内2次拜鬼」相关的小任务"
       ],
       "target_audience": {
         "core": "科技爱好者",
@@ -395,77 +391,25 @@
       "rank": 8
     },
     {
-      "topic_name": "演员吴越遭AI假冒带货 凌晨发文怒斥",
-      "platform": "百度热搜",
-      "heat_score": 73.3,
-      "relevance_score": 37,
+      "topic_name": "亚运金牌得主刘峡君：想把技术再磨细",
+      "platform": "头条热榜",
+      "heat_score": 85.6,
+      "relevance_score": 8,
       "safety_score": 95,
-      "timeliness_score": 85.0,
-      "creativity_score": 65,
-      "ride_score": 72.3,
-      "create_score": 63.4,
+      "timeliness_score": 93.7,
+      "creativity_score": 50,
+      "ride_score": 71.8,
+      "create_score": 51.8,
       "priority": "A",
-      "priority_reason": "【科技/AI】品牌相关度较好，适合借势跟进（综合分72.3）",
-      "explode_time": "2026-10-17 02:31",
-      "lifecycle": "延续期",
-      "remaining_window": "预计持续1-3天",
-      "core_emotion": "对新技术的好奇与讨论热情",
-      "product_hook": "AI眼镜多模态能力",
-      "entry_angles": [
-        "热点POV：用第一视角走进「演员吴越遭AI假冒带货 凌晨发文怒斥」的真实场景",
-        "轻互动：邀请用户用眼镜完成与「演员吴越遭AI假冒带货 凌晨发文怒斥」相关的小任务"
-      ],
-      "target_audience": {
-        "core": "科技 early adopters",
-        "diffusion": "AI/互联网从业者",
-        "bystander": "关注科技趋势的大众"
-      },
-      "trigger_scene": "刷到该热点或身处相关场景时，想快速了解/记录/互动",
-      "content_format": "主：知乎长图文/B站深度解读；衍：抖音切片",
-      "recommended_creator_type": "科技垂类KOL 2位 + 知乎答主 1位",
-      "publish_window": "T+1 10:00-12:00",
-      "production_cycle": "一天",
-      "budget_level": "中",
-      "estimated_cpm": 28,
-      "estimated_cpe": 1.5,
-      "risks": [
-        "避免过度夸张产品能力",
-        "内容发布前需品牌/合规审核",
-        "技术表述需准确，避免攻击竞品"
-      ],
-      "reference_hooks": [
-        "这个热点，我用眼镜跟了",
-        "换个视角看这件事",
-        "眼镜里的世界原来可以这样"
-      ],
-      "similar_historical_case": {
-        "case": "千问发布会解读",
-        "roi": 3.8,
-        "note": "技术向内容适合B站/知乎长图文"
-      },
-      "rank": 9
-    },
-    {
-      "topic_name": "夜市高颜值摊主撞脸于适",
-      "platform": "百度热搜",
-      "heat_score": 83.8,
-      "relevance_score": 16,
-      "safety_score": 95,
-      "timeliness_score": 87.9,
-      "creativity_score": 55,
-      "ride_score": 71.9,
-      "create_score": 55.3,
-      "priority": "A",
-      "priority_reason": "【其他】品牌相关度较好，适合借势跟进（综合分71.9）",
-      "explode_time": "2026-10-17 21:31",
+      "priority_reason": "【其他】品牌相关度较好，适合借势跟进（综合分71.8）",
+      "explode_time": "2026-10-19 02:52",
       "lifecycle": "上升期",
       "remaining_window": "预计持续1-3天",
       "core_emotion": "用户对该话题的讨论兴趣",
-      "product_hook": "轻量化佩戴",
+      "product_hook": "AI眼镜多模态能力",
       "entry_angles": [
-        "生活方式：像普通眼镜一样记录「夜市高颜值摊主撞脸于适」",
-        "热点POV：用第一视角走进「夜市高颜值摊主撞脸于适」的真实场景",
-        "轻互动：邀请用户用眼镜完成与「夜市高颜值摊主撞脸于适」相关的小任务"
+        "热点POV：用第一视角走进「亚运金牌得主刘峡君：想把技术再磨细」的真实场景",
+        "轻互动：邀请用户用眼镜完成与「亚运金牌得主刘峡君：想把技术再磨细」相关的小任务"
       ],
       "target_audience": {
         "core": "科技爱好者",
@@ -485,9 +429,55 @@
         "内容发布前需品牌/合规审核"
       ],
       "reference_hooks": [
-        "它看起来就像一副普通眼镜",
-        "戴出门，没人发现这是AI眼镜",
-        "好看和好用，终于在一起了"
+        "这个热点，我用眼镜跟了",
+        "换个视角看这件事",
+        "眼镜里的世界原来可以这样"
+      ],
+      "similar_historical_case": null,
+      "rank": 9
+    },
+    {
+      "topic_name": "前三季度全国居民人均可支配收入公布",
+      "platform": "头条热榜",
+      "heat_score": 83.8,
+      "relevance_score": 8,
+      "safety_score": 95,
+      "timeliness_score": 93.5,
+      "creativity_score": 50,
+      "ride_score": 71.1,
+      "create_score": 51.5,
+      "priority": "A",
+      "priority_reason": "【其他】品牌相关度较好，适合借势跟进（综合分71.1）",
+      "explode_time": "2026-10-19 01:52",
+      "lifecycle": "上升期",
+      "remaining_window": "预计持续1-3天",
+      "core_emotion": "用户对该话题的讨论兴趣",
+      "product_hook": "AI眼镜多模态能力",
+      "entry_angles": [
+        "热点POV：用第一视角走进「前三季度全国居民人均可支配收入公布」的真实场景",
+        "轻互动：邀请用户用眼镜完成与「前三季度全国居民人均可支配收入公布」相关的小任务"
+      ],
+      "target_audience": {
+        "core": "科技爱好者",
+        "diffusion": "都市白领",
+        "bystander": "大众"
+      },
+      "trigger_scene": "刷到该热点或身处相关场景时，想快速了解/记录/互动",
+      "content_format": "主：15-30s短视频；衍：图文笔记",
+      "recommended_creator_type": "生活方式KOC 2-3位",
+      "publish_window": "T+0 12:00-14:00",
+      "production_cycle": "半天",
+      "budget_level": "低",
+      "estimated_cpm": 40,
+      "estimated_cpe": 1.8,
+      "risks": [
+        "避免过度夸张产品能力",
+        "内容发布前需品牌/合规审核"
+      ],
+      "reference_hooks": [
+        "这个热点，我用眼镜跟了",
+        "换个视角看这件事",
+        "眼镜里的世界原来可以这样"
       ],
       "similar_historical_case": null,
       "rank": 10
@@ -557,7 +547,7 @@
         "避开特殊群体",
         "城市选择需有代表性"
       ],
-      "id": "2026-10-18-B001",
+      "id": "2026-10-19-B001",
       "heat_score": 68,
       "relevance_score": 82,
       "safety_score": 87,
@@ -628,7 +618,7 @@
         "避免影射具体公司文化",
         "不要强化职场对立情绪"
       ],
-      "id": "2026-10-18-B002",
+      "id": "2026-10-19-B002",
       "heat_score": 71,
       "relevance_score": 84,
       "safety_score": 86,
@@ -701,7 +691,7 @@
         "注意用户隐私与内容审核",
         "避免过度浪漫化陌生人社交风险"
       ],
-      "id": "2026-10-18-B003",
+      "id": "2026-10-19-B003",
       "heat_score": 74,
       "relevance_score": 86,
       "safety_score": 85,
