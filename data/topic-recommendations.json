@@ -1,6 +1,6 @@
 {
-  "date": "2026-10-20",
-  "updatedAt": "2026-10-20T05:44:45Z",
+  "date": "2026-10-21",
+  "updatedAt": "2026-10-21T05:47:48Z",
   "sources": [
     {
       "name": "头条热榜",
@@ -17,127 +17,72 @@
   ],
   "a_ride_hot_topics": [
     {
-      "topic_name": "董明珠：格力技工学校禁止谈恋爱",
+      "topic_name": "国际油价昨夜上演大逆转",
       "platform": "头条热榜",
-      "heat_score": 95.4,
-      "relevance_score": 18,
-      "safety_score": 98,
-      "timeliness_score": 94.4,
-      "creativity_score": 90,
-      "ride_score": 80.0,
-      "create_score": 67.4,
+      "heat_score": 100.0,
+      "relevance_score": 16,
+      "safety_score": 95,
+      "timeliness_score": 94.8,
+      "creativity_score": 55,
+      "ride_score": 78.9,
+      "create_score": 58.1,
       "priority": "A",
-      "priority_reason": "【生活/社会】品牌相关度较好，适合借势跟进（综合分80.0）",
-      "explode_time": "2026-10-20 07:44",
+      "priority_reason": "【其他】品牌相关度较好，适合借势跟进（综合分78.9）",
+      "explode_time": "2026-10-21 10:47",
       "lifecycle": "峰值期",
       "remaining_window": "预计持续1-3天",
-      "core_emotion": "对生活温度与社会话题的共鸣",
-      "product_hook": "AI眼镜多模态能力",
+      "core_emotion": "用户对该话题的讨论兴趣",
+      "product_hook": "实时翻译",
       "entry_angles": [
-        "热点POV：用第一视角走进「董明珠：格力技工学校禁止谈恋爱」的真实场景",
-        "轻互动：邀请用户用眼镜完成与「董明珠：格力技工学校禁止谈恋爱」相关的小任务"
+        "翻译场景：用眼镜看懂「国际油价昨夜上演大逆转」里的外语/外地方言",
+        "热点POV：用第一视角走进「国际油价昨夜上演大逆转」的真实场景",
+        "轻互动：邀请用户用眼镜完成与「国际油价昨夜上演大逆转」相关的小任务"
       ],
       "target_audience": {
-        "core": "生活方式爱好者",
-        "diffusion": "年轻白领/学生",
-        "bystander": "关注社会话题的大众"
+        "core": "科技爱好者",
+        "diffusion": "都市白领",
+        "bystander": "大众"
       },
       "trigger_scene": "刷到该热点或身处相关场景时，想快速了解/记录/互动",
-      "content_format": "主：30s生活vlog；衍：小红书图文+UGC征集",
-      "recommended_creator_type": "生活方式KOL 1位 + 城市KOC 3-5位",
-      "publish_window": "T+0 18:00-20:00",
-      "production_cycle": "一天",
-      "budget_level": "中",
-      "estimated_cpm": 35,
-      "estimated_cpe": 1.3,
+      "content_format": "主：15-30s短视频；衍：图文笔记",
+      "recommended_creator_type": "生活方式KOC 2-3位",
+      "publish_window": "T+0 12:00-14:00",
+      "production_cycle": "半天",
+      "budget_level": "低",
+      "estimated_cpm": 40,
+      "estimated_cpe": 1.8,
       "risks": [
         "避免过度夸张产品能力",
-        "内容发布前需品牌/合规审核",
-        "避免涉及特殊群体或医疗/健康功效承诺"
+        "内容发布前需品牌/合规审核"
       ],
       "reference_hooks": [
-        "这个热点，我用眼镜跟了",
-        "换个视角看这件事",
-        "眼镜里的世界原来可以这样"
+        "听不懂？眼镜直接帮我翻译了",
+        "出国旅行，我只带了一副眼镜",
+        "语言不再是障碍"
       ],
-      "similar_historical_case": {
-        "case": "城市烟火气记录",
-        "roi": 4.0,
-        "note": "生活方式内容小红书互动率高"
-      },
+      "similar_historical_case": null,
       "rank": 1
     },
     {
-      "topic_name": "一组数字看2026前三季度中国经济",
-      "platform": "头条热榜",
-      "heat_score": 96.9,
-      "relevance_score": 15,
+      "topic_name": "“中国AI禁令”拟出台 震动全球",
+      "platform": "百度热搜",
+      "heat_score": 84.0,
+      "relevance_score": 37,
       "safety_score": 95,
-      "timeliness_score": 94.5,
-      "creativity_score": 55,
-      "ride_score": 77.6,
-      "create_score": 57.3,
-      "priority": "A",
-      "priority_reason": "【财经/商业】品牌相关度较好，适合借势跟进（综合分77.6）",
-      "explode_time": "2026-10-20 08:44",
-      "lifecycle": "峰值期",
-      "remaining_window": "预计持续1-3天",
-      "core_emotion": "对经济/商业动态的关注与焦虑",
-      "product_hook": "AI眼镜多模态能力",
-      "entry_angles": [
-        "热点POV：用第一视角走进「一组数字看2026前三季度中国经济」的真实场景",
-        "轻互动：邀请用户用眼镜完成与「一组数字看2026前三季度中国经济」相关的小任务"
-      ],
-      "target_audience": {
-        "core": "财经/商业人群",
-        "diffusion": "职场白领",
-        "bystander": "关注经济的大众"
-      },
-      "trigger_scene": "刷到该热点或身处相关场景时，想快速了解/记录/互动",
-      "content_format": "主：口播解读；衍：图文早报+数据可视化",
-      "recommended_creator_type": "财经垂类KOL 1位 + 职场KOC 2位",
-      "publish_window": "T+0 08:00-10:00",
-      "production_cycle": "半天",
-      "budget_level": "中",
-      "estimated_cpm": 36,
-      "estimated_cpe": 1.6,
-      "risks": [
-        "避免过度夸张产品能力",
-        "内容发布前需品牌/合规审核",
-        "避免投资建议或夸大经济影响"
-      ],
-      "reference_hooks": [
-        "这个热点，我用眼镜跟了",
-        "换个视角看这件事",
-        "眼镜里的世界原来可以这样"
-      ],
-      "similar_historical_case": {
-        "case": "晨间财经早报",
-        "roi": 2.5,
-        "note": "财经内容适合早间时段发布"
-      },
-      "rank": 2
-    },
-    {
-      "topic_name": "刘强东要开全国最大机器人4S店吗",
-      "platform": "头条热榜",
-      "heat_score": 87.7,
-      "relevance_score": 25,
-      "safety_score": 95,
-      "timeliness_score": 93.7,
+      "timeliness_score": 88.8,
       "creativity_score": 65,
-      "ride_score": 76.7,
-      "create_score": 61.8,
+      "ride_score": 76.8,
+      "create_score": 65.2,
       "priority": "A",
-      "priority_reason": "【科技/AI】品牌相关度较好，适合借势跟进（综合分76.7）",
-      "explode_time": "2026-10-20 02:44",
+      "priority_reason": "【科技/AI】品牌相关度较好，适合借势跟进（综合分76.8）",
+      "explode_time": "2026-10-21 03:47",
       "lifecycle": "上升期",
       "remaining_window": "预计持续1-3天",
       "core_emotion": "对新技术的好奇与讨论热情",
       "product_hook": "AI眼镜多模态能力",
       "entry_angles": [
-        "热点POV：用第一视角走进「刘强东要开全国最大机器人4S店吗」的真实场景",
-        "轻互动：邀请用户用眼镜完成与「刘强东要开全国最大机器人4S店吗」相关的小任务"
+        "热点POV：用第一视角走进「“中国AI禁令”拟出台 震动全球」的真实场景",
+        "轻互动：邀请用户用眼镜完成与「“中国AI禁令”拟出台 震动全球」相关的小任务"
       ],
       "target_audience": {
         "core": "科技 early adopters",
@@ -167,28 +112,28 @@
         "roi": 3.8,
         "note": "技术向内容适合B站/知乎长图文"
       },
-      "rank": 3
+      "rank": 2
     },
     {
-      "topic_name": "美国一战斗舰冲闯中国南沙海域",
+      "topic_name": "国家癌症中心公布发病前五癌症",
       "platform": "头条热榜",
-      "heat_score": 98.5,
+      "heat_score": 97.6,
       "relevance_score": 8,
       "safety_score": 95,
       "timeliness_score": 94.7,
       "creativity_score": 50,
-      "ride_score": 76.5,
-      "create_score": 53.8,
+      "ride_score": 76.2,
+      "create_score": 53.7,
       "priority": "A",
-      "priority_reason": "【其他】品牌相关度较好，适合借势跟进（综合分76.5）",
-      "explode_time": "2026-10-20 09:44",
+      "priority_reason": "【其他】品牌相关度较好，适合借势跟进（综合分76.2）",
+      "explode_time": "2026-10-21 09:47",
       "lifecycle": "峰值期",
       "remaining_window": "预计持续1-3天",
       "core_emotion": "用户对该话题的讨论兴趣",
       "product_hook": "AI眼镜多模态能力",
       "entry_angles": [
-        "热点POV：用第一视角走进「美国一战斗舰冲闯中国南沙海域」的真实场景",
-        "轻互动：邀请用户用眼镜完成与「美国一战斗舰冲闯中国南沙海域」相关的小任务"
+        "热点POV：用第一视角走进「国家癌症中心公布发病前五癌症」的真实场景",
+        "轻互动：邀请用户用眼镜完成与「国家癌症中心公布发病前五癌症」相关的小任务"
       ],
       "target_audience": {
         "core": "科技爱好者",
@@ -213,28 +158,79 @@
         "眼镜里的世界原来可以这样"
       ],
       "similar_historical_case": null,
+      "rank": 3
+    },
+    {
+      "topic_name": "又一部获奖小说被质疑由AI代笔",
+      "platform": "百度热搜",
+      "heat_score": 82.5,
+      "relevance_score": 37,
+      "safety_score": 95,
+      "timeliness_score": 88.2,
+      "creativity_score": 65,
+      "ride_score": 76.2,
+      "create_score": 65.0,
+      "priority": "A",
+      "priority_reason": "【科技/AI】品牌相关度较好，适合借势跟进（综合分76.2）",
+      "explode_time": "2026-10-20 23:47",
+      "lifecycle": "上升期",
+      "remaining_window": "预计持续1-3天",
+      "core_emotion": "对新技术的好奇与讨论热情",
+      "product_hook": "AI眼镜多模态能力",
+      "entry_angles": [
+        "热点POV：用第一视角走进「又一部获奖小说被质疑由AI代笔」的真实场景",
+        "轻互动：邀请用户用眼镜完成与「又一部获奖小说被质疑由AI代笔」相关的小任务"
+      ],
+      "target_audience": {
+        "core": "科技 early adopters",
+        "diffusion": "AI/互联网从业者",
+        "bystander": "关注科技趋势的大众"
+      },
+      "trigger_scene": "刷到该热点或身处相关场景时，想快速了解/记录/互动",
+      "content_format": "主：知乎长图文/B站深度解读；衍：抖音切片",
+      "recommended_creator_type": "科技垂类KOL 2位 + 知乎答主 1位",
+      "publish_window": "T+1 10:00-12:00",
+      "production_cycle": "一天",
+      "budget_level": "中",
+      "estimated_cpm": 28,
+      "estimated_cpe": 1.5,
+      "risks": [
+        "避免过度夸张产品能力",
+        "内容发布前需品牌/合规审核",
+        "技术表述需准确，避免攻击竞品"
+      ],
+      "reference_hooks": [
+        "这个热点，我用眼镜跟了",
+        "换个视角看这件事",
+        "眼镜里的世界原来可以这样"
+      ],
+      "similar_historical_case": {
+        "case": "千问发布会解读",
+        "roi": 3.8,
+        "note": "技术向内容适合B站/知乎长图文"
+      },
       "rank": 4
     },
     {
-      "topic_name": "56岁女子8月退休9月重返大学读研",
+      "topic_name": "多项惠民政策加速落地",
       "platform": "头条热榜",
-      "heat_score": 93.8,
+      "heat_score": 95.3,
       "relevance_score": 8,
       "safety_score": 95,
-      "timeliness_score": 94.2,
+      "timeliness_score": 94.5,
       "creativity_score": 50,
-      "ride_score": 74.8,
-      "create_score": 53.1,
+      "ride_score": 75.4,
+      "create_score": 53.3,
       "priority": "A",
-      "priority_reason": "【其他】品牌相关度较好，适合借势跟进（综合分74.8）",
-      "explode_time": "2026-10-20 06:44",
+      "priority_reason": "【其他】品牌相关度较好，适合借势跟进（综合分75.4）",
+      "explode_time": "2026-10-21 08:47",
       "lifecycle": "峰值期",
       "remaining_window": "预计持续1-3天",
       "core_emotion": "用户对该话题的讨论兴趣",
       "product_hook": "AI眼镜多模态能力",
       "entry_angles": [
-        "热点POV：用第一视角走进「56岁女子8月退休9月重返大学读研」的真实场景",
-        "轻互动：邀请用户用眼镜完成与「56岁女子8月退休9月重返大学读研」相关的小任务"
+        "热点POV：用第一视角走进「多项惠民政策加速落地」的真实场景",
+        "轻互动：邀请用户用眼镜完成与「多项惠民政策加速落地」相关的小任务"
       ],
       "target_audience": {
         "core": "科技爱好者",
@@ -262,163 +258,179 @@
       "rank": 5
     },
     {
-      "topic_name": "日本万人大集会高呼高市马上下台",
-      "platform": "头条热榜",
-      "heat_score": 92.3,
-      "relevance_score": 8,
-      "safety_score": 95,
-      "timeliness_score": 94.1,
-      "creativity_score": 50,
-      "ride_score": 74.2,
-      "create_score": 52.8,
+      "topic_name": "中西部首个万亿外贸城市要来了",
+      "platform": "百度热搜",
+      "heat_score": 83.5,
+      "relevance_score": 18,
+      "safety_score": 98,
+      "timeliness_score": 88.5,
+      "creativity_score": 90,
+      "ride_score": 74.6,
+      "create_score": 65.3,
       "priority": "A",
-      "priority_reason": "【其他】品牌相关度较好，适合借势跟进（综合分74.2）",
-      "explode_time": "2026-10-20 05:44",
-      "lifecycle": "峰值期",
+      "priority_reason": "【生活/社会】品牌相关度较好，适合借势跟进（综合分74.6）",
+      "explode_time": "2026-10-21 01:47",
+      "lifecycle": "上升期",
       "remaining_window": "预计持续1-3天",
-      "core_emotion": "用户对该话题的讨论兴趣",
+      "core_emotion": "对生活温度与社会话题的共鸣",
       "product_hook": "AI眼镜多模态能力",
       "entry_angles": [
-        "热点POV：用第一视角走进「日本万人大集会高呼高市马上下台」的真实场景",
-        "轻互动：邀请用户用眼镜完成与「日本万人大集会高呼高市马上下台」相关的小任务"
+        "热点POV：用第一视角走进「中西部首个万亿外贸城市要来了」的真实场景",
+        "轻互动：邀请用户用眼镜完成与「中西部首个万亿外贸城市要来了」相关的小任务"
       ],
       "target_audience": {
-        "core": "科技爱好者",
-        "diffusion": "都市白领",
-        "bystander": "大众"
+        "core": "生活方式爱好者",
+        "diffusion": "年轻白领/学生",
+        "bystander": "关注社会话题的大众"
       },
       "trigger_scene": "刷到该热点或身处相关场景时，想快速了解/记录/互动",
-      "content_format": "主：15-30s短视频；衍：图文笔记",
-      "recommended_creator_type": "生活方式KOC 2-3位",
-      "publish_window": "T+0 12:00-14:00",
-      "production_cycle": "半天",
-      "budget_level": "低",
-      "estimated_cpm": 40,
-      "estimated_cpe": 1.8,
+      "content_format": "主：30s生活vlog；衍：小红书图文+UGC征集",
+      "recommended_creator_type": "生活方式KOL 1位 + 城市KOC 3-5位",
+      "publish_window": "T+0 18:00-20:00",
+      "production_cycle": "一天",
+      "budget_level": "中",
+      "estimated_cpm": 35,
+      "estimated_cpe": 1.3,
       "risks": [
         "避免过度夸张产品能力",
-        "内容发布前需品牌/合规审核"
+        "内容发布前需品牌/合规审核",
+        "避免涉及特殊群体或医疗/健康功效承诺"
       ],
       "reference_hooks": [
         "这个热点，我用眼镜跟了",
         "换个视角看这件事",
         "眼镜里的世界原来可以这样"
       ],
-      "similar_historical_case": null,
+      "similar_historical_case": {
+        "case": "城市烟火气记录",
+        "roi": 4.0,
+        "note": "生活方式内容小红书互动率高"
+      },
       "rank": 6
     },
     {
-      "topic_name": "人民日报钟声：日本再次撕下和平伪装",
+      "topic_name": "年轻人“旁听”遵义会议爆火",
+      "platform": "百度热搜",
+      "heat_score": 79.4,
+      "relevance_score": 33,
+      "safety_score": 95,
+      "timeliness_score": 87.2,
+      "creativity_score": 75,
+      "ride_score": 74.6,
+      "create_score": 65.6,
+      "priority": "A",
+      "priority_reason": "【职场/办公】品牌相关度较好，适合借势跟进（综合分74.6）",
+      "explode_time": "2026-10-20 16:47",
+      "lifecycle": "上升期",
+      "remaining_window": "预计持续1-3天",
+      "core_emotion": "打工人对效率焦虑与「科技减负」的期待",
+      "product_hook": "会议纪要",
+      "entry_angles": [
+        "办公场景：把「年轻人“旁听”遵义会议爆火」的讨论一键整理成纪要",
+        "热点POV：用第一视角走进「年轻人“旁听”遵义会议爆火」的真实场景",
+        "轻互动：邀请用户用眼镜完成与「年轻人“旁听”遵义会议爆火」相关的小任务"
+      ],
+      "target_audience": {
+        "core": "25-35岁都市白领",
+        "diffusion": "职场新人/中层管理者",
+        "bystander": "对AI工具感兴趣的大众"
+      },
+      "trigger_scene": "刷到该热点或身处相关场景时，想快速了解/记录/互动",
+      "content_format": "主：15-30s真人实测短视频；衍：3张图文笔记+1条口播",
+      "recommended_creator_type": "垂类职场KOL 1位 + 生活方式KOC 3-5位",
+      "publish_window": "T+0 12:00-14:00",
+      "production_cycle": "半天",
+      "budget_level": "中",
+      "estimated_cpm": 32,
+      "estimated_cpe": 1.1,
+      "risks": [
+        "避免过度夸张产品能力",
+        "内容发布前需品牌/合规审核",
+        "不要涉及具体公司/领导负面"
+      ],
+      "reference_hooks": [
+        "开会2小时，整理2分钟",
+        "会议纪要，眼镜帮我写了",
+        "再也不用担心漏重点"
+      ],
+      "similar_historical_case": {
+        "case": "通勤效率神器",
+        "roi": 6.2,
+        "note": "去年同期类似选题，POV形式ROI达1:6.2"
+      },
+      "rank": 7
+    },
+    {
+      "topic_name": "粉红豹现身法国骚乱现场系AI伪造",
+      "platform": "百度热搜",
+      "heat_score": 78.8,
+      "relevance_score": 37,
+      "safety_score": 95,
+      "timeliness_score": 86.8,
+      "creativity_score": 65,
+      "ride_score": 74.6,
+      "create_score": 64.4,
+      "priority": "A",
+      "priority_reason": "【科技/AI】品牌相关度较好，适合借势跟进（综合分74.6）",
+      "explode_time": "2026-10-20 14:47",
+      "lifecycle": "上升期",
+      "remaining_window": "预计持续1-3天",
+      "core_emotion": "对新技术的好奇与讨论热情",
+      "product_hook": "AI眼镜多模态能力",
+      "entry_angles": [
+        "热点POV：用第一视角走进「粉红豹现身法国骚乱现场系AI伪造」的真实场景",
+        "轻互动：邀请用户用眼镜完成与「粉红豹现身法国骚乱现场系AI伪造」相关的小任务"
+      ],
+      "target_audience": {
+        "core": "科技 early adopters",
+        "diffusion": "AI/互联网从业者",
+        "bystander": "关注科技趋势的大众"
+      },
+      "trigger_scene": "刷到该热点或身处相关场景时，想快速了解/记录/互动",
+      "content_format": "主：知乎长图文/B站深度解读；衍：抖音切片",
+      "recommended_creator_type": "科技垂类KOL 2位 + 知乎答主 1位",
+      "publish_window": "T+1 10:00-12:00",
+      "production_cycle": "一天",
+      "budget_level": "中",
+      "estimated_cpm": 28,
+      "estimated_cpe": 1.5,
+      "risks": [
+        "避免过度夸张产品能力",
+        "内容发布前需品牌/合规审核",
+        "技术表述需准确，避免攻击竞品"
+      ],
+      "reference_hooks": [
+        "这个热点，我用眼镜跟了",
+        "换个视角看这件事",
+        "眼镜里的世界原来可以这样"
+      ],
+      "similar_historical_case": {
+        "case": "千问发布会解读",
+        "roi": 3.8,
+        "note": "技术向内容适合B站/知乎长图文"
+      },
+      "rank": 8
+    },
+    {
+      "topic_name": "黄仁勋当着德国总理面点出中国优势",
       "platform": "头条热榜",
-      "heat_score": 90.8,
+      "heat_score": 92.9,
       "relevance_score": 8,
       "safety_score": 95,
-      "timeliness_score": 94.0,
+      "timeliness_score": 94.4,
       "creativity_score": 50,
-      "ride_score": 73.7,
-      "create_score": 52.6,
+      "ride_score": 74.5,
+      "create_score": 53.0,
       "priority": "A",
-      "priority_reason": "【其他】品牌相关度较好，适合借势跟进（综合分73.7）",
-      "explode_time": "2026-10-20 04:44",
+      "priority_reason": "【其他】品牌相关度较好，适合借势跟进（综合分74.5）",
+      "explode_time": "2026-10-21 07:47",
       "lifecycle": "峰值期",
       "remaining_window": "预计持续1-3天",
       "core_emotion": "用户对该话题的讨论兴趣",
       "product_hook": "AI眼镜多模态能力",
       "entry_angles": [
-        "热点POV：用第一视角走进「人民日报钟声：日本再次撕下和平伪装」的真实场景",
-        "轻互动：邀请用户用眼镜完成与「人民日报钟声：日本再次撕下和平伪装」相关的小任务"
-      ],
-      "target_audience": {
-        "core": "科技爱好者",
-        "diffusion": "都市白领",
-        "bystander": "大众"
-      },
-      "trigger_scene": "刷到该热点或身处相关场景时，想快速了解/记录/互动",
-      "content_format": "主：15-30s短视频；衍：图文笔记",
-      "recommended_creator_type": "生活方式KOC 2-3位",
-      "publish_window": "T+0 12:00-14:00",
-      "production_cycle": "半天",
-      "budget_level": "低",
-      "estimated_cpm": 40,
-      "estimated_cpe": 1.8,
-      "risks": [
-        "避免过度夸张产品能力",
-        "内容发布前需品牌/合规审核"
-      ],
-      "reference_hooks": [
-        "这个热点，我用眼镜跟了",
-        "换个视角看这件事",
-        "眼镜里的世界原来可以这样"
-      ],
-      "similar_historical_case": null,
-      "rank": 7
-    },
-    {
-      "topic_name": "台退将：解放军南海实弹射击一举两得",
-      "platform": "头条热榜",
-      "heat_score": 89.2,
-      "relevance_score": 8,
-      "safety_score": 95,
-      "timeliness_score": 93.8,
-      "creativity_score": 50,
-      "ride_score": 73.1,
-      "create_score": 52.4,
-      "priority": "A",
-      "priority_reason": "【其他】品牌相关度较好，适合借势跟进（综合分73.1）",
-      "explode_time": "2026-10-20 03:44",
-      "lifecycle": "上升期",
-      "remaining_window": "预计持续1-3天",
-      "core_emotion": "用户对该话题的讨论兴趣",
-      "product_hook": "AI眼镜多模态能力",
-      "entry_angles": [
-        "热点POV：用第一视角走进「台退将：解放军南海实弹射击一举两得」的真实场景",
-        "轻互动：邀请用户用眼镜完成与「台退将：解放军南海实弹射击一举两得」相关的小任务"
-      ],
-      "target_audience": {
-        "core": "科技爱好者",
-        "diffusion": "都市白领",
-        "bystander": "大众"
-      },
-      "trigger_scene": "刷到该热点或身处相关场景时，想快速了解/记录/互动",
-      "content_format": "主：15-30s短视频；衍：图文笔记",
-      "recommended_creator_type": "生活方式KOC 2-3位",
-      "publish_window": "T+0 12:00-14:00",
-      "production_cycle": "半天",
-      "budget_level": "低",
-      "estimated_cpm": 40,
-      "estimated_cpe": 1.8,
-      "risks": [
-        "避免过度夸张产品能力",
-        "内容发布前需品牌/合规审核"
-      ],
-      "reference_hooks": [
-        "这个热点，我用眼镜跟了",
-        "换个视角看这件事",
-        "眼镜里的世界原来可以这样"
-      ],
-      "similar_historical_case": null,
-      "rank": 8
-    },
-    {
-      "topic_name": "泽连斯基总统位置还能坐多久",
-      "platform": "头条热榜",
-      "heat_score": 86.2,
-      "relevance_score": 8,
-      "safety_score": 95,
-      "timeliness_score": 93.5,
-      "creativity_score": 50,
-      "ride_score": 72.0,
-      "create_score": 51.9,
-      "priority": "A",
-      "priority_reason": "【其他】品牌相关度较好，适合借势跟进（综合分72.0）",
-      "explode_time": "2026-10-20 01:44",
-      "lifecycle": "上升期",
-      "remaining_window": "预计持续1-3天",
-      "core_emotion": "用户对该话题的讨论兴趣",
-      "product_hook": "AI眼镜多模态能力",
-      "entry_angles": [
-        "热点POV：用第一视角走进「泽连斯基总统位置还能坐多久」的真实场景",
-        "轻互动：邀请用户用眼镜完成与「泽连斯基总统位置还能坐多久」相关的小任务"
+        "热点POV：用第一视角走进「黄仁勋当着德国总理面点出中国优势」的真实场景",
+        "轻互动：邀请用户用眼镜完成与「黄仁勋当着德国总理面点出中国优势」相关的小任务"
       ],
       "target_audience": {
         "core": "科技爱好者",
@@ -446,25 +458,25 @@
       "rank": 9
     },
     {
-      "topic_name": "官方辟谣艾滋病患者到济南恶意传播",
+      "topic_name": "男子捡到38000元留了道题给失主",
       "platform": "头条热榜",
-      "heat_score": 84.6,
+      "heat_score": 90.6,
       "relevance_score": 8,
       "safety_score": 95,
-      "timeliness_score": 93.3,
+      "timeliness_score": 94.2,
       "creativity_score": 50,
-      "ride_score": 71.4,
-      "create_score": 51.7,
+      "ride_score": 73.6,
+      "create_score": 52.6,
       "priority": "A",
-      "priority_reason": "【其他】品牌相关度较好，适合借势跟进（综合分71.4）",
-      "explode_time": "2026-10-20 00:44",
-      "lifecycle": "上升期",
+      "priority_reason": "【其他】品牌相关度较好，适合借势跟进（综合分73.6）",
+      "explode_time": "2026-10-21 06:47",
+      "lifecycle": "峰值期",
       "remaining_window": "预计持续1-3天",
       "core_emotion": "用户对该话题的讨论兴趣",
       "product_hook": "AI眼镜多模态能力",
       "entry_angles": [
-        "热点POV：用第一视角走进「官方辟谣艾滋病患者到济南恶意传播」的真实场景",
-        "轻互动：邀请用户用眼镜完成与「官方辟谣艾滋病患者到济南恶意传播」相关的小任务"
+        "热点POV：用第一视角走进「男子捡到38000元留了道题给失主」的真实场景",
+        "轻互动：邀请用户用眼镜完成与「男子捡到38000元留了道题给失主」相关的小任务"
       ],
       "target_audience": {
         "core": "科技爱好者",
@@ -556,7 +568,7 @@
         "避开特殊群体",
         "城市选择需有代表性"
       ],
-      "id": "2026-10-20-B001",
+      "id": "2026-10-21-B001",
       "heat_score": 68,
       "relevance_score": 82,
       "safety_score": 87,
@@ -627,7 +639,7 @@
         "避免影射具体公司文化",
         "不要强化职场对立情绪"
       ],
-      "id": "2026-10-20-B002",
+      "id": "2026-10-21-B002",
       "heat_score": 71,
       "relevance_score": 84,
       "safety_score": 86,
@@ -700,7 +712,7 @@
         "注意用户隐私与内容审核",
         "避免过度浪漫化陌生人社交风险"
       ],
-      "id": "2026-10-20-B003",
+      "id": "2026-10-21-B003",
       "heat_score": 74,
       "relevance_score": 86,
       "safety_score": 85,
