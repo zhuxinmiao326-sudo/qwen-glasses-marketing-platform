@@ -1,6 +1,6 @@
 {
-  "date": "2026-10-23",
-  "updatedAt": "2026-10-23T05:49:26Z",
+  "date": "2026-10-24",
+  "updatedAt": "2026-10-24T05:31:20Z",
   "sources": [
     {
       "name": "头条热榜",
@@ -17,25 +17,25 @@
   ],
   "a_ride_hot_topics": [
     {
-      "topic_name": "乌克兰战俘痛骂泽连斯基：真正的小丑",
+      "topic_name": "藏北高原上的生命驰援",
       "platform": "头条热榜",
-      "heat_score": 98.3,
+      "heat_score": 96.3,
       "relevance_score": 8,
       "safety_score": 95,
-      "timeliness_score": 94.7,
+      "timeliness_score": 94.5,
       "creativity_score": 50,
-      "ride_score": 76.4,
-      "create_score": 53.8,
+      "ride_score": 75.7,
+      "create_score": 53.5,
       "priority": "A",
-      "priority_reason": "【其他】品牌相关度较好，适合借势跟进（综合分76.4）",
-      "explode_time": "2026-10-23 09:49",
+      "priority_reason": "【其他】品牌相关度较好，适合借势跟进（综合分75.7）",
+      "explode_time": "2026-10-24 08:31",
       "lifecycle": "峰值期",
       "remaining_window": "预计持续1-3天",
       "core_emotion": "用户对该话题的讨论兴趣",
       "product_hook": "AI眼镜多模态能力",
       "entry_angles": [
-        "热点POV：用第一视角走进「乌克兰战俘痛骂泽连斯基：真正的小丑」的真实场景",
-        "轻互动：邀请用户用眼镜完成与「乌克兰战俘痛骂泽连斯基：真正的小丑」相关的小任务"
+        "热点POV：用第一视角走进「藏北高原上的生命驰援」的真实场景",
+        "轻互动：邀请用户用眼镜完成与「藏北高原上的生命驰援」相关的小任务"
       ],
       "target_audience": {
         "core": "科技爱好者",
@@ -63,25 +63,25 @@
       "rank": 1
     },
     {
-      "topic_name": "开放的中国始终与世界双向奔赴",
+      "topic_name": "湖南麻阳县委书记穿张雪机车服助威",
       "platform": "头条热榜",
-      "heat_score": 96.7,
+      "heat_score": 94.5,
       "relevance_score": 8,
       "safety_score": 95,
-      "timeliness_score": 94.5,
+      "timeliness_score": 94.4,
       "creativity_score": 50,
-      "ride_score": 75.8,
-      "create_score": 53.5,
+      "ride_score": 75.1,
+      "create_score": 53.2,
       "priority": "A",
-      "priority_reason": "【其他】品牌相关度较好，适合借势跟进（综合分75.8）",
-      "explode_time": "2026-10-23 08:49",
+      "priority_reason": "【其他】品牌相关度较好，适合借势跟进（综合分75.1）",
+      "explode_time": "2026-10-24 07:31",
       "lifecycle": "峰值期",
       "remaining_window": "预计持续1-3天",
       "core_emotion": "用户对该话题的讨论兴趣",
       "product_hook": "AI眼镜多模态能力",
       "entry_angles": [
-        "热点POV：用第一视角走进「开放的中国始终与世界双向奔赴」的真实场景",
-        "轻互动：邀请用户用眼镜完成与「开放的中国始终与世界双向奔赴」相关的小任务"
+        "热点POV：用第一视角走进「湖南麻阳县委书记穿张雪机车服助威」的真实场景",
+        "轻互动：邀请用户用眼镜完成与「湖南麻阳县委书记穿张雪机车服助威」相关的小任务"
       ],
       "target_audience": {
         "core": "科技爱好者",
@@ -109,25 +109,25 @@
       "rank": 2
     },
     {
-      "topic_name": "专家：黄金白银崩了",
+      "topic_name": "邵永灵：伊朗培养小弟有一套",
       "platform": "头条热榜",
-      "heat_score": 95.0,
+      "heat_score": 90.9,
       "relevance_score": 8,
       "safety_score": 95,
-      "timeliness_score": 94.4,
+      "timeliness_score": 94.1,
       "creativity_score": 50,
-      "ride_score": 75.2,
-      "create_score": 53.3,
+      "ride_score": 73.7,
+      "create_score": 52.6,
       "priority": "A",
-      "priority_reason": "【其他】品牌相关度较好，适合借势跟进（综合分75.2）",
-      "explode_time": "2026-10-23 07:49",
+      "priority_reason": "【其他】品牌相关度较好，适合借势跟进（综合分73.7）",
+      "explode_time": "2026-10-24 05:31",
       "lifecycle": "峰值期",
       "remaining_window": "预计持续1-3天",
       "core_emotion": "用户对该话题的讨论兴趣",
       "product_hook": "AI眼镜多模态能力",
       "entry_angles": [
-        "热点POV：用第一视角走进「专家：黄金白银崩了」的真实场景",
-        "轻互动：邀请用户用眼镜完成与「专家：黄金白银崩了」相关的小任务"
+        "热点POV：用第一视角走进「邵永灵：伊朗培养小弟有一套」的真实场景",
+        "轻互动：邀请用户用眼镜完成与「邵永灵：伊朗培养小弟有一套」相关的小任务"
       ],
       "target_audience": {
         "core": "科技爱好者",
@@ -155,25 +155,25 @@
       "rank": 3
     },
     {
-      "topic_name": "西藏7.0级强震已致16死65伤",
+      "topic_name": "李雪健已无法说话 仅靠表情完成演出",
       "platform": "头条热榜",
-      "heat_score": 93.3,
+      "heat_score": 89.0,
       "relevance_score": 8,
       "safety_score": 95,
-      "timeliness_score": 94.2,
+      "timeliness_score": 94.0,
       "creativity_score": 50,
-      "ride_score": 74.6,
-      "create_score": 53.0,
+      "ride_score": 73.0,
+      "create_score": 52.4,
       "priority": "A",
-      "priority_reason": "【其他】品牌相关度较好，适合借势跟进（综合分74.6）",
-      "explode_time": "2026-10-23 06:49",
-      "lifecycle": "峰值期",
+      "priority_reason": "【其他】品牌相关度较好，适合借势跟进（综合分73.0）",
+      "explode_time": "2026-10-24 04:31",
+      "lifecycle": "上升期",
       "remaining_window": "预计持续1-3天",
       "core_emotion": "用户对该话题的讨论兴趣",
       "product_hook": "AI眼镜多模态能力",
       "entry_angles": [
-        "热点POV：用第一视角走进「西藏7.0级强震已致16死65伤」的真实场景",
-        "轻互动：邀请用户用眼镜完成与「西藏7.0级强震已致16死65伤」相关的小任务"
+        "热点POV：用第一视角走进「李雪健已无法说话 仅靠表情完成演出」的真实场景",
+        "轻互动：邀请用户用眼镜完成与「李雪健已无法说话 仅靠表情完成演出」相关的小任务"
       ],
       "target_audience": {
         "core": "科技爱好者",
@@ -201,25 +201,25 @@
       "rank": 4
     },
     {
-      "topic_name": "娃哈哈集团董事长被曝辞职",
+      "topic_name": "火箭3人20+送马刺连败 阿门关键封盖",
       "platform": "头条热榜",
-      "heat_score": 91.7,
+      "heat_score": 87.2,
       "relevance_score": 8,
       "safety_score": 95,
-      "timeliness_score": 94.1,
+      "timeliness_score": 93.8,
       "creativity_score": 50,
-      "ride_score": 74.0,
-      "create_score": 52.8,
+      "ride_score": 72.4,
+      "create_score": 52.1,
       "priority": "A",
-      "priority_reason": "【其他】品牌相关度较好，适合借势跟进（综合分74.0）",
-      "explode_time": "2026-10-23 05:49",
-      "lifecycle": "峰值期",
+      "priority_reason": "【其他】品牌相关度较好，适合借势跟进（综合分72.4）",
+      "explode_time": "2026-10-24 03:31",
+      "lifecycle": "上升期",
       "remaining_window": "预计持续1-3天",
       "core_emotion": "用户对该话题的讨论兴趣",
       "product_hook": "AI眼镜多模态能力",
       "entry_angles": [
-        "热点POV：用第一视角走进「娃哈哈集团董事长被曝辞职」的真实场景",
-        "轻互动：邀请用户用眼镜完成与「娃哈哈集团董事长被曝辞职」相关的小任务"
+        "热点POV：用第一视角走进「火箭3人20+送马刺连败 阿门关键封盖」的真实场景",
+        "轻互动：邀请用户用眼镜完成与「火箭3人20+送马刺连败 阿门关键封盖」相关的小任务"
       ],
       "target_audience": {
         "core": "科技爱好者",
@@ -247,25 +247,25 @@
       "rank": 5
     },
     {
-      "topic_name": "朱亚文人民日报撰文致敬陈树湘烈士",
+      "topic_name": "长六改火箭升空画出绝美“水母云”",
       "platform": "头条热榜",
-      "heat_score": 90.0,
+      "heat_score": 85.4,
       "relevance_score": 8,
       "safety_score": 95,
-      "timeliness_score": 94.0,
+      "timeliness_score": 93.7,
       "creativity_score": 50,
-      "ride_score": 73.4,
-      "create_score": 52.5,
+      "ride_score": 71.7,
+      "create_score": 51.8,
       "priority": "A",
-      "priority_reason": "【其他】品牌相关度较好，适合借势跟进（综合分73.4）",
-      "explode_time": "2026-10-23 04:49",
-      "lifecycle": "峰值期",
+      "priority_reason": "【其他】品牌相关度较好，适合借势跟进（综合分71.7）",
+      "explode_time": "2026-10-24 02:31",
+      "lifecycle": "上升期",
       "remaining_window": "预计持续1-3天",
       "core_emotion": "用户对该话题的讨论兴趣",
       "product_hook": "AI眼镜多模态能力",
       "entry_angles": [
-        "热点POV：用第一视角走进「朱亚文人民日报撰文致敬陈树湘烈士」的真实场景",
-        "轻互动：邀请用户用眼镜完成与「朱亚文人民日报撰文致敬陈树湘烈士」相关的小任务"
+        "热点POV：用第一视角走进「长六改火箭升空画出绝美“水母云”」的真实场景",
+        "轻互动：邀请用户用眼镜完成与「长六改火箭升空画出绝美“水母云”」相关的小任务"
       ],
       "target_audience": {
         "core": "科技爱好者",
@@ -293,71 +293,76 @@
       "rank": 6
     },
     {
-      "topic_name": "西藏震中地面开裂路基明显沉降",
-      "platform": "头条热榜",
-      "heat_score": 88.3,
-      "relevance_score": 8,
-      "safety_score": 95,
-      "timeliness_score": 93.8,
-      "creativity_score": 50,
-      "ride_score": 72.8,
-      "create_score": 52.2,
+      "topic_name": "《令人心动的offer》引医疗圈众怒",
+      "platform": "百度热搜",
+      "heat_score": 74.3,
+      "relevance_score": 18,
+      "safety_score": 98,
+      "timeliness_score": 86.8,
+      "creativity_score": 85,
+      "ride_score": 70.8,
+      "create_score": 62.6,
       "priority": "A",
-      "priority_reason": "【其他】品牌相关度较好，适合借势跟进（综合分72.8）",
-      "explode_time": "2026-10-23 03:49",
-      "lifecycle": "上升期",
+      "priority_reason": "【健康/运动】品牌相关度较好，适合借势跟进（综合分70.8）",
+      "explode_time": "2026-10-23 14:31",
+      "lifecycle": "延续期",
       "remaining_window": "预计持续1-3天",
-      "core_emotion": "用户对该话题的讨论兴趣",
+      "core_emotion": "健身自律与科技辅助的新鲜感",
       "product_hook": "AI眼镜多模态能力",
       "entry_angles": [
-        "热点POV：用第一视角走进「西藏震中地面开裂路基明显沉降」的真实场景",
-        "轻互动：邀请用户用眼镜完成与「西藏震中地面开裂路基明显沉降」相关的小任务"
+        "热点POV：用第一视角走进「《令人心动的offer》引医疗圈众怒」的真实场景",
+        "轻互动：邀请用户用眼镜完成与「《令人心动的offer》引医疗圈众怒」相关的小任务"
       ],
       "target_audience": {
-        "core": "科技爱好者",
-        "diffusion": "都市白领",
-        "bystander": "大众"
+        "core": "运动爱好者",
+        "diffusion": "健身新手/都市白领",
+        "bystander": "关注健康生活方式的大众"
       },
       "trigger_scene": "刷到该热点或身处相关场景时，想快速了解/记录/互动",
-      "content_format": "主：15-30s短视频；衍：图文笔记",
-      "recommended_creator_type": "生活方式KOC 2-3位",
-      "publish_window": "T+0 12:00-14:00",
+      "content_format": "主：15s运动短视频；衍：图文笔记",
+      "recommended_creator_type": "运动垂类KOC 2-3位",
+      "publish_window": "T+1 07:00-09:00",
       "production_cycle": "半天",
       "budget_level": "低",
-      "estimated_cpm": 40,
-      "estimated_cpe": 1.8,
+      "estimated_cpm": 35,
+      "estimated_cpe": 1.2,
       "risks": [
         "避免过度夸张产品能力",
-        "内容发布前需品牌/合规审核"
+        "内容发布前需品牌/合规审核",
+        "避免涉及特殊群体或医疗/健康功效承诺"
       ],
       "reference_hooks": [
         "这个热点，我用眼镜跟了",
         "换个视角看这件事",
         "眼镜里的世界原来可以这样"
       ],
-      "similar_historical_case": null,
+      "similar_historical_case": {
+        "case": "跑步POV记录",
+        "roi": 2.8,
+        "note": "运动场景强调安全与数据播报"
+      },
       "rank": 7
     },
     {
-      "topic_name": "阔折叠手机会成为行业新风口吗",
+      "topic_name": "迪丽热巴嘴衔蝴蝶惊艳亮相",
       "platform": "头条热榜",
-      "heat_score": 85.0,
+      "heat_score": 81.7,
       "relevance_score": 8,
       "safety_score": 95,
-      "timeliness_score": 93.5,
+      "timeliness_score": 93.3,
       "creativity_score": 50,
-      "ride_score": 71.5,
-      "create_score": 51.7,
+      "ride_score": 70.4,
+      "create_score": 51.2,
       "priority": "A",
-      "priority_reason": "【其他】品牌相关度较好，适合借势跟进（综合分71.5）",
-      "explode_time": "2026-10-23 01:49",
+      "priority_reason": "【其他】品牌相关度较好，适合借势跟进（综合分70.4）",
+      "explode_time": "2026-10-24 00:31",
       "lifecycle": "上升期",
       "remaining_window": "预计持续1-3天",
       "core_emotion": "用户对该话题的讨论兴趣",
       "product_hook": "AI眼镜多模态能力",
       "entry_angles": [
-        "热点POV：用第一视角走进「阔折叠手机会成为行业新风口吗」的真实场景",
-        "轻互动：邀请用户用眼镜完成与「阔折叠手机会成为行业新风口吗」相关的小任务"
+        "热点POV：用第一视角走进「迪丽热巴嘴衔蝴蝶惊艳亮相」的真实场景",
+        "轻互动：邀请用户用眼镜完成与「迪丽热巴嘴衔蝴蝶惊艳亮相」相关的小任务"
       ],
       "target_audience": {
         "core": "科技爱好者",
@@ -385,76 +390,71 @@
       "rank": 8
     },
     {
-      "topic_name": "黄子韬公司被强制执行2040万",
+      "topic_name": "西藏巴青县地震前后遥感图发布",
       "platform": "头条热榜",
-      "heat_score": 80.0,
-      "relevance_score": 15,
-      "safety_score": 95,
-      "timeliness_score": 93.0,
-      "creativity_score": 55,
-      "ride_score": 71.3,
-      "create_score": 54.6,
+      "heat_score": 100.0,
+      "relevance_score": 8,
+      "safety_score": 60,
+      "timeliness_score": 94.8,
+      "creativity_score": 50,
+      "ride_score": 70.1,
+      "create_score": 47.0,
       "priority": "A",
-      "priority_reason": "【财经/商业】品牌相关度较好，适合借势跟进（综合分71.3）",
-      "explode_time": "2026-10-22 22:49",
-      "lifecycle": "上升期",
+      "priority_reason": "【其他】品牌相关度较好，适合借势跟进（综合分70.1）",
+      "explode_time": "2026-10-24 10:31",
+      "lifecycle": "峰值期",
       "remaining_window": "预计持续1-3天",
-      "core_emotion": "对经济/商业动态的关注与焦虑",
+      "core_emotion": "用户对该话题的讨论兴趣",
       "product_hook": "AI眼镜多模态能力",
       "entry_angles": [
-        "热点POV：用第一视角走进「黄子韬公司被强制执行2040万」的真实场景",
-        "轻互动：邀请用户用眼镜完成与「黄子韬公司被强制执行2040万」相关的小任务"
+        "热点POV：用第一视角走进「西藏巴青县地震前后遥感图发布」的真实场景",
+        "轻互动：邀请用户用眼镜完成与「西藏巴青县地震前后遥感图发布」相关的小任务"
       ],
       "target_audience": {
-        "core": "财经/商业人群",
-        "diffusion": "职场白领",
-        "bystander": "关注经济的大众"
+        "core": "科技爱好者",
+        "diffusion": "都市白领",
+        "bystander": "大众"
       },
       "trigger_scene": "刷到该热点或身处相关场景时，想快速了解/记录/互动",
-      "content_format": "主：口播解读；衍：图文早报+数据可视化",
-      "recommended_creator_type": "财经垂类KOL 1位 + 职场KOC 2位",
-      "publish_window": "T+0 08:00-10:00",
+      "content_format": "主：15-30s短视频；衍：图文笔记",
+      "recommended_creator_type": "生活方式KOC 2-3位",
+      "publish_window": "T+0 12:00-14:00",
       "production_cycle": "半天",
-      "budget_level": "中",
-      "estimated_cpm": 36,
-      "estimated_cpe": 1.6,
+      "budget_level": "低",
+      "estimated_cpm": 40,
+      "estimated_cpe": 1.8,
       "risks": [
         "避免过度夸张产品能力",
-        "内容发布前需品牌/合规审核",
-        "避免投资建议或夸大经济影响"
+        "内容发布前需品牌/合规审核"
       ],
       "reference_hooks": [
         "这个热点，我用眼镜跟了",
         "换个视角看这件事",
         "眼镜里的世界原来可以这样"
       ],
-      "similar_historical_case": {
-        "case": "晨间财经早报",
-        "roi": 2.5,
-        "note": "财经内容适合早间时段发布"
-      },
+      "similar_historical_case": null,
       "rank": 9
     },
     {
-      "topic_name": "采暖费能找人打折代缴？假的",
+      "topic_name": "四价流感疫苗消失了？真相来了",
       "platform": "头条热榜",
-      "heat_score": 83.3,
+      "heat_score": 79.9,
       "relevance_score": 8,
       "safety_score": 95,
-      "timeliness_score": 93.3,
+      "timeliness_score": 93.2,
       "creativity_score": 50,
-      "ride_score": 70.9,
-      "create_score": 51.5,
-      "priority": "A",
-      "priority_reason": "【其他】品牌相关度较好，适合借势跟进（综合分70.9）",
-      "explode_time": "2026-10-23 00:49",
+      "ride_score": 69.7,
+      "create_score": 50.9,
+      "priority": "B",
+      "priority_reason": "【其他】热度或相关度中等，可作为储备选题（综合分69.7）",
+      "explode_time": "2026-10-23 23:31",
       "lifecycle": "上升期",
       "remaining_window": "预计持续1-3天",
       "core_emotion": "用户对该话题的讨论兴趣",
       "product_hook": "AI眼镜多模态能力",
       "entry_angles": [
-        "热点POV：用第一视角走进「采暖费能找人打折代缴？假的」的真实场景",
-        "轻互动：邀请用户用眼镜完成与「采暖费能找人打折代缴？假的」相关的小任务"
+        "热点POV：用第一视角走进「四价流感疫苗消失了？真相来了」的真实场景",
+        "轻互动：邀请用户用眼镜完成与「四价流感疫苗消失了？真相来了」相关的小任务"
       ],
       "target_audience": {
         "core": "科技爱好者",
@@ -546,7 +546,7 @@
         "避开特殊群体",
         "城市选择需有代表性"
       ],
-      "id": "2026-10-23-B001",
+      "id": "2026-10-24-B001",
       "heat_score": 68,
       "relevance_score": 82,
       "safety_score": 87,
@@ -617,7 +617,7 @@
         "避免影射具体公司文化",
         "不要强化职场对立情绪"
       ],
-      "id": "2026-10-23-B002",
+      "id": "2026-10-24-B002",
       "heat_score": 71,
       "relevance_score": 84,
       "safety_score": 86,
@@ -690,7 +690,7 @@
         "注意用户隐私与内容审核",
         "避免过度浪漫化陌生人社交风险"
       ],
-      "id": "2026-10-23-B003",
+      "id": "2026-10-24-B003",
       "heat_score": 74,
       "relevance_score": 86,
       "safety_score": 85,

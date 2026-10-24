@@ -1,0 +1,704 @@
+{
+  "date": "2026-10-24",
+  "updatedAt": "2026-10-24T05:31:20Z",
+  "sources": [
+    {
+      "name": "头条热榜",
+      "count": 50
+    },
+    {
+      "name": "微博热搜",
+      "count": 50
+    },
+    {
+      "name": "百度热搜",
+      "count": 50
+    }
+  ],
+  "a_ride_hot_topics": [
+    {
+      "topic_name": "藏北高原上的生命驰援",
+      "platform": "头条热榜",
+      "heat_score": 96.3,
+      "relevance_score": 8,
+      "safety_score": 95,
+      "timeliness_score": 94.5,
+      "creativity_score": 50,
+      "ride_score": 75.7,
+      "create_score": 53.5,
+      "priority": "A",
+      "priority_reason": "【其他】品牌相关度较好，适合借势跟进（综合分75.7）",
+      "explode_time": "2026-10-24 08:31",
+      "lifecycle": "峰值期",
+      "remaining_window": "预计持续1-3天",
+      "core_emotion": "用户对该话题的讨论兴趣",
+      "product_hook": "AI眼镜多模态能力",
+      "entry_angles": [
+        "热点POV：用第一视角走进「藏北高原上的生命驰援」的真实场景",
+        "轻互动：邀请用户用眼镜完成与「藏北高原上的生命驰援」相关的小任务"
+      ],
+      "target_audience": {
+        "core": "科技爱好者",
+        "diffusion": "都市白领",
+        "bystander": "大众"
+      },
+      "trigger_scene": "刷到该热点或身处相关场景时，想快速了解/记录/互动",
+      "content_format": "主：15-30s短视频；衍：图文笔记",
+      "recommended_creator_type": "生活方式KOC 2-3位",
+      "publish_window": "T+0 12:00-14:00",
+      "production_cycle": "半天",
+      "budget_level": "低",
+      "estimated_cpm": 40,
+      "estimated_cpe": 1.8,
+      "risks": [
+        "避免过度夸张产品能力",
+        "内容发布前需品牌/合规审核"
+      ],
+      "reference_hooks": [
+        "这个热点，我用眼镜跟了",
+        "换个视角看这件事",
+        "眼镜里的世界原来可以这样"
+      ],
+      "similar_historical_case": null,
+      "rank": 1
+    },
+    {
+      "topic_name": "湖南麻阳县委书记穿张雪机车服助威",
+      "platform": "头条热榜",
+      "heat_score": 94.5,
+      "relevance_score": 8,
+      "safety_score": 95,
+      "timeliness_score": 94.4,
+      "creativity_score": 50,
+      "ride_score": 75.1,
+      "create_score": 53.2,
+      "priority": "A",
+      "priority_reason": "【其他】品牌相关度较好，适合借势跟进（综合分75.1）",
+      "explode_time": "2026-10-24 07:31",
+      "lifecycle": "峰值期",
+      "remaining_window": "预计持续1-3天",
+      "core_emotion": "用户对该话题的讨论兴趣",
+      "product_hook": "AI眼镜多模态能力",
+      "entry_angles": [
+        "热点POV：用第一视角走进「湖南麻阳县委书记穿张雪机车服助威」的真实场景",
+        "轻互动：邀请用户用眼镜完成与「湖南麻阳县委书记穿张雪机车服助威」相关的小任务"
+      ],
+      "target_audience": {
+        "core": "科技爱好者",
+        "diffusion": "都市白领",
+        "bystander": "大众"
+      },
+      "trigger_scene": "刷到该热点或身处相关场景时，想快速了解/记录/互动",
+      "content_format": "主：15-30s短视频；衍：图文笔记",
+      "recommended_creator_type": "生活方式KOC 2-3位",
+      "publish_window": "T+0 12:00-14:00",
+      "production_cycle": "半天",
+      "budget_level": "低",
+      "estimated_cpm": 40,
+      "estimated_cpe": 1.8,
+      "risks": [
+        "避免过度夸张产品能力",
+        "内容发布前需品牌/合规审核"
+      ],
+      "reference_hooks": [
+        "这个热点，我用眼镜跟了",
+        "换个视角看这件事",
+        "眼镜里的世界原来可以这样"
+      ],
+      "similar_historical_case": null,
+      "rank": 2
+    },
+    {
+      "topic_name": "邵永灵：伊朗培养小弟有一套",
+      "platform": "头条热榜",
+      "heat_score": 90.9,
+      "relevance_score": 8,
+      "safety_score": 95,
+      "timeliness_score": 94.1,
+      "creativity_score": 50,
+      "ride_score": 73.7,
+      "create_score": 52.6,
+      "priority": "A",
+      "priority_reason": "【其他】品牌相关度较好，适合借势跟进（综合分73.7）",
+      "explode_time": "2026-10-24 05:31",
+      "lifecycle": "峰值期",
+      "remaining_window": "预计持续1-3天",
+      "core_emotion": "用户对该话题的讨论兴趣",
+      "product_hook": "AI眼镜多模态能力",
+      "entry_angles": [
+        "热点POV：用第一视角走进「邵永灵：伊朗培养小弟有一套」的真实场景",
+        "轻互动：邀请用户用眼镜完成与「邵永灵：伊朗培养小弟有一套」相关的小任务"
+      ],
+      "target_audience": {
+        "core": "科技爱好者",
+        "diffusion": "都市白领",
+        "bystander": "大众"
+      },
+      "trigger_scene": "刷到该热点或身处相关场景时，想快速了解/记录/互动",
+      "content_format": "主：15-30s短视频；衍：图文笔记",
+      "recommended_creator_type": "生活方式KOC 2-3位",
+      "publish_window": "T+0 12:00-14:00",
+      "production_cycle": "半天",
+      "budget_level": "低",
+      "estimated_cpm": 40,
+      "estimated_cpe": 1.8,
+      "risks": [
+        "避免过度夸张产品能力",
+        "内容发布前需品牌/合规审核"
+      ],
+      "reference_hooks": [
+        "这个热点，我用眼镜跟了",
+        "换个视角看这件事",
+        "眼镜里的世界原来可以这样"
+      ],
+      "similar_historical_case": null,
+      "rank": 3
+    },
+    {
+      "topic_name": "李雪健已无法说话 仅靠表情完成演出",
+      "platform": "头条热榜",
+      "heat_score": 89.0,
+      "relevance_score": 8,
+      "safety_score": 95,
+      "timeliness_score": 94.0,
+      "creativity_score": 50,
+      "ride_score": 73.0,
+      "create_score": 52.4,
+      "priority": "A",
+      "priority_reason": "【其他】品牌相关度较好，适合借势跟进（综合分73.0）",
+      "explode_time": "2026-10-24 04:31",
+      "lifecycle": "上升期",
+      "remaining_window": "预计持续1-3天",
+      "core_emotion": "用户对该话题的讨论兴趣",
+      "product_hook": "AI眼镜多模态能力",
+      "entry_angles": [
+        "热点POV：用第一视角走进「李雪健已无法说话 仅靠表情完成演出」的真实场景",
+        "轻互动：邀请用户用眼镜完成与「李雪健已无法说话 仅靠表情完成演出」相关的小任务"
+      ],
+      "target_audience": {
+        "core": "科技爱好者",
+        "diffusion": "都市白领",
+        "bystander": "大众"
+      },
+      "trigger_scene": "刷到该热点或身处相关场景时，想快速了解/记录/互动",
+      "content_format": "主：15-30s短视频；衍：图文笔记",
+      "recommended_creator_type": "生活方式KOC 2-3位",
+      "publish_window": "T+0 12:00-14:00",
+      "production_cycle": "半天",
+      "budget_level": "低",
+      "estimated_cpm": 40,
+      "estimated_cpe": 1.8,
+      "risks": [
+        "避免过度夸张产品能力",
+        "内容发布前需品牌/合规审核"
+      ],
+      "reference_hooks": [
+        "这个热点，我用眼镜跟了",
+        "换个视角看这件事",
+        "眼镜里的世界原来可以这样"
+      ],
+      "similar_historical_case": null,
+      "rank": 4
+    },
+    {
+      "topic_name": "火箭3人20+送马刺连败 阿门关键封盖",
+      "platform": "头条热榜",
+      "heat_score": 87.2,
+      "relevance_score": 8,
+      "safety_score": 95,
+      "timeliness_score": 93.8,
+      "creativity_score": 50,
+      "ride_score": 72.4,
+      "create_score": 52.1,
+      "priority": "A",
+      "priority_reason": "【其他】品牌相关度较好，适合借势跟进（综合分72.4）",
+      "explode_time": "2026-10-24 03:31",
+      "lifecycle": "上升期",
+      "remaining_window": "预计持续1-3天",
+      "core_emotion": "用户对该话题的讨论兴趣",
+      "product_hook": "AI眼镜多模态能力",
+      "entry_angles": [
+        "热点POV：用第一视角走进「火箭3人20+送马刺连败 阿门关键封盖」的真实场景",
+        "轻互动：邀请用户用眼镜完成与「火箭3人20+送马刺连败 阿门关键封盖」相关的小任务"
+      ],
+      "target_audience": {
+        "core": "科技爱好者",
+        "diffusion": "都市白领",
+        "bystander": "大众"
+      },
+      "trigger_scene": "刷到该热点或身处相关场景时，想快速了解/记录/互动",
+      "content_format": "主：15-30s短视频；衍：图文笔记",
+      "recommended_creator_type": "生活方式KOC 2-3位",
+      "publish_window": "T+0 12:00-14:00",
+      "production_cycle": "半天",
+      "budget_level": "低",
+      "estimated_cpm": 40,
+      "estimated_cpe": 1.8,
+      "risks": [
+        "避免过度夸张产品能力",
+        "内容发布前需品牌/合规审核"
+      ],
+      "reference_hooks": [
+        "这个热点，我用眼镜跟了",
+        "换个视角看这件事",
+        "眼镜里的世界原来可以这样"
+      ],
+      "similar_historical_case": null,
+      "rank": 5
+    },
+    {
+      "topic_name": "长六改火箭升空画出绝美“水母云”",
+      "platform": "头条热榜",
+      "heat_score": 85.4,
+      "relevance_score": 8,
+      "safety_score": 95,
+      "timeliness_score": 93.7,
+      "creativity_score": 50,
+      "ride_score": 71.7,
+      "create_score": 51.8,
+      "priority": "A",
+      "priority_reason": "【其他】品牌相关度较好，适合借势跟进（综合分71.7）",
+      "explode_time": "2026-10-24 02:31",
+      "lifecycle": "上升期",
+      "remaining_window": "预计持续1-3天",
+      "core_emotion": "用户对该话题的讨论兴趣",
+      "product_hook": "AI眼镜多模态能力",
+      "entry_angles": [
+        "热点POV：用第一视角走进「长六改火箭升空画出绝美“水母云”」的真实场景",
+        "轻互动：邀请用户用眼镜完成与「长六改火箭升空画出绝美“水母云”」相关的小任务"
+      ],
+      "target_audience": {
+        "core": "科技爱好者",
+        "diffusion": "都市白领",
+        "bystander": "大众"
+      },
+      "trigger_scene": "刷到该热点或身处相关场景时，想快速了解/记录/互动",
+      "content_format": "主：15-30s短视频；衍：图文笔记",
+      "recommended_creator_type": "生活方式KOC 2-3位",
+      "publish_window": "T+0 12:00-14:00",
+      "production_cycle": "半天",
+      "budget_level": "低",
+      "estimated_cpm": 40,
+      "estimated_cpe": 1.8,
+      "risks": [
+        "避免过度夸张产品能力",
+        "内容发布前需品牌/合规审核"
+      ],
+      "reference_hooks": [
+        "这个热点，我用眼镜跟了",
+        "换个视角看这件事",
+        "眼镜里的世界原来可以这样"
+      ],
+      "similar_historical_case": null,
+      "rank": 6
+    },
+    {
+      "topic_name": "《令人心动的offer》引医疗圈众怒",
+      "platform": "百度热搜",
+      "heat_score": 74.3,
+      "relevance_score": 18,
+      "safety_score": 98,
+      "timeliness_score": 86.8,
+      "creativity_score": 85,
+      "ride_score": 70.8,
+      "create_score": 62.6,
+      "priority": "A",
+      "priority_reason": "【健康/运动】品牌相关度较好，适合借势跟进（综合分70.8）",
+      "explode_time": "2026-10-23 14:31",
+      "lifecycle": "延续期",
+      "remaining_window": "预计持续1-3天",
+      "core_emotion": "健身自律与科技辅助的新鲜感",
+      "product_hook": "AI眼镜多模态能力",
+      "entry_angles": [
+        "热点POV：用第一视角走进「《令人心动的offer》引医疗圈众怒」的真实场景",
+        "轻互动：邀请用户用眼镜完成与「《令人心动的offer》引医疗圈众怒」相关的小任务"
+      ],
+      "target_audience": {
+        "core": "运动爱好者",
+        "diffusion": "健身新手/都市白领",
+        "bystander": "关注健康生活方式的大众"
+      },
+      "trigger_scene": "刷到该热点或身处相关场景时，想快速了解/记录/互动",
+      "content_format": "主：15s运动短视频；衍：图文笔记",
+      "recommended_creator_type": "运动垂类KOC 2-3位",
+      "publish_window": "T+1 07:00-09:00",
+      "production_cycle": "半天",
+      "budget_level": "低",
+      "estimated_cpm": 35,
+      "estimated_cpe": 1.2,
+      "risks": [
+        "避免过度夸张产品能力",
+        "内容发布前需品牌/合规审核",
+        "避免涉及特殊群体或医疗/健康功效承诺"
+      ],
+      "reference_hooks": [
+        "这个热点，我用眼镜跟了",
+        "换个视角看这件事",
+        "眼镜里的世界原来可以这样"
+      ],
+      "similar_historical_case": {
+        "case": "跑步POV记录",
+        "roi": 2.8,
+        "note": "运动场景强调安全与数据播报"
+      },
+      "rank": 7
+    },
+    {
+      "topic_name": "迪丽热巴嘴衔蝴蝶惊艳亮相",
+      "platform": "头条热榜",
+      "heat_score": 81.7,
+      "relevance_score": 8,
+      "safety_score": 95,
+      "timeliness_score": 93.3,
+      "creativity_score": 50,
+      "ride_score": 70.4,
+      "create_score": 51.2,
+      "priority": "A",
+      "priority_reason": "【其他】品牌相关度较好，适合借势跟进（综合分70.4）",
+      "explode_time": "2026-10-24 00:31",
+      "lifecycle": "上升期",
+      "remaining_window": "预计持续1-3天",
+      "core_emotion": "用户对该话题的讨论兴趣",
+      "product_hook": "AI眼镜多模态能力",
+      "entry_angles": [
+        "热点POV：用第一视角走进「迪丽热巴嘴衔蝴蝶惊艳亮相」的真实场景",
+        "轻互动：邀请用户用眼镜完成与「迪丽热巴嘴衔蝴蝶惊艳亮相」相关的小任务"
+      ],
+      "target_audience": {
+        "core": "科技爱好者",
+        "diffusion": "都市白领",
+        "bystander": "大众"
+      },
+      "trigger_scene": "刷到该热点或身处相关场景时，想快速了解/记录/互动",
+      "content_format": "主：15-30s短视频；衍：图文笔记",
+      "recommended_creator_type": "生活方式KOC 2-3位",
+      "publish_window": "T+0 12:00-14:00",
+      "production_cycle": "半天",
+      "budget_level": "低",
+      "estimated_cpm": 40,
+      "estimated_cpe": 1.8,
+      "risks": [
+        "避免过度夸张产品能力",
+        "内容发布前需品牌/合规审核"
+      ],
+      "reference_hooks": [
+        "这个热点，我用眼镜跟了",
+        "换个视角看这件事",
+        "眼镜里的世界原来可以这样"
+      ],
+      "similar_historical_case": null,
+      "rank": 8
+    },
+    {
+      "topic_name": "西藏巴青县地震前后遥感图发布",
+      "platform": "头条热榜",
+      "heat_score": 100.0,
+      "relevance_score": 8,
+      "safety_score": 60,
+      "timeliness_score": 94.8,
+      "creativity_score": 50,
+      "ride_score": 70.1,
+      "create_score": 47.0,
+      "priority": "A",
+      "priority_reason": "【其他】品牌相关度较好，适合借势跟进（综合分70.1）",
+      "explode_time": "2026-10-24 10:31",
+      "lifecycle": "峰值期",
+      "remaining_window": "预计持续1-3天",
+      "core_emotion": "用户对该话题的讨论兴趣",
+      "product_hook": "AI眼镜多模态能力",
+      "entry_angles": [
+        "热点POV：用第一视角走进「西藏巴青县地震前后遥感图发布」的真实场景",
+        "轻互动：邀请用户用眼镜完成与「西藏巴青县地震前后遥感图发布」相关的小任务"
+      ],
+      "target_audience": {
+        "core": "科技爱好者",
+        "diffusion": "都市白领",
+        "bystander": "大众"
+      },
+      "trigger_scene": "刷到该热点或身处相关场景时，想快速了解/记录/互动",
+      "content_format": "主：15-30s短视频；衍：图文笔记",
+      "recommended_creator_type": "生活方式KOC 2-3位",
+      "publish_window": "T+0 12:00-14:00",
+      "production_cycle": "半天",
+      "budget_level": "低",
+      "estimated_cpm": 40,
+      "estimated_cpe": 1.8,
+      "risks": [
+        "避免过度夸张产品能力",
+        "内容发布前需品牌/合规审核"
+      ],
+      "reference_hooks": [
+        "这个热点，我用眼镜跟了",
+        "换个视角看这件事",
+        "眼镜里的世界原来可以这样"
+      ],
+      "similar_historical_case": null,
+      "rank": 9
+    },
+    {
+      "topic_name": "四价流感疫苗消失了？真相来了",
+      "platform": "头条热榜",
+      "heat_score": 79.9,
+      "relevance_score": 8,
+      "safety_score": 95,
+      "timeliness_score": 93.2,
+      "creativity_score": 50,
+      "ride_score": 69.7,
+      "create_score": 50.9,
+      "priority": "B",
+      "priority_reason": "【其他】热度或相关度中等，可作为储备选题（综合分69.7）",
+      "explode_time": "2026-10-23 23:31",
+      "lifecycle": "上升期",
+      "remaining_window": "预计持续1-3天",
+      "core_emotion": "用户对该话题的讨论兴趣",
+      "product_hook": "AI眼镜多模态能力",
+      "entry_angles": [
+        "热点POV：用第一视角走进「四价流感疫苗消失了？真相来了」的真实场景",
+        "轻互动：邀请用户用眼镜完成与「四价流感疫苗消失了？真相来了」相关的小任务"
+      ],
+      "target_audience": {
+        "core": "科技爱好者",
+        "diffusion": "都市白领",
+        "bystander": "大众"
+      },
+      "trigger_scene": "刷到该热点或身处相关场景时，想快速了解/记录/互动",
+      "content_format": "主：15-30s短视频；衍：图文笔记",
+      "recommended_creator_type": "生活方式KOC 2-3位",
+      "publish_window": "T+0 12:00-14:00",
+      "production_cycle": "半天",
+      "budget_level": "低",
+      "estimated_cpm": 40,
+      "estimated_cpe": 1.8,
+      "risks": [
+        "避免过度夸张产品能力",
+        "内容发布前需品牌/合规审核"
+      ],
+      "reference_hooks": [
+        "这个热点，我用眼镜跟了",
+        "换个视角看这件事",
+        "眼镜里的世界原来可以这样"
+      ],
+      "similar_historical_case": null,
+      "rank": 10
+    }
+  ],
+  "b_create_hot_topics": [
+    {
+      "topic_name": "AI眼镜里的中国烟火气",
+      "emotion_insight": "普通人渴望被科技温柔对待，而不是被高科技推开。AI眼镜可以是记录和解读日常烟火的窗口。",
+      "core_concept": "用AI眼镜第一视角，看见普通人生活里那些被忽略的温暖与便利",
+      "spread_mechanism": "UGC征集+城市KOC共创",
+      "product_hook": "第一视角拍摄 + 语音AI解读 + 轻量化佩戴",
+      "target_audience": {
+        "core": "生活分享家、城市漫步者",
+        "diffusion": "年轻白领、学生",
+        "media": "社会媒体、城市号"
+      },
+      "trigger_scene": "周末在城市老街/菜市场/夜市，戴上眼镜记录并分享",
+      "content_format_matrix": {
+        "main": "3分钟概念片（官方号+B站）",
+        "derivatives": [
+          "15s切片×10",
+          "小红书图文×20",
+          "达人vlog×5"
+        ]
+      },
+      "kol_koc_matrix": {
+        "head": "1位生活方式头部KOL定调",
+        "vertical": "5位城市/旅行/美食垂类KOL",
+        "koc": "30位城市KOC真实记录"
+      },
+      "publish_rhythm": {
+        "warmup": "D-3 发布概念海报+话题预告",
+        "ignite": "D0 12:00 官方概念片上线，KOL同步首发",
+        "spread": "D0-D+3 KOC矩阵持续产出",
+        "longtail": "D+7 精选UGC二次传播"
+      },
+      "ignite_node": "D0 12:00 官方概念片+B站深度解读同步上线",
+      "budget_level": "高",
+      "budget_allocation": {
+        "creators": "60%",
+        "traffic": "30%",
+        "production": "10%"
+      },
+      "estimated_cpm": 42,
+      "estimated_cpe": 1.8,
+      "expected_hashtags": [
+        "#AI眼镜烟火气",
+        "#用眼镜看中国",
+        "#千问眼镜城市漂流瓶"
+      ],
+      "monitoring_metrics": [
+        "搜索指数",
+        "话题阅读量",
+        "UGC参与数",
+        "品牌词提及",
+        "正面情绪占比"
+      ],
+      "success_bench": {
+        "case": "某品牌「24小时不玩手机挑战」",
+        "note": "UGC挑战赛，话题阅读破亿"
+      },
+      "priority": "A",
+      "priority_reason": "社会价值正向、产品承接自然、UGC复制成本低",
+      "risks": [
+        "避免过度煽情",
+        "避开特殊群体",
+        "城市选择需有代表性"
+      ],
+      "id": "2026-10-24-B001",
+      "heat_score": 68,
+      "relevance_score": 82,
+      "safety_score": 87,
+      "timeliness_score": 55,
+      "creativity_score": 83,
+      "ride_score": 72.8,
+      "create_score": 79.8
+    },
+    {
+      "topic_name": "反黑话联盟：AI眼镜帮你听懂职场暗语",
+      "emotion_insight": "职场新人对黑话、潜台词、行业术语的焦虑普遍存在，AI可以成为「翻译器」。",
+      "core_concept": "让AI眼镜听懂职场黑话，帮年轻人少踩坑、多成事",
+      "spread_mechanism": "挑战赛+段子内容共创",
+      "product_hook": "语音AI助手 + 实时解释 + 会议纪要",
+      "target_audience": {
+        "core": "职场新人、实习生",
+        "diffusion": "25-30岁白领",
+        "media": "职场类媒体、社会媒体"
+      },
+      "trigger_scene": "开会/面试/跨部门沟通时，遇到听不懂的术语或潜台词",
+      "content_format_matrix": {
+        "main": "系列短视频「黑话翻译官」",
+        "derivatives": [
+          "段子图文",
+          "职场博主Reaction",
+          "评论区征集"
+        ]
+      },
+      "kol_koc_matrix": {
+        "head": "1位职场头部KOL",
+        "vertical": "5位职场/吐槽类达人",
+        "koc": "20位职场新人真实分享"
+      },
+      "publish_rhythm": {
+        "warmup": "D-2 发起#你听过最离谱的职场黑话#征集",
+        "ignite": "D0 18:00 首条视频上线",
+        "spread": "D0-D+5 每日1条黑话翻译视频",
+        "longtail": "D+7 汇总TOP黑话合集"
+      },
+      "ignite_node": "D0 18:00 首条「黑话翻译官」视频+职场博主Reaction同步",
+      "budget_level": "中",
+      "budget_allocation": {
+        "creators": "55%",
+        "traffic": "35%",
+        "production": "10%"
+      },
+      "estimated_cpm": 35,
+      "estimated_cpe": 1.3,
+      "expected_hashtags": [
+        "#反黑话联盟",
+        "#AI眼镜职场翻译官",
+        "#职场黑话翻译"
+      ],
+      "monitoring_metrics": [
+        "搜索指数",
+        "话题阅读量",
+        "UGC参与数",
+        "评论区互动",
+        "正面情绪占比"
+      ],
+      "success_bench": {
+        "case": "职场类账号「黑话」系列",
+        "note": "系列内容平均互动率高于账号均值50%"
+      },
+      "priority": "B",
+      "priority_reason": "创意有趣但品牌关联度中等，可作为储备打造热点",
+      "risks": [
+        "避免影射具体公司文化",
+        "不要强化职场对立情绪"
+      ],
+      "id": "2026-10-24-B002",
+      "heat_score": 71,
+      "relevance_score": 84,
+      "safety_score": 86,
+      "timeliness_score": 60,
+      "creativity_score": 86,
+      "ride_score": 75.1,
+      "create_score": 81.8
+    },
+    {
+      "topic_name": "城市漂流瓶：把一句话丢进陌生人的眼镜里",
+      "emotion_insight": "都市人渴望低成本、高惊喜的轻社交，AI眼镜的地理位置+语音可以成为新的城市连接方式。",
+      "core_concept": "用户在特定地点留下语音/文字漂流瓶，路过的人通过眼镜收到",
+      "spread_mechanism": "UGC挑战赛+城市KOC探店",
+      "product_hook": "位置服务 + 语音交互 + 第一视角",
+      "target_audience": {
+        "core": "城市年轻人、社交活跃者",
+        "diffusion": "大学生、初入职场的年轻人",
+        "media": "城市号、生活方式媒体"
+      },
+      "trigger_scene": "在城市地标/咖啡馆/书店等地点，发现或留下一个漂流瓶",
+      "content_format_matrix": {
+        "main": "系列短视频「我在XX捡到一句话」",
+        "derivatives": [
+          "图文打卡",
+          "城市地图",
+          "KOC接力"
+        ]
+      },
+      "kol_koc_matrix": {
+        "head": "1位城市生活方式KOL",
+        "vertical": "5位城市探索类达人",
+        "koc": "25位城市KOC参与接力"
+      },
+      "publish_rhythm": {
+        "warmup": "D-3 发布概念视频+地图H5",
+        "ignite": "D0 12:00 首站开启",
+        "spread": "D0-D+7 多城市接力",
+        "longtail": "D+14 精选故事合集"
+      },
+      "ignite_node": "D0 12:00 首站官方视频+KOL同步开启",
+      "budget_level": "高",
+      "budget_allocation": {
+        "creators": "50%",
+        "traffic": "30%",
+        "production": "15%",
+        "dev": "5%"
+      },
+      "estimated_cpm": 45,
+      "estimated_cpe": 2.0,
+      "expected_hashtags": [
+        "#城市漂流瓶",
+        "#AI眼镜漂流瓶",
+        "#千问城市故事"
+      ],
+      "monitoring_metrics": [
+        "UGC参与数",
+        "漂流瓶留言数",
+        "城市覆盖数",
+        "品牌词提及",
+        "正面情绪占比"
+      ],
+      "success_bench": {
+        "case": "某音乐平台「城市声音地图」",
+        "note": "UGC地理互动，参与量超10万"
+      },
+      "priority": "A",
+      "priority_reason": "利用眼镜独特能力（位置+语音+画面流），可多人参与，社会价值正向",
+      "risks": [
+        "需平台技术支持漂流瓶功能",
+        "注意用户隐私与内容审核",
+        "避免过度浪漫化陌生人社交风险"
+      ],
+      "id": "2026-10-24-B003",
+      "heat_score": 74,
+      "relevance_score": 86,
+      "safety_score": 85,
+      "timeliness_score": 65,
+      "creativity_score": 89,
+      "ride_score": 77.5,
+      "create_score": 83.7
+    }
+  ],
+  "reserved_topics": []
+}
