@@ -1,6 +1,6 @@
 {
-  "date": "2026-10-28",
-  "updatedAt": "2026-10-28T06:42:27Z",
+  "date": "2026-10-29",
+  "updatedAt": "2026-10-29T06:49:55Z",
   "sources": [
     {
       "name": "头条热榜",
@@ -17,25 +17,219 @@
   ],
   "a_ride_hot_topics": [
     {
-      "topic_name": "男子多次触摸女同事隐私部位被拘捕",
+      "topic_name": "当网友奔赴婚礼社会正悄悄缝合孤独",
       "platform": "头条热榜",
-      "heat_score": 87.8,
+      "heat_score": 98.3,
+      "relevance_score": 18,
+      "safety_score": 98,
+      "timeliness_score": 94.7,
+      "creativity_score": 90,
+      "ride_score": 81.0,
+      "create_score": 67.9,
+      "priority": "A",
+      "priority_reason": "【生活/社会】品牌相关度较好，适合借势跟进（综合分81.0）",
+      "explode_time": "2026-10-29 10:49",
+      "lifecycle": "峰值期",
+      "remaining_window": "预计持续1-3天",
+      "core_emotion": "对生活温度与社会话题的共鸣",
+      "product_hook": "AI眼镜多模态能力",
+      "entry_angles": [
+        "热点POV：用第一视角走进「当网友奔赴婚礼社会正悄悄缝合孤独」的真实场景",
+        "轻互动：邀请用户用眼镜完成与「当网友奔赴婚礼社会正悄悄缝合孤独」相关的小任务"
+      ],
+      "target_audience": {
+        "core": "生活方式爱好者",
+        "diffusion": "年轻白领/学生",
+        "bystander": "关注社会话题的大众"
+      },
+      "trigger_scene": "刷到该热点或身处相关场景时，想快速了解/记录/互动",
+      "content_format": "主：30s生活vlog；衍：小红书图文+UGC征集",
+      "recommended_creator_type": "生活方式KOL 1位 + 城市KOC 3-5位",
+      "publish_window": "T+0 18:00-20:00",
+      "production_cycle": "一天",
+      "budget_level": "中",
+      "estimated_cpm": 35,
+      "estimated_cpe": 1.3,
+      "risks": [
+        "避免过度夸张产品能力",
+        "内容发布前需品牌/合规审核",
+        "避免涉及特殊群体或医疗/健康功效承诺"
+      ],
+      "reference_hooks": [
+        "这个热点，我用眼镜跟了",
+        "换个视角看这件事",
+        "眼镜里的世界原来可以这样"
+      ],
+      "similar_historical_case": {
+        "case": "城市烟火气记录",
+        "roi": 4.0,
+        "note": "生活方式内容小红书互动率高"
+      },
+      "rank": 1
+    },
+    {
+      "topic_name": "国内最长地铁环线全线开通",
+      "platform": "头条热榜",
+      "heat_score": 100.0,
+      "relevance_score": 8,
+      "safety_score": 95,
+      "timeliness_score": 94.8,
+      "creativity_score": 50,
+      "ride_score": 77.1,
+      "create_score": 54.0,
+      "priority": "A",
+      "priority_reason": "【其他】品牌相关度较好，适合借势跟进（综合分77.1）",
+      "explode_time": "2026-10-29 11:49",
+      "lifecycle": "峰值期",
+      "remaining_window": "预计持续1-3天",
+      "core_emotion": "用户对该话题的讨论兴趣",
+      "product_hook": "AI眼镜多模态能力",
+      "entry_angles": [
+        "热点POV：用第一视角走进「国内最长地铁环线全线开通」的真实场景",
+        "轻互动：邀请用户用眼镜完成与「国内最长地铁环线全线开通」相关的小任务"
+      ],
+      "target_audience": {
+        "core": "科技爱好者",
+        "diffusion": "都市白领",
+        "bystander": "大众"
+      },
+      "trigger_scene": "刷到该热点或身处相关场景时，想快速了解/记录/互动",
+      "content_format": "主：15-30s短视频；衍：图文笔记",
+      "recommended_creator_type": "生活方式KOC 2-3位",
+      "publish_window": "T+0 12:00-14:00",
+      "production_cycle": "半天",
+      "budget_level": "低",
+      "estimated_cpm": 40,
+      "estimated_cpe": 1.8,
+      "risks": [
+        "避免过度夸张产品能力",
+        "内容发布前需品牌/合规审核"
+      ],
+      "reference_hooks": [
+        "这个热点，我用眼镜跟了",
+        "换个视角看这件事",
+        "眼镜里的世界原来可以这样"
+      ],
+      "similar_historical_case": null,
+      "rank": 2
+    },
+    {
+      "topic_name": "Hello Kitty母公司再致歉",
+      "platform": "头条热榜",
+      "heat_score": 95.0,
+      "relevance_score": 15,
+      "safety_score": 95,
+      "timeliness_score": 94.4,
+      "creativity_score": 55,
+      "ride_score": 76.9,
+      "create_score": 57.0,
+      "priority": "A",
+      "priority_reason": "【财经/商业】品牌相关度较好，适合借势跟进（综合分76.9）",
+      "explode_time": "2026-10-29 08:49",
+      "lifecycle": "峰值期",
+      "remaining_window": "预计持续1-3天",
+      "core_emotion": "对经济/商业动态的关注与焦虑",
+      "product_hook": "AI眼镜多模态能力",
+      "entry_angles": [
+        "热点POV：用第一视角走进「Hello Kitty母公司再致歉」的真实场景",
+        "轻互动：邀请用户用眼镜完成与「Hello Kitty母公司再致歉」相关的小任务"
+      ],
+      "target_audience": {
+        "core": "财经/商业人群",
+        "diffusion": "职场白领",
+        "bystander": "关注经济的大众"
+      },
+      "trigger_scene": "刷到该热点或身处相关场景时，想快速了解/记录/互动",
+      "content_format": "主：口播解读；衍：图文早报+数据可视化",
+      "recommended_creator_type": "财经垂类KOL 1位 + 职场KOC 2位",
+      "publish_window": "T+0 08:00-10:00",
+      "production_cycle": "半天",
+      "budget_level": "中",
+      "estimated_cpm": 36,
+      "estimated_cpe": 1.6,
+      "risks": [
+        "避免过度夸张产品能力",
+        "内容发布前需品牌/合规审核",
+        "避免投资建议或夸大经济影响"
+      ],
+      "reference_hooks": [
+        "这个热点，我用眼镜跟了",
+        "换个视角看这件事",
+        "眼镜里的世界原来可以这样"
+      ],
+      "similar_historical_case": {
+        "case": "晨间财经早报",
+        "roi": 2.5,
+        "note": "财经内容适合早间时段发布"
+      },
+      "rank": 3
+    },
+    {
+      "topic_name": "向“新”而行 以“质”争先",
+      "platform": "头条热榜",
+      "heat_score": 96.7,
+      "relevance_score": 8,
+      "safety_score": 95,
+      "timeliness_score": 94.5,
+      "creativity_score": 50,
+      "ride_score": 75.8,
+      "create_score": 53.5,
+      "priority": "A",
+      "priority_reason": "【其他】品牌相关度较好，适合借势跟进（综合分75.8）",
+      "explode_time": "2026-10-29 09:49",
+      "lifecycle": "峰值期",
+      "remaining_window": "预计持续1-3天",
+      "core_emotion": "用户对该话题的讨论兴趣",
+      "product_hook": "AI眼镜多模态能力",
+      "entry_angles": [
+        "热点POV：用第一视角走进「向“新”而行 以“质”争先」的真实场景",
+        "轻互动：邀请用户用眼镜完成与「向“新”而行 以“质”争先」相关的小任务"
+      ],
+      "target_audience": {
+        "core": "科技爱好者",
+        "diffusion": "都市白领",
+        "bystander": "大众"
+      },
+      "trigger_scene": "刷到该热点或身处相关场景时，想快速了解/记录/互动",
+      "content_format": "主：15-30s短视频；衍：图文笔记",
+      "recommended_creator_type": "生活方式KOC 2-3位",
+      "publish_window": "T+0 12:00-14:00",
+      "production_cycle": "半天",
+      "budget_level": "低",
+      "estimated_cpm": 40,
+      "estimated_cpe": 1.8,
+      "risks": [
+        "避免过度夸张产品能力",
+        "内容发布前需品牌/合规审核"
+      ],
+      "reference_hooks": [
+        "这个热点，我用眼镜跟了",
+        "换个视角看这件事",
+        "眼镜里的世界原来可以这样"
+      ],
+      "similar_historical_case": null,
+      "rank": 4
+    },
+    {
+      "topic_name": "邀网友做客婚礼小伙：工作动力是女友",
+      "platform": "头条热榜",
+      "heat_score": 81.7,
       "relevance_score": 25,
       "safety_score": 95,
       "timeliness_score": 93.2,
       "creativity_score": 70,
-      "ride_score": 76.9,
-      "create_score": 63.1,
+      "ride_score": 74.7,
+      "create_score": 62.2,
       "priority": "A",
-      "priority_reason": "【职场/办公】品牌相关度较好，适合借势跟进（综合分76.9）",
-      "explode_time": "2026-10-28 00:42",
+      "priority_reason": "【职场/办公】品牌相关度较好，适合借势跟进（综合分74.7）",
+      "explode_time": "2026-10-29 00:49",
       "lifecycle": "上升期",
       "remaining_window": "预计持续1-3天",
       "core_emotion": "打工人对效率焦虑与「科技减负」的期待",
       "product_hook": "AI眼镜多模态能力",
       "entry_angles": [
-        "热点POV：用第一视角走进「男子多次触摸女同事隐私部位被拘捕」的真实场景",
-        "轻互动：邀请用户用眼镜完成与「男子多次触摸女同事隐私部位被拘捕」相关的小任务"
+        "热点POV：用第一视角走进「邀网友做客婚礼小伙：工作动力是女友」的真实场景",
+        "轻互动：邀请用户用眼镜完成与「邀网友做客婚礼小伙：工作动力是女友」相关的小任务"
       ],
       "target_audience": {
         "core": "25-35岁都市白领",
@@ -65,213 +259,28 @@
         "roi": 6.2,
         "note": "去年同期类似选题，POV形式ROI达1:6.2"
       },
-      "rank": 1
-    },
-    {
-      "topic_name": "澳方向中方返还两件文物",
-      "platform": "头条热榜",
-      "heat_score": 95.6,
-      "relevance_score": 16,
-      "safety_score": 95,
-      "timeliness_score": 89.2,
-      "creativity_score": 55,
-      "ride_score": 76.2,
-      "create_score": 57.1,
-      "priority": "A",
-      "priority_reason": "【其他】品牌相关度较好，适合借势跟进（综合分76.2）",
-      "explode_time": "2026-10-28 07:42",
-      "lifecycle": "峰值期",
-      "remaining_window": "预计持续1-3天",
-      "core_emotion": "用户对该话题的讨论兴趣",
-      "product_hook": "AR导航",
-      "entry_angles": [
-        "城市探索：不掏手机也能抵达「澳方向中方返还两件文物」相关地点",
-        "热点POV：用第一视角走进「澳方向中方返还两件文物」的真实场景",
-        "轻互动：邀请用户用眼镜完成与「澳方向中方返还两件文物」相关的小任务"
-      ],
-      "target_audience": {
-        "core": "科技爱好者",
-        "diffusion": "都市白领",
-        "bystander": "大众"
-      },
-      "trigger_scene": "刷到该热点或身处相关场景时，想快速了解/记录/互动",
-      "content_format": "主：15-30s短视频；衍：图文笔记",
-      "recommended_creator_type": "生活方式KOC 2-3位",
-      "publish_window": "T+0 12:00-14:00",
-      "production_cycle": "半天",
-      "budget_level": "低",
-      "estimated_cpm": 40,
-      "estimated_cpe": 1.8,
-      "risks": [
-        "避免过度夸张产品能力",
-        "内容发布前需品牌/合规审核"
-      ],
-      "reference_hooks": [
-        "不低头，也能找到路",
-        "复杂路口，眼镜告诉我往哪走",
-        "城市探索不再迷路"
-      ],
-      "similar_historical_case": null,
-      "rank": 2
-    },
-    {
-      "topic_name": "中方强烈要求美国立即停止封锁古巴",
-      "platform": "头条热榜",
-      "heat_score": 100.0,
-      "relevance_score": 8,
-      "safety_score": 95,
-      "timeliness_score": 89.8,
-      "creativity_score": 50,
-      "ride_score": 76.1,
-      "create_score": 53.8,
-      "priority": "A",
-      "priority_reason": "【其他】品牌相关度较好，适合借势跟进（综合分76.1）",
-      "explode_time": "2026-10-28 11:42",
-      "lifecycle": "峰值期",
-      "remaining_window": "预计持续1-3天",
-      "core_emotion": "用户对该话题的讨论兴趣",
-      "product_hook": "AI眼镜多模态能力",
-      "entry_angles": [
-        "热点POV：用第一视角走进「中方强烈要求美国立即停止封锁古巴」的真实场景",
-        "轻互动：邀请用户用眼镜完成与「中方强烈要求美国立即停止封锁古巴」相关的小任务"
-      ],
-      "target_audience": {
-        "core": "科技爱好者",
-        "diffusion": "都市白领",
-        "bystander": "大众"
-      },
-      "trigger_scene": "刷到该热点或身处相关场景时，想快速了解/记录/互动",
-      "content_format": "主：15-30s短视频；衍：图文笔记",
-      "recommended_creator_type": "生活方式KOC 2-3位",
-      "publish_window": "T+0 12:00-14:00",
-      "production_cycle": "半天",
-      "budget_level": "低",
-      "estimated_cpm": 40,
-      "estimated_cpe": 1.8,
-      "risks": [
-        "避免过度夸张产品能力",
-        "内容发布前需品牌/合规审核"
-      ],
-      "reference_hooks": [
-        "这个热点，我用眼镜跟了",
-        "换个视角看这件事",
-        "眼镜里的世界原来可以这样"
-      ],
-      "similar_historical_case": null,
-      "rank": 3
-    },
-    {
-      "topic_name": "民调：内塔尼亚胡阵营未获过半议席",
-      "platform": "头条热榜",
-      "heat_score": 98.9,
-      "relevance_score": 8,
-      "safety_score": 95,
-      "timeliness_score": 89.7,
-      "creativity_score": 50,
-      "ride_score": 75.7,
-      "create_score": 53.6,
-      "priority": "A",
-      "priority_reason": "【其他】品牌相关度较好，适合借势跟进（综合分75.7）",
-      "explode_time": "2026-10-28 10:42",
-      "lifecycle": "峰值期",
-      "remaining_window": "预计持续1-3天",
-      "core_emotion": "用户对该话题的讨论兴趣",
-      "product_hook": "AI眼镜多模态能力",
-      "entry_angles": [
-        "热点POV：用第一视角走进「民调：内塔尼亚胡阵营未获过半议席」的真实场景",
-        "轻互动：邀请用户用眼镜完成与「民调：内塔尼亚胡阵营未获过半议席」相关的小任务"
-      ],
-      "target_audience": {
-        "core": "科技爱好者",
-        "diffusion": "都市白领",
-        "bystander": "大众"
-      },
-      "trigger_scene": "刷到该热点或身处相关场景时，想快速了解/记录/互动",
-      "content_format": "主：15-30s短视频；衍：图文笔记",
-      "recommended_creator_type": "生活方式KOC 2-3位",
-      "publish_window": "T+0 12:00-14:00",
-      "production_cycle": "半天",
-      "budget_level": "低",
-      "estimated_cpm": 40,
-      "estimated_cpe": 1.8,
-      "risks": [
-        "避免过度夸张产品能力",
-        "内容发布前需品牌/合规审核"
-      ],
-      "reference_hooks": [
-        "这个热点，我用眼镜跟了",
-        "换个视角看这件事",
-        "眼镜里的世界原来可以这样"
-      ],
-      "similar_historical_case": null,
-      "rank": 4
-    },
-    {
-      "topic_name": "以优良作风厚植党的执政根基",
-      "platform": "头条热榜",
-      "heat_score": 97.8,
-      "relevance_score": 8,
-      "safety_score": 95,
-      "timeliness_score": 89.5,
-      "creativity_score": 50,
-      "ride_score": 75.2,
-      "create_score": 53.4,
-      "priority": "A",
-      "priority_reason": "【其他】品牌相关度较好，适合借势跟进（综合分75.2）",
-      "explode_time": "2026-10-28 09:42",
-      "lifecycle": "峰值期",
-      "remaining_window": "预计持续1-3天",
-      "core_emotion": "用户对该话题的讨论兴趣",
-      "product_hook": "AI眼镜多模态能力",
-      "entry_angles": [
-        "热点POV：用第一视角走进「以优良作风厚植党的执政根基」的真实场景",
-        "轻互动：邀请用户用眼镜完成与「以优良作风厚植党的执政根基」相关的小任务"
-      ],
-      "target_audience": {
-        "core": "科技爱好者",
-        "diffusion": "都市白领",
-        "bystander": "大众"
-      },
-      "trigger_scene": "刷到该热点或身处相关场景时，想快速了解/记录/互动",
-      "content_format": "主：15-30s短视频；衍：图文笔记",
-      "recommended_creator_type": "生活方式KOC 2-3位",
-      "publish_window": "T+0 12:00-14:00",
-      "production_cycle": "半天",
-      "budget_level": "低",
-      "estimated_cpm": 40,
-      "estimated_cpe": 1.8,
-      "risks": [
-        "避免过度夸张产品能力",
-        "内容发布前需品牌/合规审核"
-      ],
-      "reference_hooks": [
-        "这个热点，我用眼镜跟了",
-        "换个视角看这件事",
-        "眼镜里的世界原来可以这样"
-      ],
-      "similar_historical_case": null,
       "rank": 5
     },
     {
-      "topic_name": "人民日报评姆巴佩翻车",
+      "topic_name": "辽宁舰编队遭日方滋扰挑衅直面应对",
       "platform": "头条热榜",
-      "heat_score": 96.7,
+      "heat_score": 93.3,
       "relevance_score": 8,
       "safety_score": 95,
-      "timeliness_score": 89.4,
+      "timeliness_score": 94.2,
       "creativity_score": 50,
-      "ride_score": 74.8,
-      "create_score": 53.3,
+      "ride_score": 74.6,
+      "create_score": 53.0,
       "priority": "A",
-      "priority_reason": "【其他】品牌相关度较好，适合借势跟进（综合分74.8）",
-      "explode_time": "2026-10-28 08:42",
+      "priority_reason": "【其他】品牌相关度较好，适合借势跟进（综合分74.6）",
+      "explode_time": "2026-10-29 07:49",
       "lifecycle": "峰值期",
       "remaining_window": "预计持续1-3天",
       "core_emotion": "用户对该话题的讨论兴趣",
       "product_hook": "AI眼镜多模态能力",
       "entry_angles": [
-        "热点POV：用第一视角走进「人民日报评姆巴佩翻车」的真实场景",
-        "轻互动：邀请用户用眼镜完成与「人民日报评姆巴佩翻车」相关的小任务"
+        "热点POV：用第一视角走进「辽宁舰编队遭日方滋扰挑衅直面应对」的真实场景",
+        "轻互动：邀请用户用眼镜完成与「辽宁舰编队遭日方滋扰挑衅直面应对」相关的小任务"
       ],
       "target_audience": {
         "core": "科技爱好者",
@@ -299,25 +308,25 @@
       "rank": 6
     },
     {
-      "topic_name": "国台办：祖国终将统一也必将统一",
+      "topic_name": "钓友钓58斤大青鱼被拖入3米水中",
       "platform": "头条热榜",
-      "heat_score": 93.3,
+      "heat_score": 91.7,
       "relevance_score": 8,
       "safety_score": 95,
-      "timeliness_score": 89.0,
+      "timeliness_score": 94.1,
       "creativity_score": 50,
-      "ride_score": 73.6,
-      "create_score": 52.7,
+      "ride_score": 74.0,
+      "create_score": 52.8,
       "priority": "A",
-      "priority_reason": "【其他】品牌相关度较好，适合借势跟进（综合分73.6）",
-      "explode_time": "2026-10-28 05:42",
+      "priority_reason": "【其他】品牌相关度较好，适合借势跟进（综合分74.0）",
+      "explode_time": "2026-10-29 06:49",
       "lifecycle": "峰值期",
       "remaining_window": "预计持续1-3天",
       "core_emotion": "用户对该话题的讨论兴趣",
       "product_hook": "AI眼镜多模态能力",
       "entry_angles": [
-        "热点POV：用第一视角走进「国台办：祖国终将统一也必将统一」的真实场景",
-        "轻互动：邀请用户用眼镜完成与「国台办：祖国终将统一也必将统一」相关的小任务"
+        "热点POV：用第一视角走进「钓友钓58斤大青鱼被拖入3米水中」的真实场景",
+        "轻互动：邀请用户用眼镜完成与「钓友钓58斤大青鱼被拖入3米水中」相关的小任务"
       ],
       "target_audience": {
         "core": "科技爱好者",
@@ -345,25 +354,25 @@
       "rank": 7
     },
     {
-      "topic_name": "邱世卿谈在台喊“我是中国人”遭网暴",
+      "topic_name": "母亲照顾截瘫儿子35年出奇迹",
       "platform": "头条热榜",
-      "heat_score": 92.2,
+      "heat_score": 90.0,
       "relevance_score": 8,
       "safety_score": 95,
-      "timeliness_score": 88.8,
+      "timeliness_score": 94.0,
       "creativity_score": 50,
-      "ride_score": 73.1,
-      "create_score": 52.6,
+      "ride_score": 73.4,
+      "create_score": 52.5,
       "priority": "A",
-      "priority_reason": "【其他】品牌相关度较好，适合借势跟进（综合分73.1）",
-      "explode_time": "2026-10-28 04:42",
+      "priority_reason": "【其他】品牌相关度较好，适合借势跟进（综合分73.4）",
+      "explode_time": "2026-10-29 05:49",
       "lifecycle": "峰值期",
       "remaining_window": "预计持续1-3天",
       "core_emotion": "用户对该话题的讨论兴趣",
       "product_hook": "AI眼镜多模态能力",
       "entry_angles": [
-        "热点POV：用第一视角走进「邱世卿谈在台喊“我是中国人”遭网暴」的真实场景",
-        "轻互动：邀请用户用眼镜完成与「邱世卿谈在台喊“我是中国人”遭网暴」相关的小任务"
+        "热点POV：用第一视角走进「母亲照顾截瘫儿子35年出奇迹」的真实场景",
+        "轻互动：邀请用户用眼镜完成与「母亲照顾截瘫儿子35年出奇迹」相关的小任务"
       ],
       "target_audience": {
         "core": "科技爱好者",
@@ -391,25 +400,25 @@
       "rank": 8
     },
     {
-      "topic_name": "交旅融合绘就出行新图景",
+      "topic_name": "西班牙宣布全国哀悼3天",
       "platform": "头条热榜",
-      "heat_score": 91.1,
+      "heat_score": 88.4,
       "relevance_score": 8,
       "safety_score": 95,
-      "timeliness_score": 88.7,
+      "timeliness_score": 93.8,
       "creativity_score": 50,
-      "ride_score": 72.7,
-      "create_score": 52.4,
+      "ride_score": 72.8,
+      "create_score": 52.2,
       "priority": "A",
-      "priority_reason": "【其他】品牌相关度较好，适合借势跟进（综合分72.7）",
-      "explode_time": "2026-10-28 03:42",
-      "lifecycle": "峰值期",
+      "priority_reason": "【其他】品牌相关度较好，适合借势跟进（综合分72.8）",
+      "explode_time": "2026-10-29 04:49",
+      "lifecycle": "上升期",
       "remaining_window": "预计持续1-3天",
       "core_emotion": "用户对该话题的讨论兴趣",
       "product_hook": "AI眼镜多模态能力",
       "entry_angles": [
-        "热点POV：用第一视角走进「交旅融合绘就出行新图景」的真实场景",
-        "轻互动：邀请用户用眼镜完成与「交旅融合绘就出行新图景」相关的小任务"
+        "热点POV：用第一视角走进「西班牙宣布全国哀悼3天」的真实场景",
+        "轻互动：邀请用户用眼镜完成与「西班牙宣布全国哀悼3天」相关的小任务"
       ],
       "target_audience": {
         "core": "科技爱好者",
@@ -437,25 +446,25 @@
       "rank": 9
     },
     {
-      "topic_name": "三星折叠屏手机广告切“苹果”",
+      "topic_name": "前三季度我国海洋生产总值增长4.9%",
       "platform": "头条热榜",
-      "heat_score": 90.0,
+      "heat_score": 86.7,
       "relevance_score": 8,
       "safety_score": 95,
-      "timeliness_score": 88.5,
+      "timeliness_score": 93.7,
       "creativity_score": 50,
-      "ride_score": 72.3,
-      "create_score": 52.2,
+      "ride_score": 72.2,
+      "create_score": 52.0,
       "priority": "A",
-      "priority_reason": "【其他】品牌相关度较好，适合借势跟进（综合分72.3）",
-      "explode_time": "2026-10-28 02:42",
-      "lifecycle": "峰值期",
+      "priority_reason": "【其他】品牌相关度较好，适合借势跟进（综合分72.2）",
+      "explode_time": "2026-10-29 03:49",
+      "lifecycle": "上升期",
       "remaining_window": "预计持续1-3天",
       "core_emotion": "用户对该话题的讨论兴趣",
       "product_hook": "AI眼镜多模态能力",
       "entry_angles": [
-        "热点POV：用第一视角走进「三星折叠屏手机广告切“苹果”」的真实场景",
-        "轻互动：邀请用户用眼镜完成与「三星折叠屏手机广告切“苹果”」相关的小任务"
+        "热点POV：用第一视角走进「前三季度我国海洋生产总值增长4.9%」的真实场景",
+        "轻互动：邀请用户用眼镜完成与「前三季度我国海洋生产总值增长4.9%」相关的小任务"
       ],
       "target_audience": {
         "core": "科技爱好者",
@@ -547,7 +556,7 @@
         "避开特殊群体",
         "城市选择需有代表性"
       ],
-      "id": "2026-10-28-B001",
+      "id": "2026-10-29-B001",
       "heat_score": 68,
       "relevance_score": 82,
       "safety_score": 87,
@@ -618,7 +627,7 @@
         "避免影射具体公司文化",
         "不要强化职场对立情绪"
       ],
-      "id": "2026-10-28-B002",
+      "id": "2026-10-29-B002",
       "heat_score": 71,
       "relevance_score": 84,
       "safety_score": 86,
@@ -691,7 +700,7 @@
         "注意用户隐私与内容审核",
         "避免过度浪漫化陌生人社交风险"
       ],
-      "id": "2026-10-28-B003",
+      "id": "2026-10-29-B003",
       "heat_score": 74,
       "relevance_score": 86,
       "safety_score": 85,
