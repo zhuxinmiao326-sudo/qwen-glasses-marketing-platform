@@ -1,6 +1,6 @@
 {
-  "date": "2026-11-04",
-  "updatedAt": "2026-11-04T07:19:52Z",
+  "date": "2026-11-05",
+  "updatedAt": "2026-11-05T07:46:29Z",
   "sources": [
     {
       "name": "头条热榜",
@@ -17,7 +17,7 @@
   ],
   "a_ride_hot_topics": [
     {
-      "topic_name": "美民主党夺回参议院",
+      "topic_name": "马兴瑞被提起公诉",
       "platform": "头条热榜",
       "heat_score": 100.0,
       "relevance_score": 8,
@@ -28,14 +28,14 @@
       "create_score": 54.0,
       "priority": "A",
       "priority_reason": "【其他】品牌相关度较好，适合借势跟进（综合分77.1）",
-      "explode_time": "2026-11-04 12:19",
+      "explode_time": "2026-11-05 12:46",
       "lifecycle": "峰值期",
       "remaining_window": "预计持续1-3天",
       "core_emotion": "用户对该话题的讨论兴趣",
       "product_hook": "AI眼镜多模态能力",
       "entry_angles": [
-        "热点POV：用第一视角走进「美民主党夺回参议院」的真实场景",
-        "轻互动：邀请用户用眼镜完成与「美民主党夺回参议院」相关的小任务"
+        "热点POV：用第一视角走进「马兴瑞被提起公诉」的真实场景",
+        "轻互动：邀请用户用眼镜完成与「马兴瑞被提起公诉」相关的小任务"
       ],
       "target_audience": {
         "core": "科技爱好者",
@@ -63,25 +63,25 @@
       "rank": 1
     },
     {
-      "topic_name": "共和党溃败原因",
+      "topic_name": "黄之锋再获刑10年",
       "platform": "头条热榜",
-      "heat_score": 97.8,
+      "heat_score": 98.2,
       "relevance_score": 8,
       "safety_score": 95,
       "timeliness_score": 94.7,
       "creativity_score": 50,
-      "ride_score": 76.3,
-      "create_score": 53.7,
+      "ride_score": 76.4,
+      "create_score": 53.8,
       "priority": "A",
-      "priority_reason": "【其他】品牌相关度较好，适合借势跟进（综合分76.3）",
-      "explode_time": "2026-11-04 11:19",
+      "priority_reason": "【其他】品牌相关度较好，适合借势跟进（综合分76.4）",
+      "explode_time": "2026-11-05 11:46",
       "lifecycle": "峰值期",
       "remaining_window": "预计持续1-3天",
       "core_emotion": "用户对该话题的讨论兴趣",
       "product_hook": "AI眼镜多模态能力",
       "entry_angles": [
-        "热点POV：用第一视角走进「共和党溃败原因」的真实场景",
-        "轻互动：邀请用户用眼镜完成与「共和党溃败原因」相关的小任务"
+        "热点POV：用第一视角走进「黄之锋再获刑10年」的真实场景",
+        "轻互动：邀请用户用眼镜完成与「黄之锋再获刑10年」相关的小任务"
       ],
       "target_audience": {
         "core": "科技爱好者",
@@ -109,25 +109,25 @@
       "rank": 2
     },
     {
-      "topic_name": "9图看中国互联网发展最新成就",
+      "topic_name": "历史昭示未来 奋斗成就伟业",
       "platform": "头条热榜",
-      "heat_score": 95.6,
+      "heat_score": 96.4,
       "relevance_score": 8,
       "safety_score": 95,
       "timeliness_score": 94.5,
       "creativity_score": 50,
-      "ride_score": 75.5,
-      "create_score": 53.4,
+      "ride_score": 75.7,
+      "create_score": 53.5,
       "priority": "A",
-      "priority_reason": "【其他】品牌相关度较好，适合借势跟进（综合分75.5）",
-      "explode_time": "2026-11-04 10:19",
+      "priority_reason": "【其他】品牌相关度较好，适合借势跟进（综合分75.7）",
+      "explode_time": "2026-11-05 10:46",
       "lifecycle": "峰值期",
       "remaining_window": "预计持续1-3天",
       "core_emotion": "用户对该话题的讨论兴趣",
       "product_hook": "AI眼镜多模态能力",
       "entry_angles": [
-        "热点POV：用第一视角走进「9图看中国互联网发展最新成就」的真实场景",
-        "轻互动：邀请用户用眼镜完成与「9图看中国互联网发展最新成就」相关的小任务"
+        "热点POV：用第一视角走进「历史昭示未来 奋斗成就伟业」的真实场景",
+        "轻互动：邀请用户用眼镜完成与「历史昭示未来 奋斗成就伟业」相关的小任务"
       ],
       "target_audience": {
         "core": "科技爱好者",
@@ -155,117 +155,127 @@
       "rank": 3
     },
     {
-      "topic_name": "新华社评苹果天气bug：离大谱",
+      "topic_name": "厕所偷拍者不乏高知人群、公司高管",
       "platform": "头条热榜",
-      "heat_score": 93.3,
+      "heat_score": 91.1,
+      "relevance_score": 15,
+      "safety_score": 95,
+      "timeliness_score": 94.1,
+      "creativity_score": 55,
+      "ride_score": 75.5,
+      "create_score": 56.4,
+      "priority": "A",
+      "priority_reason": "【财经/商业】品牌相关度较好，适合借势跟进（综合分75.5）",
+      "explode_time": "2026-11-05 07:46",
+      "lifecycle": "峰值期",
+      "remaining_window": "预计持续1-3天",
+      "core_emotion": "对经济/商业动态的关注与焦虑",
+      "product_hook": "AI眼镜多模态能力",
+      "entry_angles": [
+        "热点POV：用第一视角走进「厕所偷拍者不乏高知人群、公司高管」的真实场景",
+        "轻互动：邀请用户用眼镜完成与「厕所偷拍者不乏高知人群、公司高管」相关的小任务"
+      ],
+      "target_audience": {
+        "core": "财经/商业人群",
+        "diffusion": "职场白领",
+        "bystander": "关注经济的大众"
+      },
+      "trigger_scene": "刷到该热点或身处相关场景时，想快速了解/记录/互动",
+      "content_format": "主：口播解读；衍：图文早报+数据可视化",
+      "recommended_creator_type": "财经垂类KOL 1位 + 职场KOC 2位",
+      "publish_window": "T+0 08:00-10:00",
+      "production_cycle": "半天",
+      "budget_level": "中",
+      "estimated_cpm": 36,
+      "estimated_cpe": 1.6,
+      "risks": [
+        "避免过度夸张产品能力",
+        "内容发布前需品牌/合规审核",
+        "避免投资建议或夸大经济影响"
+      ],
+      "reference_hooks": [
+        "这个热点，我用眼镜跟了",
+        "换个视角看这件事",
+        "眼镜里的世界原来可以这样"
+      ],
+      "similar_historical_case": {
+        "case": "晨间财经早报",
+        "roi": 2.5,
+        "note": "财经内容适合早间时段发布"
+      },
+      "rank": 4
+    },
+    {
+      "topic_name": "张朝阳：算法推荐容易让人越看越窄",
+      "platform": "头条热榜",
+      "heat_score": 84.0,
+      "relevance_score": 25,
+      "safety_score": 95,
+      "timeliness_score": 93.5,
+      "creativity_score": 65,
+      "ride_score": 75.3,
+      "create_score": 61.3,
+      "priority": "A",
+      "priority_reason": "【科技/AI】品牌相关度较好，适合借势跟进（综合分75.3）",
+      "explode_time": "2026-11-05 03:46",
+      "lifecycle": "上升期",
+      "remaining_window": "预计持续1-3天",
+      "core_emotion": "对新技术的好奇与讨论热情",
+      "product_hook": "AI眼镜多模态能力",
+      "entry_angles": [
+        "热点POV：用第一视角走进「张朝阳：算法推荐容易让人越看越窄」的真实场景",
+        "轻互动：邀请用户用眼镜完成与「张朝阳：算法推荐容易让人越看越窄」相关的小任务"
+      ],
+      "target_audience": {
+        "core": "科技 early adopters",
+        "diffusion": "AI/互联网从业者",
+        "bystander": "关注科技趋势的大众"
+      },
+      "trigger_scene": "刷到该热点或身处相关场景时，想快速了解/记录/互动",
+      "content_format": "主：知乎长图文/B站深度解读；衍：抖音切片",
+      "recommended_creator_type": "科技垂类KOL 2位 + 知乎答主 1位",
+      "publish_window": "T+1 10:00-12:00",
+      "production_cycle": "一天",
+      "budget_level": "中",
+      "estimated_cpm": 28,
+      "estimated_cpe": 1.5,
+      "risks": [
+        "避免过度夸张产品能力",
+        "内容发布前需品牌/合规审核",
+        "技术表述需准确，避免攻击竞品"
+      ],
+      "reference_hooks": [
+        "这个热点，我用眼镜跟了",
+        "换个视角看这件事",
+        "眼镜里的世界原来可以这样"
+      ],
+      "similar_historical_case": {
+        "case": "千问发布会解读",
+        "roi": 3.8,
+        "note": "技术向内容适合B站/知乎长图文"
+      },
+      "rank": 5
+    },
+    {
+      "topic_name": "芒果TV崩了",
+      "platform": "头条热榜",
+      "heat_score": 94.7,
       "relevance_score": 8,
       "safety_score": 95,
       "timeliness_score": 94.4,
       "creativity_score": 50,
-      "ride_score": 74.6,
-      "create_score": 53.0,
+      "ride_score": 75.1,
+      "create_score": 53.2,
       "priority": "A",
-      "priority_reason": "【其他】品牌相关度较好，适合借势跟进（综合分74.6）",
-      "explode_time": "2026-11-04 09:19",
+      "priority_reason": "【其他】品牌相关度较好，适合借势跟进（综合分75.1）",
+      "explode_time": "2026-11-05 09:46",
       "lifecycle": "峰值期",
       "remaining_window": "预计持续1-3天",
       "core_emotion": "用户对该话题的讨论兴趣",
       "product_hook": "AI眼镜多模态能力",
       "entry_angles": [
-        "热点POV：用第一视角走进「新华社评苹果天气bug：离大谱」的真实场景",
-        "轻互动：邀请用户用眼镜完成与「新华社评苹果天气bug：离大谱」相关的小任务"
-      ],
-      "target_audience": {
-        "core": "科技爱好者",
-        "diffusion": "都市白领",
-        "bystander": "大众"
-      },
-      "trigger_scene": "刷到该热点或身处相关场景时，想快速了解/记录/互动",
-      "content_format": "主：15-30s短视频；衍：图文笔记",
-      "recommended_creator_type": "生活方式KOC 2-3位",
-      "publish_window": "T+0 12:00-14:00",
-      "production_cycle": "半天",
-      "budget_level": "低",
-      "estimated_cpm": 40,
-      "estimated_cpe": 1.8,
-      "risks": [
-        "避免过度夸张产品能力",
-        "内容发布前需品牌/合规审核"
-      ],
-      "reference_hooks": [
-        "这个热点，我用眼镜跟了",
-        "换个视角看这件事",
-        "眼镜里的世界原来可以这样"
-      ],
-      "similar_historical_case": null,
-      "rank": 4
-    },
-    {
-      "topic_name": "国台办：祖国统一是不可阻挡历史大势",
-      "platform": "头条热榜",
-      "heat_score": 91.1,
-      "relevance_score": 8,
-      "safety_score": 95,
-      "timeliness_score": 94.2,
-      "creativity_score": 50,
-      "ride_score": 73.8,
-      "create_score": 52.7,
-      "priority": "A",
-      "priority_reason": "【其他】品牌相关度较好，适合借势跟进（综合分73.8）",
-      "explode_time": "2026-11-04 08:19",
-      "lifecycle": "峰值期",
-      "remaining_window": "预计持续1-3天",
-      "core_emotion": "用户对该话题的讨论兴趣",
-      "product_hook": "AI眼镜多模态能力",
-      "entry_angles": [
-        "热点POV：用第一视角走进「国台办：祖国统一是不可阻挡历史大势」的真实场景",
-        "轻互动：邀请用户用眼镜完成与「国台办：祖国统一是不可阻挡历史大势」相关的小任务"
-      ],
-      "target_audience": {
-        "core": "科技爱好者",
-        "diffusion": "都市白领",
-        "bystander": "大众"
-      },
-      "trigger_scene": "刷到该热点或身处相关场景时，想快速了解/记录/互动",
-      "content_format": "主：15-30s短视频；衍：图文笔记",
-      "recommended_creator_type": "生活方式KOC 2-3位",
-      "publish_window": "T+0 12:00-14:00",
-      "production_cycle": "半天",
-      "budget_level": "低",
-      "estimated_cpm": 40,
-      "estimated_cpe": 1.8,
-      "risks": [
-        "避免过度夸张产品能力",
-        "内容发布前需品牌/合规审核"
-      ],
-      "reference_hooks": [
-        "这个热点，我用眼镜跟了",
-        "换个视角看这件事",
-        "眼镜里的世界原来可以这样"
-      ],
-      "similar_historical_case": null,
-      "rank": 5
-    },
-    {
-      "topic_name": "失散20年双胞胎姐妹通过刷短视频相认",
-      "platform": "头条热榜",
-      "heat_score": 88.9,
-      "relevance_score": 8,
-      "safety_score": 95,
-      "timeliness_score": 94.1,
-      "creativity_score": 50,
-      "ride_score": 73.0,
-      "create_score": 52.3,
-      "priority": "A",
-      "priority_reason": "【其他】品牌相关度较好，适合借势跟进（综合分73.0）",
-      "explode_time": "2026-11-04 07:19",
-      "lifecycle": "上升期",
-      "remaining_window": "预计持续1-3天",
-      "core_emotion": "用户对该话题的讨论兴趣",
-      "product_hook": "AI眼镜多模态能力",
-      "entry_angles": [
-        "热点POV：用第一视角走进「失散20年双胞胎姐妹通过刷短视频相认」的真实场景",
-        "轻互动：邀请用户用眼镜完成与「失散20年双胞胎姐妹通过刷短视频相认」相关的小任务"
+        "热点POV：用第一视角走进「芒果TV崩了」的真实场景",
+        "轻互动：邀请用户用眼镜完成与「芒果TV崩了」相关的小任务"
       ],
       "target_audience": {
         "core": "科技爱好者",
@@ -293,25 +303,25 @@
       "rank": 6
     },
     {
-      "topic_name": "苹果天气bug：多地零下32℃",
+      "topic_name": "文班亚马52分24板8帽",
       "platform": "头条热榜",
-      "heat_score": 86.7,
+      "heat_score": 92.9,
       "relevance_score": 8,
       "safety_score": 95,
-      "timeliness_score": 94.0,
+      "timeliness_score": 94.2,
       "creativity_score": 50,
-      "ride_score": 72.2,
-      "create_score": 52.0,
+      "ride_score": 74.5,
+      "create_score": 52.9,
       "priority": "A",
-      "priority_reason": "【其他】品牌相关度较好，适合借势跟进（综合分72.2）",
-      "explode_time": "2026-11-04 06:19",
-      "lifecycle": "上升期",
+      "priority_reason": "【其他】品牌相关度较好，适合借势跟进（综合分74.5）",
+      "explode_time": "2026-11-05 08:46",
+      "lifecycle": "峰值期",
       "remaining_window": "预计持续1-3天",
       "core_emotion": "用户对该话题的讨论兴趣",
       "product_hook": "AI眼镜多模态能力",
       "entry_angles": [
-        "热点POV：用第一视角走进「苹果天气bug：多地零下32℃」的真实场景",
-        "轻互动：邀请用户用眼镜完成与「苹果天气bug：多地零下32℃」相关的小任务"
+        "热点POV：用第一视角走进「文班亚马52分24板8帽」的真实场景",
+        "轻互动：邀请用户用眼镜完成与「文班亚马52分24板8帽」相关的小任务"
       ],
       "target_audience": {
         "core": "科技爱好者",
@@ -339,77 +349,76 @@
       "rank": 7
     },
     {
-      "topic_name": "居民家闯入眼镜王蛇 不断发出嘶嘶声",
-      "platform": "百度热搜",
-      "heat_score": 67.2,
-      "relevance_score": 45,
+      "topic_name": "专家：我国股市稳定发展前景没有改变",
+      "platform": "头条热榜",
+      "heat_score": 85.8,
+      "relevance_score": 15,
       "safety_score": 95,
-      "timeliness_score": 84.2,
-      "creativity_score": 70,
-      "ride_score": 71.9,
-      "create_score": 66.5,
+      "timeliness_score": 93.7,
+      "creativity_score": 55,
+      "ride_score": 73.5,
+      "create_score": 55.6,
       "priority": "A",
-      "priority_reason": "【科技/AI】品牌相关度较好，适合借势跟进（综合分71.9）",
-      "explode_time": "2026-11-02 22:19",
-      "lifecycle": "延续期",
+      "priority_reason": "【财经/商业】品牌相关度较好，适合借势跟进（综合分73.5）",
+      "explode_time": "2026-11-05 04:46",
+      "lifecycle": "上升期",
       "remaining_window": "预计持续1-3天",
-      "core_emotion": "对新技术的好奇与讨论热情",
-      "product_hook": "轻量化佩戴",
+      "core_emotion": "对经济/商业动态的关注与焦虑",
+      "product_hook": "AI眼镜多模态能力",
       "entry_angles": [
-        "生活方式：像普通眼镜一样记录「居民家闯入眼镜王蛇 不断发出嘶嘶声」",
-        "热点POV：用第一视角走进「居民家闯入眼镜王蛇 不断发出嘶嘶声」的真实场景",
-        "轻互动：邀请用户用眼镜完成与「居民家闯入眼镜王蛇 不断发出嘶嘶声」相关的小任务"
+        "热点POV：用第一视角走进「专家：我国股市稳定发展前景没有改变」的真实场景",
+        "轻互动：邀请用户用眼镜完成与「专家：我国股市稳定发展前景没有改变」相关的小任务"
       ],
       "target_audience": {
-        "core": "科技 early adopters",
-        "diffusion": "AI/互联网从业者",
-        "bystander": "关注科技趋势的大众"
+        "core": "财经/商业人群",
+        "diffusion": "职场白领",
+        "bystander": "关注经济的大众"
       },
       "trigger_scene": "刷到该热点或身处相关场景时，想快速了解/记录/互动",
-      "content_format": "主：知乎长图文/B站深度解读；衍：抖音切片",
-      "recommended_creator_type": "科技垂类KOL 2位 + 知乎答主 1位",
-      "publish_window": "T+1 10:00-12:00",
-      "production_cycle": "一天",
+      "content_format": "主：口播解读；衍：图文早报+数据可视化",
+      "recommended_creator_type": "财经垂类KOL 1位 + 职场KOC 2位",
+      "publish_window": "T+0 08:00-10:00",
+      "production_cycle": "半天",
       "budget_level": "中",
-      "estimated_cpm": 28,
-      "estimated_cpe": 1.5,
+      "estimated_cpm": 36,
+      "estimated_cpe": 1.6,
       "risks": [
         "避免过度夸张产品能力",
         "内容发布前需品牌/合规审核",
-        "技术表述需准确，避免攻击竞品"
+        "避免投资建议或夸大经济影响"
       ],
       "reference_hooks": [
-        "它看起来就像一副普通眼镜",
-        "戴出门，没人发现这是AI眼镜",
-        "好看和好用，终于在一起了"
+        "这个热点，我用眼镜跟了",
+        "换个视角看这件事",
+        "眼镜里的世界原来可以这样"
       ],
       "similar_historical_case": {
-        "case": "千问发布会解读",
-        "roi": 3.8,
-        "note": "技术向内容适合B站/知乎长图文"
+        "case": "晨间财经早报",
+        "roi": 2.5,
+        "note": "财经内容适合早间时段发布"
       },
       "rank": 8
     },
     {
-      "topic_name": "人到中年为何蹲不下去了",
+      "topic_name": "高市祝贺日本书法申遗新进展引争议",
       "platform": "头条热榜",
-      "heat_score": 84.4,
+      "heat_score": 89.3,
       "relevance_score": 8,
       "safety_score": 95,
-      "timeliness_score": 93.8,
+      "timeliness_score": 94.0,
       "creativity_score": 50,
-      "ride_score": 71.4,
-      "create_score": 51.6,
+      "ride_score": 73.2,
+      "create_score": 52.4,
       "priority": "A",
-      "priority_reason": "【其他】品牌相关度较好，适合借势跟进（综合分71.4）",
-      "explode_time": "2026-11-04 05:19",
+      "priority_reason": "【其他】品牌相关度较好，适合借势跟进（综合分73.2）",
+      "explode_time": "2026-11-05 06:46",
       "lifecycle": "上升期",
       "remaining_window": "预计持续1-3天",
       "core_emotion": "用户对该话题的讨论兴趣",
       "product_hook": "AI眼镜多模态能力",
       "entry_angles": [
-        "热点POV：用第一视角走进「人到中年为何蹲不下去了」的真实场景",
-        "轻互动：邀请用户用眼镜完成与「人到中年为何蹲不下去了」相关的小任务"
+        "热点POV：用第一视角走进「高市祝贺日本书法申遗新进展引争议」的真实场景",
+        "轻互动：邀请用户用眼镜完成与「高市祝贺日本书法申遗新进展引争议」相关的小任务"
       ],
       "target_audience": {
         "core": "科技爱好者",
@@ -437,25 +446,25 @@
       "rank": 9
     },
     {
-      "topic_name": "国台办回应台退役金门舰转交菲律宾",
+      "topic_name": "多品牌金饰报价超1200元",
       "platform": "头条热榜",
-      "heat_score": 82.2,
+      "heat_score": 87.6,
       "relevance_score": 8,
       "safety_score": 95,
-      "timeliness_score": 93.7,
+      "timeliness_score": 93.8,
       "creativity_score": 50,
-      "ride_score": 70.6,
-      "create_score": 51.3,
+      "ride_score": 72.5,
+      "create_score": 52.1,
       "priority": "A",
-      "priority_reason": "【其他】品牌相关度较好，适合借势跟进（综合分70.6）",
-      "explode_time": "2026-11-04 04:19",
+      "priority_reason": "【其他】品牌相关度较好，适合借势跟进（综合分72.5）",
+      "explode_time": "2026-11-05 05:46",
       "lifecycle": "上升期",
       "remaining_window": "预计持续1-3天",
       "core_emotion": "用户对该话题的讨论兴趣",
       "product_hook": "AI眼镜多模态能力",
       "entry_angles": [
-        "热点POV：用第一视角走进「国台办回应台退役金门舰转交菲律宾」的真实场景",
-        "轻互动：邀请用户用眼镜完成与「国台办回应台退役金门舰转交菲律宾」相关的小任务"
+        "热点POV：用第一视角走进「多品牌金饰报价超1200元」的真实场景",
+        "轻互动：邀请用户用眼镜完成与「多品牌金饰报价超1200元」相关的小任务"
       ],
       "target_audience": {
         "core": "科技爱好者",
@@ -547,7 +556,7 @@
         "避开特殊群体",
         "城市选择需有代表性"
       ],
-      "id": "2026-11-04-B001",
+      "id": "2026-11-05-B001",
       "heat_score": 68,
       "relevance_score": 82,
       "safety_score": 87,
@@ -618,7 +627,7 @@
         "避免影射具体公司文化",
         "不要强化职场对立情绪"
       ],
-      "id": "2026-11-04-B002",
+      "id": "2026-11-05-B002",
       "heat_score": 71,
       "relevance_score": 84,
       "safety_score": 86,
@@ -691,7 +700,7 @@
         "注意用户隐私与内容审核",
         "避免过度浪漫化陌生人社交风险"
       ],
-      "id": "2026-11-04-B003",
+      "id": "2026-11-05-B003",
       "heat_score": 74,
       "relevance_score": 86,
       "safety_score": 85,
