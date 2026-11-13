@@ -1,6 +1,6 @@
 {
-  "date": "2026-11-12",
-  "updatedAt": "2026-11-12T08:02:02Z",
+  "date": "2026-11-13",
+  "updatedAt": "2026-11-13T07:40:31Z",
   "sources": [
     {
       "name": "头条热榜",
@@ -17,25 +17,25 @@
   ],
   "a_ride_hot_topics": [
     {
-      "topic_name": "杜兰特：希望库里伤势无大碍",
+      "topic_name": "新一轮大范围雨雪明夜起来袭",
       "platform": "头条热榜",
-      "heat_score": 97.4,
+      "heat_score": 98.5,
       "relevance_score": 8,
       "safety_score": 95,
       "timeliness_score": 94.7,
       "creativity_score": 50,
-      "ride_score": 76.1,
-      "create_score": 53.6,
+      "ride_score": 76.5,
+      "create_score": 53.8,
       "priority": "A",
-      "priority_reason": "【其他】品牌相关度较好，适合借势跟进（综合分76.1）",
-      "explode_time": "2026-11-12 12:02",
+      "priority_reason": "【其他】品牌相关度较好，适合借势跟进（综合分76.5）",
+      "explode_time": "2026-11-13 11:40",
       "lifecycle": "峰值期",
       "remaining_window": "预计持续1-3天",
       "core_emotion": "用户对该话题的讨论兴趣",
       "product_hook": "AI眼镜多模态能力",
       "entry_angles": [
-        "热点POV：用第一视角走进「杜兰特：希望库里伤势无大碍」的真实场景",
-        "轻互动：邀请用户用眼镜完成与「杜兰特：希望库里伤势无大碍」相关的小任务"
+        "热点POV：用第一视角走进「新一轮大范围雨雪明夜起来袭」的真实场景",
+        "轻互动：邀请用户用眼镜完成与「新一轮大范围雨雪明夜起来袭」相关的小任务"
       ],
       "target_audience": {
         "core": "科技爱好者",
@@ -63,76 +63,71 @@
       "rank": 1
     },
     {
-      "topic_name": "多位明星遭AI短剧换脸后维权",
-      "platform": "百度热搜",
-      "heat_score": 81.7,
-      "relevance_score": 37,
+      "topic_name": "亚太共此时",
+      "platform": "头条热榜",
+      "heat_score": 96.9,
+      "relevance_score": 8,
       "safety_score": 95,
-      "timeliness_score": 87.3,
-      "creativity_score": 65,
-      "ride_score": 75.7,
-      "create_score": 64.8,
+      "timeliness_score": 94.5,
+      "creativity_score": 50,
+      "ride_score": 75.9,
+      "create_score": 53.6,
       "priority": "A",
-      "priority_reason": "【科技/AI】品牌相关度较好，适合借势跟进（综合分75.7）",
-      "explode_time": "2026-11-11 20:02",
-      "lifecycle": "上升期",
+      "priority_reason": "【其他】品牌相关度较好，适合借势跟进（综合分75.9）",
+      "explode_time": "2026-11-13 10:40",
+      "lifecycle": "峰值期",
       "remaining_window": "预计持续1-3天",
-      "core_emotion": "对新技术的好奇与讨论热情",
+      "core_emotion": "用户对该话题的讨论兴趣",
       "product_hook": "AI眼镜多模态能力",
       "entry_angles": [
-        "热点POV：用第一视角走进「多位明星遭AI短剧换脸后维权」的真实场景",
-        "轻互动：邀请用户用眼镜完成与「多位明星遭AI短剧换脸后维权」相关的小任务"
+        "热点POV：用第一视角走进「亚太共此时」的真实场景",
+        "轻互动：邀请用户用眼镜完成与「亚太共此时」相关的小任务"
       ],
       "target_audience": {
-        "core": "科技 early adopters",
-        "diffusion": "AI/互联网从业者",
-        "bystander": "关注科技趋势的大众"
+        "core": "科技爱好者",
+        "diffusion": "都市白领",
+        "bystander": "大众"
       },
       "trigger_scene": "刷到该热点或身处相关场景时，想快速了解/记录/互动",
-      "content_format": "主：知乎长图文/B站深度解读；衍：抖音切片",
-      "recommended_creator_type": "科技垂类KOL 2位 + 知乎答主 1位",
-      "publish_window": "T+1 10:00-12:00",
-      "production_cycle": "一天",
-      "budget_level": "中",
-      "estimated_cpm": 28,
-      "estimated_cpe": 1.5,
+      "content_format": "主：15-30s短视频；衍：图文笔记",
+      "recommended_creator_type": "生活方式KOC 2-3位",
+      "publish_window": "T+0 12:00-14:00",
+      "production_cycle": "半天",
+      "budget_level": "低",
+      "estimated_cpm": 40,
+      "estimated_cpe": 1.8,
       "risks": [
         "避免过度夸张产品能力",
-        "内容发布前需品牌/合规审核",
-        "技术表述需准确，避免攻击竞品"
+        "内容发布前需品牌/合规审核"
       ],
       "reference_hooks": [
         "这个热点，我用眼镜跟了",
         "换个视角看这件事",
         "眼镜里的世界原来可以这样"
       ],
-      "similar_historical_case": {
-        "case": "千问发布会解读",
-        "roi": 3.8,
-        "note": "技术向内容适合B站/知乎长图文"
-      },
+      "similar_historical_case": null,
       "rank": 2
     },
     {
-      "topic_name": "进博会，把全球南方好物送到中国",
+      "topic_name": "上海交警用英文丝滑执法走红",
       "platform": "头条热榜",
-      "heat_score": 94.9,
+      "heat_score": 95.4,
       "relevance_score": 8,
       "safety_score": 95,
-      "timeliness_score": 94.5,
+      "timeliness_score": 94.4,
       "creativity_score": 50,
-      "ride_score": 75.2,
+      "ride_score": 75.4,
       "create_score": 53.3,
       "priority": "A",
-      "priority_reason": "【其他】品牌相关度较好，适合借势跟进（综合分75.2）",
-      "explode_time": "2026-11-12 11:02",
+      "priority_reason": "【其他】品牌相关度较好，适合借势跟进（综合分75.4）",
+      "explode_time": "2026-11-13 09:40",
       "lifecycle": "峰值期",
       "remaining_window": "预计持续1-3天",
       "core_emotion": "用户对该话题的讨论兴趣",
       "product_hook": "AI眼镜多模态能力",
       "entry_angles": [
-        "热点POV：用第一视角走进「进博会，把全球南方好物送到中国」的真实场景",
-        "轻互动：邀请用户用眼镜完成与「进博会，把全球南方好物送到中国」相关的小任务"
+        "热点POV：用第一视角走进「上海交警用英文丝滑执法走红」的真实场景",
+        "轻互动：邀请用户用眼镜完成与「上海交警用英文丝滑执法走红」相关的小任务"
       ],
       "target_audience": {
         "core": "科技爱好者",
@@ -160,25 +155,75 @@
       "rank": 3
     },
     {
-      "topic_name": "油价13日起下调",
+      "topic_name": "唐湘龙：罗大佑曾在演唱会剪美国护照",
       "platform": "头条热榜",
-      "heat_score": 92.3,
+      "heat_score": 81.7,
+      "relevance_score": 18,
+      "safety_score": 98,
+      "timeliness_score": 93.0,
+      "creativity_score": 88,
+      "ride_score": 74.8,
+      "create_score": 64.8,
+      "priority": "A",
+      "priority_reason": "【娱乐/影视】品牌相关度较好，适合借势跟进（综合分74.8）",
+      "explode_time": "2026-11-13 00:40",
+      "lifecycle": "上升期",
+      "remaining_window": "预计持续1-3天",
+      "core_emotion": "娱乐消遣与社交分享欲望",
+      "product_hook": "AI眼镜多模态能力",
+      "entry_angles": [
+        "热点POV：用第一视角走进「唐湘龙：罗大佑曾在演唱会剪美国护照」的真实场景",
+        "轻互动：邀请用户用眼镜完成与「唐湘龙：罗大佑曾在演唱会剪美国护照」相关的小任务"
+      ],
+      "target_audience": {
+        "core": "娱乐内容消费者",
+        "diffusion": "年轻用户",
+        "bystander": "泛娱乐人群"
+      },
+      "trigger_scene": "刷到该热点或身处相关场景时，想快速了解/记录/互动",
+      "content_format": "主：Reaction短视频；衍：二创切片+图文",
+      "recommended_creator_type": "娱乐垂类KOL 1位 + KOC 2-3位",
+      "publish_window": "T+0 20:00-22:00",
+      "production_cycle": "半天",
+      "budget_level": "低",
+      "estimated_cpm": 30,
+      "estimated_cpe": 0.9,
+      "risks": [
+        "避免过度夸张产品能力",
+        "内容发布前需品牌/合规审核"
+      ],
+      "reference_hooks": [
+        "这个热点，我用眼镜跟了",
+        "换个视角看这件事",
+        "眼镜里的世界原来可以这样"
+      ],
+      "similar_historical_case": {
+        "case": "影院实时字幕体验",
+        "roi": 3.2,
+        "note": "娱乐向内容适合短平快Reaction"
+      },
+      "rank": 4
+    },
+    {
+      "topic_name": "女子3年没睡过整觉 吃安眠药也没用",
+      "platform": "头条热榜",
+      "heat_score": 92.4,
       "relevance_score": 8,
       "safety_score": 95,
-      "timeliness_score": 94.4,
+      "timeliness_score": 94.1,
       "creativity_score": 50,
       "ride_score": 74.3,
       "create_score": 52.9,
       "priority": "A",
       "priority_reason": "【其他】品牌相关度较好，适合借势跟进（综合分74.3）",
-      "explode_time": "2026-11-12 10:02",
+      "explode_time": "2026-11-13 07:40",
       "lifecycle": "峰值期",
       "remaining_window": "预计持续1-3天",
       "core_emotion": "用户对该话题的讨论兴趣",
       "product_hook": "AI眼镜多模态能力",
       "entry_angles": [
-        "热点POV：用第一视角走进「油价13日起下调」的真实场景",
-        "轻互动：邀请用户用眼镜完成与「油价13日起下调」相关的小任务"
+        "热点POV：用第一视角走进「女子3年没睡过整觉 吃安眠药也没用」的真实场景",
+        "轻互动：邀请用户用眼镜完成与「女子3年没睡过整觉 吃安眠药也没用」相关的小任务"
       ],
       "target_audience": {
         "core": "科技爱好者",
@@ -203,79 +248,74 @@
         "眼镜里的世界原来可以这样"
       ],
       "similar_historical_case": null,
-      "rank": 4
+      "rank": 5
     },
     {
-      "topic_name": "决不能让一个梗毁掉一个孩子",
-      "platform": "百度热搜",
-      "heat_score": 82.9,
-      "relevance_score": 18,
-      "safety_score": 98,
-      "timeliness_score": 87.8,
-      "creativity_score": 90,
-      "ride_score": 74.3,
-      "create_score": 65.2,
+      "topic_name": "酒后这3个信号说明不适合喝酒",
+      "platform": "头条热榜",
+      "heat_score": 90.8,
+      "relevance_score": 8,
+      "safety_score": 95,
+      "timeliness_score": 94.0,
+      "creativity_score": 50,
+      "ride_score": 73.7,
+      "create_score": 52.6,
       "priority": "A",
-      "priority_reason": "【生活/社会】品牌相关度较好，适合借势跟进（综合分74.3）",
-      "explode_time": "2026-11-11 23:02",
-      "lifecycle": "上升期",
+      "priority_reason": "【其他】品牌相关度较好，适合借势跟进（综合分73.7）",
+      "explode_time": "2026-11-13 06:40",
+      "lifecycle": "峰值期",
       "remaining_window": "预计持续1-3天",
-      "core_emotion": "对生活温度与社会话题的共鸣",
+      "core_emotion": "用户对该话题的讨论兴趣",
       "product_hook": "AI眼镜多模态能力",
       "entry_angles": [
-        "热点POV：用第一视角走进「决不能让一个梗毁掉一个孩子」的真实场景",
-        "轻互动：邀请用户用眼镜完成与「决不能让一个梗毁掉一个孩子」相关的小任务"
+        "热点POV：用第一视角走进「酒后这3个信号说明不适合喝酒」的真实场景",
+        "轻互动：邀请用户用眼镜完成与「酒后这3个信号说明不适合喝酒」相关的小任务"
       ],
       "target_audience": {
-        "core": "生活方式爱好者",
-        "diffusion": "年轻白领/学生",
-        "bystander": "关注社会话题的大众"
+        "core": "科技爱好者",
+        "diffusion": "都市白领",
+        "bystander": "大众"
       },
       "trigger_scene": "刷到该热点或身处相关场景时，想快速了解/记录/互动",
-      "content_format": "主：30s生活vlog；衍：小红书图文+UGC征集",
-      "recommended_creator_type": "生活方式KOL 1位 + 城市KOC 3-5位",
-      "publish_window": "T+0 18:00-20:00",
-      "production_cycle": "一天",
-      "budget_level": "中",
-      "estimated_cpm": 35,
-      "estimated_cpe": 1.3,
+      "content_format": "主：15-30s短视频；衍：图文笔记",
+      "recommended_creator_type": "生活方式KOC 2-3位",
+      "publish_window": "T+0 12:00-14:00",
+      "production_cycle": "半天",
+      "budget_level": "低",
+      "estimated_cpm": 40,
+      "estimated_cpe": 1.8,
       "risks": [
         "避免过度夸张产品能力",
-        "内容发布前需品牌/合规审核",
-        "避免涉及特殊群体或医疗/健康功效承诺"
+        "内容发布前需品牌/合规审核"
       ],
       "reference_hooks": [
         "这个热点，我用眼镜跟了",
         "换个视角看这件事",
         "眼镜里的世界原来可以这样"
       ],
-      "similar_historical_case": {
-        "case": "城市烟火气记录",
-        "roi": 4.0,
-        "note": "生活方式内容小红书互动率高"
-      },
-      "rank": 5
+      "similar_historical_case": null,
+      "rank": 6
     },
     {
-      "topic_name": "入殓师的工作日常是怎样的",
+      "topic_name": "Outlook崩了日本政府改用电话工作",
       "platform": "头条热榜",
-      "heat_score": 79.5,
+      "heat_score": 86.3,
       "relevance_score": 25,
-      "safety_score": 95,
-      "timeliness_score": 91.7,
+      "safety_score": 80,
+      "timeliness_score": 93.5,
       "creativity_score": 70,
-      "ride_score": 73.7,
-      "create_score": 61.8,
+      "ride_score": 73.4,
+      "create_score": 59.9,
       "priority": "A",
-      "priority_reason": "【职场/办公】品牌相关度较好，适合借势跟进（综合分73.7）",
-      "explode_time": "2026-11-11 16:02",
+      "priority_reason": "【职场/办公】品牌相关度较好，适合借势跟进（综合分73.4）",
+      "explode_time": "2026-11-13 03:40",
       "lifecycle": "上升期",
       "remaining_window": "预计持续1-3天",
       "core_emotion": "打工人对效率焦虑与「科技减负」的期待",
       "product_hook": "AI眼镜多模态能力",
       "entry_angles": [
-        "热点POV：用第一视角走进「入殓师的工作日常是怎样的」的真实场景",
-        "轻互动：邀请用户用眼镜完成与「入殓师的工作日常是怎样的」相关的小任务"
+        "热点POV：用第一视角走进「Outlook崩了日本政府改用电话工作」的真实场景",
+        "轻互动：邀请用户用眼镜完成与「Outlook崩了日本政府改用电话工作」相关的小任务"
       ],
       "target_audience": {
         "core": "25-35岁都市白领",
@@ -305,28 +345,28 @@
         "roi": 6.2,
         "note": "去年同期类似选题，POV形式ROI达1:6.2"
       },
-      "rank": 6
+      "rank": 7
     },
     {
-      "topic_name": "女子产后患病遭丈夫拒门外带女婴流浪",
+      "topic_name": "刘欢妻子发8000字长文",
       "platform": "头条热榜",
-      "heat_score": 89.7,
+      "heat_score": 89.3,
       "relevance_score": 8,
       "safety_score": 95,
-      "timeliness_score": 94.2,
+      "timeliness_score": 93.8,
       "creativity_score": 50,
-      "ride_score": 73.3,
-      "create_score": 52.5,
+      "ride_score": 73.1,
+      "create_score": 52.4,
       "priority": "A",
-      "priority_reason": "【其他】品牌相关度较好，适合借势跟进（综合分73.3）",
-      "explode_time": "2026-11-12 09:02",
+      "priority_reason": "【其他】品牌相关度较好，适合借势跟进（综合分73.1）",
+      "explode_time": "2026-11-13 05:40",
       "lifecycle": "上升期",
       "remaining_window": "预计持续1-3天",
       "core_emotion": "用户对该话题的讨论兴趣",
       "product_hook": "AI眼镜多模态能力",
       "entry_angles": [
-        "热点POV：用第一视角走进「女子产后患病遭丈夫拒门外带女婴流浪」的真实场景",
-        "轻互动：邀请用户用眼镜完成与「女子产后患病遭丈夫拒门外带女婴流浪」相关的小任务"
+        "热点POV：用第一视角走进「刘欢妻子发8000字长文」的真实场景",
+        "轻互动：邀请用户用眼镜完成与「刘欢妻子发8000字长文」相关的小任务"
       ],
       "target_audience": {
         "core": "科技爱好者",
@@ -351,79 +391,28 @@
         "眼镜里的世界原来可以这样"
       ],
       "similar_historical_case": null,
-      "rank": 7
-    },
-    {
-      "topic_name": "韩红基金会回应张雪改口",
-      "platform": "百度热搜",
-      "heat_score": 86.2,
-      "relevance_score": 15,
-      "safety_score": 95,
-      "timeliness_score": 88.8,
-      "creativity_score": 55,
-      "ride_score": 72.7,
-      "create_score": 55.4,
-      "priority": "A",
-      "priority_reason": "【财经/商业】品牌相关度较好，适合借势跟进（综合分72.7）",
-      "explode_time": "2026-11-12 06:02",
-      "lifecycle": "上升期",
-      "remaining_window": "预计持续1-3天",
-      "core_emotion": "对经济/商业动态的关注与焦虑",
-      "product_hook": "AI眼镜多模态能力",
-      "entry_angles": [
-        "热点POV：用第一视角走进「韩红基金会回应张雪改口」的真实场景",
-        "轻互动：邀请用户用眼镜完成与「韩红基金会回应张雪改口」相关的小任务"
-      ],
-      "target_audience": {
-        "core": "财经/商业人群",
-        "diffusion": "职场白领",
-        "bystander": "关注经济的大众"
-      },
-      "trigger_scene": "刷到该热点或身处相关场景时，想快速了解/记录/互动",
-      "content_format": "主：口播解读；衍：图文早报+数据可视化",
-      "recommended_creator_type": "财经垂类KOL 1位 + 职场KOC 2位",
-      "publish_window": "T+0 08:00-10:00",
-      "production_cycle": "半天",
-      "budget_level": "中",
-      "estimated_cpm": 36,
-      "estimated_cpe": 1.6,
-      "risks": [
-        "避免过度夸张产品能力",
-        "内容发布前需品牌/合规审核",
-        "避免投资建议或夸大经济影响"
-      ],
-      "reference_hooks": [
-        "这个热点，我用眼镜跟了",
-        "换个视角看这件事",
-        "眼镜里的世界原来可以这样"
-      ],
-      "similar_historical_case": {
-        "case": "晨间财经早报",
-        "roi": 2.5,
-        "note": "财经内容适合早间时段发布"
-      },
       "rank": 8
     },
     {
-      "topic_name": "双十一的套路藏不住了吗",
+      "topic_name": "偏头痛到底是哪里痛",
       "platform": "头条热榜",
-      "heat_score": 87.2,
+      "heat_score": 87.8,
       "relevance_score": 8,
       "safety_score": 95,
-      "timeliness_score": 94.1,
+      "timeliness_score": 93.7,
       "creativity_score": 50,
-      "ride_score": 72.4,
-      "create_score": 52.1,
+      "ride_score": 72.6,
+      "create_score": 52.2,
       "priority": "A",
-      "priority_reason": "【其他】品牌相关度较好，适合借势跟进（综合分72.4）",
-      "explode_time": "2026-11-12 08:02",
+      "priority_reason": "【其他】品牌相关度较好，适合借势跟进（综合分72.6）",
+      "explode_time": "2026-11-13 04:40",
       "lifecycle": "上升期",
       "remaining_window": "预计持续1-3天",
       "core_emotion": "用户对该话题的讨论兴趣",
       "product_hook": "AI眼镜多模态能力",
       "entry_angles": [
-        "热点POV：用第一视角走进「双十一的套路藏不住了吗」的真实场景",
-        "轻互动：邀请用户用眼镜完成与「双十一的套路藏不住了吗」相关的小任务"
+        "热点POV：用第一视角走进「偏头痛到底是哪里痛」的真实场景",
+        "轻互动：邀请用户用眼镜完成与「偏头痛到底是哪里痛」相关的小任务"
       ],
       "target_audience": {
         "core": "科技爱好者",
@@ -451,43 +440,43 @@
       "rank": 9
     },
     {
-      "topic_name": "5个县域人均消费支出超一线城市",
-      "platform": "百度热搜",
-      "heat_score": 77.1,
-      "relevance_score": 18,
-      "safety_score": 98,
-      "timeliness_score": 86.1,
-      "creativity_score": 90,
-      "ride_score": 71.9,
-      "create_score": 64.3,
+      "topic_name": "团伙利用AI制作天价酒水账单被抓",
+      "platform": "头条热榜",
+      "heat_score": 69.5,
+      "relevance_score": 37,
+      "safety_score": 95,
+      "timeliness_score": 91.8,
+      "creativity_score": 65,
+      "ride_score": 72.3,
+      "create_score": 63.2,
       "priority": "A",
-      "priority_reason": "【生活/社会】品牌相关度较好，适合借势跟进（综合分71.9）",
-      "explode_time": "2026-11-11 12:02",
-      "lifecycle": "上升期",
+      "priority_reason": "【科技/AI】品牌相关度较好，适合借势跟进（综合分72.3）",
+      "explode_time": "2026-11-12 16:40",
+      "lifecycle": "延续期",
       "remaining_window": "预计持续1-3天",
-      "core_emotion": "对生活温度与社会话题的共鸣",
+      "core_emotion": "对新技术的好奇与讨论热情",
       "product_hook": "AI眼镜多模态能力",
       "entry_angles": [
-        "热点POV：用第一视角走进「5个县域人均消费支出超一线城市」的真实场景",
-        "轻互动：邀请用户用眼镜完成与「5个县域人均消费支出超一线城市」相关的小任务"
+        "热点POV：用第一视角走进「团伙利用AI制作天价酒水账单被抓」的真实场景",
+        "轻互动：邀请用户用眼镜完成与「团伙利用AI制作天价酒水账单被抓」相关的小任务"
       ],
       "target_audience": {
-        "core": "生活方式爱好者",
-        "diffusion": "年轻白领/学生",
-        "bystander": "关注社会话题的大众"
+        "core": "科技 early adopters",
+        "diffusion": "AI/互联网从业者",
+        "bystander": "关注科技趋势的大众"
       },
       "trigger_scene": "刷到该热点或身处相关场景时，想快速了解/记录/互动",
-      "content_format": "主：30s生活vlog；衍：小红书图文+UGC征集",
-      "recommended_creator_type": "生活方式KOL 1位 + 城市KOC 3-5位",
-      "publish_window": "T+0 18:00-20:00",
+      "content_format": "主：知乎长图文/B站深度解读；衍：抖音切片",
+      "recommended_creator_type": "科技垂类KOL 2位 + 知乎答主 1位",
+      "publish_window": "T+1 10:00-12:00",
       "production_cycle": "一天",
       "budget_level": "中",
-      "estimated_cpm": 35,
-      "estimated_cpe": 1.3,
+      "estimated_cpm": 28,
+      "estimated_cpe": 1.5,
       "risks": [
         "避免过度夸张产品能力",
         "内容发布前需品牌/合规审核",
-        "避免涉及特殊群体或医疗/健康功效承诺"
+        "技术表述需准确，避免攻击竞品"
       ],
       "reference_hooks": [
         "这个热点，我用眼镜跟了",
@@ -495,9 +484,9 @@
         "眼镜里的世界原来可以这样"
       ],
       "similar_historical_case": {
-        "case": "城市烟火气记录",
-        "roi": 4.0,
-        "note": "生活方式内容小红书互动率高"
+        "case": "千问发布会解读",
+        "roi": 3.8,
+        "note": "技术向内容适合B站/知乎长图文"
       },
       "rank": 10
     }
@@ -566,7 +555,7 @@
         "避开特殊群体",
         "城市选择需有代表性"
       ],
-      "id": "2026-11-12-B001",
+      "id": "2026-11-13-B001",
       "heat_score": 68,
       "relevance_score": 82,
       "safety_score": 87,
@@ -637,7 +626,7 @@
         "避免影射具体公司文化",
         "不要强化职场对立情绪"
       ],
-      "id": "2026-11-12-B002",
+      "id": "2026-11-13-B002",
       "heat_score": 71,
       "relevance_score": 84,
       "safety_score": 86,
@@ -710,7 +699,7 @@
         "注意用户隐私与内容审核",
         "避免过度浪漫化陌生人社交风险"
       ],
-      "id": "2026-11-12-B003",
+      "id": "2026-11-13-B003",
       "heat_score": 74,
       "relevance_score": 86,
       "safety_score": 85,
