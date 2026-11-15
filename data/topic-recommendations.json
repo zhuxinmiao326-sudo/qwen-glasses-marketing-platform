@@ -1,6 +1,6 @@
 {
-  "date": "2026-11-14",
-  "updatedAt": "2026-11-14T07:27:23Z",
+  "date": "2026-11-15",
+  "updatedAt": "2026-11-15T07:39:16Z",
   "sources": [
     {
       "name": "头条热榜",
@@ -17,75 +17,25 @@
   ],
   "a_ride_hot_topics": [
     {
-      "topic_name": "男子误购2.3万机票几分钟后退票被扣1万",
-      "platform": "头条热榜",
-      "heat_score": 93.1,
-      "relevance_score": 25,
-      "safety_score": 98,
-      "timeliness_score": 94.1,
-      "creativity_score": 95,
-      "ride_score": 80.8,
-      "create_score": 70.8,
-      "priority": "A",
-      "priority_reason": "【旅游/户外】品牌相关度较好，适合借势跟进（综合分80.8）",
-      "explode_time": "2026-11-14 07:27",
-      "lifecycle": "峰值期",
-      "remaining_window": "预计持续1-3天",
-      "core_emotion": "出游热情与「不会外语/怕迷路」的焦虑",
-      "product_hook": "AI眼镜多模态能力",
-      "entry_angles": [
-        "热点POV：用第一视角走进「男子误购2.3万机票几分钟后退票被扣1万」的真实场景",
-        "轻互动：邀请用户用眼镜完成与「男子误购2.3万机票几分钟后退票被扣1万」相关的小任务"
-      ],
-      "target_audience": {
-        "core": "25-35岁一二线城市旅行爱好者",
-        "diffusion": "学生/亲子出游人群",
-        "bystander": "计划出游的大众"
-      },
-      "trigger_scene": "刷到该热点或身处相关场景时，想快速了解/记录/互动",
-      "content_format": "主：30s旅行vlog；衍：小红书图文攻略+景点打卡合集",
-      "recommended_creator_type": "旅行垂类KOL 1位 + 旅行KOC 2-3位",
-      "publish_window": "T+0 18:00-20:00",
-      "production_cycle": "一天",
-      "budget_level": "中",
-      "estimated_cpm": 38,
-      "estimated_cpe": 1.4,
-      "risks": [
-        "避免过度夸张产品能力",
-        "内容发布前需品牌/合规审核"
-      ],
-      "reference_hooks": [
-        "这个热点，我用眼镜跟了",
-        "换个视角看这件事",
-        "眼镜里的世界原来可以这样"
-      ],
-      "similar_historical_case": {
-        "case": "POV实测海外出行",
-        "roi": 4.5,
-        "note": "翻译功能相关选题互动率高"
-      },
-      "rank": 1
-    },
-    {
-      "topic_name": "白宫：中美俄领导人计划APEC期间会晤",
+      "topic_name": "12位APEC经济体领导人将出席峰会",
       "platform": "头条热榜",
       "heat_score": 100.0,
       "relevance_score": 25,
       "safety_score": 95,
-      "timeliness_score": 89.8,
+      "timeliness_score": 94.8,
       "creativity_score": 70,
-      "ride_score": 80.5,
-      "create_score": 64.7,
+      "ride_score": 81.5,
+      "create_score": 65.0,
       "priority": "A",
-      "priority_reason": "【职场/办公】品牌相关度较好，适合借势跟进（综合分80.5）",
-      "explode_time": "2026-11-14 12:27",
+      "priority_reason": "【职场/办公】品牌相关度较好，适合借势跟进（综合分81.5）",
+      "explode_time": "2026-11-15 12:39",
       "lifecycle": "峰值期",
       "remaining_window": "预计持续1-3天",
       "core_emotion": "打工人对效率焦虑与「科技减负」的期待",
       "product_hook": "AI眼镜多模态能力",
       "entry_angles": [
-        "热点POV：用第一视角走进「白宫：中美俄领导人计划APEC期间会晤」的真实场景",
-        "轻互动：邀请用户用眼镜完成与「白宫：中美俄领导人计划APEC期间会晤」相关的小任务"
+        "热点POV：用第一视角走进「12位APEC经济体领导人将出席峰会」的真实场景",
+        "轻互动：邀请用户用眼镜完成与「12位APEC经济体领导人将出席峰会」相关的小任务"
       ],
       "target_audience": {
         "core": "25-35岁都市白领",
@@ -115,28 +65,28 @@
         "roi": 6.2,
         "note": "去年同期类似选题，POV形式ROI达1:6.2"
       },
-      "rank": 2
+      "rank": 1
     },
     {
-      "topic_name": "女子回应读博期间3年生下3个孩子",
+      "topic_name": "中国近六成家庭户不超过两个人",
       "platform": "头条热榜",
-      "heat_score": 95.9,
+      "heat_score": 97.5,
       "relevance_score": 18,
       "safety_score": 98,
-      "timeliness_score": 94.4,
+      "timeliness_score": 94.7,
       "creativity_score": 90,
-      "ride_score": 80.1,
-      "create_score": 67.5,
+      "ride_score": 80.8,
+      "create_score": 67.8,
       "priority": "A",
-      "priority_reason": "【生活/社会】品牌相关度较好，适合借势跟进（综合分80.1）",
-      "explode_time": "2026-11-14 09:27",
+      "priority_reason": "【生活/社会】品牌相关度较好，适合借势跟进（综合分80.8）",
+      "explode_time": "2026-11-15 11:39",
       "lifecycle": "峰值期",
       "remaining_window": "预计持续1-3天",
       "core_emotion": "对生活温度与社会话题的共鸣",
       "product_hook": "AI眼镜多模态能力",
       "entry_angles": [
-        "热点POV：用第一视角走进「女子回应读博期间3年生下3个孩子」的真实场景",
-        "轻互动：邀请用户用眼镜完成与「女子回应读博期间3年生下3个孩子」相关的小任务"
+        "热点POV：用第一视角走进「中国近六成家庭户不超过两个人」的真实场景",
+        "轻互动：邀请用户用眼镜完成与「中国近六成家庭户不超过两个人」相关的小任务"
       ],
       "target_audience": {
         "core": "生活方式爱好者",
@@ -166,28 +116,78 @@
         "roi": 4.0,
         "note": "生活方式内容小红书互动率高"
       },
+      "rank": 2
+    },
+    {
+      "topic_name": "凌晨3点多家电影院爆满",
+      "platform": "头条热榜",
+      "heat_score": 84.9,
+      "relevance_score": 18,
+      "safety_score": 98,
+      "timeliness_score": 93.2,
+      "creativity_score": 88,
+      "ride_score": 76.0,
+      "create_score": 65.3,
+      "priority": "A",
+      "priority_reason": "【娱乐/影视】品牌相关度较好，适合借势跟进（综合分76.0）",
+      "explode_time": "2026-11-15 01:39",
+      "lifecycle": "上升期",
+      "remaining_window": "预计持续1-3天",
+      "core_emotion": "娱乐消遣与社交分享欲望",
+      "product_hook": "AI眼镜多模态能力",
+      "entry_angles": [
+        "热点POV：用第一视角走进「凌晨3点多家电影院爆满」的真实场景",
+        "轻互动：邀请用户用眼镜完成与「凌晨3点多家电影院爆满」相关的小任务"
+      ],
+      "target_audience": {
+        "core": "娱乐内容消费者",
+        "diffusion": "年轻用户",
+        "bystander": "泛娱乐人群"
+      },
+      "trigger_scene": "刷到该热点或身处相关场景时，想快速了解/记录/互动",
+      "content_format": "主：Reaction短视频；衍：二创切片+图文",
+      "recommended_creator_type": "娱乐垂类KOL 1位 + KOC 2-3位",
+      "publish_window": "T+0 20:00-22:00",
+      "production_cycle": "半天",
+      "budget_level": "低",
+      "estimated_cpm": 30,
+      "estimated_cpe": 0.9,
+      "risks": [
+        "避免过度夸张产品能力",
+        "内容发布前需品牌/合规审核"
+      ],
+      "reference_hooks": [
+        "这个热点，我用眼镜跟了",
+        "换个视角看这件事",
+        "眼镜里的世界原来可以这样"
+      ],
+      "similar_historical_case": {
+        "case": "影院实时字幕体验",
+        "roi": 3.2,
+        "note": "娱乐向内容适合短平快Reaction"
+      },
       "rank": 3
     },
     {
-      "topic_name": "原价129万/支的天价药进医保了",
+      "topic_name": "在构建亚太共同体之路上携手同行",
       "platform": "头条热榜",
-      "heat_score": 98.6,
+      "heat_score": 95.0,
       "relevance_score": 8,
       "safety_score": 95,
-      "timeliness_score": 94.7,
+      "timeliness_score": 94.5,
       "creativity_score": 50,
-      "ride_score": 76.5,
-      "create_score": 53.8,
+      "ride_score": 75.2,
+      "create_score": 53.3,
       "priority": "A",
-      "priority_reason": "【其他】品牌相关度较好，适合借势跟进（综合分76.5）",
-      "explode_time": "2026-11-14 11:27",
+      "priority_reason": "【其他】品牌相关度较好，适合借势跟进（综合分75.2）",
+      "explode_time": "2026-11-15 10:39",
       "lifecycle": "峰值期",
       "remaining_window": "预计持续1-3天",
       "core_emotion": "用户对该话题的讨论兴趣",
       "product_hook": "AI眼镜多模态能力",
       "entry_angles": [
-        "热点POV：用第一视角走进「原价129万/支的天价药进医保了」的真实场景",
-        "轻互动：邀请用户用眼镜完成与「原价129万/支的天价药进医保了」相关的小任务"
+        "热点POV：用第一视角走进「在构建亚太共同体之路上携手同行」的真实场景",
+        "轻互动：邀请用户用眼镜完成与「在构建亚太共同体之路上携手同行」相关的小任务"
       ],
       "target_audience": {
         "core": "科技爱好者",
@@ -215,25 +215,25 @@
       "rank": 4
     },
     {
-      "topic_name": "APEC独特的“亚太模式”",
+      "topic_name": "BLG夺冠",
       "platform": "头条热榜",
-      "heat_score": 97.2,
+      "heat_score": 92.4,
       "relevance_score": 8,
       "safety_score": 95,
-      "timeliness_score": 94.5,
+      "timeliness_score": 94.4,
       "creativity_score": 50,
-      "ride_score": 76.0,
-      "create_score": 53.6,
+      "ride_score": 74.3,
+      "create_score": 52.9,
       "priority": "A",
-      "priority_reason": "【其他】品牌相关度较好，适合借势跟进（综合分76.0）",
-      "explode_time": "2026-11-14 10:27",
+      "priority_reason": "【其他】品牌相关度较好，适合借势跟进（综合分74.3）",
+      "explode_time": "2026-11-15 09:39",
       "lifecycle": "峰值期",
       "remaining_window": "预计持续1-3天",
       "core_emotion": "用户对该话题的讨论兴趣",
       "product_hook": "AI眼镜多模态能力",
       "entry_angles": [
-        "热点POV：用第一视角走进「APEC独特的“亚太模式”」的真实场景",
-        "轻互动：邀请用户用眼镜完成与「APEC独特的“亚太模式”」相关的小任务"
+        "热点POV：用第一视角走进「BLG夺冠」的真实场景",
+        "轻互动：邀请用户用眼镜完成与「BLG夺冠」相关的小任务"
       ],
       "target_audience": {
         "core": "科技爱好者",
@@ -261,25 +261,25 @@
       "rank": 5
     },
     {
-      "topic_name": "中国乘客亲历全美停飞以为被空袭",
+      "topic_name": "张水华1个月4冠1亚",
       "platform": "头条热榜",
-      "heat_score": 94.5,
+      "heat_score": 89.9,
       "relevance_score": 8,
       "safety_score": 95,
       "timeliness_score": 94.2,
       "creativity_score": 50,
-      "ride_score": 75.0,
-      "create_score": 53.2,
+      "ride_score": 73.4,
+      "create_score": 52.5,
       "priority": "A",
-      "priority_reason": "【其他】品牌相关度较好，适合借势跟进（综合分75.0）",
-      "explode_time": "2026-11-14 08:27",
-      "lifecycle": "峰值期",
+      "priority_reason": "【其他】品牌相关度较好，适合借势跟进（综合分73.4）",
+      "explode_time": "2026-11-15 08:39",
+      "lifecycle": "上升期",
       "remaining_window": "预计持续1-3天",
       "core_emotion": "用户对该话题的讨论兴趣",
       "product_hook": "AI眼镜多模态能力",
       "entry_angles": [
-        "热点POV：用第一视角走进「中国乘客亲历全美停飞以为被空袭」的真实场景",
-        "轻互动：邀请用户用眼镜完成与「中国乘客亲历全美停飞以为被空袭」相关的小任务"
+        "热点POV：用第一视角走进「张水华1个月4冠1亚」的真实场景",
+        "轻互动：邀请用户用眼镜完成与「张水华1个月4冠1亚」相关的小任务"
       ],
       "target_audience": {
         "core": "科技爱好者",
@@ -307,25 +307,25 @@
       "rank": 6
     },
     {
-      "topic_name": "乌对俄发动近5年来最大规模空袭",
+      "topic_name": "外汇存款准备金率上调到6%",
       "platform": "头条热榜",
-      "heat_score": 90.3,
+      "heat_score": 87.4,
       "relevance_score": 8,
       "safety_score": 95,
-      "timeliness_score": 93.8,
+      "timeliness_score": 94.0,
       "creativity_score": 50,
-      "ride_score": 73.5,
-      "create_score": 52.5,
+      "ride_score": 72.5,
+      "create_score": 52.1,
       "priority": "A",
-      "priority_reason": "【其他】品牌相关度较好，适合借势跟进（综合分73.5）",
-      "explode_time": "2026-11-14 05:27",
-      "lifecycle": "峰值期",
+      "priority_reason": "【其他】品牌相关度较好，适合借势跟进（综合分72.5）",
+      "explode_time": "2026-11-15 06:39",
+      "lifecycle": "上升期",
       "remaining_window": "预计持续1-3天",
       "core_emotion": "用户对该话题的讨论兴趣",
       "product_hook": "AI眼镜多模态能力",
       "entry_angles": [
-        "热点POV：用第一视角走进「乌对俄发动近5年来最大规模空袭」的真实场景",
-        "轻互动：邀请用户用眼镜完成与「乌对俄发动近5年来最大规模空袭」相关的小任务"
+        "热点POV：用第一视角走进「外汇存款准备金率上调到6%」的真实场景",
+        "轻互动：邀请用户用眼镜完成与「外汇存款准备金率上调到6%」相关的小任务"
       ],
       "target_audience": {
         "core": "科技爱好者",
@@ -353,25 +353,25 @@
       "rank": 7
     },
     {
-      "topic_name": "赵本山《慌啥子嘛》上线",
-      "platform": "头条热榜",
-      "heat_score": 88.9,
+      "topic_name": "S16总决赛：中国战队BLG逆转夺冠",
+      "platform": "百度热搜",
+      "heat_score": 87.7,
       "relevance_score": 8,
       "safety_score": 95,
-      "timeliness_score": 93.7,
+      "timeliness_score": 89.1,
       "creativity_score": 50,
-      "ride_score": 73.0,
-      "create_score": 52.3,
+      "ride_score": 71.6,
+      "create_score": 51.9,
       "priority": "A",
-      "priority_reason": "【其他】品牌相关度较好，适合借势跟进（综合分73.0）",
-      "explode_time": "2026-11-14 04:27",
+      "priority_reason": "【其他】品牌相关度较好，适合借势跟进（综合分71.6）",
+      "explode_time": "2026-11-15 07:39",
       "lifecycle": "上升期",
       "remaining_window": "预计持续1-3天",
       "core_emotion": "用户对该话题的讨论兴趣",
       "product_hook": "AI眼镜多模态能力",
       "entry_angles": [
-        "热点POV：用第一视角走进「赵本山《慌啥子嘛》上线」的真实场景",
-        "轻互动：邀请用户用眼镜完成与「赵本山《慌啥子嘛》上线」相关的小任务"
+        "热点POV：用第一视角走进「S16总决赛：中国战队BLG逆转夺冠」的真实场景",
+        "轻互动：邀请用户用眼镜完成与「S16总决赛：中国战队BLG逆转夺冠」相关的小任务"
       ],
       "target_audience": {
         "core": "科技爱好者",
@@ -399,39 +399,39 @@
       "rank": 8
     },
     {
-      "topic_name": "特朗普：空管系统故障无关网络攻击",
-      "platform": "头条热榜",
-      "heat_score": 87.6,
-      "relevance_score": 8,
-      "safety_score": 95,
-      "timeliness_score": 93.5,
-      "creativity_score": 50,
-      "ride_score": 72.5,
-      "create_score": 52.1,
+      "topic_name": "综艺里到处都是NPD妈妈 啥是NPD",
+      "platform": "百度热搜",
+      "heat_score": 76.7,
+      "relevance_score": 18,
+      "safety_score": 98,
+      "timeliness_score": 85.8,
+      "creativity_score": 88,
+      "ride_score": 71.6,
+      "create_score": 63.7,
       "priority": "A",
-      "priority_reason": "【其他】品牌相关度较好，适合借势跟进（综合分72.5）",
-      "explode_time": "2026-11-14 03:27",
+      "priority_reason": "【娱乐/影视】品牌相关度较好，适合借势跟进（综合分71.6）",
+      "explode_time": "2026-11-14 09:39",
       "lifecycle": "上升期",
       "remaining_window": "预计持续1-3天",
-      "core_emotion": "用户对该话题的讨论兴趣",
+      "core_emotion": "娱乐消遣与社交分享欲望",
       "product_hook": "AI眼镜多模态能力",
       "entry_angles": [
-        "热点POV：用第一视角走进「特朗普：空管系统故障无关网络攻击」的真实场景",
-        "轻互动：邀请用户用眼镜完成与「特朗普：空管系统故障无关网络攻击」相关的小任务"
+        "热点POV：用第一视角走进「综艺里到处都是NPD妈妈 啥是NPD」的真实场景",
+        "轻互动：邀请用户用眼镜完成与「综艺里到处都是NPD妈妈 啥是NPD」相关的小任务"
       ],
       "target_audience": {
-        "core": "科技爱好者",
-        "diffusion": "都市白领",
-        "bystander": "大众"
+        "core": "娱乐内容消费者",
+        "diffusion": "年轻用户",
+        "bystander": "泛娱乐人群"
       },
       "trigger_scene": "刷到该热点或身处相关场景时，想快速了解/记录/互动",
-      "content_format": "主：15-30s短视频；衍：图文笔记",
-      "recommended_creator_type": "生活方式KOC 2-3位",
-      "publish_window": "T+0 12:00-14:00",
+      "content_format": "主：Reaction短视频；衍：二创切片+图文",
+      "recommended_creator_type": "娱乐垂类KOL 1位 + KOC 2-3位",
+      "publish_window": "T+0 20:00-22:00",
       "production_cycle": "半天",
       "budget_level": "低",
-      "estimated_cpm": 40,
-      "estimated_cpe": 1.8,
+      "estimated_cpm": 30,
+      "estimated_cpe": 0.9,
       "risks": [
         "避免过度夸张产品能力",
         "内容发布前需品牌/合规审核"
@@ -441,29 +441,33 @@
         "换个视角看这件事",
         "眼镜里的世界原来可以这样"
       ],
-      "similar_historical_case": null,
+      "similar_historical_case": {
+        "case": "影院实时字幕体验",
+        "roi": 3.2,
+        "note": "娱乐向内容适合短平快Reaction"
+      },
       "rank": 9
     },
     {
-      "topic_name": "乌鲁木齐禁售马肉马肠制品？假的",
-      "platform": "头条热榜",
-      "heat_score": 86.2,
+      "topic_name": "短剧4000元成本做出6000多万热度",
+      "platform": "百度热搜",
+      "heat_score": 87.2,
       "relevance_score": 8,
       "safety_score": 95,
-      "timeliness_score": 93.3,
+      "timeliness_score": 88.8,
       "creativity_score": 50,
-      "ride_score": 71.9,
-      "create_score": 51.9,
+      "ride_score": 71.4,
+      "create_score": 51.8,
       "priority": "A",
-      "priority_reason": "【其他】品牌相关度较好，适合借势跟进（综合分71.9）",
-      "explode_time": "2026-11-14 02:27",
+      "priority_reason": "【其他】品牌相关度较好，适合借势跟进（综合分71.4）",
+      "explode_time": "2026-11-15 05:39",
       "lifecycle": "上升期",
       "remaining_window": "预计持续1-3天",
       "core_emotion": "用户对该话题的讨论兴趣",
       "product_hook": "AI眼镜多模态能力",
       "entry_angles": [
-        "热点POV：用第一视角走进「乌鲁木齐禁售马肉马肠制品？假的」的真实场景",
-        "轻互动：邀请用户用眼镜完成与「乌鲁木齐禁售马肉马肠制品？假的」相关的小任务"
+        "热点POV：用第一视角走进「短剧4000元成本做出6000多万热度」的真实场景",
+        "轻互动：邀请用户用眼镜完成与「短剧4000元成本做出6000多万热度」相关的小任务"
       ],
       "target_audience": {
         "core": "科技爱好者",
@@ -555,7 +559,7 @@
         "避开特殊群体",
         "城市选择需有代表性"
       ],
-      "id": "2026-11-14-B001",
+      "id": "2026-11-15-B001",
       "heat_score": 68,
       "relevance_score": 82,
       "safety_score": 87,
@@ -626,7 +630,7 @@
         "避免影射具体公司文化",
         "不要强化职场对立情绪"
       ],
-      "id": "2026-11-14-B002",
+      "id": "2026-11-15-B002",
       "heat_score": 71,
       "relevance_score": 84,
       "safety_score": 86,
@@ -699,7 +703,7 @@
         "注意用户隐私与内容审核",
         "避免过度浪漫化陌生人社交风险"
       ],
-      "id": "2026-11-14-B003",
+      "id": "2026-11-15-B003",
       "heat_score": 74,
       "relevance_score": 86,
       "safety_score": 85,
