@@ -1,6 +1,6 @@
 {
-  "date": "2026-11-15",
-  "updatedAt": "2026-11-15T07:39:16Z",
+  "date": "2026-11-16",
+  "updatedAt": "2026-11-16T07:44:57Z",
   "sources": [
     {
       "name": "头条热榜",
@@ -17,25 +17,26 @@
   ],
   "a_ride_hot_topics": [
     {
-      "topic_name": "12位APEC经济体领导人将出席峰会",
+      "topic_name": "三军仪仗队迎接APEC会议外国元首",
       "platform": "头条热榜",
-      "heat_score": 100.0,
-      "relevance_score": 25,
+      "heat_score": 98.3,
+      "relevance_score": 33,
       "safety_score": 95,
-      "timeliness_score": 94.8,
-      "creativity_score": 70,
-      "ride_score": 81.5,
-      "create_score": 65.0,
+      "timeliness_score": 94.7,
+      "creativity_score": 75,
+      "ride_score": 82.7,
+      "create_score": 68.8,
       "priority": "A",
-      "priority_reason": "【职场/办公】品牌相关度较好，适合借势跟进（综合分81.5）",
-      "explode_time": "2026-11-15 12:39",
+      "priority_reason": "【职场/办公】品牌相关度较好，适合借势跟进（综合分82.7）",
+      "explode_time": "2026-11-16 11:44",
       "lifecycle": "峰值期",
       "remaining_window": "预计持续1-3天",
       "core_emotion": "打工人对效率焦虑与「科技减负」的期待",
-      "product_hook": "AI眼镜多模态能力",
+      "product_hook": "会议纪要",
       "entry_angles": [
-        "热点POV：用第一视角走进「12位APEC经济体领导人将出席峰会」的真实场景",
-        "轻互动：邀请用户用眼镜完成与「12位APEC经济体领导人将出席峰会」相关的小任务"
+        "办公场景：把「三军仪仗队迎接APEC会议外国元首」的讨论一键整理成纪要",
+        "热点POV：用第一视角走进「三军仪仗队迎接APEC会议外国元首」的真实场景",
+        "轻互动：邀请用户用眼镜完成与「三军仪仗队迎接APEC会议外国元首」相关的小任务"
       ],
       "target_audience": {
         "core": "25-35岁都市白领",
@@ -56,9 +57,9 @@
         "不要涉及具体公司/领导负面"
       ],
       "reference_hooks": [
-        "这个热点，我用眼镜跟了",
-        "换个视角看这件事",
-        "眼镜里的世界原来可以这样"
+        "开会2小时，整理2分钟",
+        "会议纪要，眼镜帮我写了",
+        "再也不用担心漏重点"
       ],
       "similar_historical_case": {
         "case": "通勤效率神器",
@@ -68,43 +69,43 @@
       "rank": 1
     },
     {
-      "topic_name": "中国近六成家庭户不超过两个人",
+      "topic_name": "DeepSeek因算力不足限额",
       "platform": "头条热榜",
-      "heat_score": 97.5,
-      "relevance_score": 18,
-      "safety_score": 98,
-      "timeliness_score": 94.7,
-      "creativity_score": 90,
-      "ride_score": 80.8,
-      "create_score": 67.8,
+      "heat_score": 89.9,
+      "relevance_score": 25,
+      "safety_score": 95,
+      "timeliness_score": 94.0,
+      "creativity_score": 65,
+      "ride_score": 77.5,
+      "create_score": 62.2,
       "priority": "A",
-      "priority_reason": "【生活/社会】品牌相关度较好，适合借势跟进（综合分80.8）",
-      "explode_time": "2026-11-15 11:39",
-      "lifecycle": "峰值期",
+      "priority_reason": "【科技/AI】品牌相关度较好，适合借势跟进（综合分77.5）",
+      "explode_time": "2026-11-16 06:44",
+      "lifecycle": "上升期",
       "remaining_window": "预计持续1-3天",
-      "core_emotion": "对生活温度与社会话题的共鸣",
+      "core_emotion": "对新技术的好奇与讨论热情",
       "product_hook": "AI眼镜多模态能力",
       "entry_angles": [
-        "热点POV：用第一视角走进「中国近六成家庭户不超过两个人」的真实场景",
-        "轻互动：邀请用户用眼镜完成与「中国近六成家庭户不超过两个人」相关的小任务"
+        "热点POV：用第一视角走进「DeepSeek因算力不足限额」的真实场景",
+        "轻互动：邀请用户用眼镜完成与「DeepSeek因算力不足限额」相关的小任务"
       ],
       "target_audience": {
-        "core": "生活方式爱好者",
-        "diffusion": "年轻白领/学生",
-        "bystander": "关注社会话题的大众"
+        "core": "科技 early adopters",
+        "diffusion": "AI/互联网从业者",
+        "bystander": "关注科技趋势的大众"
       },
       "trigger_scene": "刷到该热点或身处相关场景时，想快速了解/记录/互动",
-      "content_format": "主：30s生活vlog；衍：小红书图文+UGC征集",
-      "recommended_creator_type": "生活方式KOL 1位 + 城市KOC 3-5位",
-      "publish_window": "T+0 18:00-20:00",
+      "content_format": "主：知乎长图文/B站深度解读；衍：抖音切片",
+      "recommended_creator_type": "科技垂类KOL 2位 + 知乎答主 1位",
+      "publish_window": "T+1 10:00-12:00",
       "production_cycle": "一天",
       "budget_level": "中",
-      "estimated_cpm": 35,
-      "estimated_cpe": 1.3,
+      "estimated_cpm": 28,
+      "estimated_cpe": 1.5,
       "risks": [
         "避免过度夸张产品能力",
         "内容发布前需品牌/合规审核",
-        "避免涉及特殊群体或医疗/健康功效承诺"
+        "技术表述需准确，避免攻击竞品"
       ],
       "reference_hooks": [
         "这个热点，我用眼镜跟了",
@@ -112,46 +113,46 @@
         "眼镜里的世界原来可以这样"
       ],
       "similar_historical_case": {
-        "case": "城市烟火气记录",
-        "roi": 4.0,
-        "note": "生活方式内容小红书互动率高"
+        "case": "千问发布会解读",
+        "roi": 3.8,
+        "note": "技术向内容适合B站/知乎长图文"
       },
       "rank": 2
     },
     {
-      "topic_name": "凌晨3点多家电影院爆满",
+      "topic_name": "中俄美元首将首次面对面会晤",
       "platform": "头条热榜",
-      "heat_score": 84.9,
-      "relevance_score": 18,
-      "safety_score": 98,
-      "timeliness_score": 93.2,
-      "creativity_score": 88,
-      "ride_score": 76.0,
-      "create_score": 65.3,
+      "heat_score": 100.0,
+      "relevance_score": 8,
+      "safety_score": 95,
+      "timeliness_score": 94.8,
+      "creativity_score": 50,
+      "ride_score": 77.1,
+      "create_score": 54.0,
       "priority": "A",
-      "priority_reason": "【娱乐/影视】品牌相关度较好，适合借势跟进（综合分76.0）",
-      "explode_time": "2026-11-15 01:39",
-      "lifecycle": "上升期",
+      "priority_reason": "【其他】品牌相关度较好，适合借势跟进（综合分77.1）",
+      "explode_time": "2026-11-16 12:44",
+      "lifecycle": "峰值期",
       "remaining_window": "预计持续1-3天",
-      "core_emotion": "娱乐消遣与社交分享欲望",
+      "core_emotion": "用户对该话题的讨论兴趣",
       "product_hook": "AI眼镜多模态能力",
       "entry_angles": [
-        "热点POV：用第一视角走进「凌晨3点多家电影院爆满」的真实场景",
-        "轻互动：邀请用户用眼镜完成与「凌晨3点多家电影院爆满」相关的小任务"
+        "热点POV：用第一视角走进「中俄美元首将首次面对面会晤」的真实场景",
+        "轻互动：邀请用户用眼镜完成与「中俄美元首将首次面对面会晤」相关的小任务"
       ],
       "target_audience": {
-        "core": "娱乐内容消费者",
-        "diffusion": "年轻用户",
-        "bystander": "泛娱乐人群"
+        "core": "科技爱好者",
+        "diffusion": "都市白领",
+        "bystander": "大众"
       },
       "trigger_scene": "刷到该热点或身处相关场景时，想快速了解/记录/互动",
-      "content_format": "主：Reaction短视频；衍：二创切片+图文",
-      "recommended_creator_type": "娱乐垂类KOL 1位 + KOC 2-3位",
-      "publish_window": "T+0 20:00-22:00",
+      "content_format": "主：15-30s短视频；衍：图文笔记",
+      "recommended_creator_type": "生活方式KOC 2-3位",
+      "publish_window": "T+0 12:00-14:00",
       "production_cycle": "半天",
       "budget_level": "低",
-      "estimated_cpm": 30,
-      "estimated_cpe": 0.9,
+      "estimated_cpm": 40,
+      "estimated_cpe": 1.8,
       "risks": [
         "避免过度夸张产品能力",
         "内容发布前需品牌/合规审核"
@@ -161,33 +162,29 @@
         "换个视角看这件事",
         "眼镜里的世界原来可以这样"
       ],
-      "similar_historical_case": {
-        "case": "影院实时字幕体验",
-        "roi": 3.2,
-        "note": "娱乐向内容适合短平快Reaction"
-      },
+      "similar_historical_case": null,
       "rank": 3
     },
     {
-      "topic_name": "在构建亚太共同体之路上携手同行",
+      "topic_name": "中国贸易伙伴网如何越织越密",
       "platform": "头条热榜",
-      "heat_score": 95.0,
+      "heat_score": 96.6,
       "relevance_score": 8,
       "safety_score": 95,
       "timeliness_score": 94.5,
       "creativity_score": 50,
-      "ride_score": 75.2,
-      "create_score": 53.3,
+      "ride_score": 75.8,
+      "create_score": 53.5,
       "priority": "A",
-      "priority_reason": "【其他】品牌相关度较好，适合借势跟进（综合分75.2）",
-      "explode_time": "2026-11-15 10:39",
+      "priority_reason": "【其他】品牌相关度较好，适合借势跟进（综合分75.8）",
+      "explode_time": "2026-11-16 10:44",
       "lifecycle": "峰值期",
       "remaining_window": "预计持续1-3天",
       "core_emotion": "用户对该话题的讨论兴趣",
       "product_hook": "AI眼镜多模态能力",
       "entry_angles": [
-        "热点POV：用第一视角走进「在构建亚太共同体之路上携手同行」的真实场景",
-        "轻互动：邀请用户用眼镜完成与「在构建亚太共同体之路上携手同行」相关的小任务"
+        "热点POV：用第一视角走进「中国贸易伙伴网如何越织越密」的真实场景",
+        "轻互动：邀请用户用眼镜完成与「中国贸易伙伴网如何越织越密」相关的小任务"
       ],
       "target_audience": {
         "core": "科技爱好者",
@@ -215,71 +212,76 @@
       "rank": 4
     },
     {
-      "topic_name": "BLG夺冠",
+      "topic_name": "媒体：AI仿本山玩梗有风险",
       "platform": "头条热榜",
-      "heat_score": 92.4,
-      "relevance_score": 8,
+      "heat_score": 78.0,
+      "relevance_score": 37,
       "safety_score": 95,
-      "timeliness_score": 94.4,
-      "creativity_score": 50,
-      "ride_score": 74.3,
-      "create_score": 52.9,
+      "timeliness_score": 92.9,
+      "creativity_score": 65,
+      "ride_score": 75.5,
+      "create_score": 64.5,
       "priority": "A",
-      "priority_reason": "【其他】品牌相关度较好，适合借势跟进（综合分74.3）",
-      "explode_time": "2026-11-15 09:39",
-      "lifecycle": "峰值期",
+      "priority_reason": "【科技/AI】品牌相关度较好，适合借势跟进（综合分75.5）",
+      "explode_time": "2026-11-15 23:44",
+      "lifecycle": "上升期",
       "remaining_window": "预计持续1-3天",
-      "core_emotion": "用户对该话题的讨论兴趣",
+      "core_emotion": "对新技术的好奇与讨论热情",
       "product_hook": "AI眼镜多模态能力",
       "entry_angles": [
-        "热点POV：用第一视角走进「BLG夺冠」的真实场景",
-        "轻互动：邀请用户用眼镜完成与「BLG夺冠」相关的小任务"
+        "热点POV：用第一视角走进「媒体：AI仿本山玩梗有风险」的真实场景",
+        "轻互动：邀请用户用眼镜完成与「媒体：AI仿本山玩梗有风险」相关的小任务"
       ],
       "target_audience": {
-        "core": "科技爱好者",
-        "diffusion": "都市白领",
-        "bystander": "大众"
+        "core": "科技 early adopters",
+        "diffusion": "AI/互联网从业者",
+        "bystander": "关注科技趋势的大众"
       },
       "trigger_scene": "刷到该热点或身处相关场景时，想快速了解/记录/互动",
-      "content_format": "主：15-30s短视频；衍：图文笔记",
-      "recommended_creator_type": "生活方式KOC 2-3位",
-      "publish_window": "T+0 12:00-14:00",
-      "production_cycle": "半天",
-      "budget_level": "低",
-      "estimated_cpm": 40,
-      "estimated_cpe": 1.8,
+      "content_format": "主：知乎长图文/B站深度解读；衍：抖音切片",
+      "recommended_creator_type": "科技垂类KOL 2位 + 知乎答主 1位",
+      "publish_window": "T+1 10:00-12:00",
+      "production_cycle": "一天",
+      "budget_level": "中",
+      "estimated_cpm": 28,
+      "estimated_cpe": 1.5,
       "risks": [
         "避免过度夸张产品能力",
-        "内容发布前需品牌/合规审核"
+        "内容发布前需品牌/合规审核",
+        "技术表述需准确，避免攻击竞品"
       ],
       "reference_hooks": [
         "这个热点，我用眼镜跟了",
         "换个视角看这件事",
         "眼镜里的世界原来可以这样"
       ],
-      "similar_historical_case": null,
+      "similar_historical_case": {
+        "case": "千问发布会解读",
+        "roi": 3.8,
+        "note": "技术向内容适合B站/知乎长图文"
+      },
       "rank": 5
     },
     {
-      "topic_name": "张水华1个月4冠1亚",
+      "topic_name": "记者方浩明现身APEC新闻中心",
       "platform": "头条热榜",
-      "heat_score": 89.9,
+      "heat_score": 94.9,
       "relevance_score": 8,
       "safety_score": 95,
-      "timeliness_score": 94.2,
+      "timeliness_score": 94.4,
       "creativity_score": 50,
-      "ride_score": 73.4,
-      "create_score": 52.5,
+      "ride_score": 75.2,
+      "create_score": 53.3,
       "priority": "A",
-      "priority_reason": "【其他】品牌相关度较好，适合借势跟进（综合分73.4）",
-      "explode_time": "2026-11-15 08:39",
-      "lifecycle": "上升期",
+      "priority_reason": "【其他】品牌相关度较好，适合借势跟进（综合分75.2）",
+      "explode_time": "2026-11-16 09:44",
+      "lifecycle": "峰值期",
       "remaining_window": "预计持续1-3天",
       "core_emotion": "用户对该话题的讨论兴趣",
       "product_hook": "AI眼镜多模态能力",
       "entry_angles": [
-        "热点POV：用第一视角走进「张水华1个月4冠1亚」的真实场景",
-        "轻互动：邀请用户用眼镜完成与「张水华1个月4冠1亚」相关的小任务"
+        "热点POV：用第一视角走进「记者方浩明现身APEC新闻中心」的真实场景",
+        "轻互动：邀请用户用眼镜完成与「记者方浩明现身APEC新闻中心」相关的小任务"
       ],
       "target_audience": {
         "core": "科技爱好者",
@@ -307,25 +309,25 @@
       "rank": 6
     },
     {
-      "topic_name": "外汇存款准备金率上调到6%",
+      "topic_name": "央视曝光后金华连夜成立调查组",
       "platform": "头条热榜",
-      "heat_score": 87.4,
+      "heat_score": 93.2,
       "relevance_score": 8,
       "safety_score": 95,
-      "timeliness_score": 94.0,
+      "timeliness_score": 94.2,
       "creativity_score": 50,
-      "ride_score": 72.5,
-      "create_score": 52.1,
+      "ride_score": 74.6,
+      "create_score": 53.0,
       "priority": "A",
-      "priority_reason": "【其他】品牌相关度较好，适合借势跟进（综合分72.5）",
-      "explode_time": "2026-11-15 06:39",
-      "lifecycle": "上升期",
+      "priority_reason": "【其他】品牌相关度较好，适合借势跟进（综合分74.6）",
+      "explode_time": "2026-11-16 08:44",
+      "lifecycle": "峰值期",
       "remaining_window": "预计持续1-3天",
       "core_emotion": "用户对该话题的讨论兴趣",
       "product_hook": "AI眼镜多模态能力",
       "entry_angles": [
-        "热点POV：用第一视角走进「外汇存款准备金率上调到6%」的真实场景",
-        "轻互动：邀请用户用眼镜完成与「外汇存款准备金率上调到6%」相关的小任务"
+        "热点POV：用第一视角走进「央视曝光后金华连夜成立调查组」的真实场景",
+        "轻互动：邀请用户用眼镜完成与「央视曝光后金华连夜成立调查组」相关的小任务"
       ],
       "target_audience": {
         "core": "科技爱好者",
@@ -353,25 +355,25 @@
       "rank": 7
     },
     {
-      "topic_name": "S16总决赛：中国战队BLG逆转夺冠",
-      "platform": "百度热搜",
-      "heat_score": 87.7,
+      "topic_name": "片仔癀：从稀缺神话到库存压顶",
+      "platform": "头条热榜",
+      "heat_score": 91.5,
       "relevance_score": 8,
       "safety_score": 95,
-      "timeliness_score": 89.1,
+      "timeliness_score": 94.1,
       "creativity_score": 50,
-      "ride_score": 71.6,
-      "create_score": 51.9,
+      "ride_score": 73.9,
+      "create_score": 52.7,
       "priority": "A",
-      "priority_reason": "【其他】品牌相关度较好，适合借势跟进（综合分71.6）",
-      "explode_time": "2026-11-15 07:39",
-      "lifecycle": "上升期",
+      "priority_reason": "【其他】品牌相关度较好，适合借势跟进（综合分73.9）",
+      "explode_time": "2026-11-16 07:44",
+      "lifecycle": "峰值期",
       "remaining_window": "预计持续1-3天",
       "core_emotion": "用户对该话题的讨论兴趣",
       "product_hook": "AI眼镜多模态能力",
       "entry_angles": [
-        "热点POV：用第一视角走进「S16总决赛：中国战队BLG逆转夺冠」的真实场景",
-        "轻互动：邀请用户用眼镜完成与「S16总决赛：中国战队BLG逆转夺冠」相关的小任务"
+        "热点POV：用第一视角走进「片仔癀：从稀缺神话到库存压顶」的真实场景",
+        "轻互动：邀请用户用眼镜完成与「片仔癀：从稀缺神话到库存压顶」相关的小任务"
       ],
       "target_audience": {
         "core": "科技爱好者",
@@ -399,39 +401,39 @@
       "rank": 8
     },
     {
-      "topic_name": "综艺里到处都是NPD妈妈 啥是NPD",
-      "platform": "百度热搜",
-      "heat_score": 76.7,
-      "relevance_score": 18,
-      "safety_score": 98,
-      "timeliness_score": 85.8,
-      "creativity_score": 88,
-      "ride_score": 71.6,
-      "create_score": 63.7,
+      "topic_name": "APEC“深圳时间”因何备受瞩目",
+      "platform": "头条热榜",
+      "heat_score": 88.2,
+      "relevance_score": 8,
+      "safety_score": 95,
+      "timeliness_score": 93.8,
+      "creativity_score": 50,
+      "ride_score": 72.7,
+      "create_score": 52.2,
       "priority": "A",
-      "priority_reason": "【娱乐/影视】品牌相关度较好，适合借势跟进（综合分71.6）",
-      "explode_time": "2026-11-14 09:39",
+      "priority_reason": "【其他】品牌相关度较好，适合借势跟进（综合分72.7）",
+      "explode_time": "2026-11-16 05:44",
       "lifecycle": "上升期",
       "remaining_window": "预计持续1-3天",
-      "core_emotion": "娱乐消遣与社交分享欲望",
+      "core_emotion": "用户对该话题的讨论兴趣",
       "product_hook": "AI眼镜多模态能力",
       "entry_angles": [
-        "热点POV：用第一视角走进「综艺里到处都是NPD妈妈 啥是NPD」的真实场景",
-        "轻互动：邀请用户用眼镜完成与「综艺里到处都是NPD妈妈 啥是NPD」相关的小任务"
+        "热点POV：用第一视角走进「APEC“深圳时间”因何备受瞩目」的真实场景",
+        "轻互动：邀请用户用眼镜完成与「APEC“深圳时间”因何备受瞩目」相关的小任务"
       ],
       "target_audience": {
-        "core": "娱乐内容消费者",
-        "diffusion": "年轻用户",
-        "bystander": "泛娱乐人群"
+        "core": "科技爱好者",
+        "diffusion": "都市白领",
+        "bystander": "大众"
       },
       "trigger_scene": "刷到该热点或身处相关场景时，想快速了解/记录/互动",
-      "content_format": "主：Reaction短视频；衍：二创切片+图文",
-      "recommended_creator_type": "娱乐垂类KOL 1位 + KOC 2-3位",
-      "publish_window": "T+0 20:00-22:00",
+      "content_format": "主：15-30s短视频；衍：图文笔记",
+      "recommended_creator_type": "生活方式KOC 2-3位",
+      "publish_window": "T+0 12:00-14:00",
       "production_cycle": "半天",
       "budget_level": "低",
-      "estimated_cpm": 30,
-      "estimated_cpe": 0.9,
+      "estimated_cpm": 40,
+      "estimated_cpe": 1.8,
       "risks": [
         "避免过度夸张产品能力",
         "内容发布前需品牌/合规审核"
@@ -441,33 +443,29 @@
         "换个视角看这件事",
         "眼镜里的世界原来可以这样"
       ],
-      "similar_historical_case": {
-        "case": "影院实时字幕体验",
-        "roi": 3.2,
-        "note": "娱乐向内容适合短平快Reaction"
-      },
+      "similar_historical_case": null,
       "rank": 9
     },
     {
-      "topic_name": "短剧4000元成本做出6000多万热度",
-      "platform": "百度热搜",
-      "heat_score": 87.2,
+      "topic_name": "强冷空气即将抵沪 最低仅1℃",
+      "platform": "头条热榜",
+      "heat_score": 86.5,
       "relevance_score": 8,
       "safety_score": 95,
-      "timeliness_score": 88.8,
+      "timeliness_score": 93.7,
       "creativity_score": 50,
-      "ride_score": 71.4,
-      "create_score": 51.8,
+      "ride_score": 72.1,
+      "create_score": 52.0,
       "priority": "A",
-      "priority_reason": "【其他】品牌相关度较好，适合借势跟进（综合分71.4）",
-      "explode_time": "2026-11-15 05:39",
+      "priority_reason": "【其他】品牌相关度较好，适合借势跟进（综合分72.1）",
+      "explode_time": "2026-11-16 04:44",
       "lifecycle": "上升期",
       "remaining_window": "预计持续1-3天",
       "core_emotion": "用户对该话题的讨论兴趣",
       "product_hook": "AI眼镜多模态能力",
       "entry_angles": [
-        "热点POV：用第一视角走进「短剧4000元成本做出6000多万热度」的真实场景",
-        "轻互动：邀请用户用眼镜完成与「短剧4000元成本做出6000多万热度」相关的小任务"
+        "热点POV：用第一视角走进「强冷空气即将抵沪 最低仅1℃」的真实场景",
+        "轻互动：邀请用户用眼镜完成与「强冷空气即将抵沪 最低仅1℃」相关的小任务"
       ],
       "target_audience": {
         "core": "科技爱好者",
@@ -559,7 +557,7 @@
         "避开特殊群体",
         "城市选择需有代表性"
       ],
-      "id": "2026-11-15-B001",
+      "id": "2026-11-16-B001",
       "heat_score": 68,
       "relevance_score": 82,
       "safety_score": 87,
@@ -630,7 +628,7 @@
         "避免影射具体公司文化",
         "不要强化职场对立情绪"
       ],
-      "id": "2026-11-15-B002",
+      "id": "2026-11-16-B002",
       "heat_score": 71,
       "relevance_score": 84,
       "safety_score": 86,
@@ -703,7 +701,7 @@
         "注意用户隐私与内容审核",
         "避免过度浪漫化陌生人社交风险"
       ],
-      "id": "2026-11-15-B003",
+      "id": "2026-11-16-B003",
       "heat_score": 74,
       "relevance_score": 86,
       "safety_score": 85,
