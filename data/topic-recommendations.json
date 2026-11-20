@@ -1,6 +1,6 @@
 {
-  "date": "2026-11-19",
-  "updatedAt": "2026-11-19T08:30:29Z",
+  "date": "2026-11-20",
+  "updatedAt": "2026-11-20T08:12:32Z",
   "sources": [
     {
       "name": "头条热榜",
@@ -17,43 +17,43 @@
   ],
   "a_ride_hot_topics": [
     {
-      "topic_name": "特朗普下榻酒店最低房价800多元",
+      "topic_name": "县委书记说不能过度消费张雪",
       "platform": "头条热榜",
-      "heat_score": 92.6,
-      "relevance_score": 18,
-      "safety_score": 98,
-      "timeliness_score": 94.0,
-      "creativity_score": 90,
-      "ride_score": 78.9,
-      "create_score": 67.0,
+      "heat_score": 98.5,
+      "relevance_score": 15,
+      "safety_score": 95,
+      "timeliness_score": 94.7,
+      "creativity_score": 55,
+      "ride_score": 78.2,
+      "create_score": 57.5,
       "priority": "A",
-      "priority_reason": "【生活/社会】品牌相关度较好，适合借势跟进（综合分78.9）",
-      "explode_time": "2026-11-19 07:30",
+      "priority_reason": "【财经/商业】品牌相关度较好，适合借势跟进（综合分78.2）",
+      "explode_time": "2026-11-20 12:12",
       "lifecycle": "峰值期",
       "remaining_window": "预计持续1-3天",
-      "core_emotion": "对生活温度与社会话题的共鸣",
+      "core_emotion": "对经济/商业动态的关注与焦虑",
       "product_hook": "AI眼镜多模态能力",
       "entry_angles": [
-        "热点POV：用第一视角走进「特朗普下榻酒店最低房价800多元」的真实场景",
-        "轻互动：邀请用户用眼镜完成与「特朗普下榻酒店最低房价800多元」相关的小任务"
+        "热点POV：用第一视角走进「县委书记说不能过度消费张雪」的真实场景",
+        "轻互动：邀请用户用眼镜完成与「县委书记说不能过度消费张雪」相关的小任务"
       ],
       "target_audience": {
-        "core": "生活方式爱好者",
-        "diffusion": "年轻白领/学生",
-        "bystander": "关注社会话题的大众"
+        "core": "财经/商业人群",
+        "diffusion": "职场白领",
+        "bystander": "关注经济的大众"
       },
       "trigger_scene": "刷到该热点或身处相关场景时，想快速了解/记录/互动",
-      "content_format": "主：30s生活vlog；衍：小红书图文+UGC征集",
-      "recommended_creator_type": "生活方式KOL 1位 + 城市KOC 3-5位",
-      "publish_window": "T+0 18:00-20:00",
-      "production_cycle": "一天",
+      "content_format": "主：口播解读；衍：图文早报+数据可视化",
+      "recommended_creator_type": "财经垂类KOL 1位 + 职场KOC 2位",
+      "publish_window": "T+0 08:00-10:00",
+      "production_cycle": "半天",
       "budget_level": "中",
-      "estimated_cpm": 35,
-      "estimated_cpe": 1.3,
+      "estimated_cpm": 36,
+      "estimated_cpe": 1.6,
       "risks": [
         "避免过度夸张产品能力",
         "内容发布前需品牌/合规审核",
-        "避免涉及特殊群体或医疗/健康功效承诺"
+        "避免投资建议或夸大经济影响"
       ],
       "reference_hooks": [
         "这个热点，我用眼镜跟了",
@@ -61,32 +61,78 @@
         "眼镜里的世界原来可以这样"
       ],
       "similar_historical_case": {
-        "case": "城市烟火气记录",
-        "roi": 4.0,
-        "note": "生活方式内容小红书互动率高"
+        "case": "晨间财经早报",
+        "roi": 2.5,
+        "note": "财经内容适合早间时段发布"
       },
       "rank": 1
     },
     {
-      "topic_name": "AI作弊正让韩国如临大敌",
+      "topic_name": "特朗普从中国返美途中发帖",
       "platform": "头条热榜",
-      "heat_score": 83.9,
-      "relevance_score": 37,
+      "heat_score": 100.0,
+      "relevance_score": 8,
       "safety_score": 95,
-      "timeliness_score": 92.9,
-      "creativity_score": 65,
-      "ride_score": 77.6,
-      "create_score": 65.4,
+      "timeliness_score": 94.8,
+      "creativity_score": 50,
+      "ride_score": 77.1,
+      "create_score": 54.0,
       "priority": "A",
-      "priority_reason": "【科技/AI】品牌相关度较好，适合借势跟进（综合分77.6）",
-      "explode_time": "2026-11-19 00:30",
+      "priority_reason": "【其他】品牌相关度较好，适合借势跟进（综合分77.1）",
+      "explode_time": "2026-11-20 13:12",
+      "lifecycle": "峰值期",
+      "remaining_window": "预计持续1-3天",
+      "core_emotion": "用户对该话题的讨论兴趣",
+      "product_hook": "AI眼镜多模态能力",
+      "entry_angles": [
+        "热点POV：用第一视角走进「特朗普从中国返美途中发帖」的真实场景",
+        "轻互动：邀请用户用眼镜完成与「特朗普从中国返美途中发帖」相关的小任务"
+      ],
+      "target_audience": {
+        "core": "科技爱好者",
+        "diffusion": "都市白领",
+        "bystander": "大众"
+      },
+      "trigger_scene": "刷到该热点或身处相关场景时，想快速了解/记录/互动",
+      "content_format": "主：15-30s短视频；衍：图文笔记",
+      "recommended_creator_type": "生活方式KOC 2-3位",
+      "publish_window": "T+0 12:00-14:00",
+      "production_cycle": "半天",
+      "budget_level": "低",
+      "estimated_cpm": 40,
+      "estimated_cpe": 1.8,
+      "risks": [
+        "避免过度夸张产品能力",
+        "内容发布前需品牌/合规审核"
+      ],
+      "reference_hooks": [
+        "这个热点，我用眼镜跟了",
+        "换个视角看这件事",
+        "眼镜里的世界原来可以这样"
+      ],
+      "similar_historical_case": null,
+      "rank": 2
+    },
+    {
+      "topic_name": "我国智能制造整体迈入世界前列",
+      "platform": "头条热榜",
+      "heat_score": 88.2,
+      "relevance_score": 25,
+      "safety_score": 95,
+      "timeliness_score": 93.7,
+      "creativity_score": 65,
+      "ride_score": 76.9,
+      "create_score": 61.9,
+      "priority": "A",
+      "priority_reason": "【科技/AI】品牌相关度较好，适合借势跟进（综合分76.9）",
+      "explode_time": "2026-11-20 05:12",
       "lifecycle": "上升期",
       "remaining_window": "预计持续1-3天",
       "core_emotion": "对新技术的好奇与讨论热情",
       "product_hook": "AI眼镜多模态能力",
       "entry_angles": [
-        "热点POV：用第一视角走进「AI作弊正让韩国如临大敌」的真实场景",
-        "轻互动：邀请用户用眼镜完成与「AI作弊正让韩国如临大敌」相关的小任务"
+        "热点POV：用第一视角走进「我国智能制造整体迈入世界前列」的真实场景",
+        "轻互动：邀请用户用眼镜完成与「我国智能制造整体迈入世界前列」相关的小任务"
       ],
       "target_audience": {
         "core": "科技 early adopters",
@@ -116,120 +162,79 @@
         "roi": 3.8,
         "note": "技术向内容适合B站/知乎长图文"
       },
-      "rank": 2
-    },
-    {
-      "topic_name": "习近平主持中俄美元首会晤",
-      "platform": "头条热榜",
-      "heat_score": 100.0,
-      "relevance_score": 8,
-      "safety_score": 95,
-      "timeliness_score": 89.8,
-      "creativity_score": 50,
-      "ride_score": 76.1,
-      "create_score": 53.8,
-      "priority": "A",
-      "priority_reason": "【其他】品牌相关度较好，适合借势跟进（综合分76.1）",
-      "explode_time": "2026-11-19 13:30",
-      "lifecycle": "峰值期",
-      "remaining_window": "预计持续1-3天",
-      "core_emotion": "用户对该话题的讨论兴趣",
-      "product_hook": "AI眼镜多模态能力",
-      "entry_angles": [
-        "热点POV：用第一视角走进「习近平主持中俄美元首会晤」的真实场景",
-        "轻互动：邀请用户用眼镜完成与「习近平主持中俄美元首会晤」相关的小任务"
-      ],
-      "target_audience": {
-        "core": "科技爱好者",
-        "diffusion": "都市白领",
-        "bystander": "大众"
-      },
-      "trigger_scene": "刷到该热点或身处相关场景时，想快速了解/记录/互动",
-      "content_format": "主：15-30s短视频；衍：图文笔记",
-      "recommended_creator_type": "生活方式KOC 2-3位",
-      "publish_window": "T+0 12:00-14:00",
-      "production_cycle": "半天",
-      "budget_level": "低",
-      "estimated_cpm": 40,
-      "estimated_cpe": 1.8,
-      "risks": [
-        "避免过度夸张产品能力",
-        "内容发布前需品牌/合规审核"
-      ],
-      "reference_hooks": [
-        "这个热点，我用眼镜跟了",
-        "换个视角看这件事",
-        "眼镜里的世界原来可以这样"
-      ],
-      "similar_historical_case": null,
       "rank": 3
     },
     {
-      "topic_name": "深圳市民在街头偶遇多国政要",
+      "topic_name": "业内：A股短期波动并未改变市场韧性",
       "platform": "头条热榜",
-      "heat_score": 98.8,
-      "relevance_score": 8,
+      "heat_score": 94.1,
+      "relevance_score": 15,
       "safety_score": 95,
-      "timeliness_score": 89.7,
-      "creativity_score": 50,
-      "ride_score": 75.6,
-      "create_score": 53.6,
+      "timeliness_score": 94.2,
+      "creativity_score": 55,
+      "ride_score": 76.5,
+      "create_score": 56.8,
       "priority": "A",
-      "priority_reason": "【其他】品牌相关度较好，适合借势跟进（综合分75.6）",
-      "explode_time": "2026-11-19 12:30",
+      "priority_reason": "【财经/商业】品牌相关度较好，适合借势跟进（综合分76.5）",
+      "explode_time": "2026-11-20 09:12",
       "lifecycle": "峰值期",
       "remaining_window": "预计持续1-3天",
-      "core_emotion": "用户对该话题的讨论兴趣",
+      "core_emotion": "对经济/商业动态的关注与焦虑",
       "product_hook": "AI眼镜多模态能力",
       "entry_angles": [
-        "热点POV：用第一视角走进「深圳市民在街头偶遇多国政要」的真实场景",
-        "轻互动：邀请用户用眼镜完成与「深圳市民在街头偶遇多国政要」相关的小任务"
+        "热点POV：用第一视角走进「业内：A股短期波动并未改变市场韧性」的真实场景",
+        "轻互动：邀请用户用眼镜完成与「业内：A股短期波动并未改变市场韧性」相关的小任务"
       ],
       "target_audience": {
-        "core": "科技爱好者",
-        "diffusion": "都市白领",
-        "bystander": "大众"
+        "core": "财经/商业人群",
+        "diffusion": "职场白领",
+        "bystander": "关注经济的大众"
       },
       "trigger_scene": "刷到该热点或身处相关场景时，想快速了解/记录/互动",
-      "content_format": "主：15-30s短视频；衍：图文笔记",
-      "recommended_creator_type": "生活方式KOC 2-3位",
-      "publish_window": "T+0 12:00-14:00",
+      "content_format": "主：口播解读；衍：图文早报+数据可视化",
+      "recommended_creator_type": "财经垂类KOL 1位 + 职场KOC 2位",
+      "publish_window": "T+0 08:00-10:00",
       "production_cycle": "半天",
-      "budget_level": "低",
-      "estimated_cpm": 40,
-      "estimated_cpe": 1.8,
+      "budget_level": "中",
+      "estimated_cpm": 36,
+      "estimated_cpe": 1.6,
       "risks": [
         "避免过度夸张产品能力",
-        "内容发布前需品牌/合规审核"
+        "内容发布前需品牌/合规审核",
+        "避免投资建议或夸大经济影响"
       ],
       "reference_hooks": [
         "这个热点，我用眼镜跟了",
         "换个视角看这件事",
         "眼镜里的世界原来可以这样"
       ],
-      "similar_historical_case": null,
+      "similar_historical_case": {
+        "case": "晨间财经早报",
+        "roi": 2.5,
+        "note": "财经内容适合早间时段发布"
+      },
       "rank": 4
     },
     {
-      "topic_name": "专家建议金饰跌破1000元再买",
+      "topic_name": "中国担任2026APEC东道主成果清单",
       "platform": "头条热榜",
-      "heat_score": 95.0,
+      "heat_score": 97.1,
       "relevance_score": 8,
       "safety_score": 95,
-      "timeliness_score": 94.2,
+      "timeliness_score": 94.5,
       "creativity_score": 50,
-      "ride_score": 75.2,
-      "create_score": 53.3,
+      "ride_score": 76.0,
+      "create_score": 53.6,
       "priority": "A",
-      "priority_reason": "【其他】品牌相关度较好，适合借势跟进（综合分75.2）",
-      "explode_time": "2026-11-19 09:30",
+      "priority_reason": "【其他】品牌相关度较好，适合借势跟进（综合分76.0）",
+      "explode_time": "2026-11-20 11:12",
       "lifecycle": "峰值期",
       "remaining_window": "预计持续1-3天",
       "core_emotion": "用户对该话题的讨论兴趣",
       "product_hook": "AI眼镜多模态能力",
       "entry_angles": [
-        "热点POV：用第一视角走进「专家建议金饰跌破1000元再买」的真实场景",
-        "轻互动：邀请用户用眼镜完成与「专家建议金饰跌破1000元再买」相关的小任务"
+        "热点POV：用第一视角走进「中国担任2026APEC东道主成果清单」的真实场景",
+        "轻互动：邀请用户用眼镜完成与「中国担任2026APEC东道主成果清单」相关的小任务"
       ],
       "target_audience": {
         "core": "科技爱好者",
@@ -257,25 +262,25 @@
       "rank": 5
     },
     {
-      "topic_name": "期待中国方案引领亚太合作",
+      "topic_name": "日方称中方接待高市早苗符合惯例",
       "platform": "头条热榜",
-      "heat_score": 97.5,
+      "heat_score": 95.6,
       "relevance_score": 8,
       "safety_score": 95,
-      "timeliness_score": 89.5,
+      "timeliness_score": 94.4,
       "creativity_score": 50,
-      "ride_score": 75.1,
+      "ride_score": 75.4,
       "create_score": 53.4,
       "priority": "A",
-      "priority_reason": "【其他】品牌相关度较好，适合借势跟进（综合分75.1）",
-      "explode_time": "2026-11-19 11:30",
+      "priority_reason": "【其他】品牌相关度较好，适合借势跟进（综合分75.4）",
+      "explode_time": "2026-11-20 10:12",
       "lifecycle": "峰值期",
       "remaining_window": "预计持续1-3天",
       "core_emotion": "用户对该话题的讨论兴趣",
       "product_hook": "AI眼镜多模态能力",
       "entry_angles": [
-        "热点POV：用第一视角走进「期待中国方案引领亚太合作」的真实场景",
-        "轻互动：邀请用户用眼镜完成与「期待中国方案引领亚太合作」相关的小任务"
+        "热点POV：用第一视角走进「日方称中方接待高市早苗符合惯例」的真实场景",
+        "轻互动：邀请用户用眼镜完成与「日方称中方接待高市早苗符合惯例」相关的小任务"
       ],
       "target_audience": {
         "core": "科技爱好者",
@@ -303,77 +308,25 @@
       "rank": 6
     },
     {
-      "topic_name": "APEC领导人互相整理围巾",
+      "topic_name": "特朗普9月买入超26万美元英伟达股票",
       "platform": "头条热榜",
-      "heat_score": 77.7,
-      "relevance_score": 33,
-      "safety_score": 95,
-      "timeliness_score": 92.2,
-      "creativity_score": 75,
-      "ride_score": 75.0,
-      "create_score": 65.6,
-      "priority": "A",
-      "priority_reason": "【职场/办公】品牌相关度较好，适合借势跟进（综合分75.0）",
-      "explode_time": "2026-11-18 19:30",
-      "lifecycle": "上升期",
-      "remaining_window": "预计持续1-3天",
-      "core_emotion": "打工人对效率焦虑与「科技减负」的期待",
-      "product_hook": "会议纪要",
-      "entry_angles": [
-        "办公场景：把「APEC领导人互相整理围巾」的讨论一键整理成纪要",
-        "热点POV：用第一视角走进「APEC领导人互相整理围巾」的真实场景",
-        "轻互动：邀请用户用眼镜完成与「APEC领导人互相整理围巾」相关的小任务"
-      ],
-      "target_audience": {
-        "core": "25-35岁都市白领",
-        "diffusion": "职场新人/中层管理者",
-        "bystander": "对AI工具感兴趣的大众"
-      },
-      "trigger_scene": "刷到该热点或身处相关场景时，想快速了解/记录/互动",
-      "content_format": "主：15-30s真人实测短视频；衍：3张图文笔记+1条口播",
-      "recommended_creator_type": "垂类职场KOL 1位 + 生活方式KOC 3-5位",
-      "publish_window": "T+0 12:00-14:00",
-      "production_cycle": "半天",
-      "budget_level": "中",
-      "estimated_cpm": 32,
-      "estimated_cpe": 1.1,
-      "risks": [
-        "避免过度夸张产品能力",
-        "内容发布前需品牌/合规审核",
-        "不要涉及具体公司/领导负面"
-      ],
-      "reference_hooks": [
-        "开会2小时，整理2分钟",
-        "会议纪要，眼镜帮我写了",
-        "再也不用担心漏重点"
-      ],
-      "similar_historical_case": {
-        "case": "通勤效率神器",
-        "roi": 6.2,
-        "note": "去年同期类似选题，POV形式ROI达1:6.2"
-      },
-      "rank": 7
-    },
-    {
-      "topic_name": "ShenzhenTravel在外网火了",
-      "platform": "头条热榜",
-      "heat_score": 93.8,
+      "heat_score": 92.7,
       "relevance_score": 8,
       "safety_score": 95,
       "timeliness_score": 94.1,
       "creativity_score": 50,
-      "ride_score": 74.8,
-      "create_score": 53.1,
+      "ride_score": 74.4,
+      "create_score": 52.9,
       "priority": "A",
-      "priority_reason": "【其他】品牌相关度较好，适合借势跟进（综合分74.8）",
-      "explode_time": "2026-11-19 08:30",
+      "priority_reason": "【其他】品牌相关度较好，适合借势跟进（综合分74.4）",
+      "explode_time": "2026-11-20 08:12",
       "lifecycle": "峰值期",
       "remaining_window": "预计持续1-3天",
       "core_emotion": "用户对该话题的讨论兴趣",
       "product_hook": "AI眼镜多模态能力",
       "entry_angles": [
-        "热点POV：用第一视角走进「ShenzhenTravel在外网火了」的真实场景",
-        "轻互动：邀请用户用眼镜完成与「ShenzhenTravel在外网火了」相关的小任务"
+        "热点POV：用第一视角走进「特朗普9月买入超26万美元英伟达股票」的真实场景",
+        "轻互动：邀请用户用眼镜完成与「特朗普9月买入超26万美元英伟达股票」相关的小任务"
       ],
       "target_audience": {
         "core": "科技爱好者",
@@ -398,28 +351,79 @@
         "眼镜里的世界原来可以这样"
       ],
       "similar_historical_case": null,
+      "rank": 7
+    },
+    {
+      "topic_name": "“全球最大医院”原党委书记被双开",
+      "platform": "头条热榜",
+      "heat_score": 79.4,
+      "relevance_score": 18,
+      "safety_score": 98,
+      "timeliness_score": 92.8,
+      "creativity_score": 85,
+      "ride_score": 73.8,
+      "create_score": 63.7,
+      "priority": "A",
+      "priority_reason": "【健康/运动】品牌相关度较好，适合借势跟进（综合分73.8）",
+      "explode_time": "2026-11-19 23:12",
+      "lifecycle": "上升期",
+      "remaining_window": "预计持续1-3天",
+      "core_emotion": "健身自律与科技辅助的新鲜感",
+      "product_hook": "AI眼镜多模态能力",
+      "entry_angles": [
+        "热点POV：用第一视角走进「“全球最大医院”原党委书记被双开」的真实场景",
+        "轻互动：邀请用户用眼镜完成与「“全球最大医院”原党委书记被双开」相关的小任务"
+      ],
+      "target_audience": {
+        "core": "运动爱好者",
+        "diffusion": "健身新手/都市白领",
+        "bystander": "关注健康生活方式的大众"
+      },
+      "trigger_scene": "刷到该热点或身处相关场景时，想快速了解/记录/互动",
+      "content_format": "主：15s运动短视频；衍：图文笔记",
+      "recommended_creator_type": "运动垂类KOC 2-3位",
+      "publish_window": "T+1 07:00-09:00",
+      "production_cycle": "半天",
+      "budget_level": "低",
+      "estimated_cpm": 35,
+      "estimated_cpe": 1.2,
+      "risks": [
+        "避免过度夸张产品能力",
+        "内容发布前需品牌/合规审核",
+        "避免涉及特殊群体或医疗/健康功效承诺"
+      ],
+      "reference_hooks": [
+        "这个热点，我用眼镜跟了",
+        "换个视角看这件事",
+        "眼镜里的世界原来可以这样"
+      ],
+      "similar_historical_case": {
+        "case": "跑步POV记录",
+        "roi": 2.8,
+        "note": "运动场景强调安全与数据播报"
+      },
       "rank": 8
     },
     {
-      "topic_name": "唇腭裂男孩小多吉今日手术",
+      "topic_name": "国内油价预计下调460元/吨",
       "platform": "头条热榜",
-      "heat_score": 91.3,
+      "heat_score": 89.7,
       "relevance_score": 8,
       "safety_score": 95,
       "timeliness_score": 93.8,
       "creativity_score": 50,
-      "ride_score": 73.8,
-      "create_score": 52.7,
+      "ride_score": 73.3,
+      "create_score": 52.4,
       "priority": "A",
-      "priority_reason": "【其他】品牌相关度较好，适合借势跟进（综合分73.8）",
-      "explode_time": "2026-11-19 06:30",
-      "lifecycle": "峰值期",
+      "priority_reason": "【其他】品牌相关度较好，适合借势跟进（综合分73.3）",
+      "explode_time": "2026-11-20 06:12",
+      "lifecycle": "上升期",
       "remaining_window": "预计持续1-3天",
       "core_emotion": "用户对该话题的讨论兴趣",
       "product_hook": "AI眼镜多模态能力",
       "entry_angles": [
-        "热点POV：用第一视角走进「唇腭裂男孩小多吉今日手术」的真实场景",
-        "轻互动：邀请用户用眼镜完成与「唇腭裂男孩小多吉今日手术」相关的小任务"
+        "热点POV：用第一视角走进「国内油价预计下调460元/吨」的真实场景",
+        "轻互动：邀请用户用眼镜完成与「国内油价预计下调460元/吨」相关的小任务"
       ],
       "target_audience": {
         "core": "科技爱好者",
@@ -447,25 +451,25 @@
       "rank": 9
     },
     {
-      "topic_name": "APEC礼物别出心裁",
+      "topic_name": "特朗普称行程太满没顾上见金正恩",
       "platform": "头条热榜",
-      "heat_score": 90.1,
+      "heat_score": 86.8,
       "relevance_score": 8,
       "safety_score": 95,
-      "timeliness_score": 93.7,
+      "timeliness_score": 93.5,
       "creativity_score": 50,
-      "ride_score": 73.4,
-      "create_score": 52.5,
+      "ride_score": 72.2,
+      "create_score": 52.0,
       "priority": "A",
-      "priority_reason": "【其他】品牌相关度较好，适合借势跟进（综合分73.4）",
-      "explode_time": "2026-11-19 05:30",
-      "lifecycle": "峰值期",
+      "priority_reason": "【其他】品牌相关度较好，适合借势跟进（综合分72.2）",
+      "explode_time": "2026-11-20 04:12",
+      "lifecycle": "上升期",
       "remaining_window": "预计持续1-3天",
       "core_emotion": "用户对该话题的讨论兴趣",
       "product_hook": "AI眼镜多模态能力",
       "entry_angles": [
-        "热点POV：用第一视角走进「APEC礼物别出心裁」的真实场景",
-        "轻互动：邀请用户用眼镜完成与「APEC礼物别出心裁」相关的小任务"
+        "热点POV：用第一视角走进「特朗普称行程太满没顾上见金正恩」的真实场景",
+        "轻互动：邀请用户用眼镜完成与「特朗普称行程太满没顾上见金正恩」相关的小任务"
       ],
       "target_audience": {
         "core": "科技爱好者",
@@ -557,7 +561,7 @@
         "避开特殊群体",
         "城市选择需有代表性"
       ],
-      "id": "2026-11-19-B001",
+      "id": "2026-11-20-B001",
       "heat_score": 68,
       "relevance_score": 82,
       "safety_score": 87,
@@ -628,7 +632,7 @@
         "避免影射具体公司文化",
         "不要强化职场对立情绪"
       ],
-      "id": "2026-11-19-B002",
+      "id": "2026-11-20-B002",
       "heat_score": 71,
       "relevance_score": 84,
       "safety_score": 86,
@@ -701,7 +705,7 @@
         "注意用户隐私与内容审核",
         "避免过度浪漫化陌生人社交风险"
       ],
-      "id": "2026-11-19-B003",
+      "id": "2026-11-20-B003",
       "heat_score": 74,
       "relevance_score": 86,
       "safety_score": 85,
