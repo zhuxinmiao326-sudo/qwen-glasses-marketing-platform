@@ -1,6 +1,6 @@
 {
-  "date": "2026-11-21",
-  "updatedAt": "2026-11-21T08:05:37Z",
+  "date": "2026-11-22",
+  "updatedAt": "2026-11-22T07:51:12Z",
   "sources": [
     {
       "name": "头条热榜",
@@ -17,39 +17,39 @@
   ],
   "a_ride_hot_topics": [
     {
-      "topic_name": "顺丰速运被暂停参加全军采购活动",
-      "platform": "头条热榜",
-      "heat_score": 100.0,
-      "relevance_score": 8,
-      "safety_score": 95,
-      "timeliness_score": 94.8,
-      "creativity_score": 50,
-      "ride_score": 77.1,
-      "create_score": 54.0,
+      "topic_name": "全球酒店巨头密集入驻新疆",
+      "platform": "百度热搜",
+      "heat_score": 98.7,
+      "relevance_score": 25,
+      "safety_score": 98,
+      "timeliness_score": 89.4,
+      "creativity_score": 95,
+      "ride_score": 81.8,
+      "create_score": 71.4,
       "priority": "A",
-      "priority_reason": "【其他】品牌相关度较好，适合借势跟进（综合分77.1）",
-      "explode_time": "2026-11-21 13:05",
+      "priority_reason": "【旅游/户外】品牌相关度较好，适合借势跟进（综合分81.8）",
+      "explode_time": "2026-11-22 09:51",
       "lifecycle": "峰值期",
       "remaining_window": "预计持续1-3天",
-      "core_emotion": "用户对该话题的讨论兴趣",
+      "core_emotion": "出游热情与「不会外语/怕迷路」的焦虑",
       "product_hook": "AI眼镜多模态能力",
       "entry_angles": [
-        "热点POV：用第一视角走进「顺丰速运被暂停参加全军采购活动」的真实场景",
-        "轻互动：邀请用户用眼镜完成与「顺丰速运被暂停参加全军采购活动」相关的小任务"
+        "热点POV：用第一视角走进「全球酒店巨头密集入驻新疆」的真实场景",
+        "轻互动：邀请用户用眼镜完成与「全球酒店巨头密集入驻新疆」相关的小任务"
       ],
       "target_audience": {
-        "core": "科技爱好者",
-        "diffusion": "都市白领",
-        "bystander": "大众"
+        "core": "25-35岁一二线城市旅行爱好者",
+        "diffusion": "学生/亲子出游人群",
+        "bystander": "计划出游的大众"
       },
       "trigger_scene": "刷到该热点或身处相关场景时，想快速了解/记录/互动",
-      "content_format": "主：15-30s短视频；衍：图文笔记",
-      "recommended_creator_type": "生活方式KOC 2-3位",
-      "publish_window": "T+0 12:00-14:00",
-      "production_cycle": "半天",
-      "budget_level": "低",
-      "estimated_cpm": 40,
-      "estimated_cpe": 1.8,
+      "content_format": "主：30s旅行vlog；衍：小红书图文攻略+景点打卡合集",
+      "recommended_creator_type": "旅行垂类KOL 1位 + 旅行KOC 2-3位",
+      "publish_window": "T+0 18:00-20:00",
+      "production_cycle": "一天",
+      "budget_level": "中",
+      "estimated_cpm": 38,
+      "estimated_cpe": 1.4,
       "risks": [
         "避免过度夸张产品能力",
         "内容发布前需品牌/合规审核"
@@ -59,43 +59,47 @@
         "换个视角看这件事",
         "眼镜里的世界原来可以这样"
       ],
-      "similar_historical_case": null,
+      "similar_historical_case": {
+        "case": "POV实测海外出行",
+        "roi": 4.5,
+        "note": "翻译功能相关选题互动率高"
+      },
       "rank": 1
     },
     {
-      "topic_name": "黄金为啥突然不香了",
-      "platform": "头条热榜",
-      "heat_score": 98.1,
-      "relevance_score": 8,
-      "safety_score": 95,
-      "timeliness_score": 94.7,
-      "creativity_score": 50,
-      "ride_score": 76.4,
-      "create_score": 53.8,
+      "topic_name": "演唱会突发观众冲台 王力宏与其击掌",
+      "platform": "百度热搜",
+      "heat_score": 93.0,
+      "relevance_score": 18,
+      "safety_score": 98,
+      "timeliness_score": 87.8,
+      "creativity_score": 88,
+      "ride_score": 77.7,
+      "create_score": 66.2,
       "priority": "A",
-      "priority_reason": "【其他】品牌相关度较好，适合借势跟进（综合分76.4）",
-      "explode_time": "2026-11-21 12:05",
+      "priority_reason": "【娱乐/影视】品牌相关度较好，适合借势跟进（综合分77.7）",
+      "explode_time": "2026-11-21 22:51",
       "lifecycle": "峰值期",
       "remaining_window": "预计持续1-3天",
-      "core_emotion": "用户对该话题的讨论兴趣",
+      "core_emotion": "娱乐消遣与社交分享欲望",
       "product_hook": "AI眼镜多模态能力",
       "entry_angles": [
-        "热点POV：用第一视角走进「黄金为啥突然不香了」的真实场景",
-        "轻互动：邀请用户用眼镜完成与「黄金为啥突然不香了」相关的小任务"
+        "热点POV：用第一视角走进「演唱会突发观众冲台 王力宏与其击掌」的真实场景",
+        "轻互动：邀请用户用眼镜完成与「演唱会突发观众冲台 王力宏与其击掌」相关的小任务"
       ],
       "target_audience": {
-        "core": "科技爱好者",
-        "diffusion": "都市白领",
-        "bystander": "大众"
+        "core": "娱乐内容消费者",
+        "diffusion": "年轻用户",
+        "bystander": "泛娱乐人群"
       },
       "trigger_scene": "刷到该热点或身处相关场景时，想快速了解/记录/互动",
-      "content_format": "主：15-30s短视频；衍：图文笔记",
-      "recommended_creator_type": "生活方式KOC 2-3位",
-      "publish_window": "T+0 12:00-14:00",
+      "content_format": "主：Reaction短视频；衍：二创切片+图文",
+      "recommended_creator_type": "娱乐垂类KOL 1位 + KOC 2-3位",
+      "publish_window": "T+0 20:00-22:00",
       "production_cycle": "半天",
       "budget_level": "低",
-      "estimated_cpm": 40,
-      "estimated_cpe": 1.8,
+      "estimated_cpm": 30,
+      "estimated_cpe": 0.9,
       "risks": [
         "避免过度夸张产品能力",
         "内容发布前需品牌/合规审核"
@@ -105,121 +109,33 @@
         "换个视角看这件事",
         "眼镜里的世界原来可以这样"
       ],
-      "similar_historical_case": null,
+      "similar_historical_case": {
+        "case": "影院实时字幕体验",
+        "roi": 3.2,
+        "note": "娱乐向内容适合短平快Reaction"
+      },
       "rank": 2
     },
     {
-      "topic_name": "APEC开启经贸合作新空间",
-      "platform": "头条热榜",
-      "heat_score": 96.2,
-      "relevance_score": 8,
-      "safety_score": 95,
-      "timeliness_score": 94.5,
-      "creativity_score": 50,
-      "ride_score": 75.7,
-      "create_score": 53.5,
-      "priority": "A",
-      "priority_reason": "【其他】品牌相关度较好，适合借势跟进（综合分75.7）",
-      "explode_time": "2026-11-21 11:05",
-      "lifecycle": "峰值期",
-      "remaining_window": "预计持续1-3天",
-      "core_emotion": "用户对该话题的讨论兴趣",
-      "product_hook": "AI眼镜多模态能力",
-      "entry_angles": [
-        "热点POV：用第一视角走进「APEC开启经贸合作新空间」的真实场景",
-        "轻互动：邀请用户用眼镜完成与「APEC开启经贸合作新空间」相关的小任务"
-      ],
-      "target_audience": {
-        "core": "科技爱好者",
-        "diffusion": "都市白领",
-        "bystander": "大众"
-      },
-      "trigger_scene": "刷到该热点或身处相关场景时，想快速了解/记录/互动",
-      "content_format": "主：15-30s短视频；衍：图文笔记",
-      "recommended_creator_type": "生活方式KOC 2-3位",
-      "publish_window": "T+0 12:00-14:00",
-      "production_cycle": "半天",
-      "budget_level": "低",
-      "estimated_cpm": 40,
-      "estimated_cpe": 1.8,
-      "risks": [
-        "避免过度夸张产品能力",
-        "内容发布前需品牌/合规审核"
-      ],
-      "reference_hooks": [
-        "这个热点，我用眼镜跟了",
-        "换个视角看这件事",
-        "眼镜里的世界原来可以这样"
-      ],
-      "similar_historical_case": null,
-      "rank": 3
-    },
-    {
-      "topic_name": "高市搭讪特朗普被无视 日网民：丢人",
-      "platform": "头条热榜",
-      "heat_score": 94.3,
-      "relevance_score": 8,
-      "safety_score": 95,
-      "timeliness_score": 94.4,
-      "creativity_score": 50,
-      "ride_score": 75.0,
-      "create_score": 53.2,
-      "priority": "A",
-      "priority_reason": "【其他】品牌相关度较好，适合借势跟进（综合分75.0）",
-      "explode_time": "2026-11-21 10:05",
-      "lifecycle": "峰值期",
-      "remaining_window": "预计持续1-3天",
-      "core_emotion": "用户对该话题的讨论兴趣",
-      "product_hook": "AI眼镜多模态能力",
-      "entry_angles": [
-        "热点POV：用第一视角走进「高市搭讪特朗普被无视 日网民：丢人」的真实场景",
-        "轻互动：邀请用户用眼镜完成与「高市搭讪特朗普被无视 日网民：丢人」相关的小任务"
-      ],
-      "target_audience": {
-        "core": "科技爱好者",
-        "diffusion": "都市白领",
-        "bystander": "大众"
-      },
-      "trigger_scene": "刷到该热点或身处相关场景时，想快速了解/记录/互动",
-      "content_format": "主：15-30s短视频；衍：图文笔记",
-      "recommended_creator_type": "生活方式KOC 2-3位",
-      "publish_window": "T+0 12:00-14:00",
-      "production_cycle": "半天",
-      "budget_level": "低",
-      "estimated_cpm": 40,
-      "estimated_cpe": 1.8,
-      "risks": [
-        "避免过度夸张产品能力",
-        "内容发布前需品牌/合规审核"
-      ],
-      "reference_hooks": [
-        "这个热点，我用眼镜跟了",
-        "换个视角看这件事",
-        "眼镜里的世界原来可以这样"
-      ],
-      "similar_historical_case": null,
-      "rank": 4
-    },
-    {
-      "topic_name": "李亚鹏建议月捐1元支持嫣然基金",
-      "platform": "头条热榜",
-      "heat_score": 88.6,
+      "topic_name": "10月份工业经济总体平稳",
+      "platform": "百度热搜",
+      "heat_score": 99.1,
       "relevance_score": 15,
       "safety_score": 95,
-      "timeliness_score": 94.0,
+      "timeliness_score": 89.5,
       "creativity_score": 55,
-      "ride_score": 74.6,
-      "create_score": 56.0,
+      "ride_score": 77.3,
+      "create_score": 57.3,
       "priority": "A",
-      "priority_reason": "【财经/商业】品牌相关度较好，适合借势跟进（综合分74.6）",
-      "explode_time": "2026-11-21 07:05",
-      "lifecycle": "上升期",
+      "priority_reason": "【财经/商业】品牌相关度较好，适合借势跟进（综合分77.3）",
+      "explode_time": "2026-11-22 10:51",
+      "lifecycle": "峰值期",
       "remaining_window": "预计持续1-3天",
       "core_emotion": "对经济/商业动态的关注与焦虑",
       "product_hook": "AI眼镜多模态能力",
       "entry_angles": [
-        "热点POV：用第一视角走进「李亚鹏建议月捐1元支持嫣然基金」的真实场景",
-        "轻互动：邀请用户用眼镜完成与「李亚鹏建议月捐1元支持嫣然基金」相关的小任务"
+        "热点POV：用第一视角走进「10月份工业经济总体平稳」的真实场景",
+        "轻互动：邀请用户用眼镜完成与「10月份工业经济总体平稳」相关的小任务"
       ],
       "target_audience": {
         "core": "财经/商业人群",
@@ -249,28 +165,125 @@
         "roi": 2.5,
         "note": "财经内容适合早间时段发布"
       },
-      "rank": 5
+      "rank": 3
     },
     {
-      "topic_name": "胖东来原址开的新商场几乎倒闭",
-      "platform": "头条热榜",
-      "heat_score": 92.4,
+      "topic_name": "家门口的养老院正在消失",
+      "platform": "百度热搜",
+      "heat_score": 91.8,
+      "relevance_score": 18,
+      "safety_score": 98,
+      "timeliness_score": 87.5,
+      "creativity_score": 90,
+      "ride_score": 77.3,
+      "create_score": 66.5,
+      "priority": "A",
+      "priority_reason": "【生活/社会】品牌相关度较好，适合借势跟进（综合分77.3）",
+      "explode_time": "2026-11-21 20:51",
+      "lifecycle": "峰值期",
+      "remaining_window": "预计持续1-3天",
+      "core_emotion": "对生活温度与社会话题的共鸣",
+      "product_hook": "AI眼镜多模态能力",
+      "entry_angles": [
+        "热点POV：用第一视角走进「家门口的养老院正在消失」的真实场景",
+        "轻互动：邀请用户用眼镜完成与「家门口的养老院正在消失」相关的小任务"
+      ],
+      "target_audience": {
+        "core": "生活方式爱好者",
+        "diffusion": "年轻白领/学生",
+        "bystander": "关注社会话题的大众"
+      },
+      "trigger_scene": "刷到该热点或身处相关场景时，想快速了解/记录/互动",
+      "content_format": "主：30s生活vlog；衍：小红书图文+UGC征集",
+      "recommended_creator_type": "生活方式KOL 1位 + 城市KOC 3-5位",
+      "publish_window": "T+0 18:00-20:00",
+      "production_cycle": "一天",
+      "budget_level": "中",
+      "estimated_cpm": 35,
+      "estimated_cpe": 1.3,
+      "risks": [
+        "避免过度夸张产品能力",
+        "内容发布前需品牌/合规审核",
+        "避免涉及特殊群体或医疗/健康功效承诺"
+      ],
+      "reference_hooks": [
+        "这个热点，我用眼镜跟了",
+        "换个视角看这件事",
+        "眼镜里的世界原来可以这样"
+      ],
+      "similar_historical_case": {
+        "case": "城市烟火气记录",
+        "roi": 4.0,
+        "note": "生活方式内容小红书互动率高"
+      },
+      "rank": 4
+    },
+    {
+      "topic_name": "后劲太大 特朗普连发30多张APEC照片",
+      "platform": "百度热搜",
+      "heat_score": 100.0,
       "relevance_score": 8,
       "safety_score": 95,
-      "timeliness_score": 94.2,
+      "timeliness_score": 89.8,
       "creativity_score": 50,
-      "ride_score": 74.3,
-      "create_score": 52.9,
+      "ride_score": 76.1,
+      "create_score": 53.8,
       "priority": "A",
-      "priority_reason": "【其他】品牌相关度较好，适合借势跟进（综合分74.3）",
-      "explode_time": "2026-11-21 09:05",
+      "priority_reason": "【其他】品牌相关度较好，适合借势跟进（综合分76.1）",
+      "explode_time": "2026-11-22 12:51",
       "lifecycle": "峰值期",
       "remaining_window": "预计持续1-3天",
       "core_emotion": "用户对该话题的讨论兴趣",
       "product_hook": "AI眼镜多模态能力",
       "entry_angles": [
-        "热点POV：用第一视角走进「胖东来原址开的新商场几乎倒闭」的真实场景",
-        "轻互动：邀请用户用眼镜完成与「胖东来原址开的新商场几乎倒闭」相关的小任务"
+        "热点POV：用第一视角走进「后劲太大 特朗普连发30多张APEC照片」的真实场景",
+        "轻互动：邀请用户用眼镜完成与「后劲太大 特朗普连发30多张APEC照片」相关的小任务"
+      ],
+      "target_audience": {
+        "core": "科技爱好者",
+        "diffusion": "都市白领",
+        "bystander": "大众"
+      },
+      "trigger_scene": "刷到该热点或身处相关场景时，想快速了解/记录/互动",
+      "content_format": "主：15-30s短视频；衍：图文笔记",
+      "recommended_creator_type": "生活方式KOC 2-3位",
+      "publish_window": "T+0 12:00-14:00",
+      "production_cycle": "半天",
+      "budget_level": "低",
+      "estimated_cpm": 40,
+      "estimated_cpe": 1.8,
+      "risks": [
+        "避免过度夸张产品能力",
+        "内容发布前需品牌/合规审核"
+      ],
+      "reference_hooks": [
+        "这个热点，我用眼镜跟了",
+        "换个视角看这件事",
+        "眼镜里的世界原来可以这样"
+      ],
+      "similar_historical_case": null,
+      "rank": 5
+    },
+    {
+      "topic_name": "韩国网友感谢中国：太用心了",
+      "platform": "百度热搜",
+      "heat_score": 99.6,
+      "relevance_score": 8,
+      "safety_score": 95,
+      "timeliness_score": 89.7,
+      "creativity_score": 50,
+      "ride_score": 75.9,
+      "create_score": 53.7,
+      "priority": "A",
+      "priority_reason": "【其他】品牌相关度较好，适合借势跟进（综合分75.9）",
+      "explode_time": "2026-11-22 11:51",
+      "lifecycle": "峰值期",
+      "remaining_window": "预计持续1-3天",
+      "core_emotion": "用户对该话题的讨论兴趣",
+      "product_hook": "AI眼镜多模态能力",
+      "entry_angles": [
+        "热点POV：用第一视角走进「韩国网友感谢中国：太用心了」的真实场景",
+        "轻互动：邀请用户用眼镜完成与「韩国网友感谢中国：太用心了」相关的小任务"
       ],
       "target_audience": {
         "core": "科技爱好者",
@@ -298,25 +311,25 @@
       "rank": 6
     },
     {
-      "topic_name": "李大霄谈美股崩盘原因",
-      "platform": "头条热榜",
-      "heat_score": 90.5,
+      "topic_name": "主播私闯果园带货糟蹋一千多斤苹果",
+      "platform": "百度热搜",
+      "heat_score": 98.2,
       "relevance_score": 8,
       "safety_score": 95,
-      "timeliness_score": 94.1,
+      "timeliness_score": 89.2,
       "creativity_score": 50,
-      "ride_score": 73.6,
-      "create_score": 52.6,
+      "ride_score": 75.3,
+      "create_score": 53.5,
       "priority": "A",
-      "priority_reason": "【其他】品牌相关度较好，适合借势跟进（综合分73.6）",
-      "explode_time": "2026-11-21 08:05",
+      "priority_reason": "【其他】品牌相关度较好，适合借势跟进（综合分75.3）",
+      "explode_time": "2026-11-22 08:51",
       "lifecycle": "峰值期",
       "remaining_window": "预计持续1-3天",
       "core_emotion": "用户对该话题的讨论兴趣",
       "product_hook": "AI眼镜多模态能力",
       "entry_angles": [
-        "热点POV：用第一视角走进「李大霄谈美股崩盘原因」的真实场景",
-        "轻互动：邀请用户用眼镜完成与「李大霄谈美股崩盘原因」相关的小任务"
+        "热点POV：用第一视角走进「主播私闯果园带货糟蹋一千多斤苹果」的真实场景",
+        "轻互动：邀请用户用眼镜完成与「主播私闯果园带货糟蹋一千多斤苹果」相关的小任务"
       ],
       "target_audience": {
         "core": "科技爱好者",
@@ -344,25 +357,25 @@
       "rank": 7
     },
     {
-      "topic_name": "余承东纠正“开车可以睡觉”言论",
-      "platform": "头条热榜",
-      "heat_score": 86.7,
+      "topic_name": "男子想尝拘留所饭菜 警方：安排",
+      "platform": "百度热搜",
+      "heat_score": 97.8,
       "relevance_score": 8,
       "safety_score": 95,
-      "timeliness_score": 93.8,
+      "timeliness_score": 89.1,
       "creativity_score": 50,
-      "ride_score": 72.2,
-      "create_score": 52.0,
+      "ride_score": 75.2,
+      "create_score": 53.4,
       "priority": "A",
-      "priority_reason": "【其他】品牌相关度较好，适合借势跟进（综合分72.2）",
-      "explode_time": "2026-11-21 06:05",
-      "lifecycle": "上升期",
+      "priority_reason": "【其他】品牌相关度较好，适合借势跟进（综合分75.2）",
+      "explode_time": "2026-11-22 07:51",
+      "lifecycle": "峰值期",
       "remaining_window": "预计持续1-3天",
       "core_emotion": "用户对该话题的讨论兴趣",
       "product_hook": "AI眼镜多模态能力",
       "entry_angles": [
-        "热点POV：用第一视角走进「余承东纠正“开车可以睡觉”言论」的真实场景",
-        "轻互动：邀请用户用眼镜完成与「余承东纠正“开车可以睡觉”言论」相关的小任务"
+        "热点POV：用第一视角走进「男子想尝拘留所饭菜 警方：安排」的真实场景",
+        "轻互动：邀请用户用眼镜完成与「男子想尝拘留所饭菜 警方：安排」相关的小任务"
       ],
       "target_audience": {
         "core": "科技爱好者",
@@ -390,25 +403,25 @@
       "rank": 8
     },
     {
-      "topic_name": "深圳华丽转型生动诠释APEC理念",
-      "platform": "头条热榜",
-      "heat_score": 84.8,
+      "topic_name": "杨迪现身漠河舞厅被偶遇",
+      "platform": "百度热搜",
+      "heat_score": 97.3,
       "relevance_score": 8,
       "safety_score": 95,
-      "timeliness_score": 93.7,
+      "timeliness_score": 89.0,
       "creativity_score": 50,
-      "ride_score": 71.5,
-      "create_score": 51.7,
+      "ride_score": 75.0,
+      "create_score": 53.3,
       "priority": "A",
-      "priority_reason": "【其他】品牌相关度较好，适合借势跟进（综合分71.5）",
-      "explode_time": "2026-11-21 05:05",
-      "lifecycle": "上升期",
+      "priority_reason": "【其他】品牌相关度较好，适合借势跟进（综合分75.0）",
+      "explode_time": "2026-11-22 06:51",
+      "lifecycle": "峰值期",
       "remaining_window": "预计持续1-3天",
       "core_emotion": "用户对该话题的讨论兴趣",
       "product_hook": "AI眼镜多模态能力",
       "entry_angles": [
-        "热点POV：用第一视角走进「深圳华丽转型生动诠释APEC理念」的真实场景",
-        "轻互动：邀请用户用眼镜完成与「深圳华丽转型生动诠释APEC理念」相关的小任务"
+        "热点POV：用第一视角走进「杨迪现身漠河舞厅被偶遇」的真实场景",
+        "轻互动：邀请用户用眼镜完成与「杨迪现身漠河舞厅被偶遇」相关的小任务"
       ],
       "target_audience": {
         "core": "科技爱好者",
@@ -436,25 +449,25 @@
       "rank": 9
     },
     {
-      "topic_name": "英伟达遭美国证券交易委员会调查",
-      "platform": "头条热榜",
-      "heat_score": 82.9,
+      "topic_name": "豆包被国产大车外观难倒",
+      "platform": "百度热搜",
+      "heat_score": 96.8,
       "relevance_score": 8,
       "safety_score": 95,
-      "timeliness_score": 93.5,
+      "timeliness_score": 88.8,
       "creativity_score": 50,
-      "ride_score": 70.8,
-      "create_score": 51.4,
+      "ride_score": 74.7,
+      "create_score": 53.3,
       "priority": "A",
-      "priority_reason": "【其他】品牌相关度较好，适合借势跟进（综合分70.8）",
-      "explode_time": "2026-11-21 04:05",
-      "lifecycle": "上升期",
+      "priority_reason": "【其他】品牌相关度较好，适合借势跟进（综合分74.7）",
+      "explode_time": "2026-11-22 05:51",
+      "lifecycle": "峰值期",
       "remaining_window": "预计持续1-3天",
       "core_emotion": "用户对该话题的讨论兴趣",
       "product_hook": "AI眼镜多模态能力",
       "entry_angles": [
-        "热点POV：用第一视角走进「英伟达遭美国证券交易委员会调查」的真实场景",
-        "轻互动：邀请用户用眼镜完成与「英伟达遭美国证券交易委员会调查」相关的小任务"
+        "热点POV：用第一视角走进「豆包被国产大车外观难倒」的真实场景",
+        "轻互动：邀请用户用眼镜完成与「豆包被国产大车外观难倒」相关的小任务"
       ],
       "target_audience": {
         "core": "科技爱好者",
@@ -546,7 +559,7 @@
         "避开特殊群体",
         "城市选择需有代表性"
       ],
-      "id": "2026-11-21-B001",
+      "id": "2026-11-22-B001",
       "heat_score": 68,
       "relevance_score": 82,
       "safety_score": 87,
@@ -617,7 +630,7 @@
         "避免影射具体公司文化",
         "不要强化职场对立情绪"
       ],
-      "id": "2026-11-21-B002",
+      "id": "2026-11-22-B002",
       "heat_score": 71,
       "relevance_score": 84,
       "safety_score": 86,
@@ -690,7 +703,7 @@
         "注意用户隐私与内容审核",
         "避免过度浪漫化陌生人社交风险"
       ],
-      "id": "2026-11-21-B003",
+      "id": "2026-11-22-B003",
       "heat_score": 74,
       "relevance_score": 86,
       "safety_score": 85,
