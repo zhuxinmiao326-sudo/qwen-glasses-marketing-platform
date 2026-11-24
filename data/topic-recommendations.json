@@ -1,6 +1,6 @@
 {
-  "date": "2026-11-23",
-  "updatedAt": "2026-11-23T08:42:15Z",
+  "date": "2026-11-24",
+  "updatedAt": "2026-11-24T10:44:32Z",
   "sources": [
     {
       "name": "头条热榜",
@@ -17,25 +17,25 @@
   ],
   "a_ride_hot_topics": [
     {
-      "topic_name": "中方回应特朗普称只想对华卖落后芯片",
+      "topic_name": "使用AI造谣传谣10起典型案例公布",
       "platform": "头条热榜",
-      "heat_score": 97.4,
-      "relevance_score": 25,
+      "heat_score": 87.9,
+      "relevance_score": 37,
       "safety_score": 95,
-      "timeliness_score": 94.7,
+      "timeliness_score": 93.3,
       "creativity_score": 65,
-      "ride_score": 80.3,
-      "create_score": 63.3,
+      "ride_score": 79.1,
+      "create_score": 66.0,
       "priority": "A",
-      "priority_reason": "【科技/AI】品牌相关度较好，适合借势跟进（综合分80.3）",
-      "explode_time": "2026-11-23 12:42",
-      "lifecycle": "峰值期",
+      "priority_reason": "【科技/AI】品牌相关度较好，适合借势跟进（综合分79.1）",
+      "explode_time": "2026-11-24 05:44",
+      "lifecycle": "上升期",
       "remaining_window": "预计持续1-3天",
       "core_emotion": "对新技术的好奇与讨论热情",
       "product_hook": "AI眼镜多模态能力",
       "entry_angles": [
-        "热点POV：用第一视角走进「中方回应特朗普称只想对华卖落后芯片」的真实场景",
-        "轻互动：邀请用户用眼镜完成与「中方回应特朗普称只想对华卖落后芯片」相关的小任务"
+        "热点POV：用第一视角走进「使用AI造谣传谣10起典型案例公布」的真实场景",
+        "轻互动：邀请用户用眼镜完成与「使用AI造谣传谣10起典型案例公布」相关的小任务"
       ],
       "target_audience": {
         "core": "科技 early adopters",
@@ -68,25 +68,75 @@
       "rank": 1
     },
     {
-      "topic_name": "县委书记走访红糖厂家说捡点渣渣吃",
+      "topic_name": "众多明星出席华为Mate X8发布会",
+      "platform": "头条热榜",
+      "heat_score": 89.1,
+      "relevance_score": 18,
+      "safety_score": 98,
+      "timeliness_score": 93.5,
+      "creativity_score": 88,
+      "ride_score": 77.5,
+      "create_score": 65.9,
+      "priority": "A",
+      "priority_reason": "【娱乐/影视】品牌相关度较好，适合借势跟进（综合分77.5）",
+      "explode_time": "2026-11-24 06:44",
+      "lifecycle": "上升期",
+      "remaining_window": "预计持续1-3天",
+      "core_emotion": "娱乐消遣与社交分享欲望",
+      "product_hook": "AI眼镜多模态能力",
+      "entry_angles": [
+        "热点POV：用第一视角走进「众多明星出席华为Mate X8发布会」的真实场景",
+        "轻互动：邀请用户用眼镜完成与「众多明星出席华为Mate X8发布会」相关的小任务"
+      ],
+      "target_audience": {
+        "core": "娱乐内容消费者",
+        "diffusion": "年轻用户",
+        "bystander": "泛娱乐人群"
+      },
+      "trigger_scene": "刷到该热点或身处相关场景时，想快速了解/记录/互动",
+      "content_format": "主：Reaction短视频；衍：二创切片+图文",
+      "recommended_creator_type": "娱乐垂类KOL 1位 + KOC 2-3位",
+      "publish_window": "T+0 20:00-22:00",
+      "production_cycle": "半天",
+      "budget_level": "低",
+      "estimated_cpm": 30,
+      "estimated_cpe": 0.9,
+      "risks": [
+        "避免过度夸张产品能力",
+        "内容发布前需品牌/合规审核"
+      ],
+      "reference_hooks": [
+        "这个热点，我用眼镜跟了",
+        "换个视角看这件事",
+        "眼镜里的世界原来可以这样"
+      ],
+      "similar_historical_case": {
+        "case": "影院实时字幕体验",
+        "roi": 3.2,
+        "note": "娱乐向内容适合短平快Reaction"
+      },
+      "rank": 2
+    },
+    {
+      "topic_name": "中方回应黄仁勋复职",
       "platform": "头条热榜",
       "heat_score": 100.0,
       "relevance_score": 8,
       "safety_score": 95,
-      "timeliness_score": 94.8,
+      "timeliness_score": 89.8,
       "creativity_score": 50,
-      "ride_score": 77.1,
-      "create_score": 54.0,
+      "ride_score": 76.1,
+      "create_score": 53.8,
       "priority": "A",
-      "priority_reason": "【其他】品牌相关度较好，适合借势跟进（综合分77.1）",
-      "explode_time": "2026-11-23 13:42",
+      "priority_reason": "【其他】品牌相关度较好，适合借势跟进（综合分76.1）",
+      "explode_time": "2026-11-24 15:44",
       "lifecycle": "峰值期",
       "remaining_window": "预计持续1-3天",
       "core_emotion": "用户对该话题的讨论兴趣",
       "product_hook": "AI眼镜多模态能力",
       "entry_angles": [
-        "热点POV：用第一视角走进「县委书记走访红糖厂家说捡点渣渣吃」的真实场景",
-        "轻互动：邀请用户用眼镜完成与「县委书记走访红糖厂家说捡点渣渣吃」相关的小任务"
+        "热点POV：用第一视角走进「中方回应黄仁勋复职」的真实场景",
+        "轻互动：邀请用户用眼镜完成与「中方回应黄仁勋复职」相关的小任务"
       ],
       "target_audience": {
         "core": "科技爱好者",
@@ -111,283 +161,212 @@
         "眼镜里的世界原来可以这样"
       ],
       "similar_historical_case": null,
-      "rank": 2
-    },
-    {
-      "topic_name": "幼儿园要招2岁孩子了",
-      "platform": "头条热榜",
-      "heat_score": 87.2,
-      "relevance_score": 18,
-      "safety_score": 98,
-      "timeliness_score": 93.8,
-      "creativity_score": 90,
-      "ride_score": 77.0,
-      "create_score": 66.2,
-      "priority": "A",
-      "priority_reason": "【生活/社会】品牌相关度较好，适合借势跟进（综合分77.0）",
-      "explode_time": "2026-11-23 06:42",
-      "lifecycle": "上升期",
-      "remaining_window": "预计持续1-3天",
-      "core_emotion": "对生活温度与社会话题的共鸣",
-      "product_hook": "AI眼镜多模态能力",
-      "entry_angles": [
-        "热点POV：用第一视角走进「幼儿园要招2岁孩子了」的真实场景",
-        "轻互动：邀请用户用眼镜完成与「幼儿园要招2岁孩子了」相关的小任务"
-      ],
-      "target_audience": {
-        "core": "生活方式爱好者",
-        "diffusion": "年轻白领/学生",
-        "bystander": "关注社会话题的大众"
-      },
-      "trigger_scene": "刷到该热点或身处相关场景时，想快速了解/记录/互动",
-      "content_format": "主：30s生活vlog；衍：小红书图文+UGC征集",
-      "recommended_creator_type": "生活方式KOL 1位 + 城市KOC 3-5位",
-      "publish_window": "T+0 18:00-20:00",
-      "production_cycle": "一天",
-      "budget_level": "中",
-      "estimated_cpm": 35,
-      "estimated_cpe": 1.3,
-      "risks": [
-        "避免过度夸张产品能力",
-        "内容发布前需品牌/合规审核",
-        "避免涉及特殊群体或医疗/健康功效承诺"
-      ],
-      "reference_hooks": [
-        "这个热点，我用眼镜跟了",
-        "换个视角看这件事",
-        "眼镜里的世界原来可以这样"
-      ],
-      "similar_historical_case": {
-        "case": "城市烟火气记录",
-        "roi": 4.0,
-        "note": "生活方式内容小红书互动率高"
-      },
       "rank": 3
     },
     {
-      "topic_name": "透过数据看消费之变",
+      "topic_name": "华为MateX8售价12999元起",
       "platform": "头条热榜",
-      "heat_score": 94.9,
-      "relevance_score": 15,
-      "safety_score": 95,
-      "timeliness_score": 94.5,
-      "creativity_score": 55,
-      "ride_score": 76.9,
-      "create_score": 57.0,
-      "priority": "A",
-      "priority_reason": "【财经/商业】品牌相关度较好，适合借势跟进（综合分76.9）",
-      "explode_time": "2026-11-23 11:42",
-      "lifecycle": "峰值期",
-      "remaining_window": "预计持续1-3天",
-      "core_emotion": "对经济/商业动态的关注与焦虑",
-      "product_hook": "AI眼镜多模态能力",
-      "entry_angles": [
-        "热点POV：用第一视角走进「透过数据看消费之变」的真实场景",
-        "轻互动：邀请用户用眼镜完成与「透过数据看消费之变」相关的小任务"
-      ],
-      "target_audience": {
-        "core": "财经/商业人群",
-        "diffusion": "职场白领",
-        "bystander": "关注经济的大众"
-      },
-      "trigger_scene": "刷到该热点或身处相关场景时，想快速了解/记录/互动",
-      "content_format": "主：口播解读；衍：图文早报+数据可视化",
-      "recommended_creator_type": "财经垂类KOL 1位 + 职场KOC 2位",
-      "publish_window": "T+0 08:00-10:00",
-      "production_cycle": "半天",
-      "budget_level": "中",
-      "estimated_cpm": 36,
-      "estimated_cpe": 1.6,
-      "risks": [
-        "避免过度夸张产品能力",
-        "内容发布前需品牌/合规审核",
-        "避免投资建议或夸大经济影响"
-      ],
-      "reference_hooks": [
-        "这个热点，我用眼镜跟了",
-        "换个视角看这件事",
-        "眼镜里的世界原来可以这样"
-      ],
-      "similar_historical_case": {
-        "case": "晨间财经早报",
-        "roi": 2.5,
-        "note": "财经内容适合早间时段发布"
-      },
-      "rank": 4
-    },
-    {
-      "topic_name": "希望小学调包获捐好米给孩子喝稀米汤",
-      "platform": "头条热榜",
-      "heat_score": 84.7,
-      "relevance_score": 18,
-      "safety_score": 98,
-      "timeliness_score": 92.9,
-      "creativity_score": 90,
-      "ride_score": 75.9,
-      "create_score": 65.8,
-      "priority": "A",
-      "priority_reason": "【生活/社会】品牌相关度较好，适合借势跟进（综合分75.9）",
-      "explode_time": "2026-11-23 00:42",
-      "lifecycle": "上升期",
-      "remaining_window": "预计持续1-3天",
-      "core_emotion": "对生活温度与社会话题的共鸣",
-      "product_hook": "AI眼镜多模态能力",
-      "entry_angles": [
-        "热点POV：用第一视角走进「希望小学调包获捐好米给孩子喝稀米汤」的真实场景",
-        "轻互动：邀请用户用眼镜完成与「希望小学调包获捐好米给孩子喝稀米汤」相关的小任务"
-      ],
-      "target_audience": {
-        "core": "生活方式爱好者",
-        "diffusion": "年轻白领/学生",
-        "bystander": "关注社会话题的大众"
-      },
-      "trigger_scene": "刷到该热点或身处相关场景时，想快速了解/记录/互动",
-      "content_format": "主：30s生活vlog；衍：小红书图文+UGC征集",
-      "recommended_creator_type": "生活方式KOL 1位 + 城市KOC 3-5位",
-      "publish_window": "T+0 18:00-20:00",
-      "production_cycle": "一天",
-      "budget_level": "中",
-      "estimated_cpm": 35,
-      "estimated_cpe": 1.3,
-      "risks": [
-        "避免过度夸张产品能力",
-        "内容发布前需品牌/合规审核",
-        "避免涉及特殊群体或医疗/健康功效承诺"
-      ],
-      "reference_hooks": [
-        "这个热点，我用眼镜跟了",
-        "换个视角看这件事",
-        "眼镜里的世界原来可以这样"
-      ],
-      "similar_historical_case": {
-        "case": "城市烟火气记录",
-        "roi": 4.0,
-        "note": "生活方式内容小红书互动率高"
-      },
-      "rank": 5
-    },
-    {
-      "topic_name": "中方回应特朗普只想对华出售落后芯片",
-      "platform": "百度热搜",
-      "heat_score": 87.5,
-      "relevance_score": 25,
-      "safety_score": 95,
-      "timeliness_score": 89.0,
-      "creativity_score": 65,
-      "ride_score": 75.7,
-      "create_score": 61.6,
-      "priority": "A",
-      "priority_reason": "【科技/AI】品牌相关度较好，适合借势跟进（综合分75.7）",
-      "explode_time": "2026-11-23 07:42",
-      "lifecycle": "上升期",
-      "remaining_window": "预计持续1-3天",
-      "core_emotion": "对新技术的好奇与讨论热情",
-      "product_hook": "AI眼镜多模态能力",
-      "entry_angles": [
-        "热点POV：用第一视角走进「中方回应特朗普只想对华出售落后芯片」的真实场景",
-        "轻互动：邀请用户用眼镜完成与「中方回应特朗普只想对华出售落后芯片」相关的小任务"
-      ],
-      "target_audience": {
-        "core": "科技 early adopters",
-        "diffusion": "AI/互联网从业者",
-        "bystander": "关注科技趋势的大众"
-      },
-      "trigger_scene": "刷到该热点或身处相关场景时，想快速了解/记录/互动",
-      "content_format": "主：知乎长图文/B站深度解读；衍：抖音切片",
-      "recommended_creator_type": "科技垂类KOL 2位 + 知乎答主 1位",
-      "publish_window": "T+1 10:00-12:00",
-      "production_cycle": "一天",
-      "budget_level": "中",
-      "estimated_cpm": 28,
-      "estimated_cpe": 1.5,
-      "risks": [
-        "避免过度夸张产品能力",
-        "内容发布前需品牌/合规审核",
-        "技术表述需准确，避免攻击竞品"
-      ],
-      "reference_hooks": [
-        "这个热点，我用眼镜跟了",
-        "换个视角看这件事",
-        "眼镜里的世界原来可以这样"
-      ],
-      "similar_historical_case": {
-        "case": "千问发布会解读",
-        "roi": 3.8,
-        "note": "技术向内容适合B站/知乎长图文"
-      },
-      "rank": 6
-    },
-    {
-      "topic_name": "A股午后为何直线拉升",
-      "platform": "头条热榜",
-      "heat_score": 89.8,
-      "relevance_score": 15,
-      "safety_score": 95,
-      "timeliness_score": 94.2,
-      "creativity_score": 55,
-      "ride_score": 75.0,
-      "create_score": 56.2,
-      "priority": "A",
-      "priority_reason": "【财经/商业】品牌相关度较好，适合借势跟进（综合分75.0）",
-      "explode_time": "2026-11-23 09:42",
-      "lifecycle": "上升期",
-      "remaining_window": "预计持续1-3天",
-      "core_emotion": "对经济/商业动态的关注与焦虑",
-      "product_hook": "AI眼镜多模态能力",
-      "entry_angles": [
-        "热点POV：用第一视角走进「A股午后为何直线拉升」的真实场景",
-        "轻互动：邀请用户用眼镜完成与「A股午后为何直线拉升」相关的小任务"
-      ],
-      "target_audience": {
-        "core": "财经/商业人群",
-        "diffusion": "职场白领",
-        "bystander": "关注经济的大众"
-      },
-      "trigger_scene": "刷到该热点或身处相关场景时，想快速了解/记录/互动",
-      "content_format": "主：口播解读；衍：图文早报+数据可视化",
-      "recommended_creator_type": "财经垂类KOL 1位 + 职场KOC 2位",
-      "publish_window": "T+0 08:00-10:00",
-      "production_cycle": "半天",
-      "budget_level": "中",
-      "estimated_cpm": 36,
-      "estimated_cpe": 1.6,
-      "risks": [
-        "避免过度夸张产品能力",
-        "内容发布前需品牌/合规审核",
-        "避免投资建议或夸大经济影响"
-      ],
-      "reference_hooks": [
-        "这个热点，我用眼镜跟了",
-        "换个视角看这件事",
-        "眼镜里的世界原来可以这样"
-      ],
-      "similar_historical_case": {
-        "case": "晨间财经早报",
-        "roi": 2.5,
-        "note": "财经内容适合早间时段发布"
-      },
-      "rank": 7
-    },
-    {
-      "topic_name": "京东集团原首席战略官廖建文离世",
-      "platform": "头条热榜",
-      "heat_score": 92.3,
+      "heat_score": 98.8,
       "relevance_score": 8,
       "safety_score": 95,
-      "timeliness_score": 94.4,
+      "timeliness_score": 89.7,
       "creativity_score": 50,
-      "ride_score": 74.3,
-      "create_score": 52.9,
+      "ride_score": 75.6,
+      "create_score": 53.6,
       "priority": "A",
-      "priority_reason": "【其他】品牌相关度较好，适合借势跟进（综合分74.3）",
-      "explode_time": "2026-11-23 10:42",
+      "priority_reason": "【其他】品牌相关度较好，适合借势跟进（综合分75.6）",
+      "explode_time": "2026-11-24 14:44",
       "lifecycle": "峰值期",
       "remaining_window": "预计持续1-3天",
       "core_emotion": "用户对该话题的讨论兴趣",
       "product_hook": "AI眼镜多模态能力",
       "entry_angles": [
-        "热点POV：用第一视角走进「京东集团原首席战略官廖建文离世」的真实场景",
-        "轻互动：邀请用户用眼镜完成与「京东集团原首席战略官廖建文离世」相关的小任务"
+        "热点POV：用第一视角走进「华为MateX8售价12999元起」的真实场景",
+        "轻互动：邀请用户用眼镜完成与「华为MateX8售价12999元起」相关的小任务"
+      ],
+      "target_audience": {
+        "core": "科技爱好者",
+        "diffusion": "都市白领",
+        "bystander": "大众"
+      },
+      "trigger_scene": "刷到该热点或身处相关场景时，想快速了解/记录/互动",
+      "content_format": "主：15-30s短视频；衍：图文笔记",
+      "recommended_creator_type": "生活方式KOC 2-3位",
+      "publish_window": "T+0 12:00-14:00",
+      "production_cycle": "半天",
+      "budget_level": "低",
+      "estimated_cpm": 40,
+      "estimated_cpe": 1.8,
+      "risks": [
+        "避免过度夸张产品能力",
+        "内容发布前需品牌/合规审核"
+      ],
+      "reference_hooks": [
+        "这个热点，我用眼镜跟了",
+        "换个视角看这件事",
+        "眼镜里的世界原来可以这样"
+      ],
+      "similar_historical_case": null,
+      "rank": 4
+    },
+    {
+      "topic_name": "神舟二十四号航天员乘组确定",
+      "platform": "头条热榜",
+      "heat_score": 97.6,
+      "relevance_score": 8,
+      "safety_score": 95,
+      "timeliness_score": 89.5,
+      "creativity_score": 50,
+      "ride_score": 75.2,
+      "create_score": 53.4,
+      "priority": "A",
+      "priority_reason": "【其他】品牌相关度较好，适合借势跟进（综合分75.2）",
+      "explode_time": "2026-11-24 13:44",
+      "lifecycle": "峰值期",
+      "remaining_window": "预计持续1-3天",
+      "core_emotion": "用户对该话题的讨论兴趣",
+      "product_hook": "AI眼镜多模态能力",
+      "entry_angles": [
+        "热点POV：用第一视角走进「神舟二十四号航天员乘组确定」的真实场景",
+        "轻互动：邀请用户用眼镜完成与「神舟二十四号航天员乘组确定」相关的小任务"
+      ],
+      "target_audience": {
+        "core": "科技爱好者",
+        "diffusion": "都市白领",
+        "bystander": "大众"
+      },
+      "trigger_scene": "刷到该热点或身处相关场景时，想快速了解/记录/互动",
+      "content_format": "主：15-30s短视频；衍：图文笔记",
+      "recommended_creator_type": "生活方式KOC 2-3位",
+      "publish_window": "T+0 12:00-14:00",
+      "production_cycle": "半天",
+      "budget_level": "低",
+      "estimated_cpm": 40,
+      "estimated_cpe": 1.8,
+      "risks": [
+        "避免过度夸张产品能力",
+        "内容发布前需品牌/合规审核"
+      ],
+      "reference_hooks": [
+        "这个热点，我用眼镜跟了",
+        "换个视角看这件事",
+        "眼镜里的世界原来可以这样"
+      ],
+      "similar_historical_case": null,
+      "rank": 5
+    },
+    {
+      "topic_name": "民主党人：动用全部权力调查黄仁勋",
+      "platform": "头条热榜",
+      "heat_score": 96.4,
+      "relevance_score": 8,
+      "safety_score": 95,
+      "timeliness_score": 89.4,
+      "creativity_score": 50,
+      "ride_score": 74.7,
+      "create_score": 53.2,
+      "priority": "A",
+      "priority_reason": "【其他】品牌相关度较好，适合借势跟进（综合分74.7）",
+      "explode_time": "2026-11-24 12:44",
+      "lifecycle": "峰值期",
+      "remaining_window": "预计持续1-3天",
+      "core_emotion": "用户对该话题的讨论兴趣",
+      "product_hook": "AI眼镜多模态能力",
+      "entry_angles": [
+        "热点POV：用第一视角走进「民主党人：动用全部权力调查黄仁勋」的真实场景",
+        "轻互动：邀请用户用眼镜完成与「民主党人：动用全部权力调查黄仁勋」相关的小任务"
+      ],
+      "target_audience": {
+        "core": "科技爱好者",
+        "diffusion": "都市白领",
+        "bystander": "大众"
+      },
+      "trigger_scene": "刷到该热点或身处相关场景时，想快速了解/记录/互动",
+      "content_format": "主：15-30s短视频；衍：图文笔记",
+      "recommended_creator_type": "生活方式KOC 2-3位",
+      "publish_window": "T+0 12:00-14:00",
+      "production_cycle": "半天",
+      "budget_level": "低",
+      "estimated_cpm": 40,
+      "estimated_cpe": 1.8,
+      "risks": [
+        "避免过度夸张产品能力",
+        "内容发布前需品牌/合规审核"
+      ],
+      "reference_hooks": [
+        "这个热点，我用眼镜跟了",
+        "换个视角看这件事",
+        "眼镜里的世界原来可以这样"
+      ],
+      "similar_historical_case": null,
+      "rank": 6
+    },
+    {
+      "topic_name": "余承东现场提词器曝光",
+      "platform": "头条热榜",
+      "heat_score": 95.2,
+      "relevance_score": 8,
+      "safety_score": 95,
+      "timeliness_score": 89.2,
+      "creativity_score": 50,
+      "ride_score": 74.3,
+      "create_score": 53.0,
+      "priority": "A",
+      "priority_reason": "【其他】品牌相关度较好，适合借势跟进（综合分74.3）",
+      "explode_time": "2026-11-24 11:44",
+      "lifecycle": "峰值期",
+      "remaining_window": "预计持续1-3天",
+      "core_emotion": "用户对该话题的讨论兴趣",
+      "product_hook": "AI眼镜多模态能力",
+      "entry_angles": [
+        "热点POV：用第一视角走进「余承东现场提词器曝光」的真实场景",
+        "轻互动：邀请用户用眼镜完成与「余承东现场提词器曝光」相关的小任务"
+      ],
+      "target_audience": {
+        "core": "科技爱好者",
+        "diffusion": "都市白领",
+        "bystander": "大众"
+      },
+      "trigger_scene": "刷到该热点或身处相关场景时，想快速了解/记录/互动",
+      "content_format": "主：15-30s短视频；衍：图文笔记",
+      "recommended_creator_type": "生活方式KOC 2-3位",
+      "publish_window": "T+0 12:00-14:00",
+      "production_cycle": "半天",
+      "budget_level": "低",
+      "estimated_cpm": 40,
+      "estimated_cpe": 1.8,
+      "risks": [
+        "避免过度夸张产品能力",
+        "内容发布前需品牌/合规审核"
+      ],
+      "reference_hooks": [
+        "这个热点，我用眼镜跟了",
+        "换个视角看这件事",
+        "眼镜里的世界原来可以这样"
+      ],
+      "similar_historical_case": null,
+      "rank": 7
+    },
+    {
+      "topic_name": "几个姑娘在黑龙江-25℃清凉上阵",
+      "platform": "头条热榜",
+      "heat_score": 91.5,
+      "relevance_score": 8,
+      "safety_score": 95,
+      "timeliness_score": 93.8,
+      "creativity_score": 50,
+      "ride_score": 73.9,
+      "create_score": 52.7,
+      "priority": "A",
+      "priority_reason": "【其他】品牌相关度较好，适合借势跟进（综合分73.9）",
+      "explode_time": "2026-11-24 08:44",
+      "lifecycle": "峰值期",
+      "remaining_window": "预计持续1-3天",
+      "core_emotion": "用户对该话题的讨论兴趣",
+      "product_hook": "AI眼镜多模态能力",
+      "entry_angles": [
+        "热点POV：用第一视角走进「几个姑娘在黑龙江-25℃清凉上阵」的真实场景",
+        "轻互动：邀请用户用眼镜完成与「几个姑娘在黑龙江-25℃清凉上阵」相关的小任务"
       ],
       "target_audience": {
         "core": "科技爱好者",
@@ -415,77 +394,25 @@
       "rank": 8
     },
     {
-      "topic_name": "吃火锅能减肥 牛油锅除外",
-      "platform": "百度热搜",
-      "heat_score": 83.1,
-      "relevance_score": 18,
-      "safety_score": 98,
-      "timeliness_score": 87.5,
-      "creativity_score": 85,
-      "ride_score": 74.0,
-      "create_score": 64.0,
-      "priority": "A",
-      "priority_reason": "【健康/运动】品牌相关度较好，适合借势跟进（综合分74.0）",
-      "explode_time": "2026-11-22 21:42",
-      "lifecycle": "上升期",
-      "remaining_window": "预计持续1-3天",
-      "core_emotion": "健身自律与科技辅助的新鲜感",
-      "product_hook": "AI眼镜多模态能力",
-      "entry_angles": [
-        "热点POV：用第一视角走进「吃火锅能减肥 牛油锅除外」的真实场景",
-        "轻互动：邀请用户用眼镜完成与「吃火锅能减肥 牛油锅除外」相关的小任务"
-      ],
-      "target_audience": {
-        "core": "运动爱好者",
-        "diffusion": "健身新手/都市白领",
-        "bystander": "关注健康生活方式的大众"
-      },
-      "trigger_scene": "刷到该热点或身处相关场景时，想快速了解/记录/互动",
-      "content_format": "主：15s运动短视频；衍：图文笔记",
-      "recommended_creator_type": "运动垂类KOC 2-3位",
-      "publish_window": "T+1 07:00-09:00",
-      "production_cycle": "半天",
-      "budget_level": "低",
-      "estimated_cpm": 35,
-      "estimated_cpe": 1.2,
-      "risks": [
-        "避免过度夸张产品能力",
-        "内容发布前需品牌/合规审核",
-        "避免涉及特殊群体或医疗/健康功效承诺"
-      ],
-      "reference_hooks": [
-        "这个热点，我用眼镜跟了",
-        "换个视角看这件事",
-        "眼镜里的世界原来可以这样"
-      ],
-      "similar_historical_case": {
-        "case": "跑步POV记录",
-        "roi": 2.8,
-        "note": "运动场景强调安全与数据播报"
-      },
-      "rank": 9
-    },
-    {
-      "topic_name": "微信聊天记录截图当证据 法院认不认",
-      "platform": "百度热搜",
-      "heat_score": 83.7,
-      "relevance_score": 24,
+      "topic_name": "特朗普回国后天天夸深圳",
+      "platform": "头条热榜",
+      "heat_score": 93.9,
+      "relevance_score": 8,
       "safety_score": 95,
-      "timeliness_score": 87.6,
-      "creativity_score": 60,
-      "ride_score": 73.6,
-      "create_score": 59.3,
+      "timeliness_score": 89.1,
+      "creativity_score": 50,
+      "ride_score": 73.8,
+      "create_score": 52.8,
       "priority": "A",
-      "priority_reason": "【其他】品牌相关度较好，适合借势跟进（综合分73.6）",
-      "explode_time": "2026-11-22 22:42",
-      "lifecycle": "上升期",
+      "priority_reason": "【其他】品牌相关度较好，适合借势跟进（综合分73.8）",
+      "explode_time": "2026-11-24 10:44",
+      "lifecycle": "峰值期",
       "remaining_window": "预计持续1-3天",
       "core_emotion": "用户对该话题的讨论兴趣",
-      "product_hook": "第一视角、会议纪要",
+      "product_hook": "AI眼镜多模态能力",
       "entry_angles": [
-        "POV实测：戴上眼镜直击「微信聊天记录截图当证据 法院认不认」现场",
-        "办公场景：把「微信聊天记录截图当证据 法院认不认」的讨论一键整理成纪要",
-        "热点POV：用第一视角走进「微信聊天记录截图当证据 法院认不认」的真实场景"
+        "热点POV：用第一视角走进「特朗普回国后天天夸深圳」的真实场景",
+        "轻互动：邀请用户用眼镜完成与「特朗普回国后天天夸深圳」相关的小任务"
       ],
       "target_audience": {
         "core": "科技爱好者",
@@ -505,9 +432,55 @@
         "内容发布前需品牌/合规审核"
       ],
       "reference_hooks": [
-        "戴上它，我看见了不一样的世界",
-        "第一视角，才是真实的生活",
-        "看到即拍到，不再错过瞬间"
+        "这个热点，我用眼镜跟了",
+        "换个视角看这件事",
+        "眼镜里的世界原来可以这样"
+      ],
+      "similar_historical_case": null,
+      "rank": 9
+    },
+    {
+      "topic_name": "男子开辅助驾驶玩手机时撞人获刑",
+      "platform": "头条热榜",
+      "heat_score": 90.3,
+      "relevance_score": 8,
+      "safety_score": 95,
+      "timeliness_score": 93.7,
+      "creativity_score": 50,
+      "ride_score": 73.4,
+      "create_score": 52.5,
+      "priority": "A",
+      "priority_reason": "【其他】品牌相关度较好，适合借势跟进（综合分73.4）",
+      "explode_time": "2026-11-24 07:44",
+      "lifecycle": "峰值期",
+      "remaining_window": "预计持续1-3天",
+      "core_emotion": "用户对该话题的讨论兴趣",
+      "product_hook": "AI眼镜多模态能力",
+      "entry_angles": [
+        "热点POV：用第一视角走进「男子开辅助驾驶玩手机时撞人获刑」的真实场景",
+        "轻互动：邀请用户用眼镜完成与「男子开辅助驾驶玩手机时撞人获刑」相关的小任务"
+      ],
+      "target_audience": {
+        "core": "科技爱好者",
+        "diffusion": "都市白领",
+        "bystander": "大众"
+      },
+      "trigger_scene": "刷到该热点或身处相关场景时，想快速了解/记录/互动",
+      "content_format": "主：15-30s短视频；衍：图文笔记",
+      "recommended_creator_type": "生活方式KOC 2-3位",
+      "publish_window": "T+0 12:00-14:00",
+      "production_cycle": "半天",
+      "budget_level": "低",
+      "estimated_cpm": 40,
+      "estimated_cpe": 1.8,
+      "risks": [
+        "避免过度夸张产品能力",
+        "内容发布前需品牌/合规审核"
+      ],
+      "reference_hooks": [
+        "这个热点，我用眼镜跟了",
+        "换个视角看这件事",
+        "眼镜里的世界原来可以这样"
       ],
       "similar_historical_case": null,
       "rank": 10
@@ -577,7 +550,7 @@
         "避开特殊群体",
         "城市选择需有代表性"
       ],
-      "id": "2026-11-23-B001",
+      "id": "2026-11-24-B001",
       "heat_score": 68,
       "relevance_score": 82,
       "safety_score": 87,
@@ -648,7 +621,7 @@
         "避免影射具体公司文化",
         "不要强化职场对立情绪"
       ],
-      "id": "2026-11-23-B002",
+      "id": "2026-11-24-B002",
       "heat_score": 71,
       "relevance_score": 84,
       "safety_score": 86,
@@ -721,7 +694,7 @@
         "注意用户隐私与内容审核",
         "避免过度浪漫化陌生人社交风险"
       ],
-      "id": "2026-11-23-B003",
+      "id": "2026-11-24-B003",
       "heat_score": 74,
       "relevance_score": 86,
       "safety_score": 85,
