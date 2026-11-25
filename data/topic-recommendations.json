@@ -1,6 +1,6 @@
 {
-  "date": "2026-11-24",
-  "updatedAt": "2026-11-24T10:44:32Z",
+  "date": "2026-11-25",
+  "updatedAt": "2026-11-25T09:39:34Z",
   "sources": [
     {
       "name": "头条热榜",
@@ -17,25 +17,301 @@
   ],
   "a_ride_hot_topics": [
     {
-      "topic_name": "使用AI造谣传谣10起典型案例公布",
+      "topic_name": "中外航天员实现首次“太空握手”",
       "platform": "头条热榜",
-      "heat_score": 87.9,
-      "relevance_score": 37,
+      "heat_score": 100.0,
+      "relevance_score": 8,
       "safety_score": 95,
-      "timeliness_score": 93.3,
-      "creativity_score": 65,
-      "ride_score": 79.1,
-      "create_score": 66.0,
+      "timeliness_score": 94.8,
+      "creativity_score": 50,
+      "ride_score": 77.1,
+      "create_score": 54.0,
       "priority": "A",
-      "priority_reason": "【科技/AI】品牌相关度较好，适合借势跟进（综合分79.1）",
-      "explode_time": "2026-11-24 05:44",
+      "priority_reason": "【其他】品牌相关度较好，适合借势跟进（综合分77.1）",
+      "explode_time": "2026-11-25 14:39",
+      "lifecycle": "峰值期",
+      "remaining_window": "预计持续1-3天",
+      "core_emotion": "用户对该话题的讨论兴趣",
+      "product_hook": "AI眼镜多模态能力",
+      "entry_angles": [
+        "热点POV：用第一视角走进「中外航天员实现首次“太空握手”」的真实场景",
+        "轻互动：邀请用户用眼镜完成与「中外航天员实现首次“太空握手”」相关的小任务"
+      ],
+      "target_audience": {
+        "core": "科技爱好者",
+        "diffusion": "都市白领",
+        "bystander": "大众"
+      },
+      "trigger_scene": "刷到该热点或身处相关场景时，想快速了解/记录/互动",
+      "content_format": "主：15-30s短视频；衍：图文笔记",
+      "recommended_creator_type": "生活方式KOC 2-3位",
+      "publish_window": "T+0 12:00-14:00",
+      "production_cycle": "半天",
+      "budget_level": "低",
+      "estimated_cpm": 40,
+      "estimated_cpe": 1.8,
+      "risks": [
+        "避免过度夸张产品能力",
+        "内容发布前需品牌/合规审核"
+      ],
+      "reference_hooks": [
+        "这个热点，我用眼镜跟了",
+        "换个视角看这件事",
+        "眼镜里的世界原来可以这样"
+      ],
+      "similar_historical_case": null,
+      "rank": 1
+    },
+    {
+      "topic_name": "特朗普对一道中国菜念念不忘",
+      "platform": "头条热榜",
+      "heat_score": 98.4,
+      "relevance_score": 8,
+      "safety_score": 95,
+      "timeliness_score": 94.7,
+      "creativity_score": 50,
+      "ride_score": 76.5,
+      "create_score": 53.8,
+      "priority": "A",
+      "priority_reason": "【其他】品牌相关度较好，适合借势跟进（综合分76.5）",
+      "explode_time": "2026-11-25 13:39",
+      "lifecycle": "峰值期",
+      "remaining_window": "预计持续1-3天",
+      "core_emotion": "用户对该话题的讨论兴趣",
+      "product_hook": "AI眼镜多模态能力",
+      "entry_angles": [
+        "热点POV：用第一视角走进「特朗普对一道中国菜念念不忘」的真实场景",
+        "轻互动：邀请用户用眼镜完成与「特朗普对一道中国菜念念不忘」相关的小任务"
+      ],
+      "target_audience": {
+        "core": "科技爱好者",
+        "diffusion": "都市白领",
+        "bystander": "大众"
+      },
+      "trigger_scene": "刷到该热点或身处相关场景时，想快速了解/记录/互动",
+      "content_format": "主：15-30s短视频；衍：图文笔记",
+      "recommended_creator_type": "生活方式KOC 2-3位",
+      "publish_window": "T+0 12:00-14:00",
+      "production_cycle": "半天",
+      "budget_level": "低",
+      "estimated_cpm": 40,
+      "estimated_cpe": 1.8,
+      "risks": [
+        "避免过度夸张产品能力",
+        "内容发布前需品牌/合规审核"
+      ],
+      "reference_hooks": [
+        "这个热点，我用眼镜跟了",
+        "换个视角看这件事",
+        "眼镜里的世界原来可以这样"
+      ],
+      "similar_historical_case": null,
+      "rank": 2
+    },
+    {
+      "topic_name": "国货品牌高质量发展步伐坚实",
+      "platform": "头条热榜",
+      "heat_score": 96.8,
+      "relevance_score": 8,
+      "safety_score": 95,
+      "timeliness_score": 94.5,
+      "creativity_score": 50,
+      "ride_score": 75.9,
+      "create_score": 53.5,
+      "priority": "A",
+      "priority_reason": "【其他】品牌相关度较好，适合借势跟进（综合分75.9）",
+      "explode_time": "2026-11-25 12:39",
+      "lifecycle": "峰值期",
+      "remaining_window": "预计持续1-3天",
+      "core_emotion": "用户对该话题的讨论兴趣",
+      "product_hook": "AI眼镜多模态能力",
+      "entry_angles": [
+        "热点POV：用第一视角走进「国货品牌高质量发展步伐坚实」的真实场景",
+        "轻互动：邀请用户用眼镜完成与「国货品牌高质量发展步伐坚实」相关的小任务"
+      ],
+      "target_audience": {
+        "core": "科技爱好者",
+        "diffusion": "都市白领",
+        "bystander": "大众"
+      },
+      "trigger_scene": "刷到该热点或身处相关场景时，想快速了解/记录/互动",
+      "content_format": "主：15-30s短视频；衍：图文笔记",
+      "recommended_creator_type": "生活方式KOC 2-3位",
+      "publish_window": "T+0 12:00-14:00",
+      "production_cycle": "半天",
+      "budget_level": "低",
+      "estimated_cpm": 40,
+      "estimated_cpe": 1.8,
+      "risks": [
+        "避免过度夸张产品能力",
+        "内容发布前需品牌/合规审核"
+      ],
+      "reference_hooks": [
+        "这个热点，我用眼镜跟了",
+        "换个视角看这件事",
+        "眼镜里的世界原来可以这样"
+      ],
+      "similar_historical_case": null,
+      "rank": 3
+    },
+    {
+      "topic_name": "中外航天员第一张太空合影",
+      "platform": "头条热榜",
+      "heat_score": 95.2,
+      "relevance_score": 8,
+      "safety_score": 95,
+      "timeliness_score": 94.4,
+      "creativity_score": 50,
+      "ride_score": 75.3,
+      "create_score": 53.3,
+      "priority": "A",
+      "priority_reason": "【其他】品牌相关度较好，适合借势跟进（综合分75.3）",
+      "explode_time": "2026-11-25 11:39",
+      "lifecycle": "峰值期",
+      "remaining_window": "预计持续1-3天",
+      "core_emotion": "用户对该话题的讨论兴趣",
+      "product_hook": "AI眼镜多模态能力",
+      "entry_angles": [
+        "热点POV：用第一视角走进「中外航天员第一张太空合影」的真实场景",
+        "轻互动：邀请用户用眼镜完成与「中外航天员第一张太空合影」相关的小任务"
+      ],
+      "target_audience": {
+        "core": "科技爱好者",
+        "diffusion": "都市白领",
+        "bystander": "大众"
+      },
+      "trigger_scene": "刷到该热点或身处相关场景时，想快速了解/记录/互动",
+      "content_format": "主：15-30s短视频；衍：图文笔记",
+      "recommended_creator_type": "生活方式KOC 2-3位",
+      "publish_window": "T+0 12:00-14:00",
+      "production_cycle": "半天",
+      "budget_level": "低",
+      "estimated_cpm": 40,
+      "estimated_cpe": 1.8,
+      "risks": [
+        "避免过度夸张产品能力",
+        "内容发布前需品牌/合规审核"
+      ],
+      "reference_hooks": [
+        "这个热点，我用眼镜跟了",
+        "换个视角看这件事",
+        "眼镜里的世界原来可以这样"
+      ],
+      "similar_historical_case": null,
+      "rank": 4
+    },
+    {
+      "topic_name": "车主四条胎被图钉扎成筛子",
+      "platform": "头条热榜",
+      "heat_score": 93.6,
+      "relevance_score": 8,
+      "safety_score": 95,
+      "timeliness_score": 94.2,
+      "creativity_score": 50,
+      "ride_score": 74.7,
+      "create_score": 53.1,
+      "priority": "A",
+      "priority_reason": "【其他】品牌相关度较好，适合借势跟进（综合分74.7）",
+      "explode_time": "2026-11-25 10:39",
+      "lifecycle": "峰值期",
+      "remaining_window": "预计持续1-3天",
+      "core_emotion": "用户对该话题的讨论兴趣",
+      "product_hook": "AI眼镜多模态能力",
+      "entry_angles": [
+        "热点POV：用第一视角走进「车主四条胎被图钉扎成筛子」的真实场景",
+        "轻互动：邀请用户用眼镜完成与「车主四条胎被图钉扎成筛子」相关的小任务"
+      ],
+      "target_audience": {
+        "core": "科技爱好者",
+        "diffusion": "都市白领",
+        "bystander": "大众"
+      },
+      "trigger_scene": "刷到该热点或身处相关场景时，想快速了解/记录/互动",
+      "content_format": "主：15-30s短视频；衍：图文笔记",
+      "recommended_creator_type": "生活方式KOC 2-3位",
+      "publish_window": "T+0 12:00-14:00",
+      "production_cycle": "半天",
+      "budget_level": "低",
+      "estimated_cpm": 40,
+      "estimated_cpe": 1.8,
+      "risks": [
+        "避免过度夸张产品能力",
+        "内容发布前需品牌/合规审核"
+      ],
+      "reference_hooks": [
+        "这个热点，我用眼镜跟了",
+        "换个视角看这件事",
+        "眼镜里的世界原来可以这样"
+      ],
+      "similar_historical_case": null,
+      "rank": 5
+    },
+    {
+      "topic_name": "巴航天员接过太空小蛋糕深深闻了闻",
+      "platform": "头条热榜",
+      "heat_score": 92.0,
+      "relevance_score": 8,
+      "safety_score": 95,
+      "timeliness_score": 94.1,
+      "creativity_score": 50,
+      "ride_score": 74.1,
+      "create_score": 52.8,
+      "priority": "A",
+      "priority_reason": "【其他】品牌相关度较好，适合借势跟进（综合分74.1）",
+      "explode_time": "2026-11-25 09:39",
+      "lifecycle": "峰值期",
+      "remaining_window": "预计持续1-3天",
+      "core_emotion": "用户对该话题的讨论兴趣",
+      "product_hook": "AI眼镜多模态能力",
+      "entry_angles": [
+        "热点POV：用第一视角走进「巴航天员接过太空小蛋糕深深闻了闻」的真实场景",
+        "轻互动：邀请用户用眼镜完成与「巴航天员接过太空小蛋糕深深闻了闻」相关的小任务"
+      ],
+      "target_audience": {
+        "core": "科技爱好者",
+        "diffusion": "都市白领",
+        "bystander": "大众"
+      },
+      "trigger_scene": "刷到该热点或身处相关场景时，想快速了解/记录/互动",
+      "content_format": "主：15-30s短视频；衍：图文笔记",
+      "recommended_creator_type": "生活方式KOC 2-3位",
+      "publish_window": "T+0 12:00-14:00",
+      "production_cycle": "半天",
+      "budget_level": "低",
+      "estimated_cpm": 40,
+      "estimated_cpe": 1.8,
+      "risks": [
+        "避免过度夸张产品能力",
+        "内容发布前需品牌/合规审核"
+      ],
+      "reference_hooks": [
+        "这个热点，我用眼镜跟了",
+        "换个视角看这件事",
+        "眼镜里的世界原来可以这样"
+      ],
+      "similar_historical_case": null,
+      "rank": 6
+    },
+    {
+      "topic_name": "17.91亿元出逃长鑫科技",
+      "platform": "头条热榜",
+      "heat_score": 80.8,
+      "relevance_score": 25,
+      "safety_score": 95,
+      "timeliness_score": 93.0,
+      "creativity_score": 65,
+      "ride_score": 74.1,
+      "create_score": 60.8,
+      "priority": "A",
+      "priority_reason": "【科技/AI】品牌相关度较好，适合借势跟进（综合分74.1）",
+      "explode_time": "2026-11-25 02:39",
       "lifecycle": "上升期",
       "remaining_window": "预计持续1-3天",
       "core_emotion": "对新技术的好奇与讨论热情",
       "product_hook": "AI眼镜多模态能力",
       "entry_angles": [
-        "热点POV：用第一视角走进「使用AI造谣传谣10起典型案例公布」的真实场景",
-        "轻互动：邀请用户用眼镜完成与「使用AI造谣传谣10起典型案例公布」相关的小任务"
+        "热点POV：用第一视角走进「17.91亿元出逃长鑫科技」的真实场景",
+        "轻互动：邀请用户用眼镜完成与「17.91亿元出逃长鑫科技」相关的小任务"
       ],
       "target_audience": {
         "core": "科技 early adopters",
@@ -65,308 +341,28 @@
         "roi": 3.8,
         "note": "技术向内容适合B站/知乎长图文"
       },
-      "rank": 1
-    },
-    {
-      "topic_name": "众多明星出席华为Mate X8发布会",
-      "platform": "头条热榜",
-      "heat_score": 89.1,
-      "relevance_score": 18,
-      "safety_score": 98,
-      "timeliness_score": 93.5,
-      "creativity_score": 88,
-      "ride_score": 77.5,
-      "create_score": 65.9,
-      "priority": "A",
-      "priority_reason": "【娱乐/影视】品牌相关度较好，适合借势跟进（综合分77.5）",
-      "explode_time": "2026-11-24 06:44",
-      "lifecycle": "上升期",
-      "remaining_window": "预计持续1-3天",
-      "core_emotion": "娱乐消遣与社交分享欲望",
-      "product_hook": "AI眼镜多模态能力",
-      "entry_angles": [
-        "热点POV：用第一视角走进「众多明星出席华为Mate X8发布会」的真实场景",
-        "轻互动：邀请用户用眼镜完成与「众多明星出席华为Mate X8发布会」相关的小任务"
-      ],
-      "target_audience": {
-        "core": "娱乐内容消费者",
-        "diffusion": "年轻用户",
-        "bystander": "泛娱乐人群"
-      },
-      "trigger_scene": "刷到该热点或身处相关场景时，想快速了解/记录/互动",
-      "content_format": "主：Reaction短视频；衍：二创切片+图文",
-      "recommended_creator_type": "娱乐垂类KOL 1位 + KOC 2-3位",
-      "publish_window": "T+0 20:00-22:00",
-      "production_cycle": "半天",
-      "budget_level": "低",
-      "estimated_cpm": 30,
-      "estimated_cpe": 0.9,
-      "risks": [
-        "避免过度夸张产品能力",
-        "内容发布前需品牌/合规审核"
-      ],
-      "reference_hooks": [
-        "这个热点，我用眼镜跟了",
-        "换个视角看这件事",
-        "眼镜里的世界原来可以这样"
-      ],
-      "similar_historical_case": {
-        "case": "影院实时字幕体验",
-        "roi": 3.2,
-        "note": "娱乐向内容适合短平快Reaction"
-      },
-      "rank": 2
-    },
-    {
-      "topic_name": "中方回应黄仁勋复职",
-      "platform": "头条热榜",
-      "heat_score": 100.0,
-      "relevance_score": 8,
-      "safety_score": 95,
-      "timeliness_score": 89.8,
-      "creativity_score": 50,
-      "ride_score": 76.1,
-      "create_score": 53.8,
-      "priority": "A",
-      "priority_reason": "【其他】品牌相关度较好，适合借势跟进（综合分76.1）",
-      "explode_time": "2026-11-24 15:44",
-      "lifecycle": "峰值期",
-      "remaining_window": "预计持续1-3天",
-      "core_emotion": "用户对该话题的讨论兴趣",
-      "product_hook": "AI眼镜多模态能力",
-      "entry_angles": [
-        "热点POV：用第一视角走进「中方回应黄仁勋复职」的真实场景",
-        "轻互动：邀请用户用眼镜完成与「中方回应黄仁勋复职」相关的小任务"
-      ],
-      "target_audience": {
-        "core": "科技爱好者",
-        "diffusion": "都市白领",
-        "bystander": "大众"
-      },
-      "trigger_scene": "刷到该热点或身处相关场景时，想快速了解/记录/互动",
-      "content_format": "主：15-30s短视频；衍：图文笔记",
-      "recommended_creator_type": "生活方式KOC 2-3位",
-      "publish_window": "T+0 12:00-14:00",
-      "production_cycle": "半天",
-      "budget_level": "低",
-      "estimated_cpm": 40,
-      "estimated_cpe": 1.8,
-      "risks": [
-        "避免过度夸张产品能力",
-        "内容发布前需品牌/合规审核"
-      ],
-      "reference_hooks": [
-        "这个热点，我用眼镜跟了",
-        "换个视角看这件事",
-        "眼镜里的世界原来可以这样"
-      ],
-      "similar_historical_case": null,
-      "rank": 3
-    },
-    {
-      "topic_name": "华为MateX8售价12999元起",
-      "platform": "头条热榜",
-      "heat_score": 98.8,
-      "relevance_score": 8,
-      "safety_score": 95,
-      "timeliness_score": 89.7,
-      "creativity_score": 50,
-      "ride_score": 75.6,
-      "create_score": 53.6,
-      "priority": "A",
-      "priority_reason": "【其他】品牌相关度较好，适合借势跟进（综合分75.6）",
-      "explode_time": "2026-11-24 14:44",
-      "lifecycle": "峰值期",
-      "remaining_window": "预计持续1-3天",
-      "core_emotion": "用户对该话题的讨论兴趣",
-      "product_hook": "AI眼镜多模态能力",
-      "entry_angles": [
-        "热点POV：用第一视角走进「华为MateX8售价12999元起」的真实场景",
-        "轻互动：邀请用户用眼镜完成与「华为MateX8售价12999元起」相关的小任务"
-      ],
-      "target_audience": {
-        "core": "科技爱好者",
-        "diffusion": "都市白领",
-        "bystander": "大众"
-      },
-      "trigger_scene": "刷到该热点或身处相关场景时，想快速了解/记录/互动",
-      "content_format": "主：15-30s短视频；衍：图文笔记",
-      "recommended_creator_type": "生活方式KOC 2-3位",
-      "publish_window": "T+0 12:00-14:00",
-      "production_cycle": "半天",
-      "budget_level": "低",
-      "estimated_cpm": 40,
-      "estimated_cpe": 1.8,
-      "risks": [
-        "避免过度夸张产品能力",
-        "内容发布前需品牌/合规审核"
-      ],
-      "reference_hooks": [
-        "这个热点，我用眼镜跟了",
-        "换个视角看这件事",
-        "眼镜里的世界原来可以这样"
-      ],
-      "similar_historical_case": null,
-      "rank": 4
-    },
-    {
-      "topic_name": "神舟二十四号航天员乘组确定",
-      "platform": "头条热榜",
-      "heat_score": 97.6,
-      "relevance_score": 8,
-      "safety_score": 95,
-      "timeliness_score": 89.5,
-      "creativity_score": 50,
-      "ride_score": 75.2,
-      "create_score": 53.4,
-      "priority": "A",
-      "priority_reason": "【其他】品牌相关度较好，适合借势跟进（综合分75.2）",
-      "explode_time": "2026-11-24 13:44",
-      "lifecycle": "峰值期",
-      "remaining_window": "预计持续1-3天",
-      "core_emotion": "用户对该话题的讨论兴趣",
-      "product_hook": "AI眼镜多模态能力",
-      "entry_angles": [
-        "热点POV：用第一视角走进「神舟二十四号航天员乘组确定」的真实场景",
-        "轻互动：邀请用户用眼镜完成与「神舟二十四号航天员乘组确定」相关的小任务"
-      ],
-      "target_audience": {
-        "core": "科技爱好者",
-        "diffusion": "都市白领",
-        "bystander": "大众"
-      },
-      "trigger_scene": "刷到该热点或身处相关场景时，想快速了解/记录/互动",
-      "content_format": "主：15-30s短视频；衍：图文笔记",
-      "recommended_creator_type": "生活方式KOC 2-3位",
-      "publish_window": "T+0 12:00-14:00",
-      "production_cycle": "半天",
-      "budget_level": "低",
-      "estimated_cpm": 40,
-      "estimated_cpe": 1.8,
-      "risks": [
-        "避免过度夸张产品能力",
-        "内容发布前需品牌/合规审核"
-      ],
-      "reference_hooks": [
-        "这个热点，我用眼镜跟了",
-        "换个视角看这件事",
-        "眼镜里的世界原来可以这样"
-      ],
-      "similar_historical_case": null,
-      "rank": 5
-    },
-    {
-      "topic_name": "民主党人：动用全部权力调查黄仁勋",
-      "platform": "头条热榜",
-      "heat_score": 96.4,
-      "relevance_score": 8,
-      "safety_score": 95,
-      "timeliness_score": 89.4,
-      "creativity_score": 50,
-      "ride_score": 74.7,
-      "create_score": 53.2,
-      "priority": "A",
-      "priority_reason": "【其他】品牌相关度较好，适合借势跟进（综合分74.7）",
-      "explode_time": "2026-11-24 12:44",
-      "lifecycle": "峰值期",
-      "remaining_window": "预计持续1-3天",
-      "core_emotion": "用户对该话题的讨论兴趣",
-      "product_hook": "AI眼镜多模态能力",
-      "entry_angles": [
-        "热点POV：用第一视角走进「民主党人：动用全部权力调查黄仁勋」的真实场景",
-        "轻互动：邀请用户用眼镜完成与「民主党人：动用全部权力调查黄仁勋」相关的小任务"
-      ],
-      "target_audience": {
-        "core": "科技爱好者",
-        "diffusion": "都市白领",
-        "bystander": "大众"
-      },
-      "trigger_scene": "刷到该热点或身处相关场景时，想快速了解/记录/互动",
-      "content_format": "主：15-30s短视频；衍：图文笔记",
-      "recommended_creator_type": "生活方式KOC 2-3位",
-      "publish_window": "T+0 12:00-14:00",
-      "production_cycle": "半天",
-      "budget_level": "低",
-      "estimated_cpm": 40,
-      "estimated_cpe": 1.8,
-      "risks": [
-        "避免过度夸张产品能力",
-        "内容发布前需品牌/合规审核"
-      ],
-      "reference_hooks": [
-        "这个热点，我用眼镜跟了",
-        "换个视角看这件事",
-        "眼镜里的世界原来可以这样"
-      ],
-      "similar_historical_case": null,
-      "rank": 6
-    },
-    {
-      "topic_name": "余承东现场提词器曝光",
-      "platform": "头条热榜",
-      "heat_score": 95.2,
-      "relevance_score": 8,
-      "safety_score": 95,
-      "timeliness_score": 89.2,
-      "creativity_score": 50,
-      "ride_score": 74.3,
-      "create_score": 53.0,
-      "priority": "A",
-      "priority_reason": "【其他】品牌相关度较好，适合借势跟进（综合分74.3）",
-      "explode_time": "2026-11-24 11:44",
-      "lifecycle": "峰值期",
-      "remaining_window": "预计持续1-3天",
-      "core_emotion": "用户对该话题的讨论兴趣",
-      "product_hook": "AI眼镜多模态能力",
-      "entry_angles": [
-        "热点POV：用第一视角走进「余承东现场提词器曝光」的真实场景",
-        "轻互动：邀请用户用眼镜完成与「余承东现场提词器曝光」相关的小任务"
-      ],
-      "target_audience": {
-        "core": "科技爱好者",
-        "diffusion": "都市白领",
-        "bystander": "大众"
-      },
-      "trigger_scene": "刷到该热点或身处相关场景时，想快速了解/记录/互动",
-      "content_format": "主：15-30s短视频；衍：图文笔记",
-      "recommended_creator_type": "生活方式KOC 2-3位",
-      "publish_window": "T+0 12:00-14:00",
-      "production_cycle": "半天",
-      "budget_level": "低",
-      "estimated_cpm": 40,
-      "estimated_cpe": 1.8,
-      "risks": [
-        "避免过度夸张产品能力",
-        "内容发布前需品牌/合规审核"
-      ],
-      "reference_hooks": [
-        "这个热点，我用眼镜跟了",
-        "换个视角看这件事",
-        "眼镜里的世界原来可以这样"
-      ],
-      "similar_historical_case": null,
       "rank": 7
     },
     {
-      "topic_name": "几个姑娘在黑龙江-25℃清凉上阵",
+      "topic_name": "专家号加价至900元 陪诊成牟利灰产",
       "platform": "头条热榜",
-      "heat_score": 91.5,
+      "heat_score": 90.4,
       "relevance_score": 8,
       "safety_score": 95,
-      "timeliness_score": 93.8,
+      "timeliness_score": 94.0,
       "creativity_score": 50,
-      "ride_score": 73.9,
-      "create_score": 52.7,
+      "ride_score": 73.5,
+      "create_score": 52.6,
       "priority": "A",
-      "priority_reason": "【其他】品牌相关度较好，适合借势跟进（综合分73.9）",
-      "explode_time": "2026-11-24 08:44",
+      "priority_reason": "【其他】品牌相关度较好，适合借势跟进（综合分73.5）",
+      "explode_time": "2026-11-25 08:39",
       "lifecycle": "峰值期",
       "remaining_window": "预计持续1-3天",
       "core_emotion": "用户对该话题的讨论兴趣",
       "product_hook": "AI眼镜多模态能力",
       "entry_angles": [
-        "热点POV：用第一视角走进「几个姑娘在黑龙江-25℃清凉上阵」的真实场景",
-        "轻互动：邀请用户用眼镜完成与「几个姑娘在黑龙江-25℃清凉上阵」相关的小任务"
+        "热点POV：用第一视角走进「专家号加价至900元 陪诊成牟利灰产」的真实场景",
+        "轻互动：邀请用户用眼镜完成与「专家号加价至900元 陪诊成牟利灰产」相关的小任务"
       ],
       "target_audience": {
         "core": "科技爱好者",
@@ -394,25 +390,25 @@
       "rank": 8
     },
     {
-      "topic_name": "特朗普回国后天天夸深圳",
+      "topic_name": "中国天宫还会接待哪些国家的航天员",
       "platform": "头条热榜",
-      "heat_score": 93.9,
+      "heat_score": 88.8,
       "relevance_score": 8,
       "safety_score": 95,
-      "timeliness_score": 89.1,
+      "timeliness_score": 93.8,
       "creativity_score": 50,
-      "ride_score": 73.8,
-      "create_score": 52.8,
+      "ride_score": 72.9,
+      "create_score": 52.3,
       "priority": "A",
-      "priority_reason": "【其他】品牌相关度较好，适合借势跟进（综合分73.8）",
-      "explode_time": "2026-11-24 10:44",
-      "lifecycle": "峰值期",
+      "priority_reason": "【其他】品牌相关度较好，适合借势跟进（综合分72.9）",
+      "explode_time": "2026-11-25 07:39",
+      "lifecycle": "上升期",
       "remaining_window": "预计持续1-3天",
       "core_emotion": "用户对该话题的讨论兴趣",
       "product_hook": "AI眼镜多模态能力",
       "entry_angles": [
-        "热点POV：用第一视角走进「特朗普回国后天天夸深圳」的真实场景",
-        "轻互动：邀请用户用眼镜完成与「特朗普回国后天天夸深圳」相关的小任务"
+        "热点POV：用第一视角走进「中国天宫还会接待哪些国家的航天员」的真实场景",
+        "轻互动：邀请用户用眼镜完成与「中国天宫还会接待哪些国家的航天员」相关的小任务"
       ],
       "target_audience": {
         "core": "科技爱好者",
@@ -440,25 +436,25 @@
       "rank": 9
     },
     {
-      "topic_name": "男子开辅助驾驶玩手机时撞人获刑",
+      "topic_name": "巴基斯坦航天员说中国空间站我来了",
       "platform": "头条热榜",
-      "heat_score": 90.3,
+      "heat_score": 87.2,
       "relevance_score": 8,
       "safety_score": 95,
       "timeliness_score": 93.7,
       "creativity_score": 50,
-      "ride_score": 73.4,
-      "create_score": 52.5,
+      "ride_score": 72.4,
+      "create_score": 52.1,
       "priority": "A",
-      "priority_reason": "【其他】品牌相关度较好，适合借势跟进（综合分73.4）",
-      "explode_time": "2026-11-24 07:44",
-      "lifecycle": "峰值期",
+      "priority_reason": "【其他】品牌相关度较好，适合借势跟进（综合分72.4）",
+      "explode_time": "2026-11-25 06:39",
+      "lifecycle": "上升期",
       "remaining_window": "预计持续1-3天",
       "core_emotion": "用户对该话题的讨论兴趣",
       "product_hook": "AI眼镜多模态能力",
       "entry_angles": [
-        "热点POV：用第一视角走进「男子开辅助驾驶玩手机时撞人获刑」的真实场景",
-        "轻互动：邀请用户用眼镜完成与「男子开辅助驾驶玩手机时撞人获刑」相关的小任务"
+        "热点POV：用第一视角走进「巴基斯坦航天员说中国空间站我来了」的真实场景",
+        "轻互动：邀请用户用眼镜完成与「巴基斯坦航天员说中国空间站我来了」相关的小任务"
       ],
       "target_audience": {
         "core": "科技爱好者",
@@ -550,7 +546,7 @@
         "避开特殊群体",
         "城市选择需有代表性"
       ],
-      "id": "2026-11-24-B001",
+      "id": "2026-11-25-B001",
       "heat_score": 68,
       "relevance_score": 82,
       "safety_score": 87,
@@ -621,7 +617,7 @@
         "避免影射具体公司文化",
         "不要强化职场对立情绪"
       ],
-      "id": "2026-11-24-B002",
+      "id": "2026-11-25-B002",
       "heat_score": 71,
       "relevance_score": 84,
       "safety_score": 86,
@@ -694,7 +690,7 @@
         "注意用户隐私与内容审核",
         "避免过度浪漫化陌生人社交风险"
       ],
-      "id": "2026-11-24-B003",
+      "id": "2026-11-25-B003",
       "heat_score": 74,
       "relevance_score": 86,
       "safety_score": 85,
