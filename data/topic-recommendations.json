@@ -1,6 +1,6 @@
 {
-  "date": "2026-11-27",
-  "updatedAt": "2026-11-27T09:30:20Z",
+  "date": "2026-11-28",
+  "updatedAt": "2026-11-28T08:43:47Z",
   "sources": [
     {
       "name": "头条热榜",
@@ -17,316 +17,25 @@
   ],
   "a_ride_hot_topics": [
     {
-      "topic_name": "A股大爆发",
+      "topic_name": "澳门居民珠海养老每月补5000元",
       "platform": "头条热榜",
-      "heat_score": 100.0,
-      "relevance_score": 15,
-      "safety_score": 95,
-      "timeliness_score": 94.8,
-      "creativity_score": 55,
-      "ride_score": 78.7,
-      "create_score": 57.7,
-      "priority": "A",
-      "priority_reason": "【财经/商业】品牌相关度较好，适合借势跟进（综合分78.7）",
-      "explode_time": "2026-11-27 14:30",
-      "lifecycle": "峰值期",
-      "remaining_window": "预计持续1-3天",
-      "core_emotion": "对经济/商业动态的关注与焦虑",
-      "product_hook": "AI眼镜多模态能力",
-      "entry_angles": [
-        "热点POV：用第一视角走进「A股大爆发」的真实场景",
-        "轻互动：邀请用户用眼镜完成与「A股大爆发」相关的小任务"
-      ],
-      "target_audience": {
-        "core": "财经/商业人群",
-        "diffusion": "职场白领",
-        "bystander": "关注经济的大众"
-      },
-      "trigger_scene": "刷到该热点或身处相关场景时，想快速了解/记录/互动",
-      "content_format": "主：口播解读；衍：图文早报+数据可视化",
-      "recommended_creator_type": "财经垂类KOL 1位 + 职场KOC 2位",
-      "publish_window": "T+0 08:00-10:00",
-      "production_cycle": "半天",
-      "budget_level": "中",
-      "estimated_cpm": 36,
-      "estimated_cpe": 1.6,
-      "risks": [
-        "避免过度夸张产品能力",
-        "内容发布前需品牌/合规审核",
-        "避免投资建议或夸大经济影响"
-      ],
-      "reference_hooks": [
-        "这个热点，我用眼镜跟了",
-        "换个视角看这件事",
-        "眼镜里的世界原来可以这样"
-      ],
-      "similar_historical_case": {
-        "case": "晨间财经早报",
-        "roi": 2.5,
-        "note": "财经内容适合早间时段发布"
-      },
-      "rank": 1
-    },
-    {
-      "topic_name": "前10月规模以上工业企业利润增长16.0%",
-      "platform": "头条热榜",
-      "heat_score": 95.4,
-      "relevance_score": 15,
-      "safety_score": 95,
-      "timeliness_score": 94.5,
-      "creativity_score": 55,
-      "ride_score": 77.0,
-      "create_score": 57.0,
-      "priority": "A",
-      "priority_reason": "【财经/商业】品牌相关度较好，适合借势跟进（综合分77.0）",
-      "explode_time": "2026-11-27 12:30",
-      "lifecycle": "峰值期",
-      "remaining_window": "预计持续1-3天",
-      "core_emotion": "对经济/商业动态的关注与焦虑",
-      "product_hook": "AI眼镜多模态能力",
-      "entry_angles": [
-        "热点POV：用第一视角走进「前10月规模以上工业企业利润增长16.0%」的真实场景",
-        "轻互动：邀请用户用眼镜完成与「前10月规模以上工业企业利润增长16.0%」相关的小任务"
-      ],
-      "target_audience": {
-        "core": "财经/商业人群",
-        "diffusion": "职场白领",
-        "bystander": "关注经济的大众"
-      },
-      "trigger_scene": "刷到该热点或身处相关场景时，想快速了解/记录/互动",
-      "content_format": "主：口播解读；衍：图文早报+数据可视化",
-      "recommended_creator_type": "财经垂类KOL 1位 + 职场KOC 2位",
-      "publish_window": "T+0 08:00-10:00",
-      "production_cycle": "半天",
-      "budget_level": "中",
-      "estimated_cpm": 36,
-      "estimated_cpe": 1.6,
-      "risks": [
-        "避免过度夸张产品能力",
-        "内容发布前需品牌/合规审核",
-        "避免投资建议或夸大经济影响"
-      ],
-      "reference_hooks": [
-        "这个热点，我用眼镜跟了",
-        "换个视角看这件事",
-        "眼镜里的世界原来可以这样"
-      ],
-      "similar_historical_case": {
-        "case": "晨间财经早报",
-        "roi": 2.5,
-        "note": "财经内容适合早间时段发布"
-      },
-      "rank": 2
-    },
-    {
-      "topic_name": "三只松鼠就员工宿舍脏乱差致歉",
-      "platform": "头条热榜",
-      "heat_score": 97.7,
-      "relevance_score": 8,
-      "safety_score": 95,
-      "timeliness_score": 94.7,
-      "creativity_score": 50,
-      "ride_score": 76.2,
-      "create_score": 53.7,
-      "priority": "A",
-      "priority_reason": "【其他】品牌相关度较好，适合借势跟进（综合分76.2）",
-      "explode_time": "2026-11-27 13:30",
-      "lifecycle": "峰值期",
-      "remaining_window": "预计持续1-3天",
-      "core_emotion": "用户对该话题的讨论兴趣",
-      "product_hook": "AI眼镜多模态能力",
-      "entry_angles": [
-        "热点POV：用第一视角走进「三只松鼠就员工宿舍脏乱差致歉」的真实场景",
-        "轻互动：邀请用户用眼镜完成与「三只松鼠就员工宿舍脏乱差致歉」相关的小任务"
-      ],
-      "target_audience": {
-        "core": "科技爱好者",
-        "diffusion": "都市白领",
-        "bystander": "大众"
-      },
-      "trigger_scene": "刷到该热点或身处相关场景时，想快速了解/记录/互动",
-      "content_format": "主：15-30s短视频；衍：图文笔记",
-      "recommended_creator_type": "生活方式KOC 2-3位",
-      "publish_window": "T+0 12:00-14:00",
-      "production_cycle": "半天",
-      "budget_level": "低",
-      "estimated_cpm": 40,
-      "estimated_cpe": 1.8,
-      "risks": [
-        "避免过度夸张产品能力",
-        "内容发布前需品牌/合规审核"
-      ],
-      "reference_hooks": [
-        "这个热点，我用眼镜跟了",
-        "换个视角看这件事",
-        "眼镜里的世界原来可以这样"
-      ],
-      "similar_historical_case": null,
-      "rank": 3
-    },
-    {
-      "topic_name": "“易中天”暴涨",
-      "platform": "头条热榜",
-      "heat_score": 93.1,
-      "relevance_score": 8,
-      "safety_score": 95,
-      "timeliness_score": 94.4,
-      "creativity_score": 50,
-      "ride_score": 74.6,
-      "create_score": 53.0,
-      "priority": "A",
-      "priority_reason": "【其他】品牌相关度较好，适合借势跟进（综合分74.6）",
-      "explode_time": "2026-11-27 11:30",
-      "lifecycle": "峰值期",
-      "remaining_window": "预计持续1-3天",
-      "core_emotion": "用户对该话题的讨论兴趣",
-      "product_hook": "AI眼镜多模态能力",
-      "entry_angles": [
-        "热点POV：用第一视角走进「“易中天”暴涨」的真实场景",
-        "轻互动：邀请用户用眼镜完成与「“易中天”暴涨」相关的小任务"
-      ],
-      "target_audience": {
-        "core": "科技爱好者",
-        "diffusion": "都市白领",
-        "bystander": "大众"
-      },
-      "trigger_scene": "刷到该热点或身处相关场景时，想快速了解/记录/互动",
-      "content_format": "主：15-30s短视频；衍：图文笔记",
-      "recommended_creator_type": "生活方式KOC 2-3位",
-      "publish_window": "T+0 12:00-14:00",
-      "production_cycle": "半天",
-      "budget_level": "低",
-      "estimated_cpm": 40,
-      "estimated_cpe": 1.8,
-      "risks": [
-        "避免过度夸张产品能力",
-        "内容发布前需品牌/合规审核"
-      ],
-      "reference_hooks": [
-        "这个热点，我用眼镜跟了",
-        "换个视角看这件事",
-        "眼镜里的世界原来可以这样"
-      ],
-      "similar_historical_case": null,
-      "rank": 4
-    },
-    {
-      "topic_name": "A股放量暴涨 反转来了吗",
-      "platform": "头条热榜",
-      "heat_score": 86.2,
-      "relevance_score": 15,
-      "safety_score": 95,
-      "timeliness_score": 94.0,
-      "creativity_score": 55,
-      "ride_score": 73.7,
-      "create_score": 55.6,
-      "priority": "A",
-      "priority_reason": "【财经/商业】品牌相关度较好，适合借势跟进（综合分73.7）",
-      "explode_time": "2026-11-27 08:30",
-      "lifecycle": "上升期",
-      "remaining_window": "预计持续1-3天",
-      "core_emotion": "对经济/商业动态的关注与焦虑",
-      "product_hook": "AI眼镜多模态能力",
-      "entry_angles": [
-        "热点POV：用第一视角走进「A股放量暴涨 反转来了吗」的真实场景",
-        "轻互动：邀请用户用眼镜完成与「A股放量暴涨 反转来了吗」相关的小任务"
-      ],
-      "target_audience": {
-        "core": "财经/商业人群",
-        "diffusion": "职场白领",
-        "bystander": "关注经济的大众"
-      },
-      "trigger_scene": "刷到该热点或身处相关场景时，想快速了解/记录/互动",
-      "content_format": "主：口播解读；衍：图文早报+数据可视化",
-      "recommended_creator_type": "财经垂类KOL 1位 + 职场KOC 2位",
-      "publish_window": "T+0 08:00-10:00",
-      "production_cycle": "半天",
-      "budget_level": "中",
-      "estimated_cpm": 36,
-      "estimated_cpe": 1.6,
-      "risks": [
-        "避免过度夸张产品能力",
-        "内容发布前需品牌/合规审核",
-        "避免投资建议或夸大经济影响"
-      ],
-      "reference_hooks": [
-        "这个热点，我用眼镜跟了",
-        "换个视角看这件事",
-        "眼镜里的世界原来可以这样"
-      ],
-      "similar_historical_case": {
-        "case": "晨间财经早报",
-        "roi": 2.5,
-        "note": "财经内容适合早间时段发布"
-      },
-      "rank": 5
-    },
-    {
-      "topic_name": "奥迪Q9首发亮相",
-      "platform": "头条热榜",
-      "heat_score": 88.5,
-      "relevance_score": 8,
-      "safety_score": 95,
-      "timeliness_score": 94.1,
-      "creativity_score": 50,
-      "ride_score": 72.9,
-      "create_score": 52.3,
-      "priority": "A",
-      "priority_reason": "【其他】品牌相关度较好，适合借势跟进（综合分72.9）",
-      "explode_time": "2026-11-27 09:30",
-      "lifecycle": "上升期",
-      "remaining_window": "预计持续1-3天",
-      "core_emotion": "用户对该话题的讨论兴趣",
-      "product_hook": "AI眼镜多模态能力",
-      "entry_angles": [
-        "热点POV：用第一视角走进「奥迪Q9首发亮相」的真实场景",
-        "轻互动：邀请用户用眼镜完成与「奥迪Q9首发亮相」相关的小任务"
-      ],
-      "target_audience": {
-        "core": "科技爱好者",
-        "diffusion": "都市白领",
-        "bystander": "大众"
-      },
-      "trigger_scene": "刷到该热点或身处相关场景时，想快速了解/记录/互动",
-      "content_format": "主：15-30s短视频；衍：图文笔记",
-      "recommended_creator_type": "生活方式KOC 2-3位",
-      "publish_window": "T+0 12:00-14:00",
-      "production_cycle": "半天",
-      "budget_level": "低",
-      "estimated_cpm": 40,
-      "estimated_cpe": 1.8,
-      "risks": [
-        "避免过度夸张产品能力",
-        "内容发布前需品牌/合规审核"
-      ],
-      "reference_hooks": [
-        "这个热点，我用眼镜跟了",
-        "换个视角看这件事",
-        "眼镜里的世界原来可以这样"
-      ],
-      "similar_historical_case": null,
-      "rank": 6
-    },
-    {
-      "topic_name": "胡兵自曝已15年没谈过恋爱",
-      "platform": "头条热榜",
-      "heat_score": 74.7,
+      "heat_score": 97.8,
       "relevance_score": 18,
       "safety_score": 98,
-      "timeliness_score": 91.0,
+      "timeliness_score": 94.7,
       "creativity_score": 90,
-      "ride_score": 72.0,
-      "create_score": 64.2,
+      "ride_score": 80.9,
+      "create_score": 67.8,
       "priority": "A",
-      "priority_reason": "【生活/社会】品牌相关度较好，适合借势跟进（综合分72.0）",
-      "explode_time": "2026-11-26 12:30",
-      "lifecycle": "延续期",
+      "priority_reason": "【生活/社会】品牌相关度较好，适合借势跟进（综合分80.9）",
+      "explode_time": "2026-11-28 12:43",
+      "lifecycle": "峰值期",
       "remaining_window": "预计持续1-3天",
       "core_emotion": "对生活温度与社会话题的共鸣",
       "product_hook": "AI眼镜多模态能力",
       "entry_angles": [
-        "热点POV：用第一视角走进「胡兵自曝已15年没谈过恋爱」的真实场景",
-        "轻互动：邀请用户用眼镜完成与「胡兵自曝已15年没谈过恋爱」相关的小任务"
+        "热点POV：用第一视角走进「澳门居民珠海养老每月补5000元」的真实场景",
+        "轻互动：邀请用户用眼镜完成与「澳门居民珠海养老每月补5000元」相关的小任务"
       ],
       "target_audience": {
         "core": "生活方式爱好者",
@@ -356,130 +65,410 @@
         "roi": 4.0,
         "note": "生活方式内容小红书互动率高"
       },
+      "rank": 1
+    },
+    {
+      "topic_name": "警方提级调查50人采摘蜜桔仅留10元",
+      "platform": "头条热榜",
+      "heat_score": 100.0,
+      "relevance_score": 8,
+      "safety_score": 95,
+      "timeliness_score": 94.8,
+      "creativity_score": 50,
+      "ride_score": 77.1,
+      "create_score": 54.0,
+      "priority": "A",
+      "priority_reason": "【其他】品牌相关度较好，适合借势跟进（综合分77.1）",
+      "explode_time": "2026-11-28 13:43",
+      "lifecycle": "峰值期",
+      "remaining_window": "预计持续1-3天",
+      "core_emotion": "用户对该话题的讨论兴趣",
+      "product_hook": "AI眼镜多模态能力",
+      "entry_angles": [
+        "热点POV：用第一视角走进「警方提级调查50人采摘蜜桔仅留10元」的真实场景",
+        "轻互动：邀请用户用眼镜完成与「警方提级调查50人采摘蜜桔仅留10元」相关的小任务"
+      ],
+      "target_audience": {
+        "core": "科技爱好者",
+        "diffusion": "都市白领",
+        "bystander": "大众"
+      },
+      "trigger_scene": "刷到该热点或身处相关场景时，想快速了解/记录/互动",
+      "content_format": "主：15-30s短视频；衍：图文笔记",
+      "recommended_creator_type": "生活方式KOC 2-3位",
+      "publish_window": "T+0 12:00-14:00",
+      "production_cycle": "半天",
+      "budget_level": "低",
+      "estimated_cpm": 40,
+      "estimated_cpe": 1.8,
+      "risks": [
+        "避免过度夸张产品能力",
+        "内容发布前需品牌/合规审核"
+      ],
+      "reference_hooks": [
+        "这个热点，我用眼镜跟了",
+        "换个视角看这件事",
+        "眼镜里的世界原来可以这样"
+      ],
+      "similar_historical_case": null,
+      "rank": 2
+    },
+    {
+      "topic_name": "我国河湖面貌发生历史性改善",
+      "platform": "头条热榜",
+      "heat_score": 95.6,
+      "relevance_score": 8,
+      "safety_score": 95,
+      "timeliness_score": 94.5,
+      "creativity_score": 50,
+      "ride_score": 75.5,
+      "create_score": 53.4,
+      "priority": "A",
+      "priority_reason": "【其他】品牌相关度较好，适合借势跟进（综合分75.5）",
+      "explode_time": "2026-11-28 11:43",
+      "lifecycle": "峰值期",
+      "remaining_window": "预计持续1-3天",
+      "core_emotion": "用户对该话题的讨论兴趣",
+      "product_hook": "AI眼镜多模态能力",
+      "entry_angles": [
+        "热点POV：用第一视角走进「我国河湖面貌发生历史性改善」的真实场景",
+        "轻互动：邀请用户用眼镜完成与「我国河湖面貌发生历史性改善」相关的小任务"
+      ],
+      "target_audience": {
+        "core": "科技爱好者",
+        "diffusion": "都市白领",
+        "bystander": "大众"
+      },
+      "trigger_scene": "刷到该热点或身处相关场景时，想快速了解/记录/互动",
+      "content_format": "主：15-30s短视频；衍：图文笔记",
+      "recommended_creator_type": "生活方式KOC 2-3位",
+      "publish_window": "T+0 12:00-14:00",
+      "production_cycle": "半天",
+      "budget_level": "低",
+      "estimated_cpm": 40,
+      "estimated_cpe": 1.8,
+      "risks": [
+        "避免过度夸张产品能力",
+        "内容发布前需品牌/合规审核"
+      ],
+      "reference_hooks": [
+        "这个热点，我用眼镜跟了",
+        "换个视角看这件事",
+        "眼镜里的世界原来可以这样"
+      ],
+      "similar_historical_case": null,
+      "rank": 3
+    },
+    {
+      "topic_name": "地面零距离实拍歼-35A",
+      "platform": "头条热榜",
+      "heat_score": 93.3,
+      "relevance_score": 8,
+      "safety_score": 95,
+      "timeliness_score": 94.4,
+      "creativity_score": 50,
+      "ride_score": 74.6,
+      "create_score": 53.0,
+      "priority": "A",
+      "priority_reason": "【其他】品牌相关度较好，适合借势跟进（综合分74.6）",
+      "explode_time": "2026-11-28 10:43",
+      "lifecycle": "峰值期",
+      "remaining_window": "预计持续1-3天",
+      "core_emotion": "用户对该话题的讨论兴趣",
+      "product_hook": "AI眼镜多模态能力",
+      "entry_angles": [
+        "热点POV：用第一视角走进「地面零距离实拍歼-35A」的真实场景",
+        "轻互动：邀请用户用眼镜完成与「地面零距离实拍歼-35A」相关的小任务"
+      ],
+      "target_audience": {
+        "core": "科技爱好者",
+        "diffusion": "都市白领",
+        "bystander": "大众"
+      },
+      "trigger_scene": "刷到该热点或身处相关场景时，想快速了解/记录/互动",
+      "content_format": "主：15-30s短视频；衍：图文笔记",
+      "recommended_creator_type": "生活方式KOC 2-3位",
+      "publish_window": "T+0 12:00-14:00",
+      "production_cycle": "半天",
+      "budget_level": "低",
+      "estimated_cpm": 40,
+      "estimated_cpe": 1.8,
+      "risks": [
+        "避免过度夸张产品能力",
+        "内容发布前需品牌/合规审核"
+      ],
+      "reference_hooks": [
+        "这个热点，我用眼镜跟了",
+        "换个视角看这件事",
+        "眼镜里的世界原来可以这样"
+      ],
+      "similar_historical_case": null,
+      "rank": 4
+    },
+    {
+      "topic_name": "房主刚签完卖房合同得知房子要拆迁",
+      "platform": "百度热搜",
+      "heat_score": 82.7,
+      "relevance_score": 25,
+      "safety_score": 95,
+      "timeliness_score": 88.2,
+      "creativity_score": 70,
+      "ride_score": 74.1,
+      "create_score": 62.1,
+      "priority": "A",
+      "priority_reason": "【职场/办公】品牌相关度较好，适合借势跟进（综合分74.1）",
+      "explode_time": "2026-11-28 02:43",
+      "lifecycle": "上升期",
+      "remaining_window": "预计持续1-3天",
+      "core_emotion": "打工人对效率焦虑与「科技减负」的期待",
+      "product_hook": "AI眼镜多模态能力",
+      "entry_angles": [
+        "热点POV：用第一视角走进「房主刚签完卖房合同得知房子要拆迁」的真实场景",
+        "轻互动：邀请用户用眼镜完成与「房主刚签完卖房合同得知房子要拆迁」相关的小任务"
+      ],
+      "target_audience": {
+        "core": "25-35岁都市白领",
+        "diffusion": "职场新人/中层管理者",
+        "bystander": "对AI工具感兴趣的大众"
+      },
+      "trigger_scene": "刷到该热点或身处相关场景时，想快速了解/记录/互动",
+      "content_format": "主：15-30s真人实测短视频；衍：3张图文笔记+1条口播",
+      "recommended_creator_type": "垂类职场KOL 1位 + 生活方式KOC 3-5位",
+      "publish_window": "T+0 12:00-14:00",
+      "production_cycle": "半天",
+      "budget_level": "中",
+      "estimated_cpm": 32,
+      "estimated_cpe": 1.1,
+      "risks": [
+        "避免过度夸张产品能力",
+        "内容发布前需品牌/合规审核",
+        "不要涉及具体公司/领导负面"
+      ],
+      "reference_hooks": [
+        "这个热点，我用眼镜跟了",
+        "换个视角看这件事",
+        "眼镜里的世界原来可以这样"
+      ],
+      "similar_historical_case": {
+        "case": "通勤效率神器",
+        "roi": 6.2,
+        "note": "去年同期类似选题，POV形式ROI达1:6.2"
+      },
+      "rank": 5
+    },
+    {
+      "topic_name": "特朗普又连发深圳APEC照片",
+      "platform": "头条热榜",
+      "heat_score": 91.1,
+      "relevance_score": 8,
+      "safety_score": 95,
+      "timeliness_score": 94.2,
+      "creativity_score": 50,
+      "ride_score": 73.8,
+      "create_score": 52.7,
+      "priority": "A",
+      "priority_reason": "【其他】品牌相关度较好，适合借势跟进（综合分73.8）",
+      "explode_time": "2026-11-28 09:43",
+      "lifecycle": "峰值期",
+      "remaining_window": "预计持续1-3天",
+      "core_emotion": "用户对该话题的讨论兴趣",
+      "product_hook": "AI眼镜多模态能力",
+      "entry_angles": [
+        "热点POV：用第一视角走进「特朗普又连发深圳APEC照片」的真实场景",
+        "轻互动：邀请用户用眼镜完成与「特朗普又连发深圳APEC照片」相关的小任务"
+      ],
+      "target_audience": {
+        "core": "科技爱好者",
+        "diffusion": "都市白领",
+        "bystander": "大众"
+      },
+      "trigger_scene": "刷到该热点或身处相关场景时，想快速了解/记录/互动",
+      "content_format": "主：15-30s短视频；衍：图文笔记",
+      "recommended_creator_type": "生活方式KOC 2-3位",
+      "publish_window": "T+0 12:00-14:00",
+      "production_cycle": "半天",
+      "budget_level": "低",
+      "estimated_cpm": 40,
+      "estimated_cpe": 1.8,
+      "risks": [
+        "避免过度夸张产品能力",
+        "内容发布前需品牌/合规审核"
+      ],
+      "reference_hooks": [
+        "这个热点，我用眼镜跟了",
+        "换个视角看这件事",
+        "眼镜里的世界原来可以这样"
+      ],
+      "similar_historical_case": null,
+      "rank": 6
+    },
+    {
+      "topic_name": "超40岁被拒入住酒店 一刀切合法吗",
+      "platform": "百度热搜",
+      "heat_score": 76.0,
+      "relevance_score": 25,
+      "safety_score": 98,
+      "timeliness_score": 86.0,
+      "creativity_score": 95,
+      "ride_score": 73.2,
+      "create_score": 67.8,
+      "priority": "A",
+      "priority_reason": "【旅游/户外】品牌相关度较好，适合借势跟进（综合分73.2）",
+      "explode_time": "2026-11-27 11:43",
+      "lifecycle": "上升期",
+      "remaining_window": "预计持续1-3天",
+      "core_emotion": "出游热情与「不会外语/怕迷路」的焦虑",
+      "product_hook": "AI眼镜多模态能力",
+      "entry_angles": [
+        "热点POV：用第一视角走进「超40岁被拒入住酒店 一刀切合法吗」的真实场景",
+        "轻互动：邀请用户用眼镜完成与「超40岁被拒入住酒店 一刀切合法吗」相关的小任务"
+      ],
+      "target_audience": {
+        "core": "25-35岁一二线城市旅行爱好者",
+        "diffusion": "学生/亲子出游人群",
+        "bystander": "计划出游的大众"
+      },
+      "trigger_scene": "刷到该热点或身处相关场景时，想快速了解/记录/互动",
+      "content_format": "主：30s旅行vlog；衍：小红书图文攻略+景点打卡合集",
+      "recommended_creator_type": "旅行垂类KOL 1位 + 旅行KOC 2-3位",
+      "publish_window": "T+0 18:00-20:00",
+      "production_cycle": "一天",
+      "budget_level": "中",
+      "estimated_cpm": 38,
+      "estimated_cpe": 1.4,
+      "risks": [
+        "避免过度夸张产品能力",
+        "内容发布前需品牌/合规审核"
+      ],
+      "reference_hooks": [
+        "这个热点，我用眼镜跟了",
+        "换个视角看这件事",
+        "眼镜里的世界原来可以这样"
+      ],
+      "similar_historical_case": {
+        "case": "POV实测海外出行",
+        "roi": 4.5,
+        "note": "翻译功能相关选题互动率高"
+      },
       "rank": 7
     },
     {
-      "topic_name": "郭一鸣：A股底部“弹簧”越压越紧",
+      "topic_name": "奥迪Q9完成中国首秀",
       "platform": "头条热榜",
-      "heat_score": 81.6,
-      "relevance_score": 15,
-      "safety_score": 95,
-      "timeliness_score": 93.2,
-      "creativity_score": 55,
-      "ride_score": 71.9,
-      "create_score": 54.9,
-      "priority": "A",
-      "priority_reason": "【财经/商业】品牌相关度较好，适合借势跟进（综合分71.9）",
-      "explode_time": "2026-11-27 03:30",
-      "lifecycle": "上升期",
-      "remaining_window": "预计持续1-3天",
-      "core_emotion": "对经济/商业动态的关注与焦虑",
-      "product_hook": "AI眼镜多模态能力",
-      "entry_angles": [
-        "热点POV：用第一视角走进「郭一鸣：A股底部“弹簧”越压越紧」的真实场景",
-        "轻互动：邀请用户用眼镜完成与「郭一鸣：A股底部“弹簧”越压越紧」相关的小任务"
-      ],
-      "target_audience": {
-        "core": "财经/商业人群",
-        "diffusion": "职场白领",
-        "bystander": "关注经济的大众"
-      },
-      "trigger_scene": "刷到该热点或身处相关场景时，想快速了解/记录/互动",
-      "content_format": "主：口播解读；衍：图文早报+数据可视化",
-      "recommended_creator_type": "财经垂类KOL 1位 + 职场KOC 2位",
-      "publish_window": "T+0 08:00-10:00",
-      "production_cycle": "半天",
-      "budget_level": "中",
-      "estimated_cpm": 36,
-      "estimated_cpe": 1.6,
-      "risks": [
-        "避免过度夸张产品能力",
-        "内容发布前需品牌/合规审核",
-        "避免投资建议或夸大经济影响"
-      ],
-      "reference_hooks": [
-        "这个热点，我用眼镜跟了",
-        "换个视角看这件事",
-        "眼镜里的世界原来可以这样"
-      ],
-      "similar_historical_case": {
-        "case": "晨间财经早报",
-        "roi": 2.5,
-        "note": "财经内容适合早间时段发布"
-      },
-      "rank": 8
-    },
-    {
-      "topic_name": "爆发！A股迎来大反攻",
-      "platform": "百度热搜",
-      "heat_score": 82.3,
-      "relevance_score": 15,
-      "safety_score": 95,
-      "timeliness_score": 88.5,
-      "creativity_score": 55,
-      "ride_score": 71.3,
-      "create_score": 54.8,
-      "priority": "A",
-      "priority_reason": "【财经/商业】品牌相关度较好，适合借势跟进（综合分71.3）",
-      "explode_time": "2026-11-27 05:30",
-      "lifecycle": "上升期",
-      "remaining_window": "预计持续1-3天",
-      "core_emotion": "对经济/商业动态的关注与焦虑",
-      "product_hook": "AI眼镜多模态能力",
-      "entry_angles": [
-        "热点POV：用第一视角走进「爆发！A股迎来大反攻」的真实场景",
-        "轻互动：邀请用户用眼镜完成与「爆发！A股迎来大反攻」相关的小任务"
-      ],
-      "target_audience": {
-        "core": "财经/商业人群",
-        "diffusion": "职场白领",
-        "bystander": "关注经济的大众"
-      },
-      "trigger_scene": "刷到该热点或身处相关场景时，想快速了解/记录/互动",
-      "content_format": "主：口播解读；衍：图文早报+数据可视化",
-      "recommended_creator_type": "财经垂类KOL 1位 + 职场KOC 2位",
-      "publish_window": "T+0 08:00-10:00",
-      "production_cycle": "半天",
-      "budget_level": "中",
-      "estimated_cpm": 36,
-      "estimated_cpe": 1.6,
-      "risks": [
-        "避免过度夸张产品能力",
-        "内容发布前需品牌/合规审核",
-        "避免投资建议或夸大经济影响"
-      ],
-      "reference_hooks": [
-        "这个热点，我用眼镜跟了",
-        "换个视角看这件事",
-        "眼镜里的世界原来可以这样"
-      ],
-      "similar_historical_case": {
-        "case": "晨间财经早报",
-        "roi": 2.5,
-        "note": "财经内容适合早间时段发布"
-      },
-      "rank": 9
-    },
-    {
-      "topic_name": "人民日报：中国有底气开放太空船票",
-      "platform": "头条热榜",
-      "heat_score": 83.9,
+      "heat_score": 88.9,
       "relevance_score": 8,
       "safety_score": 95,
-      "timeliness_score": 93.8,
+      "timeliness_score": 94.1,
       "creativity_score": 50,
-      "ride_score": 71.2,
-      "create_score": 51.6,
+      "ride_score": 73.0,
+      "create_score": 52.3,
       "priority": "A",
-      "priority_reason": "【其他】品牌相关度较好，适合借势跟进（综合分71.2）",
-      "explode_time": "2026-11-27 07:30",
+      "priority_reason": "【其他】品牌相关度较好，适合借势跟进（综合分73.0）",
+      "explode_time": "2026-11-28 08:43",
       "lifecycle": "上升期",
       "remaining_window": "预计持续1-3天",
       "core_emotion": "用户对该话题的讨论兴趣",
       "product_hook": "AI眼镜多模态能力",
       "entry_angles": [
-        "热点POV：用第一视角走进「人民日报：中国有底气开放太空船票」的真实场景",
-        "轻互动：邀请用户用眼镜完成与「人民日报：中国有底气开放太空船票」相关的小任务"
+        "热点POV：用第一视角走进「奥迪Q9完成中国首秀」的真实场景",
+        "轻互动：邀请用户用眼镜完成与「奥迪Q9完成中国首秀」相关的小任务"
+      ],
+      "target_audience": {
+        "core": "科技爱好者",
+        "diffusion": "都市白领",
+        "bystander": "大众"
+      },
+      "trigger_scene": "刷到该热点或身处相关场景时，想快速了解/记录/互动",
+      "content_format": "主：15-30s短视频；衍：图文笔记",
+      "recommended_creator_type": "生活方式KOC 2-3位",
+      "publish_window": "T+0 12:00-14:00",
+      "production_cycle": "半天",
+      "budget_level": "低",
+      "estimated_cpm": 40,
+      "estimated_cpe": 1.8,
+      "risks": [
+        "避免过度夸张产品能力",
+        "内容发布前需品牌/合规审核"
+      ],
+      "reference_hooks": [
+        "这个热点，我用眼镜跟了",
+        "换个视角看这件事",
+        "眼镜里的世界原来可以这样"
+      ],
+      "similar_historical_case": null,
+      "rank": 8
+    },
+    {
+      "topic_name": "做梦不意味着睡眠质量差",
+      "platform": "百度热搜",
+      "heat_score": 80.2,
+      "relevance_score": 18,
+      "safety_score": 98,
+      "timeliness_score": 87.3,
+      "creativity_score": 85,
+      "ride_score": 73.0,
+      "create_score": 63.5,
+      "priority": "A",
+      "priority_reason": "【健康/运动】品牌相关度较好，适合借势跟进（综合分73.0）",
+      "explode_time": "2026-11-27 20:43",
+      "lifecycle": "上升期",
+      "remaining_window": "预计持续1-3天",
+      "core_emotion": "健身自律与科技辅助的新鲜感",
+      "product_hook": "AI眼镜多模态能力",
+      "entry_angles": [
+        "热点POV：用第一视角走进「做梦不意味着睡眠质量差」的真实场景",
+        "轻互动：邀请用户用眼镜完成与「做梦不意味着睡眠质量差」相关的小任务"
+      ],
+      "target_audience": {
+        "core": "运动爱好者",
+        "diffusion": "健身新手/都市白领",
+        "bystander": "关注健康生活方式的大众"
+      },
+      "trigger_scene": "刷到该热点或身处相关场景时，想快速了解/记录/互动",
+      "content_format": "主：15s运动短视频；衍：图文笔记",
+      "recommended_creator_type": "运动垂类KOC 2-3位",
+      "publish_window": "T+1 07:00-09:00",
+      "production_cycle": "半天",
+      "budget_level": "低",
+      "estimated_cpm": 35,
+      "estimated_cpe": 1.2,
+      "risks": [
+        "避免过度夸张产品能力",
+        "内容发布前需品牌/合规审核",
+        "避免涉及特殊群体或医疗/健康功效承诺"
+      ],
+      "reference_hooks": [
+        "这个热点，我用眼镜跟了",
+        "换个视角看这件事",
+        "眼镜里的世界原来可以这样"
+      ],
+      "similar_historical_case": {
+        "case": "跑步POV记录",
+        "roi": 2.8,
+        "note": "运动场景强调安全与数据播报"
+      },
+      "rank": 9
+    },
+    {
+      "topic_name": "丁肇中第九次回乡日照",
+      "platform": "头条热榜",
+      "heat_score": 86.7,
+      "relevance_score": 8,
+      "safety_score": 95,
+      "timeliness_score": 94.0,
+      "creativity_score": 50,
+      "ride_score": 72.2,
+      "create_score": 52.0,
+      "priority": "A",
+      "priority_reason": "【其他】品牌相关度较好，适合借势跟进（综合分72.2）",
+      "explode_time": "2026-11-28 07:43",
+      "lifecycle": "上升期",
+      "remaining_window": "预计持续1-3天",
+      "core_emotion": "用户对该话题的讨论兴趣",
+      "product_hook": "AI眼镜多模态能力",
+      "entry_angles": [
+        "热点POV：用第一视角走进「丁肇中第九次回乡日照」的真实场景",
+        "轻互动：邀请用户用眼镜完成与「丁肇中第九次回乡日照」相关的小任务"
       ],
       "target_audience": {
         "core": "科技爱好者",
@@ -571,7 +560,7 @@
         "避开特殊群体",
         "城市选择需有代表性"
       ],
-      "id": "2026-11-27-B001",
+      "id": "2026-11-28-B001",
       "heat_score": 68,
       "relevance_score": 82,
       "safety_score": 87,
@@ -642,7 +631,7 @@
         "避免影射具体公司文化",
         "不要强化职场对立情绪"
       ],
-      "id": "2026-11-27-B002",
+      "id": "2026-11-28-B002",
       "heat_score": 71,
       "relevance_score": 84,
       "safety_score": 86,
@@ -715,7 +704,7 @@
         "注意用户隐私与内容审核",
         "避免过度浪漫化陌生人社交风险"
       ],
-      "id": "2026-11-27-B003",
+      "id": "2026-11-28-B003",
       "heat_score": 74,
       "relevance_score": 86,
       "safety_score": 85,
